@@ -1,7 +1,7 @@
 # field_journal Makefile
 # Public domain test journal for solstone pipeline validation
 
-.PHONY: install test ci format clean
+.PHONY: install test ci format clean build-journal
 
 # Default target
 all: install
@@ -82,3 +82,6 @@ clean:
 	find . -type f -name "*.pyo" -delete
 	find . -type f -name ".DS_Store" -delete
 	rm -f .installed
+
+build-journal: .installed
+	$(MAKE) -C tools build

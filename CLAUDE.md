@@ -8,10 +8,10 @@ A curated collection of public domain and permissively-licensed media organized 
 field_journal/
 ├── journal/              # day/stream/segment/ media tree (committed media files)
 │   └── YYYYMMDD/
-│       ├── fixture.audio/
+│       ├── field.audio/
 │       │   └── HHMMSS_duration/
-│       │       └── audio.wav (or .mp3, .mp4)
-│       └── fixture.screen/
+│       │       └── audio.wav
+│       └── field.screen/
 │           └── HHMMSS_duration/
 │               └── screen.mp4
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)

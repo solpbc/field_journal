@@ -22,10 +22,10 @@ The `journal/` directory follows solstone's `day/stream/segment/` structure — 
 field_journal/
 ├── journal/              # day/stream/segment/ media tree
 │   └── YYYYMMDD/
-│       ├── fixture.audio/
+│       ├── field.audio/
 │       │   └── HHMMSS_duration/
-│       │       └── audio.wav (or .mp3, .mp4)
-│       └── fixture.screen/
+│       │       └── audio.wav
+│       └── field.screen/
 │           └── HHMMSS_duration/
 │               └── screen.mp4
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
