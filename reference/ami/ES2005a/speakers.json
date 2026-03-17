@@ -1,0 +1,18 @@
+{
+  "A": {
+    "label": "Speaker A",
+    "word_count": 132
+  },
+  "B": {
+    "label": "Speaker B",
+    "word_count": 185
+  },
+  "C": {
+    "label": "Speaker C",
+    "word_count": 355
+  },
+  "D": {
+    "label": "Speaker D",
+    "word_count": 219
+  }
+}
