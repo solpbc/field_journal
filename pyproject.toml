@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "field-journal"
+version = "0.1.0"
+description = "Public domain test journal for solstone pipeline validation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+authors = [
+    {name = "sol pbc", email = "jer@solpbc.org"}
+]
+
+dependencies = [
+    "requests",
+    "ruff",
+    "mypy",
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/solpbc/field_journal"
+Repository = "https://github.com/solpbc/field_journal"
+
+[tool.ruff]
+target-version = "py310"
+exclude = [".venv", "scratch", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+exclude = ["tests", ".venv", "build", "dist"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
