@@ -1,5 +1,415 @@
 {
   "version": 1,
-  "built": null,
-  "segments": []
+  "built": "2026-03-17T15:35:20Z",
+  "segments": [
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "091500_420",
+      "source": "ami",
+      "source_id": "ES2002a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 420,
+      "description": "4-speaker design team meeting, scenario-driven",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "100500_360",
+      "source": "ami",
+      "source_id": "ES2004a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 360,
+      "description": "4-speaker design team meeting, scenario-driven",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "133000_300",
+      "source": "hpr",
+      "source_id": "hpr4297",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 300,
+      "description": "Solo tech commentary",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "143000_480",
+      "source": "hpr",
+      "source_id": "hpr4591",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 480,
+      "description": "Solo tech commentary - version control basics",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.screen",
+      "segment": "094500_300",
+      "source": "psai",
+      "source_id": "cmcc8u6yc00va1p1ydsdu52zy",
+      "license": "MIT",
+      "duration_seconds": 300,
+      "description": "Web browsing - privacy policy research",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.screen",
+      "segment": "140000_360",
+      "source": "psai",
+      "source_id": "cmbcvas3300m3yl0xx41f307d",
+      "license": "MIT",
+      "duration_seconds": 360,
+      "description": "E-commerce - product search and filtering",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "090000_480",
+      "source": "ami",
+      "source_id": "ES2005a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 480,
+      "description": "4-speaker design team meeting, scenario-driven",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "111500_360",
+      "source": "hpr",
+      "source_id": "hpr4593",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 360,
+      "description": "Solo tech commentary - nuclear reactor technology",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "140000_420",
+      "source": "nasa",
+      "source_id": "20230830_OSIRIS_Briefing_hbr",
+      "license": "Public domain",
+      "duration_seconds": 420,
+      "description": "OSIRIS-REx sample return press conference, multi-speaker briefing",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.screen",
+      "segment": "093000_300",
+      "source": "psai",
+      "source_id": "cm9u1c073001c150wyn2p48t5",
+      "license": "MIT",
+      "duration_seconds": 300,
+      "description": "Document editing - structured AI report",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.screen",
+      "segment": "113000_240",
+      "source": "psai",
+      "source_id": "cmb02icyd0083yc0wldyf5t1p",
+      "license": "MIT",
+      "duration_seconds": 240,
+      "description": "Web utilities - hyperlink extraction",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.screen",
+      "segment": "150000_300",
+      "source": "psai",
+      "source_id": "cmb02icyd007zyc0wzjayhdbj",
+      "license": "MIT",
+      "duration_seconds": 300,
+      "description": "Developer tools - mobile device emulation",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "091000_540",
+      "source": "ami",
+      "source_id": "ES2002a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 540,
+      "description": "4-speaker design team meeting, continued session",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "103000_480",
+      "source": "nasa",
+      "source_id": "KSC-20240624-VP-CDC01-0001-GOES_U_Prelaunch_News_Conference_720p-M7205",
+      "license": "Public domain",
+      "duration_seconds": 480,
+      "description": "GOES-U prelaunch news conference, multi-speaker briefing",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "133000_360",
+      "source": "loc",
+      "source_id": "afc1986022_sr58a04",
+      "license": "Unrestricted",
+      "duration_seconds": 360,
+      "description": "Sociolinguistic interview, Washington DC dialect",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "150000_420",
+      "source": "loc",
+      "source_id": "afc1986022_sr58a03",
+      "license": "Unrestricted",
+      "duration_seconds": 420,
+      "description": "Sociolinguistic interview, Washington DC dialect",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.screen",
+      "segment": "100000_360",
+      "source": "psai",
+      "source_id": "cma09228f0096wu0vzkr7ikpw",
+      "license": "MIT",
+      "duration_seconds": 360,
+      "description": "Desktop task - general computer use",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "090000_600",
+      "source": "ami",
+      "source_id": "ES2008a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 600,
+      "description": "4-speaker design team meeting, scenario-driven",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "110000_420",
+      "source": "loc",
+      "source_id": "afc1986022_sr13b01",
+      "license": "Unrestricted",
+      "duration_seconds": 420,
+      "description": "American English dialect field recording",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "140000_300",
+      "source": "hpr",
+      "source_id": "hpr4596",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 300,
+      "description": "Solo tech commentary - audio production",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.screen",
+      "segment": "091500_300",
+      "source": "psai",
+      "source_id": "cma092ib300ewwu0v49ewbkpu",
+      "license": "MIT",
+      "duration_seconds": 300,
+      "description": "Browser settings - ad blocking configuration",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.screen",
+      "segment": "113000_240",
+      "source": "psai",
+      "source_id": "cmcc8u6y900rc1p1ya3utqt74",
+      "license": "MIT",
+      "duration_seconds": 240,
+      "description": "Web research - encyclopedia navigation",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.screen",
+      "segment": "143000_360",
+      "source": "psai",
+      "source_id": "cmbcvas3p01gjyl0x7w09l7nt",
+      "license": "MIT",
+      "duration_seconds": 360,
+      "description": "Scientific computing - thermal analysis",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "091500_480",
+      "source": "ami",
+      "source_id": "ES2014a",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 480,
+      "description": "4-speaker design team meeting, scenario-driven",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "110000_360",
+      "source": "hpr",
+      "source_id": "hpr4597",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 360,
+      "description": "Solo tech commentary - UNIX command exploration",
+      "exercises": [
+        "transcription"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "141500_540",
+      "source": "nasa",
+      "source_id": "KSC-19690715-MH-NAS01-0001-Historical_Video_Apollo_11_T-2_Day_Press_Conference-B_1493",
+      "license": "Public domain",
+      "duration_seconds": 540,
+      "description": "Apollo 11 prelaunch press conference, historical briefing",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.screen",
+      "segment": "093000_300",
+      "source": "psai",
+      "source_id": "cmcc8u6yc00vm1p1yhjl1u0bf",
+      "license": "MIT",
+      "duration_seconds": 300,
+      "description": "Web browsing - career page exploration",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.screen",
+      "segment": "144500_360",
+      "source": "psai",
+      "source_id": "cmcc8u6y900ra1p1yxavqqaho",
+      "license": "MIT",
+      "duration_seconds": 360,
+      "description": "Web research - art history exploration",
+      "exercises": [
+        "screen_capture"
+      ],
+      "has_reference": false
+    }
+  ]
 }

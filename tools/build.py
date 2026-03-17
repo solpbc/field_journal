@@ -165,9 +165,7 @@ def _extract_ami_reference(cache_dir: Path) -> bool:
 
         with zipfile.ZipFile(zip_path) as archive:
             for speaker in ["A", "B", "C", "D"]:
-                xml_name = (
-                    f"ami_public_manual_1.6.2/words/{meeting_id}.{speaker}.words.xml"
-                )
+                xml_name = f"words/{meeting_id}.{speaker}.words.xml"
                 try:
                     xml_bytes = archive.read(xml_name)
                 except KeyError:
