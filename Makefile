@@ -85,3 +85,16 @@ clean:
 
 build-journal: .installed
 	$(MAKE) -C tools build
+
+# Disable git push to origin — run before starting a field sandbox session
+# to prevent accidental commits/pushes of processed outputs into field_journal history.
+origin-disable:
+	@echo "Disabling git push to origin..."
+	git remote set-url --push origin no_push
+	@echo "Push to origin disabled. Run 'make origin-enable' to restore."
+
+# Restore git push to origin
+origin-enable:
+	@PUSH_URL=$$(git remote get-url origin); \
+	git remote set-url --push origin "$$PUSH_URL"; \
+	echo "Push to origin restored: $$PUSH_URL"
