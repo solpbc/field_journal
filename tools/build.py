@@ -220,6 +220,49 @@ def _extract_ami_reference(cache_dir: Path) -> bool:
     return True
 
 
+_TEST_FACETS = [
+    {
+        "slug": "meetings",
+        "title": "Meetings",
+        "description": "Conversations, calls, and collaborative sessions",
+        "emoji": "🗓",
+        "color": "#4285f4",
+    },
+    {
+        "slug": "computer-work",
+        "title": "Computer Work",
+        "description": "Software development, system administration, and technical tasks",
+        "emoji": "💻",
+        "color": "#34a853",
+    },
+    {
+        "slug": "research",
+        "title": "Research",
+        "description": "Information gathering, reading, and learning",
+        "emoji": "🔬",
+        "color": "#ea4335",
+    },
+]
+
+
+def _setup_facets() -> None:
+    """Create test facets so dream agents exercise facet-dependent pipeline stages."""
+    facets_dir = JOURNAL_DIR / "facets"
+    for facet in _TEST_FACETS:
+        facet_dir = facets_dir / facet["slug"]
+        facet_dir.mkdir(parents=True, exist_ok=True)
+        facet_data = {
+            "title": facet["title"],
+            "description": facet["description"],
+            "emoji": facet["emoji"],
+            "color": facet["color"],
+        }
+        (facet_dir / "facet.json").write_text(
+            json.dumps(facet_data, indent=2) + "\n", encoding="utf-8"
+        )
+    print(f"Created {len(_TEST_FACETS)} test facets: {[f['slug'] for f in _TEST_FACETS]}")
+
+
 def _clean_generated() -> None:
     """Remove only generated journal content for the 5 simulated days."""
     for day in DAYS:
@@ -237,11 +280,17 @@ def _clean_generated() -> None:
         if ref_dir.exists():
             shutil.rmtree(ref_dir)
 
+    for facet in _TEST_FACETS:
+        facet_dir = JOURNAL_DIR / "facets" / facet["slug"]
+        if facet_dir.exists():
+            shutil.rmtree(facet_dir)
+
 
 def build() -> None:
     """Download, slice, and organize all sources into the journal."""
     download_all()
     _clean_generated()
+    _setup_facets()
 
     segments = _collect_segments()
     stream_state: dict[str, dict[str, str | int | None]] = {}
