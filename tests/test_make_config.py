@@ -28,7 +28,14 @@ def test_baseline_no_keys(tmp_path: Path, capsys: pytest.CaptureFixture[str]) ->
     captured = capsys.readouterr()
 
     data = _read_json(out)
-    assert list(data.keys()) == ["setup", "convey", "identity", "retention", "env"]
+    assert list(data.keys()) == [
+        "setup",
+        "convey",
+        "identity",
+        "providers",
+        "retention",
+        "env",
+    ]
     assert isinstance(data["setup"]["completed_at"], int)
     assert data["setup"]["completed_at"] > 0
     assert len(data["convey"]["secret"]) == 64
@@ -172,7 +179,14 @@ def test_path_respected(tmp_path: Path) -> None:
 
     data = _read_json(out)
     assert out.exists()
-    assert list(data.keys()) == ["setup", "convey", "identity", "retention", "env"]
+    assert list(data.keys()) == [
+        "setup",
+        "convey",
+        "identity",
+        "providers",
+        "retention",
+        "env",
+    ]
 
 
 def test_env_parser_edges(tmp_path: Path) -> None:
@@ -215,3 +229,15 @@ def test_retention_is_keep(tmp_path: Path) -> None:
 
     data = _read_json(out)
     assert data["retention"] == {"raw_media": "keep"}
+
+
+def test_providers_pinned_to_google(tmp_path: Path) -> None:
+    out = tmp_path / "out.json"
+
+    assert main(["--path", str(out), "--no-keys"]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "generate": {"provider": "google", "backup": "google"},
+        "cogitate": {"provider": "google", "backup": "google"},
+    }

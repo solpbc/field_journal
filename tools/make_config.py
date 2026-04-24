@@ -190,6 +190,10 @@ def main(argv: list[str] | None = None) -> int:
             "preferred": args.preferred,
             "timezone": args.timezone,
         },
+        "providers": {
+            "generate": {"provider": "google", "backup": "google"},
+            "cogitate": {"provider": "google", "backup": "google"},
+        },
         "retention": {"raw_media": "keep"},
         "env": env_block,
     }

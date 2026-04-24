@@ -85,6 +85,13 @@ tracked fixture media on every supervisor boot. This is not overridable by
 flag or env; the whole point of `make config` is configuring for fixture
 preservation.
 
+The generated config also pins `providers.generate` and `providers.cogitate`
+to `"google"` with `backup: "google"` — so every provider resolution lands on
+Gemini and no fallback to Anthropic or OpenAI engages, even if those keys
+leak in via the process environment. This is not overridable by flag or env;
+`make config` exists to configure field_journal for Google-only pipeline
+validation.
+
 The generated config is pre-onboarded (`setup.completed_at` set, localhost
 trusted, no password) so the `solstone-field` sandbox boots without the
 convey `/init` redirect.
