@@ -38,8 +38,12 @@ journal/entities/
 journal/facets/
 journal/indexer/
 journal/maint/
+journal/chronicle/
+journal/identity/
+journal/link/
 journal/routines/
 journal/sol/
+journal/talents/
 journal/tokens/
 journal/streams/fedora.json
 
