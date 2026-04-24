@@ -13,3 +13,7 @@ __pycache__/
 .claude/
 scratch/
 tools/.cache/
+
+# Journal config holds API keys, convey secret, and identity — never commit.
+# A `make config` target re-materializes a minimal onboarded config on demand.
+journal/config/
