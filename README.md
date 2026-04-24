@@ -63,6 +63,26 @@ make format     # auto-fix formatting
 make clean      # remove build artifacts
 ```
 
+### Configuration
+
+`journal/config/` is gitignored — it holds live secrets. To (re)materialize a
+minimal already-onboarded config for local testing:
+
+```bash
+make config         # write journal/config/journal.json from flags + env + .env
+make config-force   # overwrite existing config (rotates convey.secret)
+```
+
+Provider keys are resolved in order: explicit flags to `tools/make_config.py`,
+a local `.env` file in the repo root, then the process environment. `.env` is
+gitignored. All three provider keys (`GOOGLE_API_KEY`, `OPENAI_API_KEY`,
+`ANTHROPIC_API_KEY`) are optional; whichever are present get written into
+`journal/config/journal.json`'s `env` block.
+
+The generated config is pre-onboarded (`setup.completed_at` set, localhost
+trusted, no password) so the `solstone-field` sandbox boots without the
+convey `/init` redirect.
+
 ## license
 
 AGPL-3.0-only. See [LICENSE](LICENSE) for the project license.

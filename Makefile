@@ -1,7 +1,7 @@
 # field_journal Makefile
 # Public domain test journal for solstone pipeline validation
 
-.PHONY: install test ci format clean build-journal
+.PHONY: install test ci format clean build-journal config config-force
 
 # Default target
 all: install
@@ -85,6 +85,15 @@ clean:
 
 build-journal: .installed
 	$(MAKE) -C tools build
+
+# Generate a minimal already-onboarded journal/config/journal.json for local
+# testing. Keys sourced from flags, process env, or a local .env file.
+# See README for details. Works before `make install` (stdlib only).
+config:
+	@python3 tools/make_config.py
+
+config-force:
+	@python3 tools/make_config.py --force
 
 # Disable git push to origin — run before starting a field sandbox session
 # to prevent accidental commits/pushes of processed outputs into field_journal history.

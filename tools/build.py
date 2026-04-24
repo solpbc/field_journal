@@ -260,7 +260,9 @@ def _setup_facets() -> None:
         (facet_dir / "facet.json").write_text(
             json.dumps(facet_data, indent=2) + "\n", encoding="utf-8"
         )
-    print(f"Created {len(_TEST_FACETS)} test facets: {[f['slug'] for f in _TEST_FACETS]}")
+    print(
+        f"Created {len(_TEST_FACETS)} test facets: {[f['slug'] for f in _TEST_FACETS]}"
+    )
 
 
 def _clean_generated() -> None:
