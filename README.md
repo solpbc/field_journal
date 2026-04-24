@@ -79,6 +79,12 @@ gitignored. All three provider keys (`GOOGLE_API_KEY`, `OPENAI_API_KEY`,
 `ANTHROPIC_API_KEY`) are optional; whichever are present get written into
 `journal/config/journal.json`'s `env` block.
 
+The generated config always sets `retention.raw_media` to `"keep"` — solstone's
+default is day-based retention (7 days), which would sweep away this repo's
+tracked fixture media on every supervisor boot. This is not overridable by
+flag or env; the whole point of `make config` is configuring for fixture
+preservation.
+
 The generated config is pre-onboarded (`setup.completed_at` set, localhost
 trusted, no password) so the `solstone-field` sandbox boots without the
 convey `/init` redirect.

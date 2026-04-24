@@ -190,6 +190,7 @@ def main(argv: list[str] | None = None) -> int:
             "preferred": args.preferred,
             "timezone": args.timezone,
         },
+        "retention": {"raw_media": "keep"},
         "env": env_block,
     }
     payload = (json.dumps(data, indent=2, sort_keys=False) + "\n").encode("utf-8")
