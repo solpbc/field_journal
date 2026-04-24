@@ -17,3 +17,33 @@ tools/.cache/
 # Journal config holds API keys, convey secret, and identity — never commit.
 # A `make config` target re-materializes a minimal onboarded config on demand.
 journal/config/
+
+# Pipeline processing outputs. sol supervisor writes these on top of the
+# fixture media every run. Never commit — they're regenerated and would
+# pollute the public fixture repo. Complements `make origin-disable`
+# (push-time belt; this is the working-tree suspenders).
+journal/**/agents/
+journal/**/health/
+journal/**/audio.jsonl
+journal/**/audio.npz
+journal/**/events.jsonl
+journal/**/screen.jsonl
+journal/**/stats.json
+journal/**/task_log.txt
+
+# Top-level solstone runtime state (not segment output).
+journal/apps/
+journal/awareness/
+journal/entities/
+journal/facets/
+journal/indexer/
+journal/maint/
+journal/routines/
+journal/sol/
+journal/tokens/
+journal/streams/fedora.json
+
+# Runtime capture streams from sol supervisor (per-day per-host). Fixture
+# streams field.audio/ and field.screen/ stay tracked; host-specific ones
+# (fedora/, etc.) are runtime only.
+journal/*/fedora/
