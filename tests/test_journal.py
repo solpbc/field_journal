@@ -85,7 +85,7 @@ def test_stream_state_files() -> None:
         pytest.skip("Journal not built")
 
     for name, expected_seq, expected_last_day, expected_last_seg in [
-        ("field.audio", 22, "20260205", "141500_540"),
+        ("field.audio", 67, "20260205", "141500_540"),
         ("field.screen", 11, "20260205", "144500_360"),
     ]:
         state_path = streams_dir / f"{name}.json"

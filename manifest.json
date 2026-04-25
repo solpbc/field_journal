@@ -1,7 +1,142 @@
 {
   "version": 1,
-  "built": "2026-04-25T01:31:13Z",
+  "built": "2026-04-25T04:07:58Z",
   "segments": [
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "070000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0083-ch003054-sg0005-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "070100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0083-ch003054-sg0005-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "070200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0083-ch003054-sg0005-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "071000_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0093-ch126208-sg0004-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "071100_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0093-ch126208-sg0004-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "071200_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0093-ch126208-sg0004-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "072000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0150-ch126107-sg0026-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "072100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0150-ch126107-sg0026-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "072200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0150-ch126107-sg0026-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
     {
       "day": "20260201",
       "stream": "field.audio",
@@ -103,6 +238,141 @@
       "description": "E-commerce - product search and filtering",
       "exercises": [
         "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "070000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0188-ch135249-sg0020-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "070100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0188-ch135249-sg0020-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "070200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0188-ch135249-sg0020-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "071000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0196-ch122150-sg0018-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "071100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0196-ch122150-sg0018-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "071200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0196-ch122150-sg0018-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "072000_15",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0208-ch126600-sg0011-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 15,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "072100_15",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0208-ch126600-sg0011-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 15,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "072200_15",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0208-ch126600-sg0011-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 15,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
       ],
       "has_reference": false
     },
@@ -213,6 +483,141 @@
     {
       "day": "20260203",
       "stream": "field.audio",
+      "segment": "070000_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0242-ch122625-sg0004-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "070100_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0242-ch122625-sg0004-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "070200_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0242-ch122625-sg0004-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "071000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0250-ch142276-sg0020-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "071100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0250-ch142276-sg0020-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "071200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0250-ch142276-sg0020-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "072000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0288-ch130994-sg0008-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "072100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0288-ch130994-sg0008-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "072200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0288-ch130994-sg0008-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
       "segment": "080000_600",
       "source": "icsi",
       "source_id": "Bmr005",
@@ -296,6 +701,141 @@
       "description": "Desktop task - general computer use",
       "exercises": [
         "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "070000_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0296-ch142727-sg0031-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "070100_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0296-ch142727-sg0031-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "070200_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0296-ch142727-sg0031-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "071000_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0492-ch131899-sg0001-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "071100_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0492-ch131899-sg0001-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "071200_16",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0492-ch131899-sg0001-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 16,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "072000_19",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0652-ch130726-sg0011-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 19,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "072100_19",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0652-ch130726-sg0011-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 19,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "072200_19",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0652-ch130726-sg0011-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 19,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
       ],
       "has_reference": false
     },
@@ -398,6 +938,141 @@
       "description": "Scientific computing - thermal analysis",
       "exercises": [
         "screen_capture"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "070000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0882-ch123268-sg0033-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "070100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0882-ch123268-sg0033-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "070200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp0882-ch123268-sg0033-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "071000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-none-sp0948-ch132705-sg0009-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with no distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "071100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-musi-sp0948-ch132705-sg0009-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with music distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "071200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp0948-ch132705-sg0009-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "072000_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-tele-sp1066-ch005330-sg0004-mc01-stu-clo-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with telephone distractor, close mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "072100_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp1066-ch005330-sg0004-mc03-stu-mid-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, mid mic",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "072200_17",
+      "source": "voices",
+      "source_id": "Lab41-SRI-VOiCES-rm1-babb-sp1066-ch005330-sg0004-mc05-stu-far-dg090",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 17,
+      "description": "VOiCES far-field replayed LibriSpeech utterance, rm1 with babble distractor, far mic",
+      "exercises": [
+        "transcription",
+        "diarization"
       ],
       "has_reference": false
     },

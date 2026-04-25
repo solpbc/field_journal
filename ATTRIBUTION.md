@@ -66,3 +66,13 @@ Detailed license and attribution information for each media source included in t
 - **Attribution required:** Yes
 - **Share-alike:** No
 - **Usage:** Recurring lab meeting recordings used as audio segments and reference transcripts
+
+## VOiCES Corpus
+
+- **Provider:** SRI International / Lab41 (IQT Labs)
+- **URL:** https://iqtlabs.github.io/voices/
+- **Mirror:** https://github.com/Lab41/VOiCES-subset
+- **License:** CC-BY 4.0 International
+- **Attribution required:** Yes
+- **Share-alike:** No
+- **Usage:** Far-field replayed LibriSpeech utterances at multiple microphone distances used as audio segments for cross-device drift evaluation

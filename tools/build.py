@@ -16,7 +16,7 @@ import pyarrow.parquet as pq
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from tools.sources import ami, chime6, hpr, icsi, loc, nasa, psai
+from tools.sources import ami, chime6, hpr, icsi, loc, nasa, psai, voices
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 JOURNAL_DIR = REPO_ROOT / "journal"
@@ -26,7 +26,7 @@ STREAMS_DIR = JOURNAL_DIR / "streams"
 REFERENCE_DIR = REPO_ROOT / "reference"
 DAYS = ["20260201", "20260202", "20260203", "20260204", "20260205"]
 CREATED_AT = 1769904000
-SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi]
+SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices]
 
 
 def download_all() -> None:
@@ -117,6 +117,8 @@ def _source_path(seg: dict) -> Path:
         return CACHE_DIR / "chime6" / f"{source_id}.wav"
     if source == "icsi":
         return CACHE_DIR / "icsi" / f"{source_id}.wav"
+    if source == "voices":
+        return CACHE_DIR / "voices" / f"{source_id}.wav"
     raise ValueError(f"Unknown source: {source}")
 
 
