@@ -1,0 +1,14 @@
+{
+  "spk01": {
+    "label": "Speaker spk01",
+    "word_count": 1
+  },
+  "spk02": {
+    "label": "Speaker spk02",
+    "word_count": 6
+  },
+  "spk09": {
+    "label": "Speaker spk09",
+    "word_count": 5
+  }
+}

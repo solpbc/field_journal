@@ -7,6 +7,8 @@ from pathlib import Path
 
 import pytest
 
+from tools.sources import dipco, voxconverse
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 JOURNAL_DIR = REPO_ROOT / "journal"
 MANIFEST_PATH = REPO_ROOT / "manifest.json"
@@ -85,7 +87,7 @@ def test_stream_state_files() -> None:
         pytest.skip("Journal not built")
 
     for name, expected_seq, expected_last_day, expected_last_seg in [
-        ("field.audio", 67, "20260205", "141500_540"),
+        ("field.audio", 79, "20260205", "141500_540"),
         ("field.screen", 11, "20260205", "144500_360"),
     ]:
         state_path = streams_dir / f"{name}.json"
@@ -151,3 +153,43 @@ def test_icsi_reference_data() -> None:
         assert meeting_dir.exists(), f"Missing reference dir: {meeting_dir}"
         assert (meeting_dir / "transcript.txt").exists()
         assert (meeting_dir / "speakers.json").exists()
+
+
+def test_dipco_reference_data() -> None:
+    """DiPCo reference files exist and are non-trivial."""
+    ref_dir = REPO_ROOT / "reference"
+    if not ref_dir.exists():
+        pytest.skip("Reference data not generated")
+
+    for session_id in dipco.SESSIONS:
+        session_dir = ref_dir / "dipco" / session_id
+        transcript_path = session_dir / "transcript.txt"
+        speakers_path = session_dir / "speakers.json"
+        assert session_dir.exists(), f"Missing reference dir: {session_dir}"
+        assert transcript_path.exists()
+        assert speakers_path.exists()
+        assert transcript_path.read_text(encoding="utf-8").strip()
+        speakers = json.loads(speakers_path.read_text(encoding="utf-8"))
+        assert len(speakers) >= 2
+        assert any(data.get("word_count", 0) > 0 for data in speakers.values()), (
+            speakers
+        )
+
+
+def test_voxconverse_reference_data() -> None:
+    """VoxConverse reference files contain speaker counts only."""
+    ref_dir = REPO_ROOT / "reference"
+    if not ref_dir.exists():
+        pytest.skip("Reference data not generated")
+
+    for clip_id in voxconverse.CLIPS:
+        clip_dir = ref_dir / "voxconverse" / clip_id
+        speakers_path = clip_dir / "speakers.json"
+        assert clip_dir.exists(), f"Missing reference dir: {clip_dir}"
+        assert speakers_path.exists()
+        assert not (clip_dir / "transcript.txt").exists()
+        speakers = json.loads(speakers_path.read_text(encoding="utf-8"))
+        assert len(speakers) >= 2
+        assert any(data.get("word_count", 0) > 0 for data in speakers.values()), (
+            speakers
+        )

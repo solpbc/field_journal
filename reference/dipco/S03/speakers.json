@@ -1,0 +1,18 @@
+{
+  "P12": {
+    "label": "Speaker P12",
+    "word_count": 46
+  },
+  "P11": {
+    "label": "Speaker P11",
+    "word_count": 81
+  },
+  "P09": {
+    "label": "Speaker P09",
+    "word_count": 232
+  },
+  "P10": {
+    "label": "Speaker P10",
+    "word_count": 305
+  }
+}

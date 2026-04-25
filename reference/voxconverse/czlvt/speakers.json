@@ -1,0 +1,26 @@
+{
+  "spk00": {
+    "label": "Speaker spk00",
+    "word_count": 2
+  },
+  "spk02": {
+    "label": "Speaker spk02",
+    "word_count": 2
+  },
+  "spk04": {
+    "label": "Speaker spk04",
+    "word_count": 4
+  },
+  "spk06": {
+    "label": "Speaker spk06",
+    "word_count": 2
+  },
+  "spk07": {
+    "label": "Speaker spk07",
+    "word_count": 4
+  },
+  "spk09": {
+    "label": "Speaker spk09",
+    "word_count": 2
+  }
+}

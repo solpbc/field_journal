@@ -16,7 +16,18 @@ import pyarrow.parquet as pq
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from tools.sources import ami, chime6, hpr, icsi, loc, nasa, psai, voices
+from tools.sources import (
+    ami,
+    chime6,
+    dipco,
+    hpr,
+    icsi,
+    loc,
+    nasa,
+    psai,
+    voices,
+    voxconverse,
+)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 JOURNAL_DIR = REPO_ROOT / "journal"
@@ -26,7 +37,7 @@ STREAMS_DIR = JOURNAL_DIR / "streams"
 REFERENCE_DIR = REPO_ROOT / "reference"
 DAYS = ["20260201", "20260202", "20260203", "20260204", "20260205"]
 CREATED_AT = 1769904000
-SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices]
+SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices, dipco, voxconverse]
 
 
 def download_all() -> None:
@@ -119,6 +130,10 @@ def _source_path(seg: dict) -> Path:
         return CACHE_DIR / "icsi" / f"{source_id}.wav"
     if source == "voices":
         return CACHE_DIR / "voices" / f"{source_id}.wav"
+    if source == "dipco":
+        return CACHE_DIR / "dipco" / "clips" / f"{source_id}.wav"
+    if source == "voxconverse":
+        return CACHE_DIR / "voxconverse" / "clips" / f"{source_id}.wav"
     raise ValueError(f"Unknown source: {source}")
 
 
@@ -267,6 +282,35 @@ def _write_reference_files(ref_dir: Path, ordered_words: list[dict]) -> None:
         json.dumps(speakers_data, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+def _extract_dipco_reference(cache_dir: Path) -> bool:
+    """Extract DiPCo slice transcript.txt and speakers.json files."""
+    segments = [segment for segment in dipco.segments() if segment["source"] == "dipco"]
+    if not segments:
+        return False
+
+    for segment in segments:
+        session = str(segment["source_id"])
+        offset_s = int(segment["reference_offset_seconds"])
+        window_end = offset_s + int(segment["duration_seconds"])
+        transcript_path = cache_dir / "dipco" / "transcriptions" / f"{session}.json"
+        utterances = json.loads(transcript_path.read_text(encoding="utf-8"))
+        overlapping: list[tuple[float, int, dict]] = []
+        for order, utterance in enumerate(utterances):
+            start_s, end_s = dipco._utterance_window(utterance)
+            if end_s <= offset_s or start_s >= window_end:
+                continue
+            overlapping.append((start_s, order, utterance))
+
+        ordered_words: list[dict[str, str]] = []
+        for _, _, utterance in sorted(overlapping):
+            speaker = str(utterance["speaker_id"])
+            words = str(utterance["words"]).split()
+            ordered_words.extend({"speaker": speaker, "word": token} for token in words)
+
+        _write_reference_files(REFERENCE_DIR / "dipco" / session, ordered_words)
+    return True
 
 
 def _read_chime6_reference_row(
@@ -479,6 +523,49 @@ def _extract_icsi_reference(cache_dir: Path) -> bool:
     return True
 
 
+def _extract_voxconverse_reference(cache_dir: Path) -> bool:
+    """Extract VoxConverse slice speakers.json files."""
+    segments = [
+        segment
+        for segment in voxconverse.segments()
+        if segment["source"] == "voxconverse"
+    ]
+    if not segments:
+        return False
+
+    for segment in segments:
+        clip = str(segment["source_id"])
+        offset_s = int(segment["reference_offset_seconds"])
+        window_end = offset_s + int(segment["duration_seconds"])
+        rttm_path = cache_dir / "voxconverse" / "rttm" / f"{clip}.rttm"
+        speaker_counts: dict[str, int] = {}
+
+        for line in rttm_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            parts = line.split()
+            if len(parts) < 8 or parts[0] != "SPEAKER":
+                raise RuntimeError(f"Unexpected VoxConverse RTTM line: {line}")
+            start_s = float(parts[3])
+            end_s = start_s + float(parts[4])
+            if end_s <= offset_s or start_s >= window_end:
+                continue
+            speaker = parts[7]
+            speaker_counts[speaker] = speaker_counts.get(speaker, 0) + 1
+
+        ref_dir = REFERENCE_DIR / "voxconverse" / clip
+        ref_dir.mkdir(parents=True, exist_ok=True)
+        speakers_data = {
+            speaker: {"label": f"Speaker {speaker}", "word_count": count}
+            for speaker, count in sorted(speaker_counts.items())
+        }
+        (ref_dir / "speakers.json").write_text(
+            json.dumps(speakers_data, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    return True
+
+
 _TEST_FACETS = [
     {
         "slug": "meetings",
@@ -551,6 +638,16 @@ def _clean_generated() -> None:
 
     for meeting_id in ["Bmr005", "Bmr006", "Bmr007"]:
         ref_dir = REFERENCE_DIR / "icsi" / meeting_id
+        if ref_dir.exists():
+            shutil.rmtree(ref_dir)
+
+    for session_id in dipco.ALL_SESSIONS:
+        ref_dir = REFERENCE_DIR / "dipco" / session_id
+        if ref_dir.exists():
+            shutil.rmtree(ref_dir)
+
+    for clip_id in voxconverse.ALL_CLIPS:
+        ref_dir = REFERENCE_DIR / "voxconverse" / clip_id
         if ref_dir.exists():
             shutil.rmtree(ref_dir)
 
@@ -646,6 +743,10 @@ def build() -> None:
         print("CHiME-6 reference data extracted")
     if _extract_icsi_reference(CACHE_DIR):
         print("ICSI reference data extracted")
+    if _extract_dipco_reference(CACHE_DIR):
+        print("DiPCo reference data extracted")
+    if _extract_voxconverse_reference(CACHE_DIR):
+        print("VoxConverse reference data extracted")
 
 
 if __name__ == "__main__":

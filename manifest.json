@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built": "2026-04-25T04:07:58Z",
+  "built": "2026-04-25T17:22:48Z",
   "segments": [
     {
       "day": "20260201",
@@ -136,6 +136,53 @@
         "diarization"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "074500_180",
+      "source": "dipco",
+      "source_id": "S01",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S01 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "075000_180",
+      "source": "voxconverse",
+      "source_id": "kdfqk",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip kdfqk",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "075500_180",
+      "source": "dipco",
+      "source_id": "S06",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S06 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260201",
@@ -379,6 +426,52 @@
     {
       "day": "20260202",
       "stream": "field.audio",
+      "segment": "074500_180",
+      "source": "dipco",
+      "source_id": "S02",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S02 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "075000_180",
+      "source": "voxconverse",
+      "source_id": "vmaiq",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip vmaiq",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "075500_180",
+      "source": "voxconverse",
+      "source_id": "xxwgv",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip xxwgv",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
       "segment": "080000_600",
       "source": "chime6",
       "source_id": "S21",
@@ -618,6 +711,37 @@
     {
       "day": "20260203",
       "stream": "field.audio",
+      "segment": "074500_180",
+      "source": "dipco",
+      "source_id": "S03",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S03 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
+      "segment": "075000_180",
+      "source": "voxconverse",
+      "source_id": "cjfer",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip cjfer",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
       "segment": "080000_600",
       "source": "icsi",
       "source_id": "Bmr005",
@@ -838,6 +962,37 @@
         "diarization"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "074500_180",
+      "source": "dipco",
+      "source_id": "S04",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S04 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "075000_180",
+      "source": "voxconverse",
+      "source_id": "ldnro",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip ldnro",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260204",
@@ -1075,6 +1230,37 @@
         "diarization"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "074500_180",
+      "source": "dipco",
+      "source_id": "S05",
+      "license": "CDLA-Permissive-1.0",
+      "duration_seconds": 180,
+      "description": "DiPCo dinner-party session S05 close-talk mix",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "075000_180",
+      "source": "voxconverse",
+      "source_id": "czlvt",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 180,
+      "description": "VoxConverse dev clip czlvt",
+      "exercises": [
+        "transcription",
+        "diarization"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260205",

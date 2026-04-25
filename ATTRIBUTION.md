@@ -76,3 +76,25 @@ Detailed license and attribution information for each media source included in t
 - **Attribution required:** Yes
 - **Share-alike:** No
 - **Usage:** Far-field replayed LibriSpeech utterances at multiple microphone distances used as audio segments for cross-device drift evaluation
+
+## DiPCo Dinner Party Corpus
+
+- **Provider:** Amazon Science
+- **URL:** https://zenodo.org/records/8122551
+- **Mirror:** https://huggingface.co/datasets/huckiyang/DiPCo
+- **License:** CDLA-Permissive-1.0
+- **Attribution required:** Yes
+- **Share-alike:** No
+- **Usage:** Close-talk dinner-party speaker mixes used as overlap-rich audio segments and slice-scoped reference transcripts
+- **Citation:** Van Segbroeck et al., "DiPCo -- Dinner Party Corpus", Interspeech 2020
+
+## VoxConverse
+
+- **Provider:** Visual Geometry Group, University of Oxford
+- **URL:** https://www.robots.ox.ac.uk/~vgg/data/voxconverse/
+- **Mirror:** https://github.com/joonson/voxconverse
+- **License:** CC-BY 4.0 International
+- **Attribution required:** Yes
+- **Share-alike:** No
+- **Usage:** Overlap-dense diarization dev clips used as audio segments with turn-level speaker-count reference data
+- **Citation:** Chung et al., "Spot the conversation: speaker diarisation in the wild", Interspeech 2020

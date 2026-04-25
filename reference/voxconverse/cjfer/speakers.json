@@ -1,0 +1,46 @@
+{
+  "spk02": {
+    "label": "Speaker spk02",
+    "word_count": 4
+  },
+  "spk04": {
+    "label": "Speaker spk04",
+    "word_count": 1
+  },
+  "spk05": {
+    "label": "Speaker spk05",
+    "word_count": 1
+  },
+  "spk06": {
+    "label": "Speaker spk06",
+    "word_count": 1
+  },
+  "spk07": {
+    "label": "Speaker spk07",
+    "word_count": 6
+  },
+  "spk08": {
+    "label": "Speaker spk08",
+    "word_count": 1
+  },
+  "spk09": {
+    "label": "Speaker spk09",
+    "word_count": 1
+  },
+  "spk11": {
+    "label": "Speaker spk11",
+    "word_count": 1
+  },
+  "spk12": {
+    "label": "Speaker spk12",
+    "word_count": 2
+  },
+  "spk13": {
+    "label": "Speaker spk13",
+    "word_count": 9
+  },
+  "spk14": {
+    "label": "Speaker spk14",
+    "word_count": 1
+  }
+}
