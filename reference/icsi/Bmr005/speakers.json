@@ -1,0 +1,34 @@
+{
+  "me013": {
+    "label": "Speaker me013",
+    "word_count": 7185
+  },
+  "me011": {
+    "label": "Speaker me011",
+    "word_count": 2134
+  },
+  "fe008": {
+    "label": "Speaker fe008",
+    "word_count": 2271
+  },
+  "me018": {
+    "label": "Speaker me018",
+    "word_count": 742
+  },
+  "fe016": {
+    "label": "Speaker fe016",
+    "word_count": 2345
+  },
+  "me001": {
+    "label": "Speaker me001",
+    "word_count": 110
+  },
+  "mn017": {
+    "label": "Speaker mn017",
+    "word_count": 507
+  },
+  "mn005": {
+    "label": "Speaker mn005",
+    "word_count": 2310
+  }
+}

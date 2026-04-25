@@ -85,7 +85,7 @@ def test_stream_state_files() -> None:
         pytest.skip("Journal not built")
 
     for name, expected_seq, expected_last_day, expected_last_seg in [
-        ("field.audio", 17, "20260205", "141500_540"),
+        ("field.audio", 22, "20260205", "141500_540"),
         ("field.screen", 11, "20260205", "144500_360"),
     ]:
         state_path = streams_dir / f"{name}.json"
@@ -122,6 +122,32 @@ def test_ami_reference_data() -> None:
 
     for meeting_id in ["ES2002a", "ES2005a"]:
         meeting_dir = ref_dir / "ami" / meeting_id
+        assert meeting_dir.exists(), f"Missing reference dir: {meeting_dir}"
+        assert (meeting_dir / "transcript.txt").exists()
+        assert (meeting_dir / "speakers.json").exists()
+
+
+def test_chime6_reference_data() -> None:
+    """CHiME-6 reference files exist for locked sessions."""
+    ref_dir = REPO_ROOT / "reference"
+    if not ref_dir.exists():
+        pytest.skip("Reference data not generated")
+
+    for session_id in ["S01", "S21"]:
+        session_dir = ref_dir / "chime6" / session_id
+        assert session_dir.exists(), f"Missing reference dir: {session_dir}"
+        assert (session_dir / "transcript.txt").exists()
+        assert (session_dir / "speakers.json").exists()
+
+
+def test_icsi_reference_data() -> None:
+    """ICSI reference files exist for locked meetings."""
+    ref_dir = REPO_ROOT / "reference"
+    if not ref_dir.exists():
+        pytest.skip("Reference data not generated")
+
+    for meeting_id in ["Bmr005", "Bmr006", "Bmr007"]:
+        meeting_dir = ref_dir / "icsi" / meeting_id
         assert meeting_dir.exists(), f"Missing reference dir: {meeting_dir}"
         assert (meeting_dir / "transcript.txt").exists()
         assert (meeting_dir / "speakers.json").exists()

@@ -15,6 +15,8 @@ The `journal/` directory follows solstone's `day/stream/segment/` structure — 
 | [LOC American English Dialect Recordings](https://citizen-dj.labs.loc.gov/loc-american-english-dialect-recordings/use/) | Unrestricted | Natural conversation, dialect interviews, oral histories |
 | [NASA Press Conferences](https://images.nasa.gov/) | Public domain | Entity-dense multi-speaker briefings |
 | [Hacker Public Radio](https://hackerpublicradio.org/) | CC-BY-SA 4.0 | Casual solo tech commentary, voice-memo texture |
+| [CHiME-6 Dinner Parties](https://www.chimechallenge.org/challenges/chime6/) | CC-BY-SA 4.0 | Real-home far-field dinner-party recordings with overlap and cross-talk |
+| [ICSI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/icsi/) | CC-BY 4.0 | Recurring lab meetings with shared speakers across sessions |
 
 ## directory structure
 
@@ -31,7 +33,7 @@ field_journal/
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
 ├── ATTRIBUTION.md        # detailed license info per source
 ├── tools/                # download/build scripts (python)
-│   ├── sources/          # one module per source (ami, psai, loc, nasa, hpr)
+│   ├── sources/          # one module per source (ami, chime6, icsi, psai, loc, nasa, hpr)
 │   └── build.py          # orchestrates download → slice → organize
 └── tests/                # validation tests
 ```

@@ -17,7 +17,7 @@ field_journal/
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
 ├── ATTRIBUTION.md        # detailed license info per source
 ├── tools/                # download/build scripts (python)
-│   ├── sources/          # one module per source (ami, psai, loc, nasa, hpr)
+│   ├── sources/          # one module per source (ami, chime6, icsi, psai, loc, nasa, hpr)
 │   └── build.py          # orchestrates download → slice → organize into journal structure
 └── tests/                # validation tests
 ```
@@ -27,7 +27,7 @@ field_journal/
 - **Journal structure**: follows solstone's `day/stream/segment/` pattern
 - **manifest.json**: source of truth for what segments exist, their sources, licenses, and what pipeline features they exercise
 - **tools/**: reproducible build — download upstream sources, slice into segments, organize into journal structure
-- **Five sources**: AMI Meeting Corpus (CC-BY 4.0), PSAI Computer Use Dataset (MIT), LOC Dialect Recordings (unrestricted), NASA Press Conferences (public domain), Hacker Public Radio (CC-BY-SA 4.0)
+- **Seven sources**: AMI Meeting Corpus (CC-BY 4.0), CHiME-6 Dinner Parties (CC-BY-SA 4.0), ICSI Meeting Corpus (CC-BY 4.0), PSAI Computer Use Dataset (MIT), LOC Dialect Recordings (unrestricted), NASA Press Conferences (public domain), Hacker Public Radio (CC-BY-SA 4.0)
 
 ## Development
 

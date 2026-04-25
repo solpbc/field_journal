@@ -1,7 +1,23 @@
 {
   "version": 1,
-  "built": "2026-03-17T15:35:20Z",
+  "built": "2026-04-25T01:31:13Z",
   "segments": [
+    {
+      "day": "20260201",
+      "stream": "field.audio",
+      "segment": "080000_600",
+      "source": "chime6",
+      "source_id": "S01",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 600,
+      "description": "4-speaker dinner party, far-field overlap",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
     {
       "day": "20260201",
       "stream": "field.audio",
@@ -89,6 +105,22 @@
         "screen_capture"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260202",
+      "stream": "field.audio",
+      "segment": "080000_600",
+      "source": "chime6",
+      "source_id": "S21",
+      "license": "CC-BY-SA-4.0",
+      "duration_seconds": 600,
+      "description": "4-speaker dinner party, far-field overlap",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260202",
@@ -181,6 +213,22 @@
     {
       "day": "20260203",
       "stream": "field.audio",
+      "segment": "080000_600",
+      "source": "icsi",
+      "source_id": "Bmr005",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 600,
+      "description": "lab meeting, recurring participants across sessions",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260203",
+      "stream": "field.audio",
       "segment": "091000_540",
       "source": "ami",
       "source_id": "ES2002a",
@@ -250,6 +298,22 @@
         "screen_capture"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260204",
+      "stream": "field.audio",
+      "segment": "080000_600",
+      "source": "icsi",
+      "source_id": "Bmr006",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 600,
+      "description": "lab meeting, recurring participants across sessions",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260204",
@@ -336,6 +400,22 @@
         "screen_capture"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260205",
+      "stream": "field.audio",
+      "segment": "080000_600",
+      "source": "icsi",
+      "source_id": "Bmr007",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 600,
+      "description": "lab meeting, recurring participants across sessions",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction"
+      ],
+      "has_reference": true
     },
     {
       "day": "20260205",

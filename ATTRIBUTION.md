@@ -46,3 +46,23 @@ Detailed license and attribution information for each media source included in t
 - **Attribution required:** Yes
 - **Share-alike:** Yes
 - **Usage:** Solo tech commentary episodes used as audio segments
+
+## CHiME-6 Dinner Parties
+
+- **Provider:** University of Edinburgh CHiME Challenge
+- **URL:** https://www.chimechallenge.org/challenges/chime6/
+- **Mirror:** https://huggingface.co/datasets/argmaxinc/chime-6
+- **License:** CC-BY-SA 4.0
+- **Attribution required:** Yes
+- **Share-alike:** Yes
+- **Usage:** Far-field dinner-party recordings used as audio segments and reference transcripts
+
+## ICSI Meeting Corpus
+
+- **Provider:** International Computer Science Institute / University of Edinburgh
+- **URL:** https://groups.inf.ed.ac.uk/ami/icsi/
+- **Mirror:** https://huggingface.co/datasets/argmaxinc/icsi-meetings
+- **License:** CC-BY 4.0
+- **Attribution required:** Yes
+- **Share-alike:** No
+- **Usage:** Recurring lab meeting recordings used as audio segments and reference transcripts

@@ -1,0 +1,2854 @@
+[Speaker mn005] @ @
+[Speaker fe016] We 're ,
+[Speaker me013] Yeah
+[Speaker fe016] I
+[Speaker me013] .
+[Speaker fe016] mean
+[Speaker me013] Yeah
+[Speaker mn005] OK .
+[Speaker me013] .
+[Speaker fe016] we We didn't have
+[Speaker me013] 're We
+[Speaker fe016] a
+[Speaker me013] on
+[Speaker fe016] house
+[Speaker me013] again
+[Speaker fe016] before
+[Speaker me013] ? OK
+[Speaker fe016] .
+[Speaker me013] .
+[Speaker me018] Mm - hmm . That
+[Speaker me011] Yeah
+[Speaker me018] is
+[Speaker me011] , so
+[Speaker me013] - OK
+[Speaker me018] really
+[Speaker me011] if
+[Speaker me018] great
+[Speaker fe016] Oh
+[Speaker me011] uh
+[Speaker me018] . That 's
+[Speaker fe016] , yeah !
+[Speaker me011] So if anyone
+[Speaker me018] terrific
+[Speaker me011] hasn't
+[Speaker me018] .
+[Speaker me011] signed the consent form , please do so . The new consent form . The new and improved consent form .
+[Speaker me018] Now
+[Speaker fe008] Uh
+[Speaker me018] you won't be
+[Speaker fe008] .
+[Speaker me013] OK
+[Speaker me018] able to walk
+[Speaker me013] .
+[Speaker me018] or ride your bike , huh ?
+[Speaker me013] OK
+[Speaker fe016] Right .
+[Speaker me013] .
+[Speaker me011] And uh , shall I go ahead and do some digits ?
+[Speaker me013] Uh , we were gonna do that at the end , remember ?
+[Speaker me011] OK , whatever you want .
+[Speaker me013] Yeah . Just just to be consistent , from here on in at
+[Speaker fe016] The
+[Speaker me013] least
+[Speaker fe016] new consent
+[Speaker me013] , that
+[Speaker fe016] form .
+[Speaker me013] 'll that we do it at
+[Speaker me011] It 's
+[Speaker me013] the end
+[Speaker me011] uh
+[Speaker me013] .
+[Speaker me011] Yeah , it doesn't matter . OK .
+[Speaker me013] OK
+[Speaker fe008] Testing
+[Speaker me013] Um
+[Speaker fe008] , one , two , three .
+[Speaker me013] Well , it ju I mean it might be that someone here has to go , and Right ? That was that was sort of the point . So , uh I had asked actually anybody who had any ideas for an agenda to send it to me and no one did . So ,
+[Speaker me011] So we all forgot .
+[Speaker me013] Uh ,
+[Speaker fe008] From last time I wanted to Uh The An iss uh one
+[Speaker me013] Right
+[Speaker fe008] topic
+[Speaker me013] , s
+[Speaker fe008] from last time .
+[Speaker me013] OK , so one item for an agenda is uh Jane has some uh uh some research to talk about , research issues . Um
+[Speaker me011] And
+[Speaker me013] and
+[Speaker me011] I have some short research issues .
+[Speaker me013] Uh , Adam has some short research issues . Um , I have a list of things that I think were done over the last three months I was supposed to send off , uh 'll and , um I I sent a note about it to uh to Adam and Jane but I think I just run through it 's also and see if someone thinks it inaccurate or
+[Speaker me018] A list
+[Speaker me013] uh
+[Speaker me018] that you have to
+[Speaker me013] insufficient
+[Speaker me018] send off to who
+[Speaker me013] .
+[Speaker me018] ?
+[Speaker me013] Uh , to uh uh , IBM .
+[Speaker me018] Oh
+[Speaker mn005] @ @
+[Speaker me013] 're
+[Speaker me018] .
+[Speaker me013] OK . They , you know So . Um , So 'll , uh so , I go through that . Um , And , Anything else ? anyone wants to talk about ? No . OK
+[Speaker me018] What about
+[Speaker me013] .
+[Speaker me018] the , um your trip , yesterday ?
+[Speaker me013] Um . - topic 's Sort of off I guess . Cuz
+[Speaker me018] Oh
+[Speaker me013] that
+[Speaker me018] , OK
+[Speaker me013] Cuz
+[Speaker me018] .
+[Speaker me013] that was all all about the , uh I - line 's I I can chat with you about that off . That another thing . Um , And , Anything else ? Nothing else ? Uh 's , there a I mean , there is a a , um uh telephone call tomorrow , which will be a conference call that some of us are involved in for uh a possible proposal . 'll 'll Um , we talk we talk about it next week if
+[Speaker me011] Do you want me
+[Speaker me013] if
+[Speaker me011] to
+[Speaker me013] something
+[Speaker me011] be there for that C ' ed ? I noticed you C me , but I wasn't actually a recipient . I didn't quite know what to make of that .
+[Speaker me013] Uh 'll Well , we talk talk about that after our meeting
+[Speaker me011] OK
+[Speaker me013] .
+[Speaker me011] .
+[Speaker me013] OK . Uh , OK . So it sounds like the the three main things that we have to talk about are , uh this list , uh Jane and Jane and Adam have some research items , and , other than that , anything , as usual , anything goes beyond that . OK , uh , Jane , since since you were sort of cut off last time why don't we start with yours , make sure we get to it .
+[Speaker fe008] OK 's 's , it it very 's eh it very brief , I mean just let me just hand these out . Oops .
+[Speaker me011] Is this the same as the email or different ?
+[Speaker fe008] 's It slightly
+[Speaker mn014] Thanks
+[Speaker fe008] different
+[Speaker mn014] .
+[Speaker fe008] . I
+[Speaker me011] OK .
+[Speaker fe008] basically the same
+[Speaker me018] Same
+[Speaker fe008] .
+[Speaker me018] idea
+[Speaker fe008] But 've 've , same
+[Speaker me018] ?
+[Speaker fe008] idea . So , if you looked at this you seen it before , so Basically , um as you know , uh part of the encoding includes a mark that indicates an overlap . It 's not indicated 's with , um uh , tight precision , it just indicated that OK , so , It 's indicated to to so the people know what parts of sp which which stretches of speech were in the clear , versus being overlapped by others . So , I used this mark and , um and , uh uh , divided the I wrote a script which divides things into individual minutes , of which we ended up with forty five , and a little bit . And , uh you know , minute zero , of course , is the first minute up to sixty
+[Speaker mn014] OK
+[Speaker fe008] seconds
+[Speaker mn014] .
+[Speaker fe008] . And , um What you can see is the number of overlaps and then to the right , whether they involve two speakers , three speakers , or more than three speakers . And , um and , what I was looking for sp sp specifically was the question of 're 're whether they distributed evenly throughout or whether they bursts of them . Um . And it looked to me as though uh , you know y this is just eh eh , this would this is not statistically verified , but it did look to me as though there are bursts throughout , rather than being localized to a particular region . 's The part down there , where there the maximum number of of , um overlaps is an area where we were discussing whether or not it would be useful to indi to s to code stress , uh , sentence stress as possible indication of , uh information retrieval . 's So it like , you know , rather , lively discussion there .
+[Speaker me013] 's What was what the the parenthesized stuff that says , like e the first
+[Speaker fe008] Oh
+[Speaker me013] one
+[Speaker fe008] ,
+[Speaker me013] that says
+[Speaker fe008] th
+[Speaker me013] six overlaps and then two point eight
+[Speaker fe008] 's
+[Speaker me013] ?
+[Speaker fe008] That the
+[Speaker me013] Mmm
+[Speaker fe008] per
+[Speaker me013] .
+[Speaker fe008] cent . So , six is , uh two
+[Speaker mn005] Mm - hmm
+[Speaker fe008] point eight percent
+[Speaker mn005] .
+[Speaker fe008] of the total number of overlaps in
+[Speaker me013] Ah
+[Speaker fe008] the session
+[Speaker me013] .
+[Speaker fe008] .
+[Speaker mn014] Mm - hmm
+[Speaker fe008] At the very
+[Speaker mn014] .
+[Speaker fe008] end , this is when people were , 's you know , packing up to go basically , there this final stuff , I think we 'd I don't remember where the digits fell . I have to look at that . But the final three there are no overlaps at all . And couple times there are not . So , i
+[Speaker mn005] Mm - hmm
+[Speaker fe008] it seems
+[Speaker mn005] .
+[Speaker fe008] like it goes through bursts 's
+[Speaker mn005] Mm - hmm .
+[Speaker fe008] but , um that kind of it . Now , Another question is is there are there 're individual differences in whether you likely to be overlapped with or to overlap with others . And , again I want to emphasize this is just one particular um 's one particular meeting , and also there been no statistical testing of it all , but I , um I took the coding of the I , you know , my I had this script figure out , um who - person was the first speaker , who was the second speaker involved in a two overlap , I didn't look at the ones involving three or more . And , um this is how it breaks down in the individual cells of who tended to be overlapping most often with who who else , and if you look at the marginal totals , which is the ones on the right side and across the bottom , you get the totals for an individual . So , um If you look at the bottom , those are the , um numbers of overlaps in which um Adam was involved as the person doing the overlapping and if you look 'm 're 's 'm I sorry , but you o alphabetical , that why I choosing you And then if you look across the right , 's then that where he was the person who was the sp first speaker in the pair and
+[Speaker me018] Hmm
+[Speaker fe008] got overlap
+[Speaker me018] !
+[Speaker fe008] overlapped with
+[Speaker mn005] Mm - hmm
+[Speaker fe008] by somebody
+[Speaker mn005] .
+[Speaker fe008] . And , then if you look down in the summary table , then you see that , um 're th they differences in whether a person got overlapped with or overlapped
+[Speaker me011] Is this uh
+[Speaker fe008] by .
+[Speaker me011] just raw counts or is it
+[Speaker fe008] Raw counts .
+[Speaker me011] So it would be interesting to see how much each person spoke .
+[Speaker fe016] Mm - hmm
+[Speaker fe008] Yes
+[Speaker fe016] .
+[Speaker mn005] Yeah
+[Speaker mn014] Yeah
+[Speaker fe008] ,
+[Speaker mn014] .
+[Speaker fe008] very true
+[Speaker me011] Normalized
+[Speaker fe008] very true
+[Speaker me011] to
+[Speaker fe008] it would
+[Speaker me011] how
+[Speaker fe008] be
+[Speaker me011] much
+[Speaker fe008] good to normalize with respect to that . Now
+[Speaker mn005] Yeah
+[Speaker fe008] on the table I did take one step toward , uh away from the raw frequencies by putting , uh percentages . So that the percentage of time of the of the times that a person spoke , what percentage eh , w so . Of - person the times a person spoke and furthermore was involved in a two two overlap , what percentage of the time were they the overlapper and what percent of the time were they th the overlappee ? And there , it looks like you see some differences , um , that some people tend to be overlapped 're with more often than they overlapped , but , of course , uh i e this is just one meeting , 's uh there no statistical testing involved , and that would be required for a for a finding of any kind
+[Speaker me013] S
+[Speaker fe008] of
+[Speaker me013] so
+[Speaker fe008] scientific
+[Speaker me013] , i it would be
+[Speaker fe008] reliability
+[Speaker me013] statistically
+[Speaker fe008] .
+[Speaker me013] incorrect to conclude from this that Adam talked too much
+[Speaker me011] No
+[Speaker me013] or something
+[Speaker me011] no
+[Speaker me013] .
+[Speaker fe008] No
+[Speaker me011] actually
+[Speaker fe008] , no
+[Speaker me011] , that
+[Speaker fe008] ,
+[Speaker me013] Yeah
+[Speaker me011] would
+[Speaker fe008] no
+[Speaker me011] be
+[Speaker me013] , yeah
+[Speaker me011] actually
+[Speaker me013] .
+[Speaker fe008] .
+[Speaker me011] statistically
+[Speaker mn005] Yeah ,
+[Speaker me011] correct
+[Speaker mn005] yeah .
+[Speaker me011] , but
+[Speaker mn005] Yeah ,
+[Speaker fe008] Yeah 's , that
+[Speaker mn005] yeah
+[Speaker fe008] right
+[Speaker mn005] .
+[Speaker fe008] . 's 'm 'm That
+[Speaker me013] Yeah .
+[Speaker fe008] right . And
+[Speaker me013] Excuse
+[Speaker fe008] I you
+[Speaker me013] me .
+[Speaker fe008] know , I I don't see a point of singling people out , now , this is a case
+[Speaker me013] B
+[Speaker fe008] where
+[Speaker me013] I
+[Speaker fe008] obviously
+[Speaker me013] I I rather
+[Speaker me018] But the
+[Speaker me013] enjoyed
+[Speaker me018] numbers
+[Speaker mn005] He 's
+[Speaker me013] it
+[Speaker me018] speak
+[Speaker mn005] Yeah
+[Speaker me013] , but
+[Speaker me018] for
+[Speaker mn005] , yeah
+[Speaker me018] themselves
+[Speaker me013] but
+[Speaker fe008] 's 'm 'm
+[Speaker mn005] , yeah
+[Speaker me013] this
+[Speaker me011] Yes 's
+[Speaker mn005] .
+[Speaker me018] .
+[Speaker me011] , that
+[Speaker fe008] Well
+[Speaker me011] right
+[Speaker fe008] ,
+[Speaker me011] , so
+[Speaker fe008] you
+[Speaker me011] you
+[Speaker fe008] know
+[Speaker me011] don't
+[Speaker fe008] , it like
+[Speaker me011] nee
+[Speaker fe008] I
+[Speaker me011] OK
+[Speaker fe008] not
+[Speaker me011] .
+[Speaker fe008] I not saying on the tape who did 's better or worse because
+[Speaker me013] Sure
+[Speaker fe008] I don't
+[Speaker me013] .
+[Speaker fe008] think that it I 's you know , and and th here a case where of course , human subjects people would say be sure that you anonymize the results , and
+[Speaker me011] Yeah , when
+[Speaker fe008] and
+[Speaker me013] Yeah
+[Speaker fe008] , so
+[Speaker me011] this
+[Speaker me013] .
+[Speaker fe008] , might
+[Speaker me011] is what
+[Speaker fe008] as well do this .
+[Speaker me011] This is actually when Jane sent this email first , is what caused me to start thinking about anonymizing the data .
+[Speaker fe008] Well , fair enough . Fair enough . 's And actually
+[Speaker me013] Yeah
+[Speaker fe008] , you know , the point
+[Speaker me013] .
+[Speaker fe008] is not about an individual , it the point about tendencies toward you know , different styles , different speaker styles
+[Speaker me013] Oh sure
+[Speaker fe008] .
+[Speaker me013] .
+[Speaker fe008] And it would be , you know of course , there 's also the question of what type of overlap was this , and w what were they , and i and I and I know that I can distinguish at least three types and , probably more , I mean , the general cultural idea which w uh , the conversation analysts originally started with in the seventies was that we have this strict model where politeness involves that you let the person finish th before you start talking , and and you know , I mean , w we know that 've an and they loosened up on that too s in the intervening time , that 's 's that that that viewed as being - relative - involvement a culturally thing , I mean , that you have the high style from the East Coast where people will overlap often as an indication of interest in what the other person is saying .
+[Speaker me011] - huh Uh
+[Speaker fe008] And
+[Speaker me011] .
+[Speaker fe008] 's 's Yeah , exactly
+[Speaker fe016] Exactly !
+[Speaker fe008] ! Well
+[Speaker mn005] Yeah
+[Speaker fe008] , there you go . Fine , that alright , that OK . And and , you 's 're 's know , in contrast , so Deborah d and also Deborah Tannen thesis she talked about differences of these types , that they just different styles , and it um you you can't impose a model of there of the ideal being no overlaps , and 's you know , conversational analysts also agree with that , so it now , universally a ag agreed with . And and , als I mean , I can't say universally , but anyway , the people who used to say it was strict , um now , uh don't . I mean they they also you know , uh uh , ack acknowledge the influence of sub of subcultural norms and - cultural cross norms and things . So , um Then it beco though so just just superficially to give um a couple ideas of the types of overlaps involved , I have at the bottom several that I noticed . So , uh , there are backchannels , like what Adam just did now and , um um , anticipating the end of a question and simply answering it earlier , and there are several of those in this in these data
+[Speaker fe016] Mm - hmm
+[Speaker fe008] where
+[Speaker fe016] .
+[Speaker fe008] 're because we 've people who talked to each other , um we know 've 's basically what the topic is , what the possibilities are and w and we spoken with each other so we know basically what the other person style is likely to be and so and t there are a number of places where someone just answered early . No problem . And places also which I thought were interesting , where two or more people gave exactly th the same answer in unison different words of course but you know , the basically , you know everyone 's " saying yes " or you know , or ev even more sp specific than that . So , uh , the point is that , um 's overlap not necessarily a bad thing and that it would be im i useful to subdivide these further and see if there are individual differences in styles with respect to the types involved . 's And that all I wanted to say on that , unless people have questions .
+[Speaker me013] Well , of course th the biggest , um 've result here , which is one we 've we talked about many times and isn't new to us , but which I think would be interesting to show someone who isn't familiar with this is just the sheer number of overlaps
+[Speaker me011] Yep
+[Speaker me013] .
+[Speaker me011] .
+[Speaker mn005] Yes
+[Speaker fe008] Oh
+[Speaker mn005] , yes
+[Speaker me013] That
+[Speaker mn005] !
+[Speaker fe008] , OK
+[Speaker me013] that
+[Speaker mn005] Yeah
+[Speaker fe008] interesting
+[Speaker me013] Right
+[Speaker fe008] .
+[Speaker mn005] .
+[Speaker me013] ? that that , um 's 's here a relatively short meeting , it a forty forty plus minute meeting , and not
+[Speaker me011] Hundred - seven
+[Speaker me013] only
+[Speaker me011] ninety
+[Speaker me013] were there
+[Speaker me011] .
+[Speaker me013] two hundred and fifteen overlaps but , uh I 's think there one 's one minute there where there where where there wasn't any overlap ? I mean , it uh throughout this thing 's
+[Speaker fe008] Well
+[Speaker me013] ? It
+[Speaker fe008] , at the
+[Speaker me018] 'd
+[Speaker fe008] bottom
+[Speaker me011] S
+[Speaker me018] It be
+[Speaker fe008] , you have the
+[Speaker mn005] Yeah
+[Speaker fe008] bottom
+[Speaker me018] interesting
+[Speaker me011] n
+[Speaker fe008] three
+[Speaker mn005] .
+[Speaker fe008] . So
+[Speaker me011] are
+[Speaker me013] You
+[Speaker fe008] four
+[Speaker me013] have
+[Speaker fe008] four minutes all together
+[Speaker me013] @ @
+[Speaker fe008] with none none .
+[Speaker me013] Oh
+[Speaker me018] But
+[Speaker me013] , so
+[Speaker me018] it
+[Speaker me013] the
+[Speaker me018] w
+[Speaker me013] bottom three did have s stuff going on ?
+[Speaker fe008] Yes - huh
+[Speaker me013] There was
+[Speaker fe008] , uh
+[Speaker me013] speech
+[Speaker fe008] . Yeah
+[Speaker me013] ?
+[Speaker fe008] . But just no overlaps
+[Speaker me013] OK
+[Speaker fe008] .
+[Speaker me013] , so if the
+[Speaker me018] It 'd be
+[Speaker me013] this
+[Speaker me018] interesting to see what the total amount of time is in the overlaps , versus
+[Speaker fe008] Yes 's 's 's , exactly
+[Speaker mn017] I was about
+[Speaker mn005] Yeah
+[Speaker fe008] and that
+[Speaker mn017] to ask
+[Speaker fe008] that
+[Speaker mn005] , yeah
+[Speaker fe008] where
+[Speaker mn014] Yeah
+[Speaker fe008] Jose
+[Speaker mn005] ,
+[Speaker me018] Yeah
+[Speaker mn014] .
+[Speaker mn005] I h
+[Speaker fe008] pro
+[Speaker mn005] I
+[Speaker me018] .
+[Speaker mn005] have
+[Speaker fe008] project
+[Speaker mn005] this that
+[Speaker fe008] comes
+[Speaker mn005] infor
+[Speaker fe008] in .
+[Speaker mn005] I
+[Speaker fe016] Hmm
+[Speaker mn005] have th
+[Speaker fe016] .
+[Speaker mn005] that information now .
+[Speaker me013] Oh , about how much
+[Speaker mn005] The
+[Speaker me013] is
+[Speaker mn005] the
+[Speaker me013] it
+[Speaker mn005] duration
+[Speaker me013] ?
+[Speaker mn005] of eh of each of the overlaps .
+[Speaker me013] O 's 's 's oh , what what the what the average length
+[Speaker mn005] M
+[Speaker me013] ?
+[Speaker mn005] I I haven't averaged it now but , uh I I will , uh I
+[Speaker me013] You
+[Speaker mn005] will
+[Speaker me013] don't
+[Speaker mn005] do
+[Speaker me013] know
+[Speaker mn005] the
+[Speaker me013] ?
+[Speaker mn005] the study of the with the with the program with the uh , the different , uh the , nnn , distribution of the duration of the overlaps .
+[Speaker me013] OK , you you don you don't have a feeling for roughly how much it is
+[Speaker mn005] mmm @ @ @ @
+[Speaker me013] ? Yeah
+[Speaker mn005] ,
+[Speaker me013] .
+[Speaker mn005] Because the the uh , is . The duration
+[Speaker me013] Yeah
+[Speaker mn005] is
+[Speaker me013] .
+[Speaker mn005] , uh the variation the variation of the duration is uh , very big
+[Speaker me018] Mm - hmm
+[Speaker fe008] I
+[Speaker mn005] on
+[Speaker fe008] suspect
+[Speaker mn005] the
+[Speaker me018] .
+[Speaker mn005] dat
+[Speaker fe008] that it will also differ
+[Speaker mn005] but
+[Speaker fe008] , depending
+[Speaker mn005] eh
+[Speaker fe008] on the type of overlap involved
+[Speaker mn005] Yeah .
+[Speaker fe008] . So backchannels
+[Speaker me013] Oh 'm , I sure
+[Speaker fe008] will
+[Speaker mn005] Because
+[Speaker fe008] be
+[Speaker me013] .
+[Speaker fe008] very brief
+[Speaker mn005] , on
+[Speaker fe008] and
+[Speaker mn005] your surface eh a bit of zone of overlapping with the duration eh , overlapped
+[Speaker me013] Yeah .
+[Speaker mn005] and another very very short .
+[Speaker me013] Yeah .
+[Speaker mn005] Uh 's " , i probably it very difficult to to because the the overlap is , uh on is only the in the final S " of the of the
+[Speaker me018] Mm - hmm
+[Speaker mn005] the
+[Speaker me018] .
+[Speaker mn005] fin the the end the end word of the , um previous speaker with the the next word of the the new speaker . 's 's 's " Um , I considered that an overlap but it very short , it an X " with a and the idea is probably , eh when eh when eh , we studied th th that zone , eh eh , we h we have eh eh confusion with eh eh noise .
+[Speaker me018] Mm - hmm .
+[Speaker mn005] With eh that
+[Speaker me013] Yeah
+[Speaker mn005] fricative
+[Speaker me013] .
+[Speaker mn005] sounds , but uh
+[Speaker me013] 'd Yeah
+[Speaker mn005] I have
+[Speaker me013] , but I
+[Speaker mn005] new
+[Speaker me013] I
+[Speaker mn005] information
+[Speaker mn017] Can I
+[Speaker mn005] but I have
+[Speaker me013] u
+[Speaker mn005] to
+[Speaker me013] go
+[Speaker mn005] to
+[Speaker me013] ahead
+[Speaker mn005] study
+[Speaker me013] .
+[Speaker mn005] .
+[Speaker fe008] Yeah
+[Speaker mn017] You
+[Speaker fe008] .
+[Speaker mn017] split this by minute , um
+[Speaker fe008] Yes
+[Speaker mn017] so
+[Speaker fe008] .
+[Speaker mn017] if an overlap straddles the boundary between two minutes
+[Speaker fe008] Mm - hmm
+[Speaker mn017] ,
+[Speaker fe008] .
+[Speaker mn017] that counts towards both of those minutes .
+[Speaker fe008] Actually , um um actually not . Uh 's , so le let think about the case where A starts speaking and then B overlaps with A , and then the minute boundary happens . 's And let say that after that minute boundary , um B is still speaking , and A overlaps with B , that would be a new overlap . But otherwise 's um , let say B comes to the conclusion of of that turn without anyone overlapping with him or her , in which case there would be no overlap counted in
+[Speaker mn017] No
+[Speaker fe008] that
+[Speaker mn017] , but
+[Speaker fe008] second
+[Speaker mn017] suppose
+[Speaker fe008] minute .
+[Speaker mn017] they both talk simultaneously both a a portion of it is in minute one and another portion of minute two .
+[Speaker fe008] OK . In that case , um my c the coding that I was using 's since we haven't , uh incorporated Adam , uh coding of overlap yets , the coding of Yeah " , yets " is not a word . Uh since 's we haven't incorporated Adam method of handling overl overlaps yet um then that would have fallen through the cra cracks . It would be an underestimate of the number of overlaps because , um I wou I wouldn't be able to pick it up from the way it was encoded so far . We
+[Speaker me013] I
+[Speaker fe008] just haven't
+[Speaker me013] I
+[Speaker fe008] done th the precise second to sec you know , second
+[Speaker me013] I
+[Speaker fe008] to second
+[Speaker me013] I
+[Speaker fe008] coding of
+[Speaker me013] I 'm 'm 'm
+[Speaker fe008] when they
+[Speaker me013] I
+[Speaker fe008] occur .
+[Speaker me013] I confused now . So l l let me restate what I thought Andreas was saying
+[Speaker fe008] Uh - huh .
+[Speaker me013] and and see . Let 's - seven say that in in second fifty
+[Speaker fe008] Yep .
+[Speaker me013] of one minute , you start talking and I start talking
+[Speaker fe008] OK .
+[Speaker me013] and we ignore each other and keep on talking for six seconds
+[Speaker fe008] Mm - hmm .
+[Speaker me013] . So we go over So we were we were talking over one another , and 's it just in 's each case , it just sort of one interval .
+[Speaker fe008] Mm - hmm
+[Speaker me013] Right
+[Speaker fe008] ?
+[Speaker me013] ? So , um we talked over the minute boundary . Is this considered as one overlap in each of the minutes , the way you have done this .
+[Speaker fe008] No , it wouldn't . It would be considered as an overlap in the first one .
+[Speaker me013] OK 's , so that good
+[Speaker fe016] 's 's That
+[Speaker me013] , i
+[Speaker fe016] that
+[Speaker me013] I think
+[Speaker fe016] good , yeah
+[Speaker me013] , in
+[Speaker fe016] , cuz
+[Speaker me013] the sense
+[Speaker mn017] Yeah
+[Speaker fe016] the
+[Speaker mn014] @ @
+[Speaker mn017] .
+[Speaker fe016] overall
+[Speaker me011] Statistical
+[Speaker me013] that
+[Speaker fe016] rate
+[Speaker me013] I think
+[Speaker fe016] is
+[Speaker me013] Andreas
+[Speaker me011] .
+[Speaker me013] meant
+[Speaker fe016] Yeah
+[Speaker me011] Yep
+[Speaker fe008] Mm - hmm 're
+[Speaker me013] the question
+[Speaker mn017] Other - 'd
+[Speaker fe016] .
+[Speaker fe008] .
+[Speaker me011] .
+[Speaker mn017] otherwise
+[Speaker me013] , right
+[Speaker fe008] Yeah
+[Speaker me013] ?
+[Speaker fe008] . They not double
+[Speaker mn017] you
+[Speaker mn005] Yeah
+[Speaker fe008] counted
+[Speaker mn017] get double
+[Speaker fe016] Ah
+[Speaker fe008] .
+[Speaker mn005] .
+[Speaker mn017] counts
+[Speaker fe016] but ,
+[Speaker mn017] , here
+[Speaker fe016] yeah
+[Speaker mn017] and
+[Speaker fe016] .
+[Speaker mn017] there . And
+[Speaker fe016] @ @
+[Speaker mn017] then
+[Speaker me013] Yeah
+[Speaker mn017] it
+[Speaker mn005] Yeah
+[Speaker mn017] would be
+[Speaker me013] .
+[Speaker mn017] harder
+[Speaker fe008] I
+[Speaker mn005] .
+[Speaker fe008] should also say I did a simplifying , uh count in that if A was speaking B overlapped with A and then A came back again and overlapped with B again , I - person - person I didn't count that as a three overlap , I counted that as a two overlap
+[Speaker me011] Mm - hmm .
+[Speaker fe008] , and it was A being overlapped with by D . Because the idea was the first speaker had the floor and the second person started speaking and then the f the first person reasserted the floor kind of thing . These are simplifying
+[Speaker fe016] Yeah .
+[Speaker fe008] assumptions , didn't happen very often , there may be like three overlaps affected that way in the whole thing .
+[Speaker me011] I - one want to go back and listen to minute forty .
+[Speaker fe008] Yeah , yeah .
+[Speaker me011] Cuz - speaker i
+[Speaker me013] Yeah
+[Speaker me011] i
+[Speaker me013] .
+[Speaker me011] I find it interesting that there were a large number of overlaps and they were all two . I mean what I thought what I would have thought
+[Speaker fe008] That 's
+[Speaker me011] in
+[Speaker fe008] interesting .
+[Speaker me011] is that when
+[Speaker fe008] That 's
+[Speaker me011] there
+[Speaker fe008] interesting
+[Speaker me011] were a large
+[Speaker fe008] .
+[Speaker me011] number of overlaps , it was because everyone was talking at once
+[Speaker mn005] Yeah .
+[Speaker me011] ,
+[Speaker mn005] Yeah .
+[Speaker me011] but uh apparently 's not
+[Speaker mn005] Mmm
+[Speaker me011] . That
+[Speaker mn005] .
+[Speaker me011] really neat .
+[Speaker fe008] 's Yeah , there
+[Speaker me013] Yeah
+[Speaker fe008] a
+[Speaker me013] .
+[Speaker fe008] lot
+[Speaker me011] This is
+[Speaker fe008] of backchannel
+[Speaker me011] really interesting
+[Speaker fe008] , a lot
+[Speaker me011] data
+[Speaker fe008] o a lot
+[Speaker me011] .
+[Speaker fe008] of Yeah , it is . I think so
+[Speaker fe016] I 's
+[Speaker fe008] too
+[Speaker fe016] think
+[Speaker fe008] , I
+[Speaker fe016] what
+[Speaker fe008] think
+[Speaker fe016] really interesting though , it is before d " saying yes , meetings have a lot of overlaps " is to actually find out how many more - party we have than two . Cuz - party 's in two conversations , like Switchboard , there an awful lot too if you just look at backchannels , if you consider those overlaps ? 's 's it also ver it huge . It 's just that people haven't been 've - channel looking at that because they been doing single processing
+[Speaker me011] Mm - hmm .
+[Speaker fe016] for
+[Speaker me013] Mm - hmm
+[Speaker fe016] speech
+[Speaker me013] ?
+[Speaker fe016] recognition . So , the question is , you know , how many more overlaps do you have - person of , say the two type , by adding more people . to a meeting , and it may be a lot more but i it may it may not be
+[Speaker me013] Well
+[Speaker fe016] .
+[Speaker me013] , but see , I find it interesting
+[Speaker fe016] So
+[Speaker me013] even
+[Speaker fe016] .
+[Speaker me013] if it wasn't any more , because since we were dealing with this full duplex sort of thing in Switchboard where it was just all separated out
+[Speaker fe016] Mm - hmm
+[Speaker me013] we
+[Speaker fe016] ? 's "
+[Speaker me013] just everything was just nice , so that so the issue is in in a situation 's where
+[Speaker fe016] Well
+[Speaker me013] th
+[Speaker fe016] , it
+[Speaker me013] that
+[Speaker fe016] not really nice " . It 're depends what you doing . So if you were actually having , uh 're depends what you doing , if Right 're now we do we have individual mikes on the people in this meeting .
+[Speaker me013] Mm - hmm
+[Speaker fe016] So the question
+[Speaker me013] ?
+[Speaker fe016] is , you know are " there really more overlaps happening than - person there would be in a two party
+[Speaker me013] Let
+[Speaker fe016] " . And
+[Speaker me013] let
+[Speaker fe016] and there
+[Speaker me013] m let 'm me
+[Speaker fe016] well
+[Speaker me013] rephrase
+[Speaker fe016] may be
+[Speaker me013] what I
+[Speaker fe016] , but
+[Speaker me013] saying cuz 'm I don't think I getting it across . What what I what I " 's shouldn't use words like nice " because maybe that too i too imprecise . But what I mean is that , um in Switchboard , 're despite the many many other problems that we have , one problem that we not considering is overlap . And 're what we doing now is , aside from the many other differences in the task , we are considering overlap 're and one of the reasons that we considering it , you know , one of them not all of them , one of them is that w uh at least , 'm you know I very interested in the scenario in which , uh both people talking are pretty much equally audible , and from a single microphone . And so , in that case , it does get mixed in , 's and it pretty hard to jus to just ignore it , to just do processing on one and not on the other .
+[Speaker fe016] I 's I agree that it an issue here 's but it also an issue for Switchboard and if you think of meetings being recorded over the telephone , which I think ,
+[Speaker me013] Mm - hmm
+[Speaker fe016] you know , this
+[Speaker me013] .
+[Speaker fe016] whole point of studying meetings isn't just to have people in a room but to also have meetings over different phone lines . Maybe far field mike people wouldn't be interested in that but all the dialogue issues still apply
+[Speaker me013] Mm - hmm
+[Speaker fe016] ,
+[Speaker me013] .
+[Speaker fe016] so if each of us was calling and having a meeting that way you kn you know like a conference call . And , just the question is , y you know , in Switchboard 's you would think that the simplest case of a meeting
+[Speaker me013] Mm - hmm .
+[Speaker fe016] of more than one person , and 'm I wondering how much more overlap of the types that that Jane described happen with more people present . So it may be that having three people is very different from having two people or it may not be .
+[Speaker me013] 's 'm That an important question to ask . I think what I
+[Speaker fe016] So
+[Speaker me013] 'm All I s really
+[Speaker fe016] .
+[Speaker me013] saying is that I don't think we were considering that in Switchboard .
+[Speaker fe016] Not you , me .
+[Speaker me013] Were
+[Speaker me011] Though
+[Speaker fe016] But
+[Speaker me013] you
+[Speaker me011] it
+[Speaker fe016] uh
+[Speaker me013] ?
+[Speaker me011] wasn't
+[Speaker fe016] but
+[Speaker me011] in the
+[Speaker fe016] but
+[Speaker me011] design .
+[Speaker me013] Were you were you were you were you measuring it ? I mean , w w were
+[Speaker fe016] There 's there actually to 's tell you the truth , the reason why it hard to measure is because of so , from the point of view of studying dialogue , I mean , which Dan Jurafsky and Andreas and I had some projects on ,
+[Speaker me013] Yeah .
+[Speaker fe016] you want to know the sequence of turns . So 're what happens is if you talking and I have a backchannel in the middle of your turn ,
+[Speaker me013] Yeah
+[Speaker fe016] and
+[Speaker me013] .
+[Speaker fe016] then you keep going what it looks like in a dialogue model is your turn and then my backchannel , even though my backchannel occurred completely inside your turn .
+[Speaker me013] Yeah ?
+[Speaker fe016] So , for things like language modeling or dialogue modeling 's it We 's know that that wrong
+[Speaker me013] Yeah ?
+[Speaker fe016] in real time . But , because of the acoustic segmentations that were done and the fact that some of the acoustic data in Switchboard were missing , people couldn't study it , but that doesn't mean in the real world that people don't talk that way .
+[Speaker me013] Yeah , I wasn't
+[Speaker fe016] So
+[Speaker me013] saying
+[Speaker fe016] ,
+[Speaker me013] that .
+[Speaker fe016] 's it
+[Speaker me013] Right 're ? I was just saying
+[Speaker fe016] um
+[Speaker me013] that w now we looking at it .
+[Speaker fe016] Well 've
+[Speaker me013] And
+[Speaker fe016] , we
+[Speaker me013] and
+[Speaker fe016] als Right 're
+[Speaker me013] and you ,
+[Speaker fe016] . We looking
+[Speaker me013] you
+[Speaker fe016] at
+[Speaker me013] maybe
+[Speaker fe016] it here
+[Speaker me013] wanted to
+[Speaker fe016] .
+[Speaker me013] look at it before but , for these various technical reasons in terms of how the data was you weren't . So 's 's that why it coming to us as new even though it may well be you know , if your if your hypothes The hypothesis you were offering
+[Speaker fe016] Um .
+[Speaker me013] eh Right ? if 's it the null poth hypothesis , and - person if actually you have as much overlap in a two , we don't know the answer to that . The reason we don't know the answer to is cuz it wasn't studied and it wasn't studied because
+[Speaker fe016] Yeah
+[Speaker me013] it wasn't
+[Speaker fe016] , all
+[Speaker me013] set
+[Speaker fe016] I
+[Speaker me013] up
+[Speaker fe016] meant
+[Speaker me013] . Right
+[Speaker fe016] is
+[Speaker me013] ?
+[Speaker fe016] that if 're you asking the question from the point of view of 's what different about a meeting ,
+[Speaker me013] Mm - hmm
+[Speaker fe016] studying
+[Speaker me013] ?
+[Speaker fe016] meetings of , say , more than two people versus what kinds - person of questions you could ask with a two meeting . It 's important to distinguish that , you know , this project is getting a lot of overlap but other projects were too , but we just couldn't study them .
+[Speaker me013] May
+[Speaker fe016] And
+[Speaker me013] have been
+[Speaker fe016] and so
+[Speaker me013] .
+[Speaker fe016] uh
+[Speaker me013] May have been . Right ? We do
+[Speaker fe016] Well
+[Speaker me013] kn we don't
+[Speaker fe016] , there
+[Speaker me013] know the
+[Speaker fe016] is
+[Speaker me013] numbers
+[Speaker fe016] a high rate
+[Speaker me013] .
+[Speaker fe016] , So . It 's but I don't know how high , in
+[Speaker me018] Well
+[Speaker fe016] fact
+[Speaker me018] , here I have a question
+[Speaker fe016] that would be
+[Speaker me018] .
+[Speaker me013] See
+[Speaker fe016] interesting
+[Speaker me013] I , mean i , i
+[Speaker fe016] to
+[Speaker me013] le
+[Speaker fe016] know
+[Speaker me013] let me t
+[Speaker fe016] .
+[Speaker me013] " " I mean , my point was just if you wanted to say to somebody , what have we learned about overlaps here ? just never mind comparison with something else ,
+[Speaker fe016] Mm - hmm
+[Speaker me013] 've what
+[Speaker fe016] .
+[Speaker me013] we learned about is overlaps in this situation , is that the first - order 's the first thing I would say is that there a lot of them .
+[Speaker mn005] Yeah
+[Speaker me013] Right ?
+[Speaker mn005] .
+[Speaker me013] In in the sense that i if you said
+[Speaker fe016] Yeah
+[Speaker me013] if
+[Speaker fe016] , I
+[Speaker me013] i i
+[Speaker fe016] I
+[Speaker me013] i
+[Speaker fe016] don't di
+[Speaker me013] In 'm a way , I guess what I
+[Speaker fe016] I agree
+[Speaker me013] comparing
+[Speaker fe016] with
+[Speaker me013] to is more the
+[Speaker fe016] that
+[Speaker me013] common
+[Speaker fe016] .
+[Speaker me013] sense notion of how how much people overlap . Uh you know the fact that when when when , uh Adam , was looking for a stretch of of speech before , that didn't have any overlaps , and he w he was having such a hard time and " 's now I look at this and I go , well , I can see why he was having
+[Speaker fe016] Right
+[Speaker me013] such
+[Speaker fe016] .
+[Speaker me013] a hard time
+[Speaker fe016] That 's
+[Speaker me013] " . It happening
+[Speaker fe016] also true
+[Speaker me013] a lot
+[Speaker fe016] of Switchboard
+[Speaker me013] .
+[Speaker fe016] .
+[Speaker me013] I
+[Speaker fe016] It
+[Speaker me013] wasn't
+[Speaker fe016] may
+[Speaker me013] saying it
+[Speaker fe016] not
+[Speaker me013] wasn't
+[Speaker fe016] be
+[Speaker me013] .
+[Speaker fe016] Right 's . So
+[Speaker me013] Right
+[Speaker fe016] it
+[Speaker me013] ?
+[Speaker fe016] just , um
+[Speaker me013] I was commenting about this .
+[Speaker fe016] OK .
+[Speaker me013] 'm I saying if
+[Speaker fe016] All 'm
+[Speaker me013] I
+[Speaker fe016] I saying
+[Speaker me013] 'm
+[Speaker fe016] is
+[Speaker me013] I
+[Speaker fe016] that
+[Speaker me013] saying if
+[Speaker fe016] from
+[Speaker me013] I have
+[Speaker fe016] the
+[Speaker me013] this complicated thing in front of me , and 're we sh which , you know we gonna get much more sophisticated about when we get lots more data , But Then , if I was gonna describe to somebody what did you learn 'd " - order right here , about , you know , the the modest amount of data that was analyzed I say , Well , the first thing was there was a lot of overlaps " . In fact 's and it not just an overlap bunch - order of overlaps second thing is it 's not just a bunch of overlaps in one particular point ,
+[Speaker me011] Right .
+[Speaker me013] but 's that there overlaps , uh throughout the thing . And 's 's
+[Speaker fe016] Right
+[Speaker me013] that interesting
+[Speaker fe016] . No , I
+[Speaker me013] .
+[Speaker fe016] I
+[Speaker me013] That
+[Speaker fe016] agree
+[Speaker me013] all .
+[Speaker fe016] with that . I 'm just saying that it may the reason you get overlaps may or may not be due to sort of the number of people
+[Speaker me013] Oh
+[Speaker fe016] in
+[Speaker me013] yeah
+[Speaker fe016] the
+[Speaker me013] .
+[Speaker fe016] meeting .
+[Speaker me013] Yeah .
+[Speaker fe016] And
+[Speaker me013] Yeah , I wasn't making any
+[Speaker fe016] that 's
+[Speaker me013] statement
+[Speaker fe016] all
+[Speaker me013] about
+[Speaker fe016] . And
+[Speaker me013] that
+[Speaker fe016] and
+[Speaker me013] .
+[Speaker fe016] it would
+[Speaker me013] Yeah .
+[Speaker fe016] actually be interesting to find out because some of the data say Switchboard , which isn't exactly the same kind of context , I mean these are two people who don't know each other and so forth , But we should still be able to somehow say what what is the added contra contribution to sort of overlap time of each additional person
+[Speaker me011] Yep .
+[Speaker fe016] ,
+[Speaker me011] I
+[Speaker me013] Yeah
+[Speaker fe016] or
+[Speaker me011] could
+[Speaker me013] , that
+[Speaker fe016] something
+[Speaker me011] certainly
+[Speaker me013] would be
+[Speaker fe016] like
+[Speaker me013] good
+[Speaker fe008] OK
+[Speaker me013] to
+[Speaker me018] What
+[Speaker fe016] that
+[Speaker me013] know
+[Speaker me011] see
+[Speaker fe008] ,
+[Speaker me013] , but
+[Speaker me011] it
+[Speaker me013] w
+[Speaker fe016] .
+[Speaker fe008] now
+[Speaker me011] going
+[Speaker me013] we
+[Speaker fe008] .
+[Speaker me011] either
+[Speaker fe008] - 's
+[Speaker me011] way
+[Speaker fe008] Wh
+[Speaker me011] .
+[Speaker fe008] yeah , I I
+[Speaker fe016] But yeah
+[Speaker fe008] agree I agree
+[Speaker fe016] .
+[Speaker fe008] with
+[Speaker mn005] Yeah
+[Speaker fe008] Adam . And the reason
+[Speaker mn005] .
+[Speaker fe008] is because I think there a limit 's there an upper bound on how many you can have , simply from the standpoint of audibility . When we speak
+[Speaker me013] Mm - hmm
+[Speaker fe016] Right
+[Speaker fe008] we
+[Speaker me013] .
+[Speaker fe008] we
+[Speaker fe016] .
+[Speaker fe008] do make a judgment of " can " you know , as adults . I mean , children don't adjust so well , I mean , if a truck goes rolling past , adults
+[Speaker me013] Mm - hmm
+[Speaker fe008] will
+[Speaker me013] .
+[Speaker fe008] well , depending , but mostly , adults will will will hold off to what to finish the end of the sentence till the till the noise is past . And I think we generally do monitor things like that , about
+[Speaker fe016] Right
+[Speaker fe008] whether
+[Speaker fe016] .
+[Speaker fe008] we whether our utterance will be in the clear or not . 's And partly it related to rhythmic structure in conversation , so , you know , you you t Yeah , this is d also um , people
+[Speaker me018] Well
+[Speaker fe008] tend to time their their their , um when they come into the conversation based on the overall rhythmic , uh uh
+[Speaker fe016] Right
+[Speaker fe008] ,
+[Speaker fe016] .
+[Speaker fe008] ambient thing . - cutting So you don't want to be c cross . And and , just to finish this , that um That I think that there may be an upper bound on how many overlaps you can have , simply from the standpoint of audibility and how loud the other people are who are already in the fray . But I you know , of certain types . Now 's if it just backchannels , people may be doing that with less intention of being heard , just sort of spontaneously doing backchannels , in which case that those might there may be no upper bound on
+[Speaker mn017] I
+[Speaker fe008] those
+[Speaker mn017] I have
+[Speaker fe008] .
+[Speaker mn017] a feeling that backchannels , which are the vast majority of overlaps in Switchboard , 's uh , don't play as big a role here , because it very unnatural - audience I think , to backchannel if in a multi you - person know , in a multi
+[Speaker fe016] If you can
+[Speaker mn017] audience
+[Speaker fe016] see them ,
+[Speaker mn017] .
+[Speaker fe016] actually . It 's interesting , so if you
+[Speaker mn017] Right
+[Speaker fe016] watch
+[Speaker mn017] .
+[Speaker fe016] people are going like
+[Speaker mn005] Yeah
+[Speaker fe016] Right right
+[Speaker mn005] .
+[Speaker fe016] , like this here , but
+[Speaker me013] u
+[Speaker fe016] That may
+[Speaker mn017] But
+[Speaker fe016] not
+[Speaker mn017] 's 's 's
+[Speaker fe016] be the case
+[Speaker mn017] but
+[Speaker fe016] if
+[Speaker mn017] , it sort
+[Speaker fe016] you
+[Speaker mn017] of odd
+[Speaker fe016] couldn't
+[Speaker mn017] if one
+[Speaker fe016] see them
+[Speaker mn017] person
+[Speaker fe016] .
+[Speaker mn017] speaking and everybody listening , and it 's " - huh - huh unusual to have everybody going uh , uh "
+[Speaker me013] Actually 've , I think I done it a @ @ fair number of times today . But .
+[Speaker fe016] Yeah . There 's - nodding
+[Speaker me011] Um
+[Speaker fe016] a lot of head
+[Speaker me011] .
+[Speaker fe016] , in this
+[Speaker mn017] Yeah
+[Speaker fe016] @ @
+[Speaker me011] Yep
+[Speaker mn017] .
+[Speaker me011] , we need to put trackers on it
+[Speaker me018] - person In
+[Speaker me011] .
+[Speaker me018] in the two
+[Speaker mn005] Yeah , yeah , yeah .
+[Speaker fe008] He
+[Speaker mn017] Plus
+[Speaker fe008] could
+[Speaker mn017] plus
+[Speaker fe008] ,
+[Speaker mn017] plus
+[Speaker fe008] he could
+[Speaker mn017] the
+[Speaker fe008] .
+[Speaker mn017] Yeah . So so actually um , That 's in part because the nodding , if you have visual contact , the nodding has the same function , but on the phone , in Switchboard you you that wouldn't work
+[Speaker me011] Yeah , you
+[Speaker mn017] . So
+[Speaker me011] don't have it .
+[Speaker mn017] so you need to use the backchannel
+[Speaker me011] Your
+[Speaker mn017] .
+[Speaker me011] mike is
+[Speaker me018] So - person , in the two conversations , 's when there backchannel , is there a great deal
+[Speaker me011] That 's
+[Speaker me018] of
+[Speaker me011] is an earphone , so if you
+[Speaker me018] overlap
+[Speaker me011] just put it so
+[Speaker me018] in
+[Speaker me011] it on
+[Speaker me018] the
+[Speaker me011] your
+[Speaker me018] speech
+[Speaker me011] ear
+[Speaker me018] ? or
+[Speaker me011] .
+[Speaker me018] Cuz my
+[Speaker fe016] Yes
+[Speaker me011] There
+[Speaker me018] impression
+[Speaker me011] you go
+[Speaker fe016] .
+[Speaker me011] .
+[Speaker me018] is sometimes
+[Speaker fe016] Yeah .
+[Speaker me011] Thank you .
+[Speaker fe008] E
+[Speaker me018] it 's
+[Speaker fe008] for
+[Speaker me018] happens
+[Speaker fe008] example
+[Speaker me018] when
+[Speaker fe008] .
+[Speaker me018] there a pause , you know , like you
+[Speaker fe016] Yes
+[Speaker me018] you
+[Speaker fe016] .
+[Speaker me018] get 's a lot of backchannel
+[Speaker fe016] Right
+[Speaker me018] , when somebody
+[Speaker fe016] .
+[Speaker me018] pausing
+[Speaker fe008] She 's doing that .
+[Speaker fe016] Sorry , what were you saying ?
+[Speaker me018] It 's hard to do both , huh ? Um 's no
+[Speaker fe016] Oh
+[Speaker me018] , when
+[Speaker fe016] .
+[Speaker me018] when when there backchannel , I mean , just I was just listening , and and 's 's when there two people talking and there backchannel it seems like , um the backchannel happens when , you know , the pitch drops and the first person and 's a lot of times , the first person actually stops talking and then there a backchannel 'm and then they start up again , and so I wondering about h I just wonder how much overlap there is . Is there a lot ?
+[Speaker fe016] I 's think there a lot of the kind that Jose was talking about , where I " mean , this is called precision timing " in conversation analysis , where they come in overlapping , but at a point where the information is mostly complete . So 're all you missing is some last syllables or something or
+[Speaker me018] Mmm
+[Speaker fe016] the last word
+[Speaker me018] .
+[Speaker fe016] or some highly predictable words . 's
+[Speaker me018] Mm - hmm
+[Speaker fe016] So
+[Speaker me018] .
+[Speaker fe016] technically , it an overlap . But
+[Speaker me018] But maybe
+[Speaker fe016] you 's
+[Speaker me018] a just a small overlap
+[Speaker fe016] know , from
+[Speaker me018] ?
+[Speaker fe016] information
+[Speaker mn005] More , yeah
+[Speaker fe016] flow
+[Speaker mn005] .
+[Speaker fe016] point of view it not an overlap in the predictable information
+[Speaker me011] It 'd be interesting
+[Speaker me018] I
+[Speaker fe016] .
+[Speaker me018] was just thinking
+[Speaker me011] if we
+[Speaker me018] more
+[Speaker me011] could
+[Speaker me018] in terms
+[Speaker me011] do
+[Speaker me018] of
+[Speaker me011] prediction
+[Speaker me018] alignment ,
+[Speaker me011] .
+[Speaker me018] alignment overlap .
+[Speaker fe016] Yeah .
+[Speaker me011] Language model prediction of overlap , that would be really interesting
+[Speaker mn017] So
+[Speaker me013] Yeah
+[Speaker me011] .
+[Speaker me013] .
+[Speaker mn017] so
+[Speaker fe016] Well 's , that exactly , exactly why we wanted to study the precise timing
+[Speaker mn017] Right .
+[Speaker me011] Right .
+[Speaker fe016] of overlaps ins in uh 's Switchboard ,
+[Speaker mn017] 's 's So
+[Speaker fe016] say ,
+[Speaker mn017] so
+[Speaker fe016] because
+[Speaker mn017] here
+[Speaker fe016] there a lot
+[Speaker mn017] a
+[Speaker fe016] of that
+[Speaker mn017] here
+[Speaker fe016] .
+[Speaker mn017] a first interesting labeling task . Uh
+[Speaker me011] Mm - hmm
+[Speaker mn017] , to
+[Speaker me011] .
+[Speaker mn017] distinguish between , say , backchannels precision timing Sort of you know , benevolent overlaps , and and and
+[Speaker me011] Let 's pick
+[Speaker mn017] w
+[Speaker me011] a different
+[Speaker mn017] and
+[Speaker me011] word .
+[Speaker mn017] and sort of , um I don't know , hostile overlaps , where someone is trying to grab the floor from someone
+[Speaker mn005] Yeah
+[Speaker mn017] else
+[Speaker mn005] .
+[Speaker mn017] . Uh , that that might be an interesting , um problem to
+[Speaker mn005] Yeah
+[Speaker me018] Hostile
+[Speaker mn017] look
+[Speaker mn005] .
+[Speaker mn017] at
+[Speaker me018] takeovers
+[Speaker mn017] .
+[Speaker mn005] Yeah
+[Speaker me013] Yeah
+[Speaker me018] .
+[Speaker me013] .
+[Speaker mn005] .
+[Speaker fe008] Well
+[Speaker mn005] Yeah
+[Speaker fe008] , I mean you
+[Speaker mn005] .
+[Speaker fe008] could do that . I ju I I think that in this meeting I really had the feeling that wasn't happening , that the hostile hostile type . These
+[Speaker mn017] OK
+[Speaker fe008] were
+[Speaker mn017] .
+[Speaker fe008] these
+[Speaker fe016] Mm - hmm
+[Speaker fe008] were benevolent types
+[Speaker fe016] .
+[Speaker fe008] , as people 's finishing each other sentences
+[Speaker mn017] Um 's , I
+[Speaker fe008] , and
+[Speaker mn017] could imagine
+[Speaker fe008] stuff
+[Speaker mn017] that
+[Speaker fe008] .
+[Speaker mn017] as there a fair number of um cases where , and this is sort of , not really hostile , but sort of competitive , where one person is finishing something and you have , like , two or three people jumping
+[Speaker me011] Trying
+[Speaker mn017] trying
+[Speaker me011] to get
+[Speaker mn017] to
+[Speaker me011] the floor
+[Speaker mn017] trying to
+[Speaker me011] .
+[Speaker mn017] trying to , uh grab the next turn .
+[Speaker me013] Yeah .
+[Speaker mn017] And 's so it not against the person who talks first because 're actually we all waiting for that person to finish . But they all want to be next .
+[Speaker me013] I have a feeling most of these things are that that are not a benevolent kind are are are , uh um are are competitive as opposed to real really
+[Speaker mn017] Right
+[Speaker me013] really
+[Speaker mn017] .
+[Speaker me013] hostile
+[Speaker fe008] Yeah
+[Speaker me013] .
+[Speaker fe008] , I
+[Speaker me013] But
+[Speaker me018] I wonder
+[Speaker fe008] agree
+[Speaker me013] .
+[Speaker me018] what
+[Speaker fe008] .
+[Speaker me018] determines
+[Speaker fe008] I agree .
+[Speaker me018] who gets the floor ?
+[Speaker fe008] Well
+[Speaker me018] I
+[Speaker fe008] , there
+[Speaker me018] mean
+[Speaker fe008] are various things
+[Speaker me013] Uh
+[Speaker fe008] , you you
+[Speaker me013] a
+[Speaker fe008] have
+[Speaker me013] vote
+[Speaker fe008] the
+[Speaker me011] It 's been
+[Speaker me013] vote
+[Speaker me011] studied
+[Speaker me013] in
+[Speaker me011] a
+[Speaker me013] Florida
+[Speaker me011] lot .
+[Speaker me013] . Yeah .
+[Speaker mn005] Voting for
+[Speaker me013] Um , o one thing I I wanted to or 's you can tell a good joke and then everybody laughing and you
+[Speaker mn017] Seniority
+[Speaker me013] get a chance to g break
+[Speaker mn017] .
+[Speaker me013] in . But . But . Um . You know , the other thing I was thinking was that , um these all these interesting questions are , of course , pretty hard to answer with , uh u you know , a small amount of data . @ @
+[Speaker me011] Ach .
+[Speaker me013] So 're , um I wonder if what you saying suggests that we should make a conscious attempt to have , um a a fair number of meetings with , uh a smaller number of people . Right ? I mean we most of our meetings are uh , meetings currently with say five , six , seven , eight people Should we - person - person really try to have some two meetings , or some three meetings and re record them just to to to beef
+[Speaker fe008] That 's
+[Speaker me013] up
+[Speaker fe008] a control
+[Speaker me013] the
+[Speaker fe008] .
+[Speaker me013] the statistics on that ?
+[Speaker fe008] Well , it seems like there are two possibilities there , I mean i it seems like if you have just 's two people it not really , y like a meeting , w is not as similar as the rest of the of the sample . 're It depends on what you after , of course , but It seems like that would be more a case of the control condition , compared to
+[Speaker me011] Mm - hmm
+[Speaker fe008] , uh an experimental
+[Speaker me011] .
+[Speaker fe008] condition , with more than two .
+[Speaker me013] Well 's 's , Liz was raising the question of of whether i it the number there a relationship between the number of people and the number of overlaps
+[Speaker fe008] Mm - hmm
+[Speaker me013] or type of
+[Speaker fe008] .
+[Speaker me013] overlaps there , and , um If 'd you had two people meeting in this kind of circumstance then you still have the visuals . You wouldn't have that difference also that you have in the say , in Switchboard data .
+[Speaker fe008] Mm - hmm .
+[Speaker me013] Uh
+[Speaker fe008] Yeah 'm 'd , I just thinking that be more like a c control condition .
+[Speaker me013] Yeah .
+[Speaker fe008] Mm - hmm .
+[Speaker me011] Well
+[Speaker mn005] Yeah
+[Speaker me011] , but from the
+[Speaker mn005] .
+[Speaker me011] acoustic point of view , it 's all good
+[Speaker mn005] Is
+[Speaker me011] .
+[Speaker mn005] the same .
+[Speaker me013] Yeah , acoustic is fine
+[Speaker mn017] If
+[Speaker me013] , but
+[Speaker mn017] if the goal were to just look at overlap you would you could serve yourself save yourself a lot of time but not even transcri transcribe the words .
+[Speaker me011] Yep
+[Speaker fe016] Well , I was
+[Speaker me011] .
+[Speaker fe016] thinking you should be able to do this from - talking the acoustics , on the close mikes
+[Speaker me011] 's
+[Speaker fe016] ,
+[Speaker me011] Well , that
+[Speaker me013] Yeah .
+[Speaker me011] the that
+[Speaker fe008] You 've been
+[Speaker me011] was
+[Speaker fe008] working
+[Speaker me011] my
+[Speaker fe016] right
+[Speaker fe008] on
+[Speaker fe016] ?
+[Speaker me011] my
+[Speaker fe008] that
+[Speaker fe016] Right
+[Speaker me011] status
+[Speaker fe016] , I
+[Speaker fe008] .
+[Speaker fe016] mean
+[Speaker me011] report
+[Speaker fe016] Adam
+[Speaker fe008] Yeah
+[Speaker mn005] Yeah
+[Speaker fe016] was
+[Speaker me011] , so
+[Speaker mn005] .
+[Speaker me011] 're
+[Speaker fe008] .
+[Speaker fe016] right .
+[Speaker me011] Once
+[Speaker me013] Yeah
+[Speaker fe016] I
+[Speaker me011] we
+[Speaker fe016] mean
+[Speaker me011] done
+[Speaker me013] .
+[Speaker fe016] , not
+[Speaker me011] with
+[Speaker fe016] as
+[Speaker me011] this
+[Speaker fe016] well
+[Speaker me011] stuff discussing
+[Speaker fe016] as what I mean , you
+[Speaker me011] ,
+[Speaker fe016] wouldn't be able to have any kind of typology , obviously
+[Speaker me011] Mm - hmm
+[Speaker fe016] , but
+[Speaker me011] .
+[Speaker fe016] you 'd get some rough statistics .
+[Speaker me013] But
+[Speaker fe016] So .
+[Speaker me013] what what do you think about that ? Do 'm - person you think that would be useful ? I just thinking that as an action item of whether we should try to record some two
+[Speaker fe016] I guess
+[Speaker me013] meetings
+[Speaker fe016] my
+[Speaker me013] or something
+[Speaker fe016] my first
+[Speaker me013] .
+[Speaker fe016] comment was , um only that um we 's should n not attribute overlaps only to meetings , but maybe that obvious , maybe everybody
+[Speaker me013] Yeah .
+[Speaker fe016] knew that , but that in normal conversation 's with two people there an awful lot of the same kinds of overlap ,
+[Speaker me013] Mm - hmm
+[Speaker fe016] and that
+[Speaker me013] .
+[Speaker fe016] it would be interesting to look at whether there are these kinds of constraints that Jane mentioned , that what maybe the additional people add to this competition that happens right after a turn , you know , because now you can have five people trying to grab the turn , but pretty quickly there 're they back off and you go back to this sort of only one person at a time with one person
+[Speaker me013] Mm - hmm
+[Speaker fe016] interrupting
+[Speaker me013] .
+[Speaker fe016] at a time . So 's , I don't know . To answer your question I it I don't think it crucial to have controls 's but I think it worth recording all the meetings we
+[Speaker me011] Can
+[Speaker fe016] can
+[Speaker me011] .
+[Speaker fe016] .
+[Speaker me013] Well
+[Speaker mn005] Yeah
+[Speaker fe016] So
+[Speaker me013] , OK
+[Speaker mn005] .
+[Speaker fe016] , um
+[Speaker me013] .
+[Speaker mn017] I I have an idea
+[Speaker fe016] you know
+[Speaker mn017] .
+[Speaker fe016] . D - person I wouldn't not record a two meeting
+[Speaker me011] Right
+[Speaker fe016] just because
+[Speaker me011] .
+[Speaker fe016] it only has
+[Speaker mn017] Could
+[Speaker fe016] two
+[Speaker mn017] we
+[Speaker fe016] people .
+[Speaker mn017] Could we , um we have have in the past and I think continue will continue to have a fair number of uh phone conference calls .
+[Speaker me013] Uh - huh
+[Speaker me011] Yeah
+[Speaker me013] .
+[Speaker me011] , we talked
+[Speaker mn017] And
+[Speaker me011] about this
+[Speaker mn017] ,
+[Speaker me011] repeatedly .
+[Speaker mn017] uh , and as a to , um as another c c comparison condition , we could um see what what what happens in terms of overlap , when you don't have visual contact . So , um
+[Speaker fe016] Can we actually
+[Speaker me011] It 's 're just
+[Speaker fe016] record
+[Speaker me011] seems like that
+[Speaker fe016] ?
+[Speaker me011] a very different
+[Speaker me013] Uh
+[Speaker me011] thing than what we
+[Speaker fe016] I mean
+[Speaker me011] doing
+[Speaker me013] Well 'll
+[Speaker me011] .
+[Speaker me013] , we
+[Speaker fe016] physically
+[Speaker me013] have to set up
+[Speaker fe016] can
+[Speaker me013] for
+[Speaker fe016] we
+[Speaker me013] it .
+[Speaker fe016] record
+[Speaker me013] Yeah .
+[Speaker fe016] the o the other
+[Speaker me013] Well 're , we not really set up for it to do that . But .
+[Speaker mn017] Or ,
+[Speaker me013] Yeah .
+[Speaker mn017] this is getting a little extravagant , we could put up some kind of blinds
+[Speaker me011] Barriers
+[Speaker mn017] or something
+[Speaker me011] !
+[Speaker mn014] Yeah
+[Speaker mn017] to
+[Speaker mn014] .
+[Speaker mn017] to remove , uh
+[Speaker fe016] That 's what they
+[Speaker mn017] visual
+[Speaker fe016] did
+[Speaker mn017] contact
+[Speaker fe016] on Map
+[Speaker mn017] .
+[Speaker fe016] Task , you know , this Map Task corpus ? They ran exactly the same pairs of people with and without visual 's cues and it quite interesting .
+[Speaker me013] Well , we we record this meeting so regularly it wouldn't be that I mean
+[Speaker me011] OK
+[Speaker me013] a
+[Speaker me011] , we can
+[Speaker me013] little
+[Speaker me011] record
+[Speaker me013] strange
+[Speaker me011] , but no
+[Speaker me013] .
+[Speaker me011] one can look at each other .
+[Speaker fe016] Well , we could
+[Speaker mn014] Yeah
+[Speaker fe016] just
+[Speaker mn014] .
+[Speaker fe016] put
+[Speaker me011] Close
+[Speaker mn017] Well
+[Speaker fe016] b
+[Speaker me011] your
+[Speaker mn017] y
+[Speaker me011] eyes
+[Speaker mn017] no
+[Speaker fe016] blindfolds
+[Speaker mn017] you
+[Speaker me011] .
+[Speaker fe008] - Blindf
+[Speaker mn017] f Yeah
+[Speaker fe016] on .
+[Speaker mn017] ,
+[Speaker me011] Turn off the
+[Speaker mn017] Yeah
+[Speaker me011] lights
+[Speaker mn017] .
+[Speaker me011] .
+[Speaker fe016] and 'd we take a picture of everybody sitting here with blindfolds . That would
+[Speaker me013] Oh , th that was the other thing , weren't we gonna take a picture at the beginning of each of these meetings ?
+[Speaker me011] Um , what I had thought we were gonna do is just take pictures of the whiteboards . rather than take pictures of the meeting .
+[Speaker fe008] Well
+[Speaker me011] And
+[Speaker fe008] , linguistic
+[Speaker me011] , uh
+[Speaker fe008] Yeah
+[Speaker me013] Yes
+[Speaker fe008] . Linguistic
+[Speaker me013] .
+[Speaker fe008] anthropologists would would
+[Speaker me013] 's There a head
+[Speaker fe008] suggest
+[Speaker me013] nodding here
+[Speaker fe008] it would
+[Speaker me013] vigorously
+[Speaker fe008] be useful
+[Speaker me013] , yeah .
+[Speaker fe008] to also take a picture of the meeting .
+[Speaker me018] Why
+[Speaker fe008] The
+[Speaker me018] why do we
+[Speaker fe016] Ee -
+[Speaker me018] want
+[Speaker fe016] you
+[Speaker me018] to have a picture of the meeting ?
+[Speaker mn005] @ @
+[Speaker fe008] because
+[Speaker fe016] mean , transc
+[Speaker fe008] you get then the spatial
+[Speaker fe016] no
+[Speaker fe008] relationship of the speakers
+[Speaker mn017] Well , you could
+[Speaker fe008] . And
+[Speaker mn017] do
+[Speaker mn005] Yeah
+[Speaker mn017] that
+[Speaker fe008] that
+[Speaker mn017] by
+[Speaker fe008] could
+[Speaker mn017] just
+[Speaker mn005] Yeah
+[Speaker fe008] be
+[Speaker mn017] noting
+[Speaker mn005] .
+[Speaker mn017] on the enrollment
+[Speaker mn005] Yeah
+[Speaker mn017] sheet
+[Speaker mn005] .
+[Speaker me011] Seat 's
+[Speaker mn017] the
+[Speaker me011] number
+[Speaker mn017] the
+[Speaker me011] , that
+[Speaker mn017] seat
+[Speaker me011] a good idea
+[Speaker mn017] number
+[Speaker me011] .
+[Speaker mn017] .
+[Speaker me011] I 'll 'll do that .
+[Speaker mn005] Yeah
+[Speaker me011] I
+[Speaker mn005] .
+[Speaker me011] do that on the next set of forms .
+[Speaker mn017] So 'd you
+[Speaker mn005] Yeah .
+[Speaker mn017] number them
+[Speaker mn005] Is possible
+[Speaker mn017] somehow
+[Speaker mn005] to get
+[Speaker mn017] .
+[Speaker mn005] information from the
+[Speaker me011] I
+[Speaker mn005] rhythmic
+[Speaker me011] finally
+[Speaker mn005] f
+[Speaker me011] remembered to put
+[Speaker mn005] from
+[Speaker me011] , uh
+[Speaker mn005] the ge , eh uh , files .
+[Speaker me018] We
+[Speaker me011] put
+[Speaker me018] can
+[Speaker me011] native
+[Speaker me018] can't
+[Speaker me011] language
+[Speaker me018] you figure it
+[Speaker me011] on
+[Speaker me018] out from the
+[Speaker me011] the
+[Speaker me018] mike
+[Speaker me011] newer
+[Speaker me018] number
+[Speaker me011] forms
+[Speaker me018] ?
+[Speaker me011] . No .
+[Speaker me018] OK .
+[Speaker me011] The wireless ones . And 'm even the jacks , I mean , I sitting here and the jack is over in front
+[Speaker me018] Oh
+[Speaker me011] of you .
+[Speaker me018] .
+[Speaker fe016] But 've probably from these you could infer it .
+[Speaker mn017] Yeah , but
+[Speaker me011] It would be another
+[Speaker mn017] 's It
+[Speaker me011] task
+[Speaker mn017] it
+[Speaker fe016] It
+[Speaker mn017] would
+[Speaker fe016] would be
+[Speaker mn017] be trivial
+[Speaker fe016] a research
+[Speaker me011] . Having having
+[Speaker fe016] task .
+[Speaker me011] ground tu truth would be nice
+[Speaker me018] You
+[Speaker fe016] Yeah
+[Speaker me018] know where
+[Speaker me011] , so
+[Speaker me018] you could
+[Speaker fe016] ,
+[Speaker me018] get
+[Speaker me011] seat
+[Speaker fe016] yeah
+[Speaker me018] it
+[Speaker fe016] .
+[Speaker me011] number
+[Speaker mn005] Yeah
+[Speaker me018] ?
+[Speaker me011] would
+[Speaker mn005] .
+[Speaker me011] be good
+[Speaker me018] Beam - forming
+[Speaker me011] .
+[Speaker me018] during the digit uh stuff .
+[Speaker me011] So 'm 's I gonna put little labels
+[Speaker mn014] Mm - hmm .
+[Speaker me011] on all the chairs with the seat number . That a good idea .
+[Speaker mn017] Not the
+[Speaker fe016] But
+[Speaker mn017] chairs
+[Speaker fe016] you
+[Speaker me011] But
+[Speaker fe016] have
+[Speaker me011] , uh
+[Speaker fe016] to
+[Speaker mn017] . The
+[Speaker fe016] keep
+[Speaker mn017] chairs
+[Speaker fe016] the chairs
+[Speaker mn017] are Chairs
+[Speaker fe016] in the same
+[Speaker mn017] are movable
+[Speaker fe016] pla
+[Speaker mn017] . Put
+[Speaker fe016] like
+[Speaker mn017] them
+[Speaker fe016] here
+[Speaker mn005] The
+[Speaker mn017] Like
+[Speaker mn005] chair
+[Speaker fe016] .
+[Speaker me011] Yep
+[Speaker mn017] , put
+[Speaker me011] .
+[Speaker mn017] them on the
+[Speaker mn014] Yeah
+[Speaker mn017] table
+[Speaker mn014] .
+[Speaker me011] Yep
+[Speaker mn017] where they
+[Speaker me011] .
+[Speaker mn005] Yeah .
+[Speaker fe008] But you know , they the s the linguistic anthropologists would say it would be good
+[Speaker me018] Just
+[Speaker fe008] to
+[Speaker me018] remembered
+[Speaker fe008] have a digital
+[Speaker me018] a joke
+[Speaker fe008] picture
+[Speaker me018] .
+[Speaker fe008] anyway , because you get a sense also of posture .
+[Speaker mn017] What
+[Speaker me011] Yeah
+[Speaker mn017] people
+[Speaker fe008] Posture
+[Speaker me011] .
+[Speaker mn017] were wearing
+[Speaker fe008] , and we could
+[Speaker mn017] .
+[Speaker fe008] like , you know , 's block
+[Speaker fe016] The
+[Speaker fe008] out
+[Speaker fe016] fashion
+[Speaker fe008] the person
+[Speaker fe016] statement
+[Speaker fe008] face
+[Speaker fe016] .
+[Speaker fe008] or whatever but but
+[Speaker mn017] Oh
+[Speaker fe008] , you know , these
+[Speaker mn017] , Andreas
+[Speaker fe008] are important
+[Speaker mn017] was
+[Speaker fe008] cues
+[Speaker me018] How big
+[Speaker fe008] , I mean
+[Speaker me018] their heads
+[Speaker fe008] the
+[Speaker me018] are .
+[Speaker fe008] the
+[Speaker me013] But
+[Speaker mn017] Yeah
+[Speaker fe008] how
+[Speaker me013] if you just
+[Speaker fe008] a person
+[Speaker mn017] .
+[Speaker me013] f
+[Speaker fe008] is sitting
+[Speaker mn017] Andreas
+[Speaker me013] But
+[Speaker fe008] is
+[Speaker me013] from
+[Speaker mn017] was wearing
+[Speaker me013] one
+[Speaker mn017] that
+[Speaker me013] picture
+[Speaker mn017] same old sweater
+[Speaker me013] , I don't know
+[Speaker mn017] again
+[Speaker me013] that you
+[Speaker mn017] .
+[Speaker me013] really get that . Right ? You 'd want a video
+[Speaker fe008] 'd
+[Speaker me013] for
+[Speaker fe008] It
+[Speaker me013] that
+[Speaker fe008] be better than
+[Speaker me013] , I think
+[Speaker fe008] nothing
+[Speaker me013] .
+[Speaker mn005] A video
+[Speaker fe008] , is is
+[Speaker mn005] , yeah .
+[Speaker fe008] i Just from a single picture I think you can
+[Speaker me013] Think
+[Speaker fe008] tell
+[Speaker me013] so
+[Speaker fe008] some
+[Speaker me013] ?
+[Speaker fe008] aspects . I 'm mean I I
+[Speaker mn017] And
+[Speaker fe008] could tell you I mean , if I
+[Speaker mn017] And
+[Speaker fe008] if I in certain meetings I notice that there are certain people who really do eh The body language is very uh
+[Speaker me013] Hmm
+[Speaker fe008] is very interesting
+[Speaker me013] .
+[Speaker fe008] in terms of the dominance
+[Speaker mn017] Yeah .
+[Speaker fe008] aspect
+[Speaker mn017] And and
+[Speaker fe008] .
+[Speaker mn017] Morgan had that funny hair again .
+[Speaker fe008] Yeah . Well 's , I mean you black
+[Speaker me011] Hmm
+[Speaker fe008] out the
+[Speaker me011] .
+[Speaker fe008] that part But . it just , you know , the the body
+[Speaker me018] He agreed
+[Speaker fe008] you know
+[Speaker me018] .
+[Speaker fe008] ?
+[Speaker me011] Of course , the where we sit at the table , I find is very interesting , that we do tend to cong to gravitate to the same place each
+[Speaker fe008] Yeah
+[Speaker me011] time
+[Speaker fe008] .
+[Speaker me011] . and 's 'm it somewhat coincidental . I sitting here so that I can run into the room if the hardware starts , you know , catching
+[Speaker mn017] 's 're Oh
+[Speaker me011] fire
+[Speaker mn017] , no , you
+[Speaker me011] or something
+[Speaker mn017] you just
+[Speaker me011] .
+[Speaker mn017] like to be in charge , that
+[Speaker me011] I just
+[Speaker mn017] why
+[Speaker me011] want
+[Speaker mn017] you
+[Speaker me011] to
+[Speaker mn017] sitting
+[Speaker me011] be at the head of the table
+[Speaker mn017] Yeah
+[Speaker me011] .
+[Speaker mn017] .
+[Speaker me011] Take control .
+[Speaker me013] Speaking of taking control , you said you had some research
+[Speaker fe008] Yeah .
+[Speaker me011] Yeah 've , I
+[Speaker me013] to
+[Speaker me011] been
+[Speaker me013] talk
+[Speaker fe008] Yeah
+[Speaker me011] playing
+[Speaker fe008] .
+[Speaker me013] about .
+[Speaker me011] with , um uh - talking 's , using the close mike to do to try to figure out who speaking . So my first attempt was just using thresholding and filtering , that we talked about about two weeks ago , and so I played with that a little bit , and it K works O , except that 's it very sensitive to your choice of your filter width and your threshold . So 's 're if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone talking and when they not . But if you try to use the same paramenters on another speaker , it doesn't work anymore , even if you normalize it based on the absolute loudness .
+[Speaker fe016] But does it work for that one speaker throughout the whole meeting ?
+[Speaker me011] It does work for the one speaker throughout the whole meeting . Um Pretty well . Pretty
+[Speaker me018] How
+[Speaker me011] well
+[Speaker me018] did you
+[Speaker me011] .
+[Speaker me018] do it Adam ?
+[Speaker me011] How did I do it ? What
+[Speaker me018] Yeah
+[Speaker me011] do you
+[Speaker me018] .
+[Speaker me011] mean ?
+[Speaker me018] I mean , wh what was the
+[Speaker me011] The algorithm was
+[Speaker me018] Yeah .
+[Speaker me011] , uh take o 's every frame that over the threshold , and - filter then median it ,
+[Speaker me018] Mm - hmm
+[Speaker me011] and
+[Speaker me018] .
+[Speaker me011] then look for runs . So there was a minimum run length
+[Speaker me018] Every 's
+[Speaker me011] , so that
+[Speaker me018] frame that over what threshold ?
+[Speaker me011] A threshold that you pick .
+[Speaker me018] In terms of energy ?
+[Speaker me011] Yeah .
+[Speaker me018] Ah ! OK .
+[Speaker fe008] Say that again ? Frame over fres threshold
+[Speaker me011] So 's 's you take
+[Speaker fe008] .
+[Speaker me011] a each frame , and you compute the energy and if it over the threshold you set it to one , and if it under the threshold you set it to zero ,
+[Speaker fe008] Hmm
+[Speaker me011] so
+[Speaker fe008] .
+[Speaker me011] now you have a bit stream of zeros
+[Speaker fe008] OK
+[Speaker me011] and
+[Speaker fe008] .
+[Speaker me011] ones . And - filtered then I median that using , um a fairly long filter length . Uh well , actually I guess depends on what you mean by long , you know , tenth of a second sorts of numbers . Um and 's that to average out you know , pitch , you know , the pitch contours , and things like that . And then , uh looked for long runs .
+[Speaker fe008] OK
+[Speaker me011] And K 're that works O , if you fil if you tune the filter parameters , if you tune how long your median filter is and how high you looking for your thresholds .
+[Speaker me018] Did you ever try running the filter before you pick a threshold ?
+[Speaker me011] No . I certainly could though . But this was just I had the program mostly written already so it was easy to do . OK and then the other thing I did , was I took Javier 's - change - change - talking speaker detector acoustic detector , and I implemented that with the close mikes , 's 's and unfortunately that not working real well , and it looks like it the problem is he does it in two passes , the first pass is to find candidate places to do a break . And he does that using a neural net doing broad phone classification and he has the the , uh one of the phone classes is silence . And so the possible breaks are where silence starts and ends . And then he has a second pass which is a modeling a Gaussian mixture model . Um looking for uh whether it improves or or degrades to split at one of those particular places . 's And what looks like it happening is that the even - talking on the close mike the 's broad phone class classifier doing a really bad job .
+[Speaker me018] Who was it trained on ?
+[Speaker me011] Uh , I have no idea . I don't
+[Speaker me018] Hmm
+[Speaker me011] remember
+[Speaker me018] .
+[Speaker me011] . Does an do you remember , Morgan , was it Broadcast News ?
+[Speaker me013] I think so , yeah .
+[Speaker me011] Um So 'm , at any rate , my next attempt , which I in the midst of and haven't quite finished yet was actually using the uh , thresholding as the way of generating the candidates . Because one of the things that definitely happens is if you put the threshold low you get lots of breaks . All of which are definitely acoustic events . They 're definitely someone talking . But , like , it could be someone who isn't the person here , but the person over there or it can be the person breathing . And then feeding that into the acoustic change detector . And so I think that might work . But , I haven't gotten very far on that . But - talking all of this is close mike , so 's it , uh
+[Speaker mn005] Only with
+[Speaker me011] just
+[Speaker mn005] eh
+[Speaker me011] just trying to get some ground truth
+[Speaker mn005] uh ,
+[Speaker me011] .
+[Speaker mn005] but eh I I I think , eh when when , y I I saw the the the the speech from PDA and , eh close talker . I I think the there is a a great difference in the in the signal
+[Speaker me011] Oh , absolutely
+[Speaker mn005] .
+[Speaker me011] . So
+[Speaker mn005] Um
+[Speaker me011] s my intention for this
+[Speaker mn005] but
+[Speaker me011] is is
+[Speaker mn005] eh
+[Speaker me011] as
+[Speaker mn005] I
+[Speaker me011] an aide for ground truth .
+[Speaker mn005] but
+[Speaker me011] not
+[Speaker mn005] eh I I I mean that eh eh in the in the mixed file you can find , uh zone with , eh great different , eh level of energy . Um I I think for , eh algorithm based on energy , eh , that um h mmm , more or less , eh , like eh eh , mmm , first sound energy detector .
+[Speaker me011] Say it again ?
+[Speaker mn005] eh nnn . When y you the detect the the the first at at the end of of the detector of , ehm princ um . What is the the name in English ? the the , mmm , the de detector of , ehm of a word in the in the s in an isolated word in in
+[Speaker me011] 'm 'm 're I
+[Speaker mn005] the background
+[Speaker me011] I not sure what you saying , can you try
+[Speaker mn005] That , uh I mean that when when you use , eh eh any
+[Speaker me018] I 's think he saying the onset detector .
+[Speaker mn005] Yeah .
+[Speaker me011] Onset detector , OK .
+[Speaker mn005] I 's I think it probably to work well eh , because , eh you have eh , in the mixed files a great level of energy . eh and great difference between the sp speaker . And probably is not so easy when you use the the PDA
+[Speaker me011] Right .
+[Speaker mn005] , eh that Because the signal is , eh the in the e energy level . in in that , eh eh speech file is , eh more similar .
+[Speaker me011] Right .
+[Speaker mn005] between the different
+[Speaker me011] But different
+[Speaker mn005] eh , speaker
+[Speaker me011] speakers
+[Speaker mn005] ,
+[Speaker me011] .
+[Speaker mn005] um I I think is eh , it will i is my opinion . It will be , eh more difficult to to detect bass - tone energy . the the change . I think that ,
+[Speaker me011] Ah D A 'll
+[Speaker mn005] um
+[Speaker me011] , in the clo in the P , you mean
+[Speaker mn005] In the
+[Speaker me011] ?
+[Speaker mn005] PDA
+[Speaker me011] Absolutely
+[Speaker mn005] .
+[Speaker me011] . Yeah
+[Speaker mn005] Yeah
+[Speaker me011] , no
+[Speaker mn005] .
+[Speaker me011] question
+[Speaker mn005] Yeah .
+[Speaker me011] . It be much harder . Much
+[Speaker me013] Yeah
+[Speaker me011] harder
+[Speaker me013] .
+[Speaker me011] .
+[Speaker mn005] And the the another question , that when I review the the the work of Javier . I think the , nnn , the , nnn , that the idea of using a neural network to to get a broad class of phonetic , eh from , eh uh a candidate from the the the speech signal . If you have , eh uh 'm , I considering , only because Javier , eh only consider , eh like candidate , the , nnn , eh the silence , because it is the
+[Speaker me011] Right
+[Speaker mn005] the only
+[Speaker me011] .
+[Speaker mn005] model , eh eh , he used that , eh eh nnn , to detect the the possibility of a a change between the between the speaker , Um another another research thing , different groups , eh working , eh on Broadcast News prefer to , eh to consider hypothesis eh between each phoneme .
+[Speaker me011] Mm - hmm . Yeah , when a phone changes .
+[Speaker mn005] Because 's , I I I think it more realistic that , uh only consider the the the the silence between the speaker . Eh there there exists eh silence between between , eh a speaker . is is , eh eh acoustic , eh event ,
+[Speaker me013] Mm - hmm
+[Speaker mn005] important to to
+[Speaker me013] .
+[Speaker mn005] consider .
+[Speaker me013] Mm - hmm
+[Speaker mn005] I I
+[Speaker me013] .
+[Speaker mn005] found that the , eh silence in in many occasions in the in the speech file , but , eh when you have , eh eh , two speakers together without enough silence between between them , eh I think eh is better to use the acoustic change detector basically and I I I IX or , mmm , BIC criterion
+[Speaker me013] Mm - hmm
+[Speaker mn005] for
+[Speaker me013] .
+[Speaker mn005] consider all the frames in my opinion .
+[Speaker me013] Yeah , the you know , the reason that he , uh just used silence was not because he thought it was better ,
+[Speaker mn005] Yeah .
+[Speaker me013] it was it was it was the place he was starting .
+[Speaker me011] Yep .
+[Speaker mn005] Yeah
+[Speaker me013] So
+[Speaker mn005] .
+[Speaker me013] , he was trying to get something going
+[Speaker mn005] Yeah , yeah , yeah
+[Speaker me013] , and
+[Speaker mn005] , yeah .
+[Speaker me013] , uh e e you know , as as 're as is in your case , if you here for only a modest
+[Speaker mn005] Yeah
+[Speaker me013] number of
+[Speaker mn005] .
+[Speaker me013] months you try to pick
+[Speaker me011] Do
+[Speaker me013] a
+[Speaker mn005] Yeah
+[Speaker me013] realistic
+[Speaker me011] something
+[Speaker mn005] ,
+[Speaker me013] goal
+[Speaker me011] .
+[Speaker me013] ,
+[Speaker mn005] yeah
+[Speaker me013] But
+[Speaker mn005] , yeah
+[Speaker me013] his
+[Speaker mn005] , yeah
+[Speaker me013] his
+[Speaker mn005] .
+[Speaker me013] goal was always to proceed from there to then allow broad category change also .
+[Speaker mn005] Uh - huh . But , eh do do you think that if you consider all the frames to apply the the , eh the BIC criterion to detect the the the different acoustic change , eh between speaker , without , uh with , uh silence or with overlapping , uh , I think like like , eh eh a general , eh eh way of process the the acoustic change .
+[Speaker me013] Mm - hmm
+[Speaker mn005] In a first step
+[Speaker me013] .
+[Speaker mn005] , I mean .
+[Speaker me013] Mm - hmm .
+[Speaker mn005] - An and then , eh eh without considering the you you you , um you can consider the energy like a another parameter in the in the feature vector
+[Speaker me011] Right . Absolutely
+[Speaker mn005] , eh .
+[Speaker me011] .
+[Speaker me013] Mm - hmm
+[Speaker mn005] This this
+[Speaker me013] .
+[Speaker mn005] is the idea . And if , if you do that , eh eh , with a BIC uh criterion for example , or with another kind of , eh of distance in a first step , and then you , eh you get the , eh the hypothesis to the this change acoustic , eh to po process
+[Speaker me011] Right .
+[Speaker mn005] Because , eh eh , probably you you can find the the eh a small gap of silence between speaker with eh eh a ga mmm , small duration
+[Speaker me013] Mm - hmm .
+[Speaker mn005] Less - tone than , eh two hundred milliseconds for example and apply another another algorithm , another approach like , eh eh detector of ene , eh detector of bass energy to to consider that , eh that , eh zone . of s a small silence between speaker , or another algorithm to to process , eh the the segment between marks
+[Speaker me013] Mm - hmm
+[Speaker mn005] eh
+[Speaker me013] .
+[Speaker mn005] founded by the the the BIC criterion and applied for for each frame . I
+[Speaker me013] Mm - hmm
+[Speaker mn005] think
+[Speaker me013] .
+[Speaker mn005] is , eh nnn , it will be a an an a more general approach the if we compare with use , eh a neural net or another , eh speech recognizer with a broad class or or narrow class , because , in my opinion eh 's it
+[Speaker me013] Mm - hmm .
+[Speaker mn005] in my opinion , eh if you if you change the condition of the speech , I
+[Speaker me013] Mm - hmm
+[Speaker mn005] mean , if
+[Speaker me013] .
+[Speaker mn005] you adjust to your algorithm with a mixed speech file and to , eh to , eh adapt the neural net , eh used by Javier with a mixed file .
+[Speaker me011] With
+[Speaker mn005] uh
+[Speaker me011] the what file ?
+[Speaker mn005] With a m mixed file , with
+[Speaker fe008] " " Mixed
+[Speaker me018] " Mixed
+[Speaker mn005] a the
+[Speaker me018] " .
+[Speaker fe008] .
+[Speaker mn005] mix
+[Speaker me011] " " Mixed
+[Speaker mn005] , mix
+[Speaker me011] ?
+[Speaker mn005] .
+[Speaker me013] Mm - hmm
+[Speaker mn005] Sorry
+[Speaker me013] .
+[Speaker mn005] . And and then you you , eh you try to to apply that , eh , eh , eh , speech recognizer to that signal , to the PDA , eh speech file , I I think you will have problems ,
+[Speaker me011] Oh
+[Speaker mn005] because
+[Speaker me013] Well
+[Speaker me011] , absolutely
+[Speaker mn005] the
+[Speaker me013] , I
+[Speaker mn005] the
+[Speaker me011] . This
+[Speaker mn005] the
+[Speaker me011] is
+[Speaker mn005] the
+[Speaker me011] this
+[Speaker mn005] condition
+[Speaker me011] is not what I was suggesting
+[Speaker mn005] you
+[Speaker me013] I
+[Speaker me011] to do
+[Speaker mn005] you
+[Speaker me011] .
+[Speaker me013] u
+[Speaker mn005] will need t t I I suppose that you will need to to to retrain it .
+[Speaker me013] Look , I I think this
+[Speaker mn005] Really
+[Speaker me013] is a
+[Speaker mn005] ?
+[Speaker me013] One once It 's a I used to work , like , on voiced on voice silence detection , you know , and this is this
+[Speaker mn005] Yeah
+[Speaker me013] kind
+[Speaker mn005] .
+[Speaker me013] of thing . Um If you have somebody who has some experience with this sort of thing , and they work on it for a couple months , they can come up with something that gets most of the cases fairly easily . " " Then you say , OK , I don't just wanna get most of the cases I want it to be really accurate . Then it gets really hard no matter what you do . So " , the p the problem is is that if you say , Well I I have these other data over here , "
+[Speaker mn005] Yeah
+[Speaker me013] that
+[Speaker mn005] .
+[Speaker me013] I learn things from , either explicit training of neural nets or of Gaussian mixture models or whatever . Uh Suppose you don't use any of those things . You say you have looked for acoustic change . Well , what does that mean ? That
+[Speaker mn005] Yeah
+[Speaker me013] that means
+[Speaker mn005] .
+[Speaker me013] you set some thresholds somewhere or something , right ?
+[Speaker mn005] Yeah .
+[Speaker me013] and and so where do you get your thresholds from ? From something that you looked at . So 're you always have this problem , you going to new data um H how are you going to adapt whatever you can very quickly learn about the new data ? Uh 's , if it gonna be different from old data that you have ? And 's I think that a problem
+[Speaker me011] Well 'm - field 'm
+[Speaker me013] with this
+[Speaker me011] , also
+[Speaker me013] .
+[Speaker me011] what I doing right now is not intended to be an acoustic change detector for far mikes . What I doing is - talking trying to use the close mike
+[Speaker mn005] Yeah !
+[Speaker me011] and just use -
+[Speaker mn017] Actually
+[Speaker me018] You have candidates .
+[Speaker me011] Can
+[Speaker mn017] actually
+[Speaker me011] and just
+[Speaker mn017] actually
+[Speaker mn005] the
+[Speaker me011] generate
+[Speaker mn005] candidate
+[Speaker me011] candidate and just
+[Speaker mn005] .
+[Speaker me011] try to get a
+[Speaker mn017] I
+[Speaker me011] first pass at something
+[Speaker me018] to make
+[Speaker me011] that
+[Speaker me018] marking
+[Speaker me011] sort
+[Speaker me018] easier
+[Speaker me011] of works
+[Speaker mn017] Or
+[Speaker me018] . Yeah
+[Speaker me011] . 'm
+[Speaker me018] .
+[Speaker me011] and I haven't spent a lot of time
+[Speaker mn017] OK
+[Speaker me011] on it and
+[Speaker mn017] .
+[Speaker me011] I not intending to
+[Speaker mn017] I
+[Speaker me011] spend a lot of time on it . So .
+[Speaker mn017] um , I , unfortunately , have to run , but , um I can imagine uh building a um model of speaker change detection that takes - field into account both the far and the
+[Speaker me011] Yep .
+[Speaker mn017] uh - talking actually , not just the close mike for that speaker , but actually for
+[Speaker me011] Everyone
+[Speaker mn017] all of
+[Speaker me011] else
+[Speaker mn017] th for
+[Speaker me011] .
+[Speaker mn017] all of the speakers .
+[Speaker me013] Yeah .
+[Speaker mn017] um If you model the the effect that me speaking has on 's your microphone and everybody else microphone , as well as on that , and you build , um basically 'd I think you you would build a an HMM that has as a state space all of the possible
+[Speaker me011] All the Yep
+[Speaker mn017] speaker
+[Speaker me011] .
+[Speaker mn017] combinations
+[Speaker mn005] Yeah .
+[Speaker mn017] and , um you can
+[Speaker me011] It 's
+[Speaker mn017] control
+[Speaker me011] a little big .
+[Speaker mn017] It 's not that big actually , um
+[Speaker me011] Two to the N . Two to the number of people in the meeting .
+[Speaker me013] But Actually
+[Speaker me011] Anyway
+[Speaker me013] , Andreas
+[Speaker me011] .
+[Speaker me013] may maybe
+[Speaker mn005] Yeah
+[Speaker me013] maybe
+[Speaker mn005] .
+[Speaker me013] just something simpler but but along 're the lines of what you saying , I was just realizing , I
+[Speaker mn017] Mmm
+[Speaker me013] used to know this guy who used
+[Speaker mn017] .
+[Speaker me013] to build , uh um , mike mixers automatic mike
+[Speaker mn005] Yeah
+[Speaker me013] mixers
+[Speaker mn017] Mmm
+[Speaker me013] where
+[Speaker mn005] Yeah
+[Speaker me013] , you know
+[Speaker mn005] .
+[Speaker me013] , t in order
+[Speaker mn017] .
+[Speaker me013] to able to turn up the gain , you know , uh
+[Speaker mn017] Mm - hmm
+[Speaker me013] as much
+[Speaker mn017] .
+[Speaker me013] as you can , you you you lower the gain on on the mikes of people who aren't talking , right
+[Speaker mn017] Mm - hmm
+[Speaker me013] ? And then he had
+[Speaker mn017] .
+[Speaker me013] some sort of reasonable way of doing that , but uh , what if you were just looking at very simple measures like energy measures but you don't just compare it to some threshold overall but you compare it to the energy in the other microphones .
+[Speaker me011] I was thinking about doing that originally to find out 's who the loudest , and that person is certainly talking .
+[Speaker me013] Yeah
+[Speaker me011] But I also
+[Speaker me013] .
+[Speaker me011] wanted to find threshold uh , excuse me , mol overlap .
+[Speaker me013] Yeah .
+[Speaker me011] So , not just just
+[Speaker fe008] Mm - hmm .
+[Speaker mn005] But eh ,
+[Speaker me011] the
+[Speaker mn005] I
+[Speaker me011] loudest
+[Speaker mn005] I
+[Speaker me011] .
+[Speaker mn005] Sorry . I I have found that
+[Speaker mn017] Sorry
+[Speaker mn005] when
+[Speaker mn017] , I have to go
+[Speaker mn005] when
+[Speaker mn017] .
+[Speaker me011] OK
+[Speaker mn005] I
+[Speaker me011] .
+[Speaker mn005] I analyzed the the speech files
+[Speaker me011] Could you
+[Speaker mn005] from
+[Speaker me011] fill that
+[Speaker mn005] the
+[Speaker me011] out anyway ?
+[Speaker mn005] , eh mike
+[Speaker me011] Just ,
+[Speaker mn005] , eh from
+[Speaker me011] put your name
+[Speaker mn005] the eh
+[Speaker me011] in
+[Speaker mn005] close
+[Speaker me011] .
+[Speaker mn005] eh
+[Speaker me011] Are 'll y
+[Speaker mn005] microphone
+[Speaker me011] you want me to do it ?
+[Speaker mn005] ,
+[Speaker me011] I do it .
+[Speaker mn005] eh I
+[Speaker me018] But 's he not gonna
+[Speaker mn005] found
+[Speaker me018] even read that
+[Speaker mn005] zones
+[Speaker me018] .
+[Speaker me011] I
+[Speaker me018] Oh
+[Speaker me011] know
+[Speaker me018] .
+[Speaker me011] .
+[Speaker mn005] with a a different level of energy . including overlap zone . including . because , eh eh depend on the position of the of the microph of the each speaker to , eh , to get more o or less energy i in the mixed sign in the signal . and then , if you consider energy to to detect overlapping in in , uh , and you process the the in the the the speech file from the the the mixed signals . The mixed signals , eh . I 's 's I think it it difficult , um only to en with energy to to consider that in that zone We have eh , eh , overlapping zone Eh , if you process only the the energy of the , of each frame .
+[Speaker me013] Well 's , it probably harder , but I I think what I was s nnn noting just 's when he when Andreas raised that , was that there other information to be gained from looking at all of the microphones and you may not need to look at very
+[Speaker mn005] Yeah
+[Speaker me013] sophisticated
+[Speaker mn005] .
+[Speaker me013] things , because 's
+[Speaker mn005] Yeah
+[Speaker me013] if
+[Speaker mn005] .
+[Speaker me013] there if most of the overlaps you know , this doesn't cover , say , three , but if
+[Speaker mn005] Yeah
+[Speaker me013] most
+[Speaker mn005] .
+[Speaker me013] of the overlaps , say , are two , if 's 's the distribution looks like there a couple high ones and
+[Speaker mn005] Yeah
+[Speaker me013] and
+[Speaker me011] And everyone
+[Speaker mn005] .
+[Speaker me013] the rest
+[Speaker mn005] Yeah
+[Speaker me011] else
+[Speaker me013] of them
+[Speaker mn005] .
+[Speaker me011] is
+[Speaker me013] are low
+[Speaker me011] low , yeah
+[Speaker me013] , you
+[Speaker mn005] Yeah
+[Speaker me013] know , what I
+[Speaker me011] .
+[Speaker me013] mean
+[Speaker mn005] .
+[Speaker me013] , there some information there about their distribution
+[Speaker mn005] Yeah
+[Speaker me013] even
+[Speaker mn005] .
+[Speaker me013] with very simple measures .
+[Speaker mn005] Yeah .
+[Speaker me013] Uh , by the way , I had an idea with while I was watching Chuck nodding at a lot of these things , is that we can all wear little bells on our heads ,
+[Speaker mn005] Yeah .
+[Speaker me013] so that
+[Speaker me011] Ding
+[Speaker fe008] 's " Ding
+[Speaker me011] , ding
+[Speaker me013] 'd then you know
+[Speaker mn005] Yeah
+[Speaker fe008] " .
+[Speaker me013] that
+[Speaker me011] , ding
+[Speaker mn005] .
+[Speaker fe008] That cute
+[Speaker me011] , ding
+[Speaker fe008] !
+[Speaker fe016] I 'd
+[Speaker me011] .
+[Speaker fe016] think that be really interesting too , with blindfolds .
+[Speaker me011] " Nodding
+[Speaker fe016] Then
+[Speaker me011] with blindfolds
+[Speaker fe016] Yeah
+[Speaker me011] , " what are you
+[Speaker fe016] . The
+[Speaker me011] nodding
+[Speaker fe016] question
+[Speaker me011] about
+[Speaker fe016] is ,
+[Speaker me011] ?
+[Speaker fe016] like whether
+[Speaker me011] 'm 'm "
+[Speaker fe016] Well
+[Speaker me011] " Sorry
+[Speaker fe016] , trying
+[Speaker me011] , I just
+[Speaker fe016] with
+[Speaker me011] I just
+[Speaker fe016] and
+[Speaker me011] going to sleep .
+[Speaker fe016] with and without , yeah . 's @ @ But then there just one , like .
+[Speaker me013] Yeah .
+[Speaker me018] Actually , I saw a uh a woman at the bus stop the other day who , um , was talking on her cell phone speaking Japanese , and was bowing .
+[Speaker mn005] Yeah
+[Speaker me018] you know
+[Speaker fe016] Oh 's
+[Speaker mn014] Yeah
+[Speaker fe016] ,
+[Speaker me018] , profusely
+[Speaker mn014] .
+[Speaker mn005] Yeah
+[Speaker fe016] yeah
+[Speaker mn005] .
+[Speaker fe016] ,
+[Speaker me018] .
+[Speaker fe016] that
+[Speaker fe008] Ah
+[Speaker me018] Just
+[Speaker fe016] really
+[Speaker me018] , kept
+[Speaker mn005] Yeah
+[Speaker fe016] common
+[Speaker mn005] .
+[Speaker fe008] .
+[Speaker fe016] .
+[Speaker me013] Wow .
+[Speaker fe016] It 's 're 's very difficult if you try while you trying , say , to convince somebody on the phone it difficult not to move your hands . Not
+[Speaker me013] Mm - hmm
+[Speaker fe016] You 'll know , if you
+[Speaker me013] ?
+[Speaker fe016] watch people they actually do these things . So . I still think we should try a a meeting or two with the blindfolds , at least of this meeting that we have lots of recordings
+[Speaker me011] Mm - hmm
+[Speaker fe016] of
+[Speaker me011] .
+[Speaker me013] Yeah , I
+[Speaker fe016] Um
+[Speaker me013] think th
+[Speaker fe016] , maybe for part of the meeting , we don't have to do it the whole meeting .
+[Speaker me013] I 's think it a great idea
+[Speaker fe016] That could
+[Speaker me013] .
+[Speaker fe016] be fun . It 'll
+[Speaker me013] W
+[Speaker fe016] be too hard to make barriers , I was thinking because they have to go all the way
+[Speaker me013] Yeah .
+[Speaker fe016] you know , I can see Chuck even if
+[Speaker me011] Well
+[Speaker fe016] you put
+[Speaker me011] ,
+[Speaker fe016] a barrier
+[Speaker me011] we
+[Speaker fe016] here
+[Speaker me011] could just turn out
+[Speaker fe016] .
+[Speaker fe008] Actually
+[Speaker me011] the lights .
+[Speaker fe008] well also I I can say I made barr barriers for so that the stuff
+[Speaker fe016] Y
+[Speaker fe008] I was doing
+[Speaker fe016] Yeah
+[Speaker fe008] with Collin
+[Speaker fe016] ?
+[Speaker fe008] wha which just used , um this kind of foam board . R really inexpensive . You can you can masking tape it together , these are you
+[Speaker me013] Yeah
+[Speaker fe008] know
+[Speaker me013] .
+[Speaker fe008] , pretty
+[Speaker fe016] But then
+[Speaker fe008] l
+[Speaker fe016] we also
+[Speaker fe008] large
+[Speaker fe016] have
+[Speaker fe008] partitions
+[Speaker fe016] these
+[Speaker fe008] .
+[Speaker fe016] mikes , is the other thing I was thinking , so we need a barrier that doesn't disturb
+[Speaker fe008] 's
+[Speaker me011] The
+[Speaker fe008] It true
+[Speaker me011] acoustics
+[Speaker fe008] , it would
+[Speaker fe016] the
+[Speaker fe008] disturb
+[Speaker fe016] sound
+[Speaker me011] .
+[Speaker fe008] the , um
+[Speaker fe016] ,
+[Speaker fe008] the - range
+[Speaker fe016] um
+[Speaker fe008] the long
+[Speaker me013] Blindfolds
+[Speaker me011] I
+[Speaker fe008] it
+[Speaker me011] think
+[Speaker fe008] would
+[Speaker me011] ,
+[Speaker me013] would be
+[Speaker me011] blindfolds
+[Speaker me013] good .
+[Speaker me011] .
+[Speaker fe016] I
+[Speaker me013] Probably 's
+[Speaker fe016] mean ,
+[Speaker me013] we should
+[Speaker fe016] it
+[Speaker me013] wait
+[Speaker fe016] sounds
+[Speaker me013] until
+[Speaker fe016] weird
+[Speaker me013] after Adam
+[Speaker fe016] but
+[Speaker me013] set up
+[Speaker fe016] but
+[Speaker me013] the mikes
+[Speaker fe016] 's
+[Speaker me013] , But
+[Speaker fe016] you
+[Speaker me013] .
+[Speaker fe016] know it it 's cheap and , uh
+[Speaker fe008] OK
+[Speaker fe016] Be interesting
+[Speaker fe008] .
+[Speaker fe016] to have the camera going .
+[Speaker fe008] 're I think we going to have to work
+[Speaker me018] I 'll
+[Speaker fe008] on
+[Speaker me018] be
+[Speaker fe008] the
+[Speaker me018] peeking
+[Speaker fe008] , uh
+[Speaker me018] .
+[Speaker fe008] on the human subjects
+[Speaker me011] Yeah 's , that right , we didn't
+[Speaker fe008] form
+[Speaker me013] 's That
+[Speaker me011] tell
+[Speaker fe008] . 're "
+[Speaker me011] them we would
+[Speaker fe008] " Do
+[Speaker me011] be
+[Speaker fe008] you
+[Speaker me011] blindfolding
+[Speaker fe008] mind being blindfolded
+[Speaker me011] .
+[Speaker fe008] while you interviewed ?
+[Speaker me013] 's 's 's that that that the one that we videotape . So . Um , I I wanna move this along . Uh I @ @ it 's did have this other agenda item which is , uh uh a list which I sent to uh a couple folks , but um I wanted to get broader input on it , So this is the things that I think we did in the last three months obviously not everything we did but but sort of highlights that I can can tell s some outside person , you know , what what were you actually working on . Um in no particular order uh one , , uh ten , more hours of meeting r meetings recorded , something like that , you know from from , uh three months ago . Uh XML formats and other transcription aspects sorted out and uh sent to IBM . Um , pilot data put together and sent to IBM for transcription , uh - ROMs next batch of recorded data put together on the CD for shipment to IBM ,
+[Speaker me011] Hasn't been sent yet , but
+[Speaker me013] But yeah 's
+[Speaker me011] It 's
+[Speaker me013] , that why I phrased
+[Speaker me011] getting ready
+[Speaker me013] it that
+[Speaker me011] .
+[Speaker me013] way , yeah OK . Um human subjects approval on campus , uh and release forms worked out so the meeting participants have a chance to request audio pixelization of selected parts of the spee their speech . Um audio pixelization software written and tested . Um preliminary analysis of overlaps in the pilot data we have transcribed , - distance and exploratory analysis of long inferences for topic coherence , that was I was wasn't sure if those were the right way that was the right way to describe that because of that little exercise that that you and and Lokendra did .
+[Speaker fe008] What was that called ? The , uh
+[Speaker me013] I 'm - distance
+[Speaker fe008] say again
+[Speaker me013] well
+[Speaker fe008] ?
+[Speaker me013] , I I probably saying this wrong , but what I said was exploratory analysis of long inferences for topic coherence . Something like that . Um so , uh I a lot of that was from , you know , what what what you two were doing so I I sent it to you , and you 's know , please mail me , you know , the corrections or suggestions
+[Speaker me011] Mm - hmm .
+[Speaker me013] for changing I I don't want to make this twice it length but but you know , just im improve it . Um Is there anything
+[Speaker me011] I I
+[Speaker me013] anybody
+[Speaker me011] did a bunch of stuff for supporting of digits .
+[Speaker me013] " Bunch 's of stuff for s " OK , maybe maybe send
+[Speaker me011] So 'll "
+[Speaker me013] me a
+[Speaker me011] ,
+[Speaker me013] sentence that
+[Speaker me011] OK , I
+[Speaker me013] a little
+[Speaker me011] send you a
+[Speaker me013] thought
+[Speaker me011] sentence
+[Speaker me013] through
+[Speaker me011] that
+[Speaker me013] about
+[Speaker me011] doesn't
+[Speaker me013] that
+[Speaker me011] just
+[Speaker me013] .
+[Speaker me011] say a bunch of
+[Speaker me013] " Bunch
+[Speaker me011] " ?
+[Speaker me013] of stuff " , yeah
+[Speaker me011] Yep
+[Speaker me013] , stuff "
+[Speaker me011] .
+[Speaker me013] " is probably bad
+[Speaker me011] " Stuff
+[Speaker me013] too ,
+[Speaker me011] " is not very technical . 'll
+[Speaker me013] Yeah , well
+[Speaker me011] I try
+[Speaker me013] .
+[Speaker me011] to
+[Speaker me013] Yeah
+[Speaker me011] phrase
+[Speaker me013] .
+[Speaker me011] it in passive voice
+[Speaker me013] Yeah , yeah
+[Speaker me011] .
+[Speaker me018] Technical
+[Speaker me013] ,
+[Speaker me018] stuff .
+[Speaker me013] " range of things " , yeah . Um and and you know , I sort of threw in what you did with what Jane did on in under the , uh uh preliminary analysis of overlaps . Uh
+[Speaker mn005] Yeah .
+[Speaker me013] uh 've 's
+[Speaker mn014] So what
+[Speaker me013] Thilo
+[Speaker mn014] is
+[Speaker me013] , can
+[Speaker mn014] what
+[Speaker me013] you tell us about all the work you done on this project
+[Speaker mn014] Um .
+[Speaker me013] in the last , uh last three months ? That
+[Speaker mn014] Not really .
+[Speaker me018] It 's
+[Speaker mn014] Um - "
+[Speaker me018] too complicated
+[Speaker mn014] ,
+[Speaker me018] .
+[Speaker mn014] I didn't get it . Wh what is audio pixelization " ?
+[Speaker me013] Uh , audio pix wh he did it , so why don't you explain it quickly
+[Speaker me011] It 's just
+[Speaker me013] ?
+[Speaker me011] , uh beeping out parts that you don't want included in the meeting so , you know you " can say things like , Well , this should probably not be on the record , but beep
+[Speaker mn014] OK ,
+[Speaker me011] "
+[Speaker mn014] OK . I got that .
+[Speaker me013] Yeah . We we we spent a a a fair amount of time
+[Speaker mn014] @ @
+[Speaker me013] early on just talk dealing with this issue about op w e e " we realized , well , people are speaking in an impromptu way and they might say something that would embarrass them or others later " , and ,
+[Speaker mn014] OK .
+[Speaker me013] how do you get around that so in the consent form it says , well you we 's 're will look at the transcripts later and if there
+[Speaker mn014] OK
+[Speaker me013] something
+[Speaker mn014] , and
+[Speaker me013] that
+[Speaker mn014] you can
+[Speaker me013] you
+[Speaker mn014] say
+[Speaker me013] unhappy with , yeah .
+[Speaker mn014] OK .
+[Speaker me013] But you don't want to just totally excise it because um uh , well you have to be careful about excising it , how how you excise it keeping the timing right and so forth so that at the moment tho 're th the idea we running with is is h putting the beep over it .
+[Speaker me011] Yeah , you can
+[Speaker mn014] OK
+[Speaker me011] either beep
+[Speaker mn014] .
+[Speaker me011] or it can be silence . I I couldn't decide
+[Speaker mn005] Ah , yeah
+[Speaker me011] .
+[Speaker mn005] .
+[Speaker me011] which was the right way to do it . Beep is good auditorily , 's 's if someone is listening
+[Speaker mn014] Yeah .
+[Speaker me011] to it , there no mistake that it been beeped out
+[Speaker mn014] Yeah
+[Speaker me011] ,
+[Speaker mn014] .
+[Speaker me011] 's but for software it probably better for it to be silence .
+[Speaker me018] No , no . You can
+[Speaker fe008] Hmm
+[Speaker me018] you
+[Speaker fe008] .
+[Speaker me018] know , you could make a m as long as you keep using the same beep , people could make a model of that beep ,
+[Speaker me011] Yep
+[Speaker me018] and
+[Speaker me011] . 's 's
+[Speaker fe008] I like that
+[Speaker me011] And
+[Speaker fe008] idea
+[Speaker me011] I use it
+[Speaker fe008] .
+[Speaker fe016] I think
+[Speaker me011] it
+[Speaker fe016] the beep
+[Speaker me011] , uh
+[Speaker fe016] is
+[Speaker me011] 's
+[Speaker fe016] a really good
+[Speaker fe008] It 's 's very
+[Speaker fe016] idea
+[Speaker me018] Yeah
+[Speaker fe008] clear
+[Speaker me011] it
+[Speaker me018] .
+[Speaker fe016] .
+[Speaker me011] an
+[Speaker fe008] . Then
+[Speaker me011] A
+[Speaker fe008] you don't
+[Speaker me011] below
+[Speaker fe008] think it
+[Speaker fe016] Also
+[Speaker fe008] a long
+[Speaker me011] middle C
+[Speaker fe008] pause
+[Speaker me011] beep
+[Speaker fe008] .
+[Speaker me011] , so
+[Speaker me018] Yeah 's 's , it more obvious that there was something there than if there just
+[Speaker me013] 's 's
+[Speaker me018] silence
+[Speaker me013] Yeah
+[Speaker fe008] Yeah
+[Speaker me013] , that I
+[Speaker mn014] Yeah
+[Speaker me013] mean
+[Speaker fe008] .
+[Speaker me018] .
+[Speaker me013] , he
+[Speaker mn014] .
+[Speaker me013] he removing the old
+[Speaker mn005] Yeah
+[Speaker me013] thing
+[Speaker me011] Yep
+[Speaker me013] and
+[Speaker me011] .
+[Speaker me013] and
+[Speaker me018] Yea - right
+[Speaker me013] and
+[Speaker me018] .
+[Speaker me011] 's
+[Speaker me018] Right
+[Speaker me011] Yeah
+[Speaker me018] .
+[Speaker me011] , it not
+[Speaker me018] But I mean if you just replaced it with silence ,
+[Speaker mn014] Yeah
+[Speaker me018] 's 's
+[Speaker mn014] .
+[Speaker me018] it not clear whether that really
+[Speaker mn005] Yeah
+[Speaker me018] silence
+[Speaker fe008] Yeah
+[Speaker mn005] .
+[Speaker fe008] , I agree
+[Speaker me011] Yep
+[Speaker mn014] @ @
+[Speaker me018] or
+[Speaker fe008] .
+[Speaker mn005] Yeah
+[Speaker me011] .
+[Speaker mn005] .
+[Speaker me013] Yeah
+[Speaker fe008] One one question
+[Speaker me013] .
+[Speaker fe008] . Do you do it on all channels ?
+[Speaker me011] Of course .
+[Speaker fe008] Interesting . I like that .
+[Speaker me011] Yeah 's
+[Speaker me013] Yeah
+[Speaker fe008] Yeah
+[Speaker me011] you have
+[Speaker me013] .
+[Speaker fe008] , I
+[Speaker me011] to
+[Speaker fe008] like
+[Speaker me011] do
+[Speaker fe008] that
+[Speaker me011] it on all
+[Speaker fe008] . Very
+[Speaker me011] channels
+[Speaker fe008] clear
+[Speaker me011] because
+[Speaker fe008] .
+[Speaker me011] it , uh audible . 's 's
+[Speaker fe008] Very clear .
+[Speaker me011] Uh , it it potentially audible , you could potentially recover it .
+[Speaker me013] Ke - keep a back door .
+[Speaker fe008] Well , the
+[Speaker me011] Yeah
+[Speaker fe008] other thing
+[Speaker me011] .
+[Speaker fe008] that you know , I mean the the alternative might
+[Speaker me011] Well
+[Speaker fe008] be to
+[Speaker me011] , I
+[Speaker fe008] s
+[Speaker me011] I haven't thrown away any of the meetings that I beeped . Actually yours is the only one that I beeped and then , uh the ar
+[Speaker fe016] Notice
+[Speaker me011] DARPA
+[Speaker fe016] how
+[Speaker me011] meeting
+[Speaker fe016] quiet
+[Speaker me011] .
+[Speaker fe016] I am .
+[Speaker me011] 's Sorry , and then the DARPA meeting I just excised completely ,
+[Speaker fe008] Yeah
+[Speaker me011] so
+[Speaker fe008] .
+[Speaker me011] it in a private
+[Speaker fe008] That 's
+[Speaker fe016] You have
+[Speaker fe008] great
+[Speaker fe016] some
+[Speaker me011] directory
+[Speaker fe016] people
+[Speaker fe008] .
+[Speaker me011] .
+[Speaker fe016] who only have beeps as their speech in these meetings .
+[Speaker fe008] Yeah .
+[Speaker me013] OK .
+[Speaker me018] They 're easy to find , then .
+[Speaker me013] Alright , so , uh I think we should , uh uh , go on to the digits ?
+[Speaker me011] OK .
+[Speaker fe008] I have one concept a t I I want to say , which 's 're is that I think it nice that you preserving the time relations , s 're 're 're 're 're so you you not just cutting you not doing scissor snips
+[Speaker me011] Right .
+[Speaker fe008] . You you keeping the , uh the - time duration of a de
+[Speaker fe016] Yeah
+[Speaker fe008] deleted
+[Speaker fe016] , definitely
+[Speaker me013] Yeah .
+[Speaker fe008] deleted
+[Speaker fe016] .
+[Speaker fe008] part . OK , good , digits
+[Speaker me011] Yeah
+[Speaker fe008] .
+[Speaker me011] , since we wanna possibly synchronize these things as well . Oh , I should have done that . Shoot
+[Speaker fe008] It 's great
+[Speaker me011] .
+[Speaker fe008] .
+[Speaker me011] Oh well
+[Speaker me013] Yeah
+[Speaker me011] .
+[Speaker me013] - . Oh
+[Speaker fe016] So 's I guess if there an overlap , 'm 's like , if I saying something that bleepable and somebody else overlaps during it they also
+[Speaker me011] You 'll 's lose
+[Speaker fe016] get bleeped
+[Speaker me011] it .
+[Speaker fe016] ,
+[Speaker me011] There
+[Speaker fe016] too
+[Speaker me011] no
+[Speaker fe016] ?
+[Speaker me011] way around that .
+[Speaker me013] Yeah . Um I d I did before we do the digits , I did also wanna remind people , uh please do send me , you know , uh
+[Speaker me011] Agenda
+[Speaker me013] thoughts
+[Speaker me011] ?
+[Speaker me013] for an agenda , yeah that
+[Speaker me018] Mm - hmm .
+[Speaker me013] that would be
+[Speaker fe008] Good .
+[Speaker me013] that 'd be good . Eh So 's that , uh
+[Speaker me011] Thursday
+[Speaker me013] , people ideas
+[Speaker me011] crept
+[Speaker me013] don't
+[Speaker me011] up
+[Speaker me013] get
+[Speaker me011] on me this week .
+[Speaker me013] yeah , well it does creep up , doesn't it ? OK .
+[Speaker fe016] And , I wanted to say , I think this is really interesting 's
+[Speaker me011] It 's cool
+[Speaker fe008] Thank you
+[Speaker me011] stuff
+[Speaker fe016] analysis
+[Speaker fe008] .
+[Speaker me011] , definitely
+[Speaker fe008] Thank
+[Speaker fe016] .
+[Speaker fe008] you
+[Speaker fe016] I
+[Speaker fe008] .
+[Speaker fe016] meant to
+[Speaker me011] .
+[Speaker fe016] say that before I started off on the
+[Speaker me011] I " " was gonna
+[Speaker fe016] Switchboard
+[Speaker me011] say can you do that
+[Speaker fe016] stuff
+[Speaker me011] for the
+[Speaker fe016] . It
+[Speaker me011] other
+[Speaker fe016] neat
+[Speaker me011] meetings
+[Speaker fe016] .
+[Speaker me011] , can you do it for them ? And
+[Speaker fe016] Yeah
+[Speaker me011] ,
+[Speaker fe016] .
+[Speaker me011] no actually
+[Speaker fe016] Does
+[Speaker me018] 's " " Actually
+[Speaker fe016] it
+[Speaker me011] , you
+[Speaker fe016] take
+[Speaker me018] actually
+[Speaker me011] can't
+[Speaker me018] I I
+[Speaker me011] .
+[Speaker fe008] Thank
+[Speaker me018] thought that
+[Speaker fe008] you .
+[Speaker me018] what you were giving us was another meeting and I
+[Speaker me011] "
+[Speaker me018] was like
+[Speaker me011] " Ooo
+[Speaker me018] , Oh , OK
+[Speaker me011] , cool
+[Speaker me018] !
+[Speaker fe008] Yeah
+[Speaker me011] !
+[Speaker fe008] . Aw , thanks .
+[Speaker fe016] How long does it
+[Speaker fe008] No .
+[Speaker fe016] take , just briefly , like
+[Speaker fe008] I
+[Speaker fe016] t
+[Speaker fe008] have the script now , so
+[Speaker fe016] to
+[Speaker fe008] , I mean , it
+[Speaker fe016] OK
+[Speaker fe008] can
+[Speaker me011] 's
+[Speaker fe008] work
+[Speaker me011] It
+[Speaker fe016] .
+[Speaker fe008] off
+[Speaker fe016] to
+[Speaker fe008] the
+[Speaker fe016] label
+[Speaker fe008] , uh
+[Speaker fe016] the , OK .
+[Speaker fe008] other
+[Speaker me011] As
+[Speaker fe008] thing
+[Speaker me011] soon
+[Speaker me018] But - labeled it
+[Speaker fe008] ,
+[Speaker me011] as
+[Speaker me018] has
+[Speaker me011] we get
+[Speaker me018] to be
+[Speaker me011] labels
+[Speaker me018] hand
+[Speaker fe008] but
+[Speaker me011] , yep
+[Speaker me018] first
+[Speaker me011] .
+[Speaker me018] ?
+[Speaker fe008] Uh , well , yeah . Because , uh well , I mean once his his algorithm is up
+[Speaker me011] If it
+[Speaker fe008] and
+[Speaker me011] works
+[Speaker fe008] running
+[Speaker me011] well enough .
+[Speaker fe008] then we
+[Speaker me011] Right 's
+[Speaker fe008] can
+[Speaker me011] now
+[Speaker fe008] do it
+[Speaker me011] it
+[Speaker fe008] that
+[Speaker me011] not
+[Speaker fe008] way
+[Speaker me011] .
+[Speaker fe008] .
+[Speaker fe016] OK
+[Speaker fe008] But
+[Speaker fe016] .
+[Speaker me013] OK
+[Speaker fe016] It 's
+[Speaker fe008] I
+[Speaker me013] , go
+[Speaker fe008] I
+[Speaker fe016] really
+[Speaker me013] ahead
+[Speaker fe008] just
+[Speaker fe016] neat
+[Speaker fe008] worked
+[Speaker fe016] .
+[Speaker fe008] off of my Thanks . Appreciate that .
+[Speaker me011] Not quite to the point where
+[Speaker fe008] I think
+[Speaker me011] it works
+[Speaker fe008] what I what
+[Speaker me011] .
+[Speaker fe008] this has , uh , caused me so this discussion caused 'm me to wanna subdivide these further . I gonna take a look at the uh , backchannels , how much we have anal I hope to have that for next time .
+[Speaker me011] Yeah
+[Speaker me018] That 'd
+[Speaker me011] , my
+[Speaker me018] be
+[Speaker me011] my
+[Speaker me018] interesting
+[Speaker me011] algorithm
+[Speaker me018] .
+[Speaker me011] worked great actually on these , but when you wear it like that or with the uh , lapel 's
+[Speaker me018] Mm - hmm .
+[Speaker me011] or if you have it very far from your face , that when it starts failing .
+[Speaker fe016] Well , I can wear
+[Speaker me018] Oh .
+[Speaker fe016] it , I mean if
+[Speaker me011] It doesn't
+[Speaker fe016] you
+[Speaker me011] matter .
+[Speaker fe016] OK .
+[Speaker me011] I mean , we want it to work , right ?
+[Speaker me018] 's It too late
+[Speaker me011] I I
+[Speaker me018] now
+[Speaker me011] don't want
+[Speaker me018] .
+[Speaker me011] to change
+[Speaker fe016] I feel
+[Speaker me011] the way
+[Speaker fe016] like
+[Speaker me011] we
+[Speaker fe016] this
+[Speaker me011] do
+[Speaker fe016] troublemaker
+[Speaker me011] the meeting . 's
+[Speaker fe016] .
+[Speaker me011] It uh so , it was just a comment on the software , not a comment on prescriptions
+[Speaker fe016] OK .
+[Speaker me011] on how you wear microphones . "
+[Speaker me013] OK 's 's 's 's , that
+[Speaker me011] Get
+[Speaker me013] let
+[Speaker me011] the bolts , whh
+[Speaker fe008] Let 's
+[Speaker me011] whh
+[Speaker me013] let
+[Speaker me011] "
+[Speaker fe008] do it .
+[Speaker me013] let do digits .
+[Speaker me011] OK
+[Speaker fe008] OK
+[Speaker me011] .
+[Speaker fe008] .
+[Speaker me011] Transcript one six one one , one six three O . five three O six one eight five seven five O u Strike that . seven five one O eight eight seven seven O nine eight O O zero zero zero nine one three nine two one three three four four two eight nine zero five nine seven eight zero nine eight six nine O two three eight five seven eight O five O nine four six five zero two zero seven one one seven five two nine two six zero zero zero seven two three four
+[Speaker me018] Transcript one eight five one dash one eight seven zero four six zero five five five nine eight seven six eight one four seven eight zero five four zero six four O one six O O zero seven zero zero four six five one two two two seven one six six three four five zero seven four seven two five four four eight three three one nine three four two one O zero nine nine one two four one
+[Speaker fe016] Uh , transcript one eight three one , one eight five zero three six O eight four five six eight three seven nine two nine four eight one five O eight eight O three zero one nine O five six two three five four five three three five two seven O nine six five two O seven eight eight one two nine eight eight nine three six two three three nine O O six O three nine nine zero two four I 'm sorry . two two four four three four zero
+[Speaker me013] Transcript one seven nine one dash one eight one zero one two zero zero five eight four three zero five one six six seven five five four zero eight nine O O three five eight four O one four three six nine two two four three seven two four seven five six seven zero five six nine one O five seven eight seven zero three eight one one seven two nine one O two
+[Speaker mn014] OK , transcript one eight one one dash one eight three zero two three zero six five four O six six one five four seven O six seven three seven eight nine O O eight nine five two nine seven O nine six four nine zero one zero three two four four five six O six eight six four seven seven four eight O nine zero zero one nine one two two eight eight two six zero four
+[Speaker mn005] Transcript one seven seven one dash one seven nine zero zero zero five seven eight two zero two one three four eight three five eight six four five two O five five O six seven eight O four O three nine O two three O six four nine two zero one five four three two seven nine three four O O five O O four O three two seven one three four five three O eight two five eight one four six nine five five seven O eight nine zero nine
+[Speaker fe008] Transcript one seven five one dash one seven seven zero zero one one four nine two eight eight seven eight nine seven three five four five O O six zero four zero one eight one two zero two seven six nine two three one five one eight O three three O two O five zero one two three O O three one eight four five two four six four seven five two two eight five one eight nine O
+[Speaker me011] OK , thank you .
+[Speaker fe008] Do 've you want us to put a mark on the bottom of these when they actually been read , or do you just i the only one that wasn't read is is known , so we don't do it . OK .

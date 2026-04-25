@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -11,9 +12,11 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pyarrow.parquet as pq
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from tools.sources import ami, hpr, loc, nasa, psai
+from tools.sources import ami, chime6, hpr, icsi, loc, nasa, psai
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 JOURNAL_DIR = REPO_ROOT / "journal"
@@ -23,7 +26,7 @@ STREAMS_DIR = JOURNAL_DIR / "streams"
 REFERENCE_DIR = REPO_ROOT / "reference"
 DAYS = ["20260201", "20260202", "20260203", "20260204", "20260205"]
 CREATED_AT = 1769904000
-SOURCES = [ami, psai, loc, nasa, hpr]
+SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi]
 
 
 def download_all() -> None:
@@ -110,6 +113,10 @@ def _source_path(seg: dict) -> Path:
         return CACHE_DIR / "nasa" / f"{source_id}.mp4"
     if source == "hpr":
         return CACHE_DIR / "hpr" / f"{source_id}.mp3"
+    if source == "chime6":
+        return CACHE_DIR / "chime6" / f"{source_id}.wav"
+    if source == "icsi":
+        return CACHE_DIR / "icsi" / f"{source_id}.wav"
     raise ValueError(f"Unknown source: {source}")
 
 
@@ -220,6 +227,256 @@ def _extract_ami_reference(cache_dir: Path) -> bool:
     return True
 
 
+def _write_reference_files(ref_dir: Path, ordered_words: list[dict]) -> None:
+    """Write transcript.txt and speakers.json from already ordered word records."""
+    ref_dir.mkdir(parents=True, exist_ok=True)
+
+    transcript_text = ""
+    current_speaker: str | None = None
+    current_line: list[str] = []
+    speakers_data: dict[str, dict[str, str | int]] = {}
+    for word in ordered_words:
+        speaker = str(word["speaker"])
+        token = str(word["word"]).strip()
+        if not token:
+            continue
+
+        if speaker not in speakers_data:
+            speakers_data[speaker] = {"label": f"Speaker {speaker}", "word_count": 0}
+        speakers_data[speaker]["word_count"] = (
+            int(speakers_data[speaker]["word_count"]) + 1
+        )
+
+        if speaker != current_speaker:
+            if current_line and current_speaker:
+                transcript_text += (
+                    f"[Speaker {current_speaker}] {' '.join(current_line)}\n"
+                )
+            current_speaker = speaker
+            current_line = [token]
+        else:
+            current_line.append(token)
+
+    if current_line and current_speaker:
+        transcript_text += f"[Speaker {current_speaker}] {' '.join(current_line)}\n"
+
+    (ref_dir / "transcript.txt").write_text(transcript_text, encoding="utf-8")
+    (ref_dir / "speakers.json").write_text(
+        json.dumps(speakers_data, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _read_chime6_reference_row(
+    cache_dir: Path, session: str
+) -> tuple[list[str], list[str]]:
+    """Read the CHiME-6 transcript and speaker-token arrays for one locked session."""
+    target_name = f"{session}_U02.CH1.wav"
+    match_count = 0
+    transcript: list[str] | None = None
+    word_speakers: list[str] | None = None
+
+    for shard in chime6.SHARDS:
+        parquet_path = cache_dir / "chime6" / shard
+        if not parquet_path.exists():
+            raise FileNotFoundError(f"Missing CHiME-6 parquet shard: {parquet_path}")
+
+        table = pq.ParquetFile(parquet_path).read(
+            columns=["audio", "transcript", "word_speakers"]
+        )
+        flat = table.flatten()
+        for index, audio_path in enumerate(flat["audio.path"].to_pylist()):
+            if Path(audio_path).name != target_name:
+                continue
+            match_count += 1
+            if match_count > 1:
+                raise RuntimeError(f"Multiple CHiME-6 rows found for {session}")
+            transcript = table["transcript"][index].as_py()
+            word_speakers = table["word_speakers"][index].as_py()
+
+    if match_count != 1 or transcript is None or word_speakers is None:
+        raise RuntimeError(f"Unable to locate CHiME-6 reference row for {session}")
+    if len(transcript) != len(word_speakers):
+        raise RuntimeError(
+            f"CHiME-6 transcript/speaker length mismatch for {session}: "
+            f"{len(transcript)} != {len(word_speakers)}"
+        )
+    return transcript, word_speakers
+
+
+def _extract_chime6_reference(cache_dir: Path) -> bool:
+    """Extract CHiME-6 whole-session transcript.txt and speakers.json files."""
+    for session in chime6.SESSIONS:
+        transcript, word_speakers = _read_chime6_reference_row(cache_dir, session)
+        ordered_words = [
+            {"speaker": speaker_id, "word": token}
+            for token, speaker_id in zip(transcript, word_speakers, strict=True)
+            if token and speaker_id
+        ]
+        _write_reference_files(REFERENCE_DIR / "chime6" / session, ordered_words)
+    return True
+
+
+def _nite_attr(element: ET.Element, attr_name: str) -> str | None:
+    """Return namespaced NITE attributes by local name."""
+    for key, value in element.attrib.items():
+        if (
+            key == attr_name
+            or key.endswith(f"}}{attr_name}")
+            or key.endswith(f":{attr_name}")
+        ):
+            return value
+    return None
+
+
+def _parse_float(value: str | None) -> float | None:
+    if value in {None, ""}:
+        return None
+    return float(value)
+
+
+def _parse_icsi_href(href: str) -> tuple[str, str]:
+    """Return the start/end IDs from a NITE href range."""
+    match = re.search(r"#id\(([^)]+)\)(?:\.\.id\(([^)]+)\))?$", href)
+    if not match:
+        raise RuntimeError(f"Unexpected ICSI href format: {href}")
+    start_id = match.group(1)
+    end_id = match.group(2) or start_id
+    return start_id, end_id
+
+
+def _parse_icsi_words_document(
+    xml_bytes: bytes,
+) -> tuple[list[dict[str, str | float | None]], dict[str, int]]:
+    """Parse an ICSI Words XML document into ordered element records plus an ID index."""
+    root = ET.fromstring(xml_bytes)
+    ordered_entries: list[dict[str, str | float | None]] = []
+    index_by_id: dict[str, int] = {}
+
+    for element in list(root):
+        element_id = _nite_attr(element, "id")
+        if not element_id:
+            continue
+        ordered_entries.append(
+            {
+                "id": element_id,
+                "tag": element.tag.rsplit("}", 1)[-1],
+                "word": (element.text or "").strip(),
+                "start": _parse_float(element.get("starttime")),
+                "end": _parse_float(element.get("endtime")),
+            }
+        )
+        index_by_id[element_id] = len(ordered_entries) - 1
+
+    return ordered_entries, index_by_id
+
+
+def _extract_icsi_meeting_words(archive: zipfile.ZipFile, meeting: str) -> list[dict]:
+    """Extract ordered words from ICSI NXT XML.
+
+    Words come from `ICSI/Words/<meeting>.<agent>.words.xml`. Speaker identity comes
+    from the paired `ICSI/Segments/<meeting>.<agent>.segs.xml`, where each
+    `<segment ... participant="me011">` contains a NITE child href range like
+    `Bmr005.A.words.xml#id(Bmr005.w.95)..id(Bmr005.w.100)`. Segment ranges can end
+    on comment IDs, so the parser walks the ordered Words XML element stream and
+    includes only `<w>` elements that fall inside each referenced range.
+    """
+    word_names = sorted(
+        name
+        for name in archive.namelist()
+        if name.startswith(f"ICSI/Words/{meeting}.") and name.endswith(".words.xml")
+    )
+    if not word_names:
+        raise RuntimeError(f"No ICSI word XML files found for {meeting}")
+
+    meeting_words: list[dict] = []
+    for word_name in word_names:
+        agent = Path(word_name).name.split(".")[1]
+        segment_name = f"ICSI/Segments/{meeting}.{agent}.segs.xml"
+        try:
+            words_xml = archive.read(word_name)
+            segments_xml = archive.read(segment_name)
+        except KeyError as exc:
+            raise RuntimeError(
+                f"Missing paired ICSI XML for {meeting}.{agent}"
+            ) from exc
+
+        ordered_entries, index_by_id = _parse_icsi_words_document(words_xml)
+        segments_root = ET.fromstring(segments_xml)
+        seen_word_ids: set[str] = set()
+
+        for segment in segments_root.iter():
+            if segment.tag.rsplit("}", 1)[-1] != "segment":
+                continue
+
+            participant = segment.get("participant")
+            segment_start = _parse_float(segment.get("starttime"))
+            segment_end = _parse_float(segment.get("endtime"))
+            if participant is None or segment_start is None or segment_end is None:
+                raise RuntimeError(
+                    f"Incomplete ICSI segment metadata in {segment_name}"
+                )
+
+            href: str | None = None
+            for child in list(segment):
+                if child.tag.rsplit("}", 1)[-1] == "child":
+                    href = child.get("href")
+                    break
+            if href is None:
+                raise RuntimeError(f"Missing NITE child href in {segment_name}")
+
+            start_id, end_id = _parse_icsi_href(href)
+            if start_id not in index_by_id or end_id not in index_by_id:
+                raise RuntimeError(
+                    f"ICSI href IDs not found in ordered Words XML: {href}"
+                )
+
+            start_index = index_by_id[start_id]
+            end_index = index_by_id[end_id]
+            if start_index > end_index:
+                start_index, end_index = end_index, start_index
+
+            for entry in ordered_entries[start_index : end_index + 1]:
+                if entry["tag"] != "w":
+                    continue
+                word_id = str(entry["id"])
+                if word_id in seen_word_ids:
+                    continue
+                token = str(entry["word"]).strip()
+                if not token:
+                    continue
+                meeting_words.append(
+                    {
+                        "speaker": participant,
+                        "word": token,
+                        "start": (
+                            float(entry["start"])
+                            if entry["start"] is not None
+                            else segment_start
+                        ),
+                    }
+                )
+                seen_word_ids.add(word_id)
+
+    for order, word in enumerate(meeting_words):
+        word["order"] = order
+    meeting_words.sort(key=lambda word: (float(word["start"]), int(word["order"])))
+    return meeting_words
+
+
+def _extract_icsi_reference(cache_dir: Path) -> bool:
+    """Extract ICSI whole-meeting transcript.txt and speakers.json files."""
+    zip_path = cache_dir / "icsi" / "ICSI_core_NXT.zip"
+    if not zip_path.exists():
+        raise FileNotFoundError(f"Missing ICSI annotations ZIP: {zip_path}")
+
+    with zipfile.ZipFile(zip_path) as archive:
+        for meeting in icsi.MEETINGS:
+            ordered_words = _extract_icsi_meeting_words(archive, meeting)
+            _write_reference_files(REFERENCE_DIR / "icsi" / meeting, ordered_words)
+    return True
+
+
 _TEST_FACETS = [
     {
         "slug": "meetings",
@@ -267,10 +524,13 @@ def _setup_facets() -> None:
 
 def _clean_generated() -> None:
     """Remove only generated journal content for the 5 simulated days."""
-    for day in DAYS:
-        day_dir = JOURNAL_DIR / day
-        if day_dir.exists():
-            shutil.rmtree(day_dir)
+    for segment in _collect_segments():
+        segment_key = f"{segment['time']}_{segment['duration_seconds']}"
+        seg_dir = JOURNAL_DIR / segment["day"] / segment["stream"] / segment_key
+        for filename in ["audio.wav", "screen.mp4", "stream.json"]:
+            path = seg_dir / filename
+            if path.exists():
+                path.unlink()
 
     for name in ["field.audio.json", "field.screen.json"]:
         path = STREAMS_DIR / name
@@ -279,6 +539,16 @@ def _clean_generated() -> None:
 
     for meeting_id in ["ES2002a", "ES2005a"]:
         ref_dir = REFERENCE_DIR / "ami" / meeting_id
+        if ref_dir.exists():
+            shutil.rmtree(ref_dir)
+
+    for session_id in ["S01", "S21"]:
+        ref_dir = REFERENCE_DIR / "chime6" / session_id
+        if ref_dir.exists():
+            shutil.rmtree(ref_dir)
+
+    for meeting_id in ["Bmr005", "Bmr006", "Bmr007"]:
+        ref_dir = REFERENCE_DIR / "icsi" / meeting_id
         if ref_dir.exists():
             shutil.rmtree(ref_dir)
 
@@ -370,6 +640,10 @@ def build() -> None:
 
     if _extract_ami_reference(CACHE_DIR):
         print("AMI reference data extracted")
+    if _extract_chime6_reference(CACHE_DIR):
+        print("CHiME-6 reference data extracted")
+    if _extract_icsi_reference(CACHE_DIR):
+        print("ICSI reference data extracted")
 
 
 if __name__ == "__main__":
