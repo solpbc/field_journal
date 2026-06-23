@@ -46,3 +46,14 @@ make clean      # remove build artifacts
 - Python 3.10+, snake_case naming, absolute imports
 - ruff for formatting/linting, mypy for type checking, pytest for tests
 - uv for dependency management
+
+## Engineering Principles
+
+sol pbc's coding standards, distilled — inlined because a coding agent here can't
+read the private org standards. Most apply to the `tools/` build scripts (the
+only real code surface in this corpus repo):
+
+- **Fail loudly, never silently.** The download/build scripts fetch from ten external sources — a fetch, checksum, slice, or license-metadata failure must raise a clear, specific error (which source, which step), not produce a silently truncated or mislabeled segment. Use the `logging` module, not `print`. A corpus that's quietly wrong is worse than one that fails the build.
+- **Verify before you claim.** Source URLs, licenses, and dataset shapes are facts to verify against the live source, not recall — `manifest.json` and `ATTRIBUTION.md` must reflect what was actually downloaded and its real license, never an assumed one.
+- **The build is reproducible and idempotent.** Re-running `build.py` on an unchanged source set is a no-op; downloads are cached/skipped, not re-fetched blindly. `manifest.json` is the source of truth for what exists — keep it in sync in the same change.
+- **KISS / YAGNI.** One small module per source under `tools/sources/`; don't add abstraction for sources that don't exist yet. No backwards-compat shims.
