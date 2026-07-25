@@ -31,6 +31,17 @@ journal/**/screen.jsonl
 journal/**/stats.json
 journal/**/task_log.txt
 
+journal/imports/
+journal/reflections/
+journal/speakers/
+journal/timeline.json
+
+# Provider runtime cache -- parakeet/llama binaries and multi-GB model
+# weights the journal downloads on demand. Never commit: this is a public
+# repo and the cache alone is ~1 GB.
+journal/cache/
+journal/.cache/
+
 # Top-level solstone runtime state (not segment output).
 journal/apps/
 journal/awareness/
