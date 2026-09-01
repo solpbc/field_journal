@@ -170,6 +170,9 @@ def test_no_keys_flag(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
 
     data = _read_json(out)
     assert data["env"] == {}
+    assert data["providers"] == {
+        "active": {"provider": "local", "model": "local/qwen3.5-4b"}
+    }
 
 
 def test_path_respected(tmp_path: Path) -> None:
@@ -231,13 +234,102 @@ def test_retention_is_keep(tmp_path: Path) -> None:
     assert data["retention"] == {"raw_media": "keep"}
 
 
-def test_providers_pinned_to_google(tmp_path: Path) -> None:
+def test_providers_active_defaults_to_local_with_no_keys(tmp_path: Path) -> None:
     out = tmp_path / "out.json"
 
     assert main(["--path", str(out), "--no-keys"]) == 0
 
     data = _read_json(out)
     assert data["providers"] == {
-        "generate": {"provider": "google", "backup": "google"},
-        "cogitate": {"provider": "google", "backup": "google"},
+        "active": {"provider": "local", "model": "local/qwen3.5-4b"}
+    }
+    assert "generate" not in data["providers"]
+    assert "cogitate" not in data["providers"]
+
+
+def test_providers_active_selects_google(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("GOOGLE_API_KEY", "google-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "google", "model": "gemini-3.5-flash"}
+    }
+
+
+def test_providers_active_selects_anthropic(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "anthropic-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "anthropic", "model": "claude-sonnet-4-6"}
+    }
+
+
+def test_providers_active_selects_openai(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("OPENAI_API_KEY", "openai-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "openai", "model": "gpt-5.4-mini"}
+    }
+
+
+def test_providers_active_google_beats_openai(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("GOOGLE_API_KEY", "google-key")
+    monkeypatch.setenv("OPENAI_API_KEY", "openai-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "google", "model": "gemini-3.5-flash"}
+    }
+
+
+def test_providers_active_anthropic_beats_openai(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "anthropic-key")
+    monkeypatch.setenv("OPENAI_API_KEY", "openai-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "anthropic", "model": "claude-sonnet-4-6"}
+    }
+
+
+def test_providers_active_google_beats_all(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    out = tmp_path / "out.json"
+    monkeypatch.setenv("GOOGLE_API_KEY", "google-key")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "anthropic-key")
+    monkeypatch.setenv("OPENAI_API_KEY", "openai-key")
+
+    assert main(["--path", str(out)]) == 0
+
+    data = _read_json(out)
+    assert data["providers"] == {
+        "active": {"provider": "google", "model": "gemini-3.5-flash"}
     }

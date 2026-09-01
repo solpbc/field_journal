@@ -85,6 +85,16 @@ def _atomic_write(path: Path, data: bytes) -> None:
         raise
 
 
+def _choose_active_profile(env_block: dict[str, str]) -> dict[str, str]:
+    if env_block.get("GOOGLE_API_KEY"):
+        return {"provider": "google", "model": "gemini-3.5-flash"}
+    if env_block.get("ANTHROPIC_API_KEY"):
+        return {"provider": "anthropic", "model": "claude-sonnet-4-6"}
+    if env_block.get("OPENAI_API_KEY"):
+        return {"provider": "openai", "model": "gpt-5.4-mini"}
+    return {"provider": "local", "model": "local/qwen3.5-4b"}
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--google-api-key")
@@ -190,10 +200,7 @@ def main(argv: list[str] | None = None) -> int:
             "preferred": args.preferred,
             "timezone": args.timezone,
         },
-        "providers": {
-            "generate": {"provider": "google", "backup": "google"},
-            "cogitate": {"provider": "google", "backup": "google"},
-        },
+        "providers": {"active": _choose_active_profile(env_block)},
         "retention": {"raw_media": "keep"},
         "env": env_block,
     }
