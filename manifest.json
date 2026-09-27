@@ -156,21 +156,6 @@
     {
       "day": "20260201",
       "stream": "field.audio",
-      "segment": "075000_180",
-      "source": "voxconverse",
-      "source_id": "kdfqk",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip kdfqk",
-      "exercises": [
-        "transcription",
-        "diarization"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260201",
-      "stream": "field.audio",
       "segment": "075500_180",
       "source": "dipco",
       "source_id": "S06",
@@ -442,36 +427,6 @@
     {
       "day": "20260202",
       "stream": "field.audio",
-      "segment": "075000_180",
-      "source": "voxconverse",
-      "source_id": "vmaiq",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip vmaiq",
-      "exercises": [
-        "transcription",
-        "diarization"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260202",
-      "stream": "field.audio",
-      "segment": "075500_180",
-      "source": "voxconverse",
-      "source_id": "xxwgv",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip xxwgv",
-      "exercises": [
-        "transcription",
-        "diarization"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260202",
-      "stream": "field.audio",
       "segment": "080000_600",
       "source": "chime6",
       "source_id": "S21",
@@ -727,21 +682,6 @@
     {
       "day": "20260203",
       "stream": "field.audio",
-      "segment": "075000_180",
-      "source": "voxconverse",
-      "source_id": "cjfer",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip cjfer",
-      "exercises": [
-        "transcription",
-        "diarization"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260203",
-      "stream": "field.audio",
       "segment": "080000_600",
       "source": "icsi",
       "source_id": "Bmr005",
@@ -976,21 +916,6 @@
         "transcription",
         "diarization",
         "entity_extraction"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260204",
-      "stream": "field.audio",
-      "segment": "075000_180",
-      "source": "voxconverse",
-      "source_id": "ldnro",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip ldnro",
-      "exercises": [
-        "transcription",
-        "diarization"
       ],
       "has_reference": true
     },
@@ -1244,21 +1169,6 @@
         "transcription",
         "diarization",
         "entity_extraction"
-      ],
-      "has_reference": true
-    },
-    {
-      "day": "20260205",
-      "stream": "field.audio",
-      "segment": "075000_180",
-      "source": "voxconverse",
-      "source_id": "czlvt",
-      "license": "CC-BY-4.0",
-      "duration_seconds": 180,
-      "description": "VoxConverse dev clip czlvt",
-      "exercises": [
-        "transcription",
-        "diarization"
       ],
       "has_reference": true
     },

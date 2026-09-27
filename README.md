@@ -19,7 +19,6 @@ The `journal/` directory follows solstone's `day/stream/segment/` structure — 
 | [ICSI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/icsi/) | CC-BY 4.0 | Recurring lab meetings with shared speakers across sessions |
 | [VOiCES](https://iqtlabs.github.io/voices/) | CC-BY 4.0 | Far-field replayed LibriSpeech utterances at multiple mic distances for cross-device drift |
 | [DiPCo Dinner Party Corpus](https://zenodo.org/records/8122551) | CDLA-Permissive-1.0 | Close-talk dinner-party speaker mixes with overlap-rich transcripts |
-| [VoxConverse](https://www.robots.ox.ac.uk/~vgg/data/voxconverse/) | CC-BY 4.0 | Overlap-dense diarization clips with turn-level speaker references |
 
 ## directory structure
 
@@ -36,7 +35,7 @@ field_journal/
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
 ├── ATTRIBUTION.md        # detailed license info per source
 ├── tools/                # download/build scripts (python)
-│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices, voxconverse)
+│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices)
 │   └── build.py          # orchestrates download → slice → organize
 └── tests/                # validation tests
 ```

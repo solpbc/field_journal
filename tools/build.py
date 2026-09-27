@@ -26,7 +26,6 @@ from tools.sources import (
     nasa,
     psai,
     voices,
-    voxconverse,
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -37,7 +36,7 @@ STREAMS_DIR = JOURNAL_DIR / "streams"
 REFERENCE_DIR = REPO_ROOT / "reference"
 DAYS = ["20260201", "20260202", "20260203", "20260204", "20260205"]
 CREATED_AT = 1769904000
-SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices, dipco, voxconverse]
+SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices, dipco]
 
 
 def download_all() -> None:
@@ -132,8 +131,6 @@ def _source_path(seg: dict) -> Path:
         return CACHE_DIR / "voices" / f"{source_id}.wav"
     if source == "dipco":
         return CACHE_DIR / "dipco" / "clips" / f"{source_id}.wav"
-    if source == "voxconverse":
-        return CACHE_DIR / "voxconverse" / "clips" / f"{source_id}.wav"
     raise ValueError(f"Unknown source: {source}")
 
 
@@ -523,49 +520,6 @@ def _extract_icsi_reference(cache_dir: Path) -> bool:
     return True
 
 
-def _extract_voxconverse_reference(cache_dir: Path) -> bool:
-    """Extract VoxConverse slice speakers.json files."""
-    segments = [
-        segment
-        for segment in voxconverse.segments()
-        if segment["source"] == "voxconverse"
-    ]
-    if not segments:
-        return False
-
-    for segment in segments:
-        clip = str(segment["source_id"])
-        offset_s = int(segment["reference_offset_seconds"])
-        window_end = offset_s + int(segment["duration_seconds"])
-        rttm_path = cache_dir / "voxconverse" / "rttm" / f"{clip}.rttm"
-        speaker_counts: dict[str, int] = {}
-
-        for line in rttm_path.read_text(encoding="utf-8").splitlines():
-            if not line.strip():
-                continue
-            parts = line.split()
-            if len(parts) < 8 or parts[0] != "SPEAKER":
-                raise RuntimeError(f"Unexpected VoxConverse RTTM line: {line}")
-            start_s = float(parts[3])
-            end_s = start_s + float(parts[4])
-            if end_s <= offset_s or start_s >= window_end:
-                continue
-            speaker = parts[7]
-            speaker_counts[speaker] = speaker_counts.get(speaker, 0) + 1
-
-        ref_dir = REFERENCE_DIR / "voxconverse" / clip
-        ref_dir.mkdir(parents=True, exist_ok=True)
-        speakers_data = {
-            speaker: {"label": f"Speaker {speaker}", "word_count": count}
-            for speaker, count in sorted(speaker_counts.items())
-        }
-        (ref_dir / "speakers.json").write_text(
-            json.dumps(speakers_data, indent=2) + "\n",
-            encoding="utf-8",
-        )
-    return True
-
-
 _TEST_FACETS = [
     {
         "slug": "meetings",
@@ -643,11 +597,6 @@ def _clean_generated() -> None:
 
     for session_id in dipco.ALL_SESSIONS:
         ref_dir = REFERENCE_DIR / "dipco" / session_id
-        if ref_dir.exists():
-            shutil.rmtree(ref_dir)
-
-    for clip_id in voxconverse.ALL_CLIPS:
-        ref_dir = REFERENCE_DIR / "voxconverse" / clip_id
         if ref_dir.exists():
             shutil.rmtree(ref_dir)
 
@@ -745,8 +694,6 @@ def build() -> None:
         print("ICSI reference data extracted")
     if _extract_dipco_reference(CACHE_DIR):
         print("DiPCo reference data extracted")
-    if _extract_voxconverse_reference(CACHE_DIR):
-        print("VoxConverse reference data extracted")
 
 
 if __name__ == "__main__":
