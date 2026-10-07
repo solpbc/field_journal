@@ -1,0 +1,69 @@
+{
+  "id": "mon-spec",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Writing the Schema Bridge spec, draft 1",
+  "doc_title": "Schema Bridge: draft 1",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Schema Bridge: draft 1"
+    },
+    {
+      "type": "h2",
+      "text": "Goal"
+    },
+    {
+      "type": "p",
+      "text": "Let Balcony App inspections flow into Montague's Mesh Routing without anyone re-keying data. One shared format for an inspection record, one bridge that moves records from Balcony to Mesh Routing. Pilot customer: Ducal Freight."
+    },
+    {
+      "type": "h2",
+      "text": "Inspection record"
+    },
+    {
+      "type": "p",
+      "text": "Fields for v1:"
+    },
+    {
+      "type": "li",
+      "text": "site_id: which site the inspection happened at"
+    },
+    {
+      "type": "li",
+      "text": "inspector: who did it"
+    },
+    {
+      "type": "li",
+      "text": "photos: list of photo references, in order taken"
+    },
+    {
+      "type": "li",
+      "text": "findings: list of findings, each with a severity and a note"
+    },
+    {
+      "type": "li",
+      "text": "signed_at: when the inspector signed the report"
+    },
+    {
+      "type": "h2",
+      "text": "Sync"
+    },
+    {
+      "type": "p",
+      "text": "Balcony to Mesh Routing, one direction for now. Nightly batch: every signed inspection from the day goes over in one run."
+    },
+    {
+      "type": "h2",
+      "text": "Open questions"
+    },
+    {
+      "type": "li",
+      "text": "Who owns field versioning? If we add a field, who approves it?"
+    },
+    {
+      "type": "li",
+      "text": "What if Mesh Routing is down? (Tybalt's question, raise at kickoff)"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # field_journal Makefile
 # Public domain test journal for solstone pipeline validation
 
-.PHONY: install test ci format clean build-journal config config-force
+.PHONY: install test ci format clean build-journal config config-force verona-render demo demo-serve
 
 # Default target
 all: install
@@ -107,3 +107,22 @@ origin-enable:
 	@PUSH_URL=$$(git remote get-url origin); \
 	git remote set-url --push origin "$$PUSH_URL"; \
 	echo "Push to origin restored: $$PUSH_URL"
+
+# Re-render the synthetic verona week from tools/verona/story/ (needs
+# GOOGLE_API_KEY for its stock TTS voices, plus Playwright's Chromium), then
+# refresh its manifest entries. Only needed after a script changes.
+verona-render: .installed
+	$(UV) sync --group demo
+	$(VENV_BIN)/playwright install chromium
+	$(PYTHON) tools/verona/render.py
+	$(PYTHON) tools/build.py verona
+
+# Build the verona demo journal with a released solstone journal, installed
+# into .demo/runtime (an isolated home, no service). Needs GOOGLE_API_KEY.
+demo: .installed
+	tools/verona/demo.sh
+
+# Serve the latest demo build: web app on 127.0.0.1:5115, agent door on
+# 127.0.0.1:7659 with a read-only demo token in .demo/latest/mcp.json.
+demo-serve: .installed
+	tools/verona/demo.sh serve

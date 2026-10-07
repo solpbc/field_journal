@@ -1,0 +1,81 @@
+{
+  "id": "thu-pr",
+  "kind": "screen",
+  "app": "code",
+  "title": "Reviewing Romeo's queue pull request",
+  "repo": "schema-bridge",
+  "pr_title": "schema-bridge: local event queue with schema_version",
+  "author": "Romeo Montague",
+  "diff": [
+    {
+      "file": "bridge/event.py",
+      "lines": [
+        "  @dataclass",
+        "  class InspectionEvent:",
+        "+     schema_version: int",
+        "      site_id: str",
+        "      inspector: str",
+        "      photos: list[str]",
+        "      findings: list[str]",
+        "      signed_at: datetime",
+        "+ ",
+        "+ CURRENT_SCHEMA_VERSION = 1"
+      ]
+    },
+    {
+      "file": "bridge/queue.py",
+      "lines": [
+        "+ class LocalQueue:",
+        "+     def __init__(self, path):",
+        "+         self.store = open_store(path)",
+        "+ ",
+        "+     def push(self, event):",
+        "+         event.schema_version = CURRENT_SCHEMA_VERSION",
+        "+         self.store.append(event)",
+        "+ ",
+        "+     def drain(self, send):",
+        "+         delay = 1",
+        "+         while self.store.peek():",
+        "+             try:",
+        "+                 send(self.store.peek())",
+        "+                 self.store.pop()",
+        "+                 delay = 1",
+        "+             except MeshUnavailable:",
+        "+                 sleep(delay)",
+        "+                 delay = min(delay * 2, 300)"
+      ]
+    },
+    {
+      "file": "bridge/sync.py",
+      "lines": [
+        "- def nightly_batch(records):",
+        "-     mesh.send_batch(records)",
+        "+ def on_inspection_saved(record):",
+        "+     queue.push(InspectionEvent.from_record(record))"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "file": "bridge/event.py",
+      "line_index": 2,
+      "text": "nice. version on every event, exactly what we agreed."
+    },
+    {
+      "file": "bridge/queue.py",
+      "line_index": 6,
+      "text": "can the queue cap at 10k events? want a clear failure if a tablet sits offline for a month."
+    },
+    {
+      "file": "bridge/queue.py",
+      "line_index": 17,
+      "text": "backoff capped at 5 min looks right to me."
+    },
+    {
+      "file": "bridge/queue.py",
+      "line_index": 17,
+      "text": "also: Tybalt suggested a 48-hour review window for schema changes, and silence isn't a veto. ok with you? (Romeo replied: works for us, adding it to the spec)"
+    }
+  ],
+  "verdict": "approved"
+}

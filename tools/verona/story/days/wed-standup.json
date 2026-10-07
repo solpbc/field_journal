@@ -1,0 +1,119 @@
+{
+  "id": "wed-standup",
+  "kind": "audio",
+  "title": "Capulet standup",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Morning, both of you. Okay, I've got the Ducal call at ten thirty, so let's keep this tight. Tybalt, you want to start?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Sure. So, good news. The Android 11 crash is fixed."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Wait, really? Already?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Yeah. It was the photo cache. On older Android we were writing thumbnails to a cache path that, um, the system can clear out from under us. So the app goes to read a photo it just took, the file's gone, and it falls over."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Huh. So it wasn't the camera at all."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Nope. Camera's fine. I moved the cache into app storage and added a check so a missing thumbnail just gets regenerated instead of crashing. Both of the crash reports reproduce on my test phone before the fix, and neither one does after."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's great. Thank you. Is it in the beta build yet?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "It'll be in tonight's build. I'll ping the two testers who reported it and ask them to update."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Perfect. Angela, where are we on the checklist?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "So the release checklist is about eighty percent done. Store listing, screenshots, the release notes you wrote yesterday, the rollback plan, all of that's checked off."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And the other twenty?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Mostly QA. I need a sign-off from Balthasar, and he won't give it until he's rerun the offline-sync tests with his fix in. Which, honestly, is the right call."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Agreed. Do you think we'll have that before Friday?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "I think so. I'm going to grab him tomorrow afternoon and go through it together. If anything's shaky, I'll tell you before the go or no-go, not during it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thank you. Friday nine thirty still works for everyone?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Works for me."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "It's on the calendar."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. One more thing from me. Tybalt, your worry from Monday, about Schema Bridge depending on Mesh Routing being up?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Still worried, yeah."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So I brought it up with Romeo in the kickoff, and he's building a local queue on our side. If Mesh Routing goes down, Balcony just keeps working. Inspections pile up in the queue on the device and send when the service is back. Nobody in the field even notices."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Okay. That's, um, that's actually the right answer."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Don't sound so surprised."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "I'm not. Okay, a little. Look, if it survives a week of airplane mode, I'm satisfied."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Can I write that down? Tybalt, satisfied."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Conditionally satisfied. Write the condition down too."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Fair. I'm meeting with Romeo at three, he's supposed to show me the prototype. I'll tell you how it holds up."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay, that's it. Thanks, both of you. Go do good things."
+    }
+  ]
+}

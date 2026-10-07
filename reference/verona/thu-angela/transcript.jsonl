@@ -1,0 +1,28 @@
+{"start": 0.6, "end": 5.091, "speaker": "Angela Nurse", "text": "Okay, I think we're all here. Balthasar, can you hear us okay?"}
+{"start": 5.696, "end": 11.307, "speaker": "Balthasar Davi", "text": "Yep, loud and clear. Sorry, there's a leaf blower outside, if you hear that, that's not me."}
+{"start": 11.96, "end": 15.571, "speaker": "Juliet Capulet", "text": "We'll pretend it's a test of slow networks."}
+{"start": 16.179, "end": 18.35, "speaker": "Balthasar Davi", "text": "Ha. Honestly, kind of."}
+{"start": 18.822, "end": 25.033, "speaker": "Angela Nurse", "text": "Alright, I'll keep this quick. I want to hear the sync fix first, because that's the big one on my list."}
+{"start": 25.831, "end": 38.682, "speaker": "Balthasar Davi", "text": "Yeah, so. The offline-sync conflict. The fix holds. I ran it on six devices, um, three Android, including the old Android 11 one, two of the newer phones, and the cheap tablet we use for the warehouse stuff."}
+{"start": 39.419, "end": 45.47, "speaker": "Juliet Capulet", "text": "And that's the same repro as before? Same inspection, edited on two devices while offline?"}
+{"start": 46.301, "end": 62.952, "speaker": "Balthasar Davi", "text": "Same repro. One inspection, two devices, both offline, both edit, then bring them back online at the same time. Before, one set of edits would just overwrite the other. Now both sets land and the findings are intact. I did it, I don't know, maybe a dozen times per device."}
+{"start": 63.568, "end": 66.179, "speaker": "Angela Nurse", "text": "Six devices, no failures?"}
+{"start": 66.72, "end": 69.331, "speaker": "Balthasar Davi", "text": "No failures on the conflict. Zero."}
+{"start": 70.016, "end": 73.466, "speaker": "Juliet Capulet", "text": "That's great. That was the one I was actually losing sleep over."}
+{"start": 73.953, "end": 78.764, "speaker": "Balthasar Davi", "text": "There's one other thing, though. Not the conflict, something separate."}
+{"start": 79.349, "end": 80.24, "speaker": "Angela Nurse", "text": "Go ahead."}
+{"start": 80.926, "end": 96.177, "speaker": "Balthasar Davi", "text": "Photo upload is flaky on slow networks. Like, if I throttle it down to bad warehouse wifi, every so often a photo upload just stalls. It doesn't lose the photo, it retries and it eventually gets there. It's just slow and the progress bar kind of sits there."}
+{"start": 96.864, "end": 98.635, "speaker": "Juliet Capulet", "text": "Does it ever lose one?"}
+{"start": 99.2, "end": 105.411, "speaker": "Balthasar Davi", "text": "No. I checked that pretty carefully. Every photo made it. It's an annoyance, not a data problem."}
+{"start": 106.167, "end": 109.418, "speaker": "Angela Nurse", "text": "So, blocker or not a blocker? Your call."}
+{"start": 109.984, "end": 116.995, "speaker": "Balthasar Davi", "text": "Not a blocker. I'd document it. Known issue, photos may upload slowly on poor connections, they will finish."}
+{"start": 117.821, "end": 127.832, "speaker": "Juliet Capulet", "text": "Agreed. Balthasar, can you add it to the release notes, right under the known issues? Actually, we can probably take the old Android crash off that list now, since Tybalt fixed it."}
+{"start": 128.619, "end": 141.79, "speaker": "Angela Nurse", "text": "Yes, please, swap those. Okay, so where I am. Checklist's at ninety-five percent. Release notes, done once you make that edit. Store listing, done. Rollback plan, done. Support's got the FAQ."}
+{"start": 142.406, "end": 143.577, "speaker": "Juliet Capulet", "text": "What's the last five?"}
+{"start": 144.142, "end": 152.113, "speaker": "Angela Nurse", "text": "Balthasar's formal QA sign-off, which, it sounds like that's coming, and Tybalt's airplane-mode test. He told me this morning he's writing it."}
+{"start": 152.723, "end": 157.534, "speaker": "Juliet Capulet", "text": "Yeah, he volunteered in our one-on-one. He said he'd have it before go or no-go."}
+{"start": 158.375, "end": 163.066, "speaker": "Balthasar Davi", "text": "I'll send my sign-off tonight. I just want to write up the photo thing properly first so it's in there."}
+{"start": 163.529, "end": 172.14, "speaker": "Angela Nurse", "text": "Perfect. So nothing's moving. Go or no-go stays Friday, nine-thirty. Same room, I'll resend the invite so it's at the top of everyone's calendar."}
+{"start": 172.66, "end": 179.231, "speaker": "Juliet Capulet", "text": "Nine-thirty works. Thanks, both of you. Seriously, Balthasar, six devices, that's a lot of tapping."}
+{"start": 180.028, "end": 182.959, "speaker": "Balthasar Davi", "text": "My thumbs are fine. Mostly."}
+{"start": 183.661, "end": 187.512, "speaker": "Angela Nurse", "text": "Okay. See everyone tomorrow. Go enjoy your leaf blower."}

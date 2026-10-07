@@ -1,0 +1,155 @@
+{
+  "id": "wed-sync",
+  "kind": "audio",
+  "title": "Schema Bridge sync with Romeo",
+  "lines": [
+    {
+      "speaker": "romeo_montague",
+      "text": "Hey, Juliet. Sorry, give me one second, I'm just getting my screen up."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "No rush. How's your day?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Good, actually. I've been playing with the queue all morning. But you first. How was Ducal?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Really good. Paris was great, very clear about what he needs. He asked for three things."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Okay, go."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "One, inspections that sync on their own when the tablet comes back online. Their yards have basically no signal past the first few rows of trailers. Two, a signed PDF for every inspection, because their auditors need a signed report within twenty-four hours. And three, export into their freight system, by site. They've got thirty sites."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Okay. So the first one is literally the queue."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's what I was hoping you'd say."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "The PDF is all you, that's Balcony. And export by site, um, that's new. That's not this week."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "No, agreed. I told him I'd be straight with him on timing. Oh, and he asked whether Ducal would see your routing data. I said no, only what Ducal sends."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Good. Yes. That's right. Okay, can I show you the thing?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Please."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "So this is the prototype on a test tablet. At about two I turned off the wifi and just started making inspections. Fake ones. Dock four, dock seven, a very damaged imaginary trailer."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Poor trailer."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "It's had a hard day. So you can see here, twelve inspections queued. That's an hour offline. Nothing crashed, nothing got lost. Now watch. I'm turning the wifi back on."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay..."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "And there it goes. Eleven, eight, four... zero. All twelve sent, in order, and they're showing up on the Mesh Routing side. Same timestamps they were signed with, not the time they arrived."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Oh, that's important. The auditors care about when it was signed."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Exactly. That was the whole point of keeping the signed time on the record."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's really nice, Romeo. Tybalt said this morning he's satisfied if it survives a week of airplane mode."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Ha. Okay. One hour down, a hundred and sixty-seven to go."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So, the thing I really want to settle today. Field versioning. It's the one open question left from Monday, and I've got an empty owner line in the spec staring at me."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Yeah. I've been thinking about it. Can I propose something?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Go for it."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "So there are really two layers. There's the inspection record itself. Site, inspector, photos, findings, signed time. That's yours, that's what Balcony knows about. And then there's the envelope around it, the routing stuff, where it's going, delivery, retries. That's ours."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So Capulet owns the inspection record schema, Montague owns the routing envelope."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Right. But, and here's the part I care about, any change to either one needs both of us to approve it. Because if you rename a field, my side breaks, and if I change the envelope, your side breaks."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I like that. Each side owns its part, nobody changes anything alone."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Decided. I'll write it into the spec tonight. How do we know which version an event is on, though?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "I'll add a schema version number to every event. So if we ever change something, an old tablet sending old events doesn't confuse anybody. The receiver just reads the number."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Perfect. Okay, last thing. Friday's demo. What do we show Paris?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "I think exactly what I just showed you. An inspection done offline, then the tablet reconnects and it syncs."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And then I show the signed PDF for that same inspection. So he sees his first two asks, start to finish."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Love that. And we just say export by site is coming, honestly."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Honestly. Okay. I think we're in good shape. Thanks, Romeo."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Thank you. Say hi to Tybalt. Tell him the clock's running."
+    }
+  ]
+}

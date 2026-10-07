@@ -1,0 +1,127 @@
+{
+  "id": "fri-demo",
+  "kind": "audio",
+  "title": "Schema Bridge demo for Ducal Freight",
+  "lines": [
+    {
+      "speaker": "benvolio_montague",
+      "text": "Okay, I think we've got everyone. Paris, thanks for making time on a Friday afternoon. I'm Benvolio, product at Montague, you've met Juliet, and this is Romeo, who built most of what you're about to see."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Happy to be here. Juliet said there'd be a tablet in airplane mode, so I'm curious."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "There will be, I promise. So the plan is about twenty minutes. Romeo shows an inspection that's done offline and then syncs. Juliet shows you the signed report. Then we talk about what a pilot looks like. Sound okay?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Great. So, I'm sharing my screen, and this is a regular tablet running the Balcony App. And, see up top, it's in airplane mode. No Wi-Fi, no cell. Pretend I'm out in one of your yards, behind a row of trailers."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "That's most of our yards, honestly."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Right, that's what Juliet said. So I'm starting a dock inspection. Site, inspector, I'll take a couple of photos of, um, my desk, which is standing in for a dock door. One finding, door seal damaged. And I sign it."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Now, this little line at the bottom. It says one inspection queued. That's not a spinner, it's a count. It's sitting in a local queue on the tablet, and it'll stay there as long as it needs to."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "And if the inspector does ten of these before they get signal?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Then it says ten queued. We tested a lot more than ten this week. Tybalt on Juliet's team left three tablets in airplane mode overnight. Okay, so now I'm walking back to the office, and I turn airplane mode off."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "And... there. Queued goes to zero, and the inspection shows as sent. On our side, Mesh Routing picked it up as an event, so it's routed in a couple of seconds, not in a nightly batch."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Huh. Okay. That's quicker than I expected."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And that's the part your auditors care about, I think. So let me share mine. This is the signed PDF for the inspection Romeo just did. It's generated as soon as it syncs."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "You've got the site, the inspector, the time it was signed, the photos, the finding. And the signature's at the bottom, with the time it was actually signed out in the yard, not the time it synced."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Oh, that's important. That was going to be my question. Because if it's signed at six and syncs at eight, the auditor needs to see six."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Exactly. So with the twenty-four-hour window you mentioned Wednesday, the clock starts when your inspector signs."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Good. That's really good. So, two out of my three. What about the export, by site, into our freight system?"
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "That's the honest gap. Export by site is next sprint. We didn't want to fake it for a demo."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "I appreciate that, actually. I'd rather hear next sprint than see something that falls over in March."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And just to repeat what I said on Wednesday, the data that flows through is your inspections. You see what you send, and nobody's handing you, or anybody, Montague's routing data."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Yep, I remember. Okay. So what would a pilot look like?"
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "We were thinking small. Four weeks, two sites. Pick the two where connectivity is worst, so we really learn something."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Um, I can do that. I'd want to start on a Monday. March second?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "March second works for us. Export by site is next sprint. We'll confirm timing early next week, and the goal is to have it before your inspectors start."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Yeah, that's comfortable for us."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Okay then. Four weeks, two sites, starting March second. Let's do it. I'll pick the sites and send them over to Juliet."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Fantastic. Thank you, Paris. We'll send a short summary today."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "One thing, so nobody's surprised if I'm slow to reply. I'm at a conference in Denver all next week, so I'll be on my phone mostly."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Oh, Denver, nice. Well, that's our neck of the woods, so if you want a coffee, just say."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "I might take you up on that. Thanks, everyone. Good demo."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "fri-gonogo",
+  "kind": "audio",
+  "title": "Balcony App 3.0 go/no-go",
+  "lines": [
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay, it's nine thirty, everybody's here. Let's do it. I've got the checklist up, I'll just walk it top to bottom and you stop me if anything's wrong."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Sounds good. Go for it."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Build is signed, store listing is updated, the release notes are the ones Juliet wrote Tuesday, with the known issues section. Crash reporting is on. Support has the FAQ. That's all green."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Next one is the Android 11 crash. Tybalt, that's closed, right?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Closed. That was the photo-cache path thing, fixed Wednesday. We haven't seen it come back on any of the older devices since."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Great. And then the airplane-mode test. That's the one I really want to hear about."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "So, um, it passed. I ran it overnight on three tablets. Airplane mode on, did twelve inspections each, photos, findings, signatures, the whole thing. Then turned the radios back on this morning and everything synced. No duplicates, no lost photos."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Twelve each? That's more than I expected."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "I said it had to survive a week of airplane mode. I didn't have a week, so I gave it volume instead."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ha. Fair. I'll take it."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "And to be clear, that's Balcony on its own. I also ran it with the queue build Romeo merged, and that held too. I'm, honestly, I'm a lot less worried than I was Monday."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Noted, and I'm writing that down, because I don't hear it often. Okay. Balthasar, QA sign-off."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Yeah. So the offline-sync conflict fix is solid. I re-ran it yesterday afternoon on all six devices again, just to be paranoid, and it holds. The only thing left is the one I mentioned yesterday, the photo upload on slow networks."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "The flaky one."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Right. On a really bad connection, like one bar in a yard, a photo upload can stall and then retry. It does get there. It just takes a while and the progress bar looks stuck. Nothing gets lost."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "And it's documented?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "It's in the known issues now, I added a line to the notes this morning. So, from me, it's a sign-off. Not a blocker."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay. Then that's the last line on the checklist. Everything's green except one documented known issue. Juliet, it's your call."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Um, anyone want to argue for no-go? Seriously, now's the time."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Not me."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "No, I'm good."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Then it's a go. But let's stage it. Ten percent on Monday, we watch crash rates and the sync numbers for a few days, and if it's quiet we go to a hundred percent on Thursday."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Ten Monday, a hundred Thursday. I like that. Gives us the weekend to breathe, too."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "I'll keep an eye on the dashboards Monday and Tuesday. If the Android numbers twitch, I'll say something."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Perfect. Balthasar, can you keep a couple of the slow-network devices handy next week, just in case?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Yeah, they're not going anywhere."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay, so I'll send the announcement this morning. Internal first, then the note to the beta testers, then I'll schedule the store rollout for Monday at ten percent."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thank you, Angela. And thanks, all of you. This was a good week. Really."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Don't jinx it. Go do your Ducal thing."
+    }
+  ]
+}

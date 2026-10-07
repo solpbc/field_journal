@@ -1,0 +1,139 @@
+{
+  "id": "wed-duke",
+  "kind": "audio",
+  "title": "Ducal Freight discovery call",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Hi, Paris? Can you hear me okay?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Loud and clear. Good morning, Juliet. Thanks for making the time."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Of course, thank you. So I mostly want to listen today. I'd love to hear how inspections actually work at Ducal right now, and then what you'd want from us."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Sure. So, big picture, we run thirty sites across the region. Every one of them has a dock and a yard, and every trailer that comes in or goes out gets an inspection. Seals, doors, tires, the load, any damage."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thirty sites. And who's doing the inspections?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Our yard inspectors. Most of them are out in the yard with a tablet, and, um, the honest truth is the signal out there is terrible. Some of our yards, you walk past the third row of trailers and you've got nothing. No bars at all."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So they're offline a lot of the day."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "A lot of the day. And what happens now is they either write it on paper and type it up later, or they fill in the form, it fails to send, and they have to remember to go back and resend it. Which they don't always."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah. That's the exact thing we built offline inspections for, actually."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Good. Because here's where it hurts. Our auditors need a signed report for every inspection within twenty-four hours. That's a customer requirement on a lot of our contracts. If an inspection is sitting on a tablet in a yard somewhere, we miss the window, and then I'm the one on the phone explaining why."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Signed meaning the inspector signs it?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "The inspector signs it, with the time on it. And the auditors want a PDF. They don't want to log into anything, they just want the document."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Let me make sure I've got this. Can I play it back to you?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Please."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So I'm hearing three things. One, inspections have to work offline and sync on their own when the tablet's back online, no resending. Two, a signed PDF for every single inspection. And three..."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Three is the export. Sorry, I jumped in."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "No, go ahead."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Three is getting it into our freight system. We organize everything by site. So if I'm looking at, say, the north yard, I want all the north yard inspections to land in our system under that site. Export by site."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Got it. Offline sync, a signed PDF per inspection, export by site. Is that the right order of importance?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Hm. Honestly, the first two are what get me through an audit. The export is what makes my team's life easier. So yes, that order."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's really helpful. The first two are pretty close to what we already have in Balcony. Export by site is newer for us, so I'll be straight with you about timing once I've talked to the team."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "I appreciate that. Can I ask one thing that came up internally?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Sure."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "This is a joint project with Montague, right? With their routing service. Somebody on my side asked whether we'd be able to see Montague's routing data. Like, their whole picture of the fleet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ah. No. Short answer, you'd see only what Ducal sends. Your inspections, your sites, your records. The bridge moves your data where it needs to go, and that's it. You don't see anyone else's, and nobody else sees yours."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Okay. Honestly, that's the answer I was hoping for. If it went both ways, legal would have a lot of questions."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I'd have a lot of questions too."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Ha. Fair."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So, next step. Benvolio at Montague set up a demo for Friday afternoon, two o'clock. We'd show you an inspection done offline syncing when the tablet reconnects, and the signed PDF. Would that work for you?"
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Friday at two. Let me look. Yep, I can do that."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Please do, that'd be great. The more real the questions, the better."
+    },
+    {
+      "speaker": "paris_duke",
+      "text": "Then we're on. Thanks, Juliet. This was a good call."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thank you, Paris. I'll send a short recap this afternoon so we're working from the same list. Talk Friday."
+    }
+  ]
+}

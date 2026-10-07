@@ -1,0 +1,30 @@
+{"start": 0.6, "end": 12.411, "speaker": "Benvolio Montague", "text": "Okay, I think we've got everyone. Paris, thanks for making time on a Friday afternoon. I'm Benvolio, product at Montague, you've met Juliet, and this is Romeo, who built most of what you're about to see."}
+{"start": 13.172, "end": 18.503, "speaker": "Paris Duke", "text": "Happy to be here. Juliet said there'd be a tablet in airplane mode, so I'm curious."}
+{"start": 19.16, "end": 31.531, "speaker": "Benvolio Montague", "text": "There will be, I promise. So the plan is about twenty minutes. Romeo shows an inspection that's done offline and then syncs. Juliet shows you the signed report. Then we talk about what a pilot looks like. Sound okay?"}
+{"start": 32.099, "end": 32.95, "speaker": "Paris Duke", "text": "Sounds good."}
+{"start": 33.66, "end": 46.151, "speaker": "Romeo Montague", "text": "Great. So, I'm sharing my screen, and this is a regular tablet running the Balcony App. And, see up top, it's in airplane mode. No Wi-Fi, no cell. Pretend I'm out in one of your yards, behind a row of trailers."}
+{"start": 46.828, "end": 49.119, "speaker": "Paris Duke", "text": "That's most of our yards, honestly."}
+{"start": 49.94, "end": 65.111, "speaker": "Romeo Montague", "text": "Right, that's what Juliet said. So I'm starting a dock inspection. Site, inspector, I'll take a couple of photos of, um, my desk, which is standing in for a dock door. One finding, door seal damaged. And I sign it."}
+{"start": 65.551, "end": 76.162, "speaker": "Romeo Montague", "text": "Now, this little line at the bottom. It says one inspection queued. That's not a spinner, it's a count. It's sitting in a local queue on the tablet, and it'll stay there as long as it needs to."}
+{"start": 76.776, "end": 80.067, "speaker": "Paris Duke", "text": "And if the inspector does ten of these before they get signal?"}
+{"start": 80.905, "end": 94.756, "speaker": "Romeo Montague", "text": "Then it says ten queued. We tested a lot more than ten this week. Tybalt on Juliet's team left three tablets in airplane mode overnight. Okay, so now I'm walking back to the office, and I turn airplane mode off."}
+{"start": 95.213, "end": 107.104, "speaker": "Romeo Montague", "text": "And... there. Queued goes to zero, and the inspection shows as sent. On our side, Mesh Routing picked it up as an event, so it's routed in a couple of seconds, not in a nightly batch."}
+{"start": 107.852, "end": 111.143, "speaker": "Paris Duke", "text": "Huh. Okay. That's quicker than I expected."}
+{"start": 111.614, "end": 121.465, "speaker": "Juliet Capulet", "text": "And that's the part your auditors care about, I think. So let me share mine. This is the signed PDF for the inspection Romeo just did. It's generated as soon as it syncs."}
+{"start": 122.103, "end": 132.634, "speaker": "Juliet Capulet", "text": "You've got the site, the inspector, the time it was signed, the photos, the finding. And the signature's at the bottom, with the time it was actually signed out in the yard, not the time it synced."}
+{"start": 133.389, "end": 142.16, "speaker": "Paris Duke", "text": "Oh, that's important. That was going to be my question. Because if it's signed at six and syncs at eight, the auditor needs to see six."}
+{"start": 142.622, "end": 149.193, "speaker": "Juliet Capulet", "text": "Exactly. So with the twenty-four-hour window you mentioned Wednesday, the clock starts when your inspector signs."}
+{"start": 149.849, "end": 156.94, "speaker": "Paris Duke", "text": "Good. That's really good. So, two out of my three. What about the export, by site, into our freight system?"}
+{"start": 157.789, "end": 164.0, "speaker": "Benvolio Montague", "text": "That's the honest gap. Export by site is next sprint. We didn't want to fake it for a demo."}
+{"start": 164.817, "end": 170.428, "speaker": "Paris Duke", "text": "I appreciate that, actually. I'd rather hear next sprint than see something that falls over in March."}
+{"start": 170.96, "end": 181.931, "speaker": "Juliet Capulet", "text": "And just to repeat what I said on Wednesday, the data that flows through is your inspections. You see what you send, and nobody's handing you, or anybody, Montague's routing data."}
+{"start": 182.429, "end": 186.28, "speaker": "Paris Duke", "text": "Yep, I remember. Okay. So what would a pilot look like?"}
+{"start": 187.055, "end": 193.986, "speaker": "Benvolio Montague", "text": "We were thinking small. Four weeks, two sites. Pick the two where connectivity is worst, so we really learn something."}
+{"start": 194.662, "end": 199.273, "speaker": "Paris Duke", "text": "Um, I can do that. I'd want to start on a Monday. March second?"}
+{"start": 199.853, "end": 208.544, "speaker": "Juliet Capulet", "text": "March second works for us. Export by site is next sprint. We'll confirm timing early next week, and the goal is to have it before your inspectors start."}
+{"start": 209.119, "end": 211.25, "speaker": "Romeo Montague", "text": "Yeah, that's comfortable for us."}
+{"start": 211.881, "end": 219.332, "speaker": "Paris Duke", "text": "Okay then. Four weeks, two sites, starting March second. Let's do it. I'll pick the sites and send them over to Juliet."}
+{"start": 219.906, "end": 223.717, "speaker": "Benvolio Montague", "text": "Fantastic. Thank you, Paris. We'll send a short summary today."}
+{"start": 224.361, "end": 232.492, "speaker": "Paris Duke", "text": "One thing, so nobody's surprised if I'm slow to reply. I'm at a conference in Denver all next week, so I'll be on my phone mostly."}
+{"start": 233.034, "end": 237.805, "speaker": "Juliet Capulet", "text": "Oh, Denver, nice. Well, that's our neck of the woods, so if you want a coffee, just say."}
+{"start": 238.541, "end": 242.192, "speaker": "Paris Duke", "text": "I might take you up on that. Thanks, everyone. Good demo."}

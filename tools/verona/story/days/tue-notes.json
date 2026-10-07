@@ -1,0 +1,53 @@
+{
+  "id": "tue-notes",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Balcony App 3.0 beta release notes",
+  "doc_title": "Balcony App 3.0 beta: release notes",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Balcony App 3.0 beta"
+    },
+    {
+      "type": "p",
+      "text": "Thanks for testing 3.0. This build is focused on working well out in the yard, with or without a signal."
+    },
+    {
+      "type": "h2",
+      "text": "What's new"
+    },
+    {
+      "type": "li",
+      "text": "Offline inspections: start, fill in and save a full inspection with no connection. It syncs when you're back online."
+    },
+    {
+      "type": "li",
+      "text": "Faster photo upload: photos upload in the background and resume if the connection drops."
+    },
+    {
+      "type": "li",
+      "text": "Signed reports: inspectors can sign an inspection on the device, and the report shows who signed and when."
+    },
+    {
+      "type": "h2",
+      "text": "Known issues"
+    },
+    {
+      "type": "li",
+      "text": "Offline sync conflict: if the same inspection is edited on two devices while offline, one set of edits can be overwritten. A fix is in progress. For now, please edit each inspection on one device only."
+    },
+    {
+      "type": "li",
+      "text": "Crash on older Android devices: we've had crash reports from some older Android phones. We're investigating. If it happens to you, please send a report from Settings > Help."
+    },
+    {
+      "type": "h2",
+      "text": "Feedback"
+    },
+    {
+      "type": "p",
+      "text": "Report bugs from Settings > Help in the app, or reply to the beta email. Go/no-go for the full release is Friday."
+    }
+  ]
+}

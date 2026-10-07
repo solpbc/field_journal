@@ -1,0 +1,42 @@
+{
+  "id": "fri-note",
+  "kind": "screen",
+  "app": "email",
+  "title": "Weekly note to Friar",
+  "to": "Lawrence Friar (Verona Ventures)",
+  "subject": "Week of Feb 9",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Friar,"
+    },
+    {
+      "type": "p",
+      "text": "First weekly note, as promised. Short version:"
+    },
+    {
+      "type": "li",
+      "text": "Balcony 3.0 is a go. We decided this morning. Staged rollout: 10% Monday, 100% Thursday if the numbers stay quiet. One known issue (slow photo uploads on bad networks), documented, nothing lost."
+    },
+    {
+      "type": "li",
+      "text": "Schema Bridge: we have the versioning rule agreed with Montague, in writing in the spec. Capulet owns the inspection record, Montague owns the routing envelope, and either side has 48 hours to object to a change, so nobody can block by going quiet. That was your advice on Tuesday and I think it was the right call."
+    },
+    {
+      "type": "li",
+      "text": "Ducal Freight demo is today at 2. We'll show an offline inspection syncing and the signed PDF."
+    },
+    {
+      "type": "p",
+      "text": "One ask: do you know anyone at a second logistics company who might want to pilot? An intro would help us check that Schema Bridge isn't just built for Ducal."
+    },
+    {
+      "type": "p",
+      "text": "Thanks,"
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

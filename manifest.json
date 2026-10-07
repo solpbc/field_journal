@@ -1261,6 +1261,334 @@
         "screen_capture"
       ],
       "has_reference": false
+    },
+    {
+      "day": "20260209",
+      "stream": "verona.audio",
+      "segment": "084500_67",
+      "source": "verona",
+      "source_id": "mon-memo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 67,
+      "description": "verona (synthetic, sol pbc): Voice memo: plan for the week",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260209",
+      "stream": "verona.audio",
+      "segment": "093000_165",
+      "source": "verona",
+      "source_id": "mon-standup",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 165,
+      "description": "verona (synthetic, sol pbc): Capulet standup",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260209",
+      "stream": "verona.audio",
+      "segment": "150000_232",
+      "source": "verona",
+      "source_id": "mon-kickoff",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 232,
+      "description": "verona (synthetic, sol pbc): Schema Bridge kickoff with Montague",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260209",
+      "stream": "verona.screen",
+      "segment": "111500_120",
+      "source": "verona",
+      "source_id": "mon-spec",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 120,
+      "description": "verona (synthetic, sol pbc): Writing the Schema Bridge spec, draft 1",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260210",
+      "stream": "verona.audio",
+      "segment": "090000_206",
+      "source": "verona",
+      "source_id": "tue-friar",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 206,
+      "description": "verona (synthetic, sol pbc): 1:1 with Friar (Verona Ventures)",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260210",
+      "stream": "verona.audio",
+      "segment": "140000_219",
+      "source": "verona",
+      "source_id": "tue-design",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 219,
+      "description": "verona (synthetic, sol pbc): Design review: inspection sync screen",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260210",
+      "stream": "verona.screen",
+      "segment": "110000_90",
+      "source": "verona",
+      "source_id": "tue-notes",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 90,
+      "description": "verona (synthetic, sol pbc): Balcony App 3.0 beta release notes",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260210",
+      "stream": "verona.screen",
+      "segment": "163000_90",
+      "source": "verona",
+      "source_id": "tue-board",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 90,
+      "description": "verona (synthetic, sol pbc): Triage on the Balcony beta board",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "093000_164",
+      "source": "verona",
+      "source_id": "wed-standup",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 164,
+      "description": "verona (synthetic, sol pbc): Capulet standup",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "103000_243",
+      "source": "verona",
+      "source_id": "wed-duke",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 243,
+      "description": "verona (synthetic, sol pbc): Ducal Freight discovery call",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "150000_251",
+      "source": "verona",
+      "source_id": "wed-sync",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 251,
+      "description": "verona (synthetic, sol pbc): Schema Bridge sync with Romeo",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "173000_56",
+      "source": "verona",
+      "source_id": "wed-memo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 56,
+      "description": "verona (synthetic, sol pbc): Voice memo: end of day",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "130000_120",
+      "source": "verona",
+      "source_id": "wed-spec",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 120,
+      "description": "verona (synthetic, sol pbc): Schema Bridge spec v2",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260212",
+      "stream": "verona.audio",
+      "segment": "100000_190",
+      "source": "verona",
+      "source_id": "thu-tybalt",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 190,
+      "description": "verona (synthetic, sol pbc): 1:1 with Tybalt",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260212",
+      "stream": "verona.audio",
+      "segment": "153000_189",
+      "source": "verona",
+      "source_id": "thu-angela",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 189,
+      "description": "verona (synthetic, sol pbc): Release check-in with Angela and Balthasar",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260212",
+      "stream": "verona.screen",
+      "segment": "133000_120",
+      "source": "verona",
+      "source_id": "thu-pr",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 120,
+      "description": "verona (synthetic, sol pbc): Reviewing Romeo's queue pull request",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260213",
+      "stream": "verona.audio",
+      "segment": "093000_197",
+      "source": "verona",
+      "source_id": "fri-gonogo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 197,
+      "description": "verona (synthetic, sol pbc): Balcony App 3.0 go/no-go",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260213",
+      "stream": "verona.audio",
+      "segment": "140000_243",
+      "source": "verona",
+      "source_id": "fri-demo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 243,
+      "description": "verona (synthetic, sol pbc): Schema Bridge demo for Ducal Freight",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260213",
+      "stream": "verona.audio",
+      "segment": "163000_75",
+      "source": "verona",
+      "source_id": "fri-memo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 75,
+      "description": "verona (synthetic, sol pbc): Voice memo: the week",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260213",
+      "stream": "verona.screen",
+      "segment": "110000_90",
+      "source": "verona",
+      "source_id": "fri-note",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 90,
+      "description": "verona (synthetic, sol pbc): Weekly note to Friar",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
     }
   ]
 }

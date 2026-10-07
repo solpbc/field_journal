@@ -19,6 +19,28 @@ The `journal/` directory follows solstone's `day/stream/segment/` structure — 
 | [ICSI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/icsi/) | CC-BY 4.0 | Recurring lab meetings with shared speakers across sessions |
 | [VOiCES](https://iqtlabs.github.io/voices/) | CC-BY 4.0 | Far-field replayed LibriSpeech utterances at multiple mic distances for cross-device drift |
 | [DiPCo Dinner Party Corpus](https://zenodo.org/records/8122551) | CDLA-Permissive-1.0 | Close-talk dinner-party speaker mixes with overlap-rich transcripts |
+| verona (written by sol pbc) | CC-BY 4.0 | A synthetic working week: invented people, meetings, writing and projects, with exact reference transcripts |
+
+The first nine sources are real recordings of real people. **verona is the exception: it is fiction**, written for this corpus, and nobody in it is a real person (see below).
+
+## verona: the synthetic week
+
+`journal/20260209` to `journal/20260213` (streams `verona.audio` and `verona.screen`) hold one invented working week from the journal of **Juliet Capulet**, head of product at the fictional Capulet Industries. Her team and its partners recur across the days: Romeo and Benvolio at Montague Tech, Friar at Verona Ventures, Paris Duke at Ducal Freight, and the Balcony App, Schema Bridge and Mesh Routing projects. There are 20 entries: meetings, calls and voice memos, plus her screen while she writes a spec, triages a board, reviews code and drafts an email. It continues the fictional Verona cast in the solstone journal's own test fixture.
+
+- **Written, not recorded.** The scripts live in `tools/verona/story/` (`cast.json`, `week.json`, one file per entry in `days/`).
+- **Rendered once, then committed.** `make verona-render` speaks each line with a stock text-to-speech voice (Gemini TTS, one voice per character, nobody's voice cloned), types each screen script out in headless Chromium, and refreshes the manifest. You only need it after changing a script.
+- **Exact ground truth.** Every audio entry has `reference/verona/<id>/transcript.jsonl`, with each line's speaker, text and timing.
+
+### the demo journal
+
+`make demo` builds a journal containing **only** the verona week, so it never includes the real recordings. A test enforces this. The build needs `GOOGLE_API_KEY` and `minisign`. It:
+
+1. installs the latest released solstone journal into an isolated home under `.demo/runtime/`, so your own install and service are untouched;
+2. moves the week so that its Friday is the most recent Friday before today;
+3. imports the week's calendar, lets that journal's own supervisor process it now rather than overnight (transcription, speakers, thinking, daily outputs), then builds the index;
+4. writes `.demo/latest/demo-build.json`, recording the journal version, this repo's commit and the provider and model used.
+
+`make demo-serve` opens the latest build's web app at `http://127.0.0.1:5115`. It also opens its local agent door at `http://127.0.0.1:7659/mcp`, with a read-only demo token written to `.demo/latest/mcp.json`, so any MCP client can ask the week a question. Port 7659 is fixed, so stop your own journal first if one runs on this computer.
 
 ## directory structure
 
@@ -35,7 +57,8 @@ field_journal/
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
 ├── ATTRIBUTION.md        # detailed license info per source
 ├── tools/                # download/build scripts (python)
-│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices)
+│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices, verona)
+│   ├── verona/           # the synthetic week: story, renderer, demo builder
 │   └── build.py          # orchestrates download → slice → organize
 └── tests/                # validation tests
 ```

@@ -1,0 +1,12 @@
+{
+  "id": "wed-memo",
+  "kind": "audio",
+  "title": "Voice memo: end of day",
+  "lines": [
+    {"speaker": "juliet_capulet", "text": "Okay, end of day. Quick recap before I forget all of it."},
+    {"speaker": "juliet_capulet", "text": "The Ducal Freight call went well. Paris wants three things: inspections that sync when they're back online, a signed PDF for every inspection, and export to their freight system by site. The first two we can show Friday. Export is later, and I need to give him real timing."},
+    {"speaker": "juliet_capulet", "text": "Big one: versioning's decided. Romeo and I agreed Capulet owns the inspection record, Montague owns the routing envelope, and any change needs both of us to sign off. He's adding a schema version number to every event."},
+    {"speaker": "juliet_capulet", "text": "So, um, tonight or first thing tomorrow, fill in that empty owner line in the spec. Then it goes in Friday's note to Friar. He asked for exactly this, so he'll be happy."},
+    {"speaker": "juliet_capulet", "text": "And, ugh, the Paris flight. The trade show, on the twenty-sixth. I still haven't booked it. Book the flight, Juliet."}
+  ]
+}

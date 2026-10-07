@@ -1,0 +1,29 @@
+{"start": 0.6, "end": 8.571, "speaker": "Angela Nurse", "text": "Okay, it's nine thirty, everybody's here. Let's do it. I've got the checklist up, I'll just walk it top to bottom and you stop me if anything's wrong."}
+{"start": 9.169, "end": 10.86, "speaker": "Juliet Capulet", "text": "Sounds good. Go for it."}
+{"start": 11.656, "end": 22.347, "speaker": "Angela Nurse", "text": "Build is signed, store listing is updated, the release notes are the ones Juliet wrote Tuesday, with the known issues section. Crash reporting is on. Support has the FAQ. That's all green."}
+{"start": 22.968, "end": 26.939, "speaker": "Angela Nurse", "text": "Next one is the Android 11 crash. Tybalt, that's closed, right?"}
+{"start": 27.48, "end": 33.931, "speaker": "Tybalt Capulet", "text": "Closed. That was the photo-cache path thing, fixed Wednesday. We haven't seen it come back on any of the older devices since."}
+{"start": 34.599, "end": 39.89, "speaker": "Angela Nurse", "text": "Great. And then the airplane-mode test. That's the one I really want to hear about."}
+{"start": 40.705, "end": 55.996, "speaker": "Tybalt Capulet", "text": "So, um, it passed. I ran it overnight on three tablets. Airplane mode on, did twelve inspections each, photos, findings, signatures, the whole thing. Then turned the radios back on this morning and everything synced. No duplicates, no lost photos."}
+{"start": 56.807, "end": 59.938, "speaker": "Juliet Capulet", "text": "Twelve each? That's more than I expected."}
+{"start": 60.472, "end": 67.043, "speaker": "Tybalt Capulet", "text": "I said it had to survive a week of airplane mode. I didn't have a week, so I gave it volume instead."}
+{"start": 67.61, "end": 69.861, "speaker": "Juliet Capulet", "text": "Ha. Fair. I'll take it."}
+{"start": 70.581, "end": 80.112, "speaker": "Tybalt Capulet", "text": "And to be clear, that's Balcony on its own. I also ran it with the queue build Romeo merged, and that held too. I'm, honestly, I'm a lot less worried than I was Monday."}
+{"start": 80.807, "end": 87.978, "speaker": "Angela Nurse", "text": "Noted, and I'm writing that down, because I don't hear it often. Okay. Balthasar, QA sign-off."}
+{"start": 88.593, "end": 102.564, "speaker": "Balthasar Davi", "text": "Yeah. So the offline-sync conflict fix is solid. I re-ran it yesterday afternoon on all six devices again, just to be paranoid, and it holds. The only thing left is the one I mentioned yesterday, the photo upload on slow networks."}
+{"start": 103.354, "end": 104.845, "speaker": "Juliet Capulet", "text": "The flaky one."}
+{"start": 105.502, "end": 116.473, "speaker": "Balthasar Davi", "text": "Right. On a really bad connection, like one bar in a yard, a photo upload can stall and then retry. It does get there. It just takes a while and the progress bar looks stuck. Nothing gets lost."}
+{"start": 117.035, "end": 118.446, "speaker": "Angela Nurse", "text": "And it's documented?"}
+{"start": 118.979, "end": 125.43, "speaker": "Balthasar Davi", "text": "It's in the known issues now, I added a line to the notes this morning. So, from me, it's a sign-off. Not a blocker."}
+{"start": 126.016, "end": 134.107, "speaker": "Angela Nurse", "text": "Okay. Then that's the last line on the checklist. Everything's green except one documented known issue. Juliet, it's your call."}
+{"start": 134.634, "end": 140.365, "speaker": "Juliet Capulet", "text": "Okay. Um, anyone want to argue for no-go? Seriously, now's the time."}
+{"start": 140.93, "end": 142.261, "speaker": "Tybalt Capulet", "text": "Not me."}
+{"start": 143.068, "end": 144.319, "speaker": "Balthasar Davi", "text": "No, I'm good."}
+{"start": 145.021, "end": 154.872, "speaker": "Juliet Capulet", "text": "Then it's a go. But let's stage it. Ten percent on Monday, we watch crash rates and the sync numbers for a few days, and if it's quiet we go to a hundred percent on Thursday."}
+{"start": 155.459, "end": 161.43, "speaker": "Angela Nurse", "text": "Ten Monday, a hundred Thursday. I like that. Gives us the weekend to breathe, too."}
+{"start": 162.163, "end": 167.694, "speaker": "Tybalt Capulet", "text": "I'll keep an eye on the dashboards Monday and Tuesday. If the Android numbers twitch, I'll say something."}
+{"start": 168.319, "end": 174.25, "speaker": "Juliet Capulet", "text": "Perfect. Balthasar, can you keep a couple of the slow-network devices handy next week, just in case?"}
+{"start": 174.72, "end": 176.611, "speaker": "Balthasar Davi", "text": "Yeah, they're not going anywhere."}
+{"start": 177.177, "end": 186.628, "speaker": "Angela Nurse", "text": "Okay, so I'll send the announcement this morning. Internal first, then the note to the beta testers, then I'll schedule the store rollout for Monday at ten percent."}
+{"start": 187.111, "end": 192.082, "speaker": "Juliet Capulet", "text": "Thank you, Angela. And thanks, all of you. This was a good week. Really."}
+{"start": 192.561, "end": 196.012, "speaker": "Angela Nurse", "text": "Don't jinx it. Go do your Ducal thing."}

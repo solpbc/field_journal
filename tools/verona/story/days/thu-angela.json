@@ -1,0 +1,119 @@
+{
+  "id": "thu-angela",
+  "kind": "audio",
+  "title": "Release check-in with Angela and Balthasar",
+  "lines": [
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay, I think we're all here. Balthasar, can you hear us okay?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Yep, loud and clear. Sorry, there's a leaf blower outside, if you hear that, that's not me."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "We'll pretend it's a test of slow networks."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Ha. Honestly, kind of."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Alright, I'll keep this quick. I want to hear the sync fix first, because that's the big one on my list."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Yeah, so. The offline-sync conflict. The fix holds. I ran it on six devices, um, three Android, including the old Android 11 one, two of the newer phones, and the cheap tablet we use for the warehouse stuff."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And that's the same repro as before? Same inspection, edited on two devices while offline?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Same repro. One inspection, two devices, both offline, both edit, then bring them back online at the same time. Before, one set of edits would just overwrite the other. Now both sets land and the findings are intact. I did it, I don't know, maybe a dozen times per device."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Six devices, no failures?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "No failures on the conflict. Zero."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's great. That was the one I was actually losing sleep over."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "There's one other thing, though. Not the conflict, something separate."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Go ahead."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Photo upload is flaky on slow networks. Like, if I throttle it down to bad warehouse wifi, every so often a photo upload just stalls. It doesn't lose the photo, it retries and it eventually gets there. It's just slow and the progress bar kind of sits there."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Does it ever lose one?"
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "No. I checked that pretty carefully. Every photo made it. It's an annoyance, not a data problem."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "So, blocker or not a blocker? Your call."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "Not a blocker. I'd document it. Known issue, photos may upload slowly on poor connections, they will finish."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Agreed. Balthasar, can you add it to the release notes, right under the known issues? Actually, we can probably take the old Android crash off that list now, since Tybalt fixed it."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Yes, please, swap those. Okay, so where I am. Checklist's at ninety-five percent. Release notes, done once you make that edit. Store listing, done. Rollback plan, done. Support's got the FAQ."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "What's the last five?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Balthasar's formal QA sign-off, which, it sounds like that's coming, and Tybalt's airplane-mode test. He told me this morning he's writing it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah, he volunteered in our one-on-one. He said he'd have it before go or no-go."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "I'll send my sign-off tonight. I just want to write up the photo thing properly first so it's in there."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Perfect. So nothing's moving. Go or no-go stays Friday, nine-thirty. Same room, I'll resend the invite so it's at the top of everyone's calendar."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Nine-thirty works. Thanks, both of you. Seriously, Balthasar, six devices, that's a lot of tapping."
+    },
+    {
+      "speaker": "balthasar_davi",
+      "text": "My thumbs are fine. Mostly."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay. See everyone tomorrow. Go enjoy your leaf blower."
+    }
+  ]
+}

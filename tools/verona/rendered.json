@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mon-memo",
+    "day": "20260209",
+    "stream": "verona.audio",
+    "time": "084500",
+    "duration_seconds": 67,
+    "title": "Voice memo: plan for the week"
+  },
+  {
+    "id": "mon-standup",
+    "day": "20260209",
+    "stream": "verona.audio",
+    "time": "093000",
+    "duration_seconds": 165,
+    "title": "Capulet standup"
+  },
+  {
+    "id": "mon-spec",
+    "day": "20260209",
+    "stream": "verona.screen",
+    "time": "111500",
+    "duration_seconds": 120,
+    "title": "Writing the Schema Bridge spec, draft 1"
+  },
+  {
+    "id": "mon-kickoff",
+    "day": "20260209",
+    "stream": "verona.audio",
+    "time": "150000",
+    "duration_seconds": 232,
+    "title": "Schema Bridge kickoff with Montague"
+  },
+  {
+    "id": "tue-friar",
+    "day": "20260210",
+    "stream": "verona.audio",
+    "time": "090000",
+    "duration_seconds": 206,
+    "title": "1:1 with Friar (Verona Ventures)"
+  },
+  {
+    "id": "tue-notes",
+    "day": "20260210",
+    "stream": "verona.screen",
+    "time": "110000",
+    "duration_seconds": 90,
+    "title": "Balcony App 3.0 beta release notes"
+  },
+  {
+    "id": "tue-design",
+    "day": "20260210",
+    "stream": "verona.audio",
+    "time": "140000",
+    "duration_seconds": 219,
+    "title": "Design review: inspection sync screen"
+  },
+  {
+    "id": "tue-board",
+    "day": "20260210",
+    "stream": "verona.screen",
+    "time": "163000",
+    "duration_seconds": 90,
+    "title": "Triage on the Balcony beta board"
+  },
+  {
+    "id": "wed-standup",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "093000",
+    "duration_seconds": 164,
+    "title": "Capulet standup"
+  },
+  {
+    "id": "wed-duke",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "103000",
+    "duration_seconds": 243,
+    "title": "Ducal Freight discovery call"
+  },
+  {
+    "id": "wed-spec",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "130000",
+    "duration_seconds": 120,
+    "title": "Schema Bridge spec v2"
+  },
+  {
+    "id": "wed-sync",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "150000",
+    "duration_seconds": 251,
+    "title": "Schema Bridge sync with Romeo"
+  },
+  {
+    "id": "wed-memo",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "173000",
+    "duration_seconds": 56,
+    "title": "Voice memo: end of day"
+  },
+  {
+    "id": "thu-tybalt",
+    "day": "20260212",
+    "stream": "verona.audio",
+    "time": "100000",
+    "duration_seconds": 190,
+    "title": "1:1 with Tybalt"
+  },
+  {
+    "id": "thu-pr",
+    "day": "20260212",
+    "stream": "verona.screen",
+    "time": "133000",
+    "duration_seconds": 120,
+    "title": "Reviewing Romeo's queue pull request"
+  },
+  {
+    "id": "thu-angela",
+    "day": "20260212",
+    "stream": "verona.audio",
+    "time": "153000",
+    "duration_seconds": 189,
+    "title": "Release check-in with Angela and Balthasar"
+  },
+  {
+    "id": "fri-gonogo",
+    "day": "20260213",
+    "stream": "verona.audio",
+    "time": "093000",
+    "duration_seconds": 197,
+    "title": "Balcony App 3.0 go/no-go"
+  },
+  {
+    "id": "fri-note",
+    "day": "20260213",
+    "stream": "verona.screen",
+    "time": "110000",
+    "duration_seconds": 90,
+    "title": "Weekly note to Friar"
+  },
+  {
+    "id": "fri-demo",
+    "day": "20260213",
+    "stream": "verona.audio",
+    "time": "140000",
+    "duration_seconds": 243,
+    "title": "Schema Bridge demo for Ducal Freight"
+  },
+  {
+    "id": "fri-memo",
+    "day": "20260213",
+    "stream": "verona.audio",
+    "time": "163000",
+    "duration_seconds": 75,
+    "title": "Voice memo: the week"
+  }
+]

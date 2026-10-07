@@ -1,0 +1,55 @@
+{
+  "notes": "One working week, Monday 2026-02-09 to Friday 2026-02-13, from Juliet Capulet's journal. Times are local (America/Denver). Each entry is one segment. 'audio' entries are spoken (meetings, calls, voice memos); 'screen' entries are Juliet's screen while she writes or works. Durations are targets in seconds; audio length is whatever the script produces.",
+  "days": [
+    {"day": "20260209", "weekday": "Monday", "entries": [
+      {"id": "mon-memo", "time": "084500", "kind": "audio", "title": "Voice memo: plan for the week", "people": ["juliet_capulet"], "target_seconds": 75,
+       "beats": "Juliet, walking in, lists the week: Balcony App 3.0 beta go/no-go Friday; Schema Bridge kickoff with Montague today; Ducal Freight call Wednesday; weekly note to Friar Friday. Reminds herself to book the Paris trade-show flight for the 26th."},
+      {"id": "mon-standup", "time": "093000", "kind": "audio", "title": "Capulet standup", "people": ["juliet_capulet", "tybalt_capulet", "nurse_angela"], "target_seconds": 180,
+       "beats": "Balcony App 3.0 beta status: 41 testers, two crash reports on older Android, offline-sync bug Balthasar found. Angela owns the release checklist and proposes Friday 9:30 for go/no-go. Tybalt raises worry about Schema Bridge depending on Montague's Mesh Routing uptime. Juliet: let's raise it with Romeo in the kickoff."},
+      {"id": "mon-spec", "time": "111500", "kind": "screen", "title": "Writing the Schema Bridge spec, draft 1", "app": "doc", "target_seconds": 120,
+       "beats": "Juliet types a doc 'Schema Bridge: draft 1' with sections Goal, Inspection record (fields: site_id, inspector, photos, findings, signed_at), Sync (Balcony to Mesh Routing, nightly batch), Open questions (who owns field versioning? what if Mesh Routing is down?)."},
+      {"id": "mon-kickoff", "time": "150000", "kind": "audio", "title": "Schema Bridge kickoff with Montague", "people": ["juliet_capulet", "romeo_montague", "benvolio_montague"], "target_seconds": 240,
+       "beats": "Introductions, scope. Romeo proposes events instead of nightly batch. Benvolio sets a Friday demo for Ducal Freight. Juliet raises Tybalt's uptime concern; Romeo offers a local queue so Balcony keeps working when Mesh Routing is down. Open question left: who owns field versioning. Action items: Juliet spec v2 by Wednesday, Romeo prototype the queue."}
+    ]},
+    {"day": "20260210", "weekday": "Tuesday", "entries": [
+      {"id": "tue-friar", "time": "090000", "kind": "audio", "title": "1:1 with Friar (Verona Ventures)", "people": ["juliet_capulet", "friar_lawrence"], "target_seconds": 210,
+       "beats": "Friar asks about the Montague partnership; advises a written agreement on who owns the shared format before Ducal sees a demo. Talks runway lightly (no numbers). Suggests Juliet send a short weekly note. Juliet agrees to send one Friday."},
+      {"id": "tue-notes", "time": "110000", "kind": "screen", "title": "Balcony App 3.0 beta release notes", "app": "doc", "target_seconds": 90,
+       "beats": "Juliet writes beta release notes: offline inspections, faster photo upload, signed reports; known issues: offline-sync conflict (Balthasar's bug), older Android crash under investigation."},
+      {"id": "tue-design", "time": "140000", "kind": "audio", "title": "Design review: inspection sync screen", "people": ["juliet_capulet", "mercutio_escalus", "romeo_montague"], "target_seconds": 210,
+       "beats": "Mercutio shows the sync-status screen for Schema Bridge in Balcony: 'queued', 'sent', 'needs attention'. Jokes about naming it 'the balcony scene'; Juliet vetoes. Romeo confirms the local queue makes 'queued' honest. Decision: show the count of queued inspections, never a spinner."},
+      {"id": "tue-board", "time": "163000", "kind": "screen", "title": "Triage on the Balcony beta board", "app": "board", "target_seconds": 90,
+       "beats": "Kanban board 'Balcony 3.0 beta': Juliet moves cards: 'Offline sync conflict' to In progress (Balthasar), 'Android 11 crash' to In progress (Tybalt), 'Release notes' to Done, adds 'Sync status screen' (Mercutio)."}
+    ]},
+    {"day": "20260211", "weekday": "Wednesday", "hero": true, "entries": [
+      {"id": "wed-standup", "time": "093000", "kind": "audio", "title": "Capulet standup", "people": ["juliet_capulet", "tybalt_capulet", "nurse_angela"], "target_seconds": 180,
+       "beats": "Tybalt fixed the Android 11 crash (a photo-cache path). Angela: release checklist 80% done, needs QA sign-off from Balthasar. Juliet shares that Romeo's local queue answers Tybalt's uptime worry; Tybalt is satisfied 'if it survives a week of airplane mode'."},
+      {"id": "wed-duke", "time": "103000", "kind": "audio", "title": "Ducal Freight discovery call", "people": ["juliet_capulet", "paris_duke"], "target_seconds": 270,
+       "beats": "Paris Duke describes their dock inspections: 30 sites, inspectors offline in yards, auditors need signed reports within 24 hours. Asks for three things: inspections that sync when back online, a signed PDF per inspection, and export to their freight system by site. Asks whether Ducal can see Montague's routing data; Juliet says only what Ducal sends. Paris agrees to Friday's demo."},
+      {"id": "wed-spec", "time": "130000", "kind": "screen", "title": "Schema Bridge spec v2", "app": "doc", "target_seconds": 120,
+       "beats": "Juliet revises the doc to 'Schema Bridge: v2': adds Ducal Freight requirements (offline sync, signed PDF, export by site), changes sync from nightly batch to events with a local queue, adds field-versioning section with an empty 'Owner:' line still TBD."},
+      {"id": "wed-sync", "time": "150000", "kind": "audio", "title": "Schema Bridge sync with Romeo", "people": ["juliet_capulet", "romeo_montague"], "target_seconds": 240,
+       "beats": "Juliet walks Romeo through Paris Duke's three asks. Romeo demos the queue prototype surviving an hour offline. They decide field versioning: Capulet owns the inspection record schema, Montague owns the routing envelope, any change needs both to approve. Romeo will add a schema version number to every event. Plan for Friday's demo: show an offline inspection syncing and the signed PDF."},
+      {"id": "wed-memo", "time": "173000", "kind": "audio", "title": "Voice memo: end of day", "people": ["juliet_capulet"], "target_seconds": 60,
+       "beats": "Recap: Ducal's three asks, versioning decided with Romeo, need to write it into the spec and tell Friar on Friday. Reminder to book the Paris flight, which she still hasn't done."}
+    ]},
+    {"day": "20260212", "weekday": "Thursday", "entries": [
+      {"id": "thu-tybalt", "time": "100000", "kind": "audio", "title": "1:1 with Tybalt", "people": ["juliet_capulet", "tybalt_capulet"], "target_seconds": 210,
+       "beats": "Tybalt pushes back on the shared versioning rule: worries Montague will slow Capulet down. Juliet explains it covers only the inspection record, not Balcony's internals. They agree on a 48-hour review window so neither side blocks the other. Tybalt volunteers to write the airplane-mode test."},
+      {"id": "thu-pr", "time": "133000", "kind": "screen", "title": "Reviewing Romeo's queue pull request", "app": "code", "target_seconds": 120,
+       "beats": "Code review view of a pull request 'schema-bridge: local event queue with schema_version' by Romeo Montague: diff adds a schema_version field and a retry loop with backoff. Juliet leaves comments: 'nice', 'can the queue cap at 10k events?', approves."},
+      {"id": "thu-angela", "time": "153000", "kind": "audio", "title": "Release check-in with Angela and Balthasar", "people": ["juliet_capulet", "nurse_angela", "balthasar_davi"], "target_seconds": 180,
+       "beats": "Balthasar confirms the offline-sync conflict fix holds on 6 devices; one flaky photo upload left on slow networks, not a blocker. Angela has the checklist at 95%. Plan: go/no-go stays Friday 9:30."}
+    ]},
+    {"day": "20260213", "weekday": "Friday", "entries": [
+      {"id": "fri-gonogo", "time": "093000", "kind": "audio", "title": "Balcony App 3.0 go/no-go", "people": ["juliet_capulet", "tybalt_capulet", "nurse_angela", "balthasar_davi"], "target_seconds": 210,
+       "beats": "Walk the checklist. Tybalt's airplane-mode test passed. Balthasar: slow-network photo upload known issue, documented. Decision: go, staged rollout 10% Monday, 100% Thursday. Angela sends the announcement."},
+      {"id": "fri-note", "time": "110000", "kind": "screen", "title": "Weekly note to Friar", "app": "email", "target_seconds": 90,
+       "beats": "Juliet writes an email to Friar (Verona Ventures), subject 'Week of Feb 9': Balcony 3.0 is a go; Schema Bridge has its versioning rule agreed with Montague (Capulet owns the record, Montague owns the envelope, 48-hour review); Ducal Freight demo today; ask: an intro to a second logistics pilot."},
+      {"id": "fri-demo", "time": "140000", "kind": "audio", "title": "Schema Bridge demo for Ducal Freight", "people": ["juliet_capulet", "romeo_montague", "benvolio_montague", "paris_duke"], "target_seconds": 270,
+       "beats": "Benvolio opens. Romeo shows an inspection made offline syncing when the tablet reconnects. Juliet shows the signed PDF. Paris Duke is pleased, asks for export by site, which is next sprint. Paris agrees to a four-week pilot at two sites starting March 2. Paris mentions he's at a conference in Denver next week."},
+      {"id": "fri-memo", "time": "163000", "kind": "audio", "title": "Voice memo: the week", "people": ["juliet_capulet"], "target_seconds": 75,
+       "beats": "Reflects: Balcony is a go, Ducal pilot agreed for March 2, versioning settled. Next week: export by site, rollout watch. Finally books the Paris flight for the trade show on the 26th."}
+    ]}
+  ]
+}

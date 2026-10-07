@@ -1,0 +1,33 @@
+{
+  "id": "wed-spec",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Schema Bridge spec v2",
+  "doc_title": "Schema Bridge: v2",
+  "blocks": [
+    {"type": "h1", "text": "Schema Bridge: v2"},
+    {"type": "p", "text": "Updated Wed Feb 11 after the Ducal Freight discovery call. Changes from draft 1: Ducal requirements added, sync moved from nightly batch to events, field versioning section added."},
+    {"type": "h2", "text": "Goal"},
+    {"type": "p", "text": "Let Balcony App inspections flow into Montague's Mesh Routing in a shared format, with Ducal Freight as the pilot customer."},
+    {"type": "h2", "text": "Ducal Freight requirements"},
+    {"type": "li", "text": "Offline sync: inspectors work offline in the yard; inspections sync on their own when the tablet reconnects. No manual resend."},
+    {"type": "li", "text": "Signed PDF: one signed PDF per inspection (inspector signature + time). Auditors need it within 24 hours."},
+    {"type": "li", "text": "Export by site: inspections land in Ducal's freight system grouped by site (30 sites)."},
+    {"type": "p", "text": "Ducal sees only the data Ducal sends. No access to Montague routing data."},
+    {"type": "h2", "text": "Inspection record"},
+    {"type": "li", "text": "site_id"},
+    {"type": "li", "text": "inspector"},
+    {"type": "li", "text": "photos"},
+    {"type": "li", "text": "findings"},
+    {"type": "li", "text": "signed_at"},
+    {"type": "h2", "text": "Sync"},
+    {"type": "p", "text": "Was: nightly batch, Balcony to Mesh Routing."},
+    {"type": "p", "text": "Now: events. Each inspection is sent as an event when it is signed. Events go into a local queue on the device first, so Balcony keeps working when Mesh Routing is down or the tablet is offline. The queue drains when the connection comes back."},
+    {"type": "h2", "text": "Field versioning"},
+    {"type": "p", "text": "Who can change fields in the inspection record, and how both sides find out."},
+    {"type": "p", "text": "Owner:"},
+    {"type": "h2", "text": "Open questions"},
+    {"type": "li", "text": "Who owns field versioning? (talk to Romeo at 3)"},
+    {"type": "li", "text": "Export by site: timing?"}
+  ]
+}

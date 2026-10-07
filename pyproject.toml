@@ -22,6 +22,11 @@ dependencies = [
     "pytest",
 ]
 
+[dependency-groups]
+# Rendering the verona week (tools/verona/render.py) records its screen
+# entries in headless Chromium. Only needed to re-render; not for build or CI.
+demo = ["playwright"]
+
 [project.urls]
 Homepage = "https://github.com/solpbc/field_journal"
 Repository = "https://github.com/solpbc/field_journal"

@@ -1,0 +1,26 @@
+{"start": 0.6, "end": 6.211, "speaker": "Juliet Capulet", "text": "Morning. Let's keep it quick, I know everyone's got a lot this week. Angela, you want to start with the beta?"}
+{"start": 6.737, "end": 14.388, "speaker": "Angela Nurse", "text": "Sure. So, Balcony App 3.0 beta. We're at forty-one testers as of this morning. Two more signed up over the weekend."}
+{"start": 15.208, "end": 17.859, "speaker": "Juliet Capulet", "text": "Nice. And how's it holding up?"}
+{"start": 18.597, "end": 29.368, "speaker": "Angela Nurse", "text": "Mostly good. We've got two crash reports, both on older Android. Same kind of device, both on Android 11, both crash when they open the camera from an inspection."}
+{"start": 29.826, "end": 35.237, "speaker": "Tybalt Capulet", "text": "I saw those. I think it's the photo side, but I haven't dug in yet. I'll grab it."}
+{"start": 35.871, "end": 39.322, "speaker": "Juliet Capulet", "text": "Is it every Android 11 device, or just those two?"}
+{"start": 39.878, "end": 48.649, "speaker": "Angela Nurse", "text": "Just those two so far. We've got maybe six testers on Android 11, and the other four haven't hit it. Could be they just haven't opened the camera enough."}
+{"start": 49.448, "end": 51.459, "speaker": "Juliet Capulet", "text": "Thanks, Tybalt. What else?"}
+{"start": 52.085, "end": 63.776, "speaker": "Angela Nurse", "text": "The other one's the offline-sync bug Balthasar found. If you edit the same inspection on two devices while you're offline, and then both come back online, one of the edits just, um, quietly loses."}
+{"start": 64.526, "end": 67.897, "speaker": "Juliet Capulet", "text": "Quietly loses. That's the worst kind."}
+{"start": 68.705, "end": 77.356, "speaker": "Angela Nurse", "text": "Yeah. He's got clean repro steps, so at least it's not a ghost. He's still on it, and he thinks it's in how we merge the two versions when they come back."}
+{"start": 78.097, "end": 82.668, "speaker": "Juliet Capulet", "text": "Okay. That one I care about. Offline is the whole point of the release."}
+{"start": 83.272, "end": 92.523, "speaker": "Angela Nurse", "text": "Agreed. So, I've got the release checklist. I'll own it. And I'd like to put the go or no-go on the calendar for Friday at nine thirty, if that works for both of you."}
+{"start": 93.214, "end": 95.225, "speaker": "Juliet Capulet", "text": "Friday nine thirty works for me."}
+{"start": 95.814, "end": 96.665, "speaker": "Tybalt Capulet", "text": "Works."}
+{"start": 97.163, "end": 99.654, "speaker": "Angela Nurse", "text": "Great. I'll send the invite after this."}
+{"start": 100.348, "end": 102.039, "speaker": "Juliet Capulet", "text": "Tybalt, anything from you?"}
+{"start": 102.8, "end": 108.411, "speaker": "Tybalt Capulet", "text": "One thing, and I know it's not really beta stuff. Schema Bridge. The kickoff's today, right?"}
+{"start": 108.966, "end": 110.377, "speaker": "Juliet Capulet", "text": "Three o'clock, yeah."}
+{"start": 110.977, "end": 125.068, "speaker": "Tybalt Capulet", "text": "So my worry is, if the bridge depends on Montague's Mesh Routing being up, then our inspectors depend on it being up. And we don't control their uptime. If their service goes down at, like, two in the morning, does Balcony just stop working?"}
+{"start": 125.632, "end": 130.683, "speaker": "Juliet Capulet", "text": "That's fair. I don't think it should, but I don't actually know what they're planning."}
+{"start": 131.25, "end": 140.82, "speaker": "Tybalt Capulet", "text": "Right. I'm not saying don't do it. I just don't want to find out the hard way that our app has a new single point of failure that lives in somebody else's building."}
+{"start": 141.479, "end": 147.69, "speaker": "Angela Nurse", "text": "Can I add one thing? Whatever the answer is, I'd want it written down before anything goes near a customer."}
+{"start": 148.151, "end": 156.162, "speaker": "Juliet Capulet", "text": "Yep. Okay, let's raise it with Romeo in the kickoff. I'll put it on the agenda, first thing after scope, and I'll tell you both what he says."}
+{"start": 156.995, "end": 157.806, "speaker": "Tybalt Capulet", "text": "Thanks."}
+{"start": 158.447, "end": 163.298, "speaker": "Juliet Capulet", "text": "Anything else? No? Okay. Thanks, everyone. Good week, let's go."}

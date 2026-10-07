@@ -17,7 +17,8 @@ field_journal/
 ├── manifest.json         # per-segment metadata (source, license, duration, what it exercises)
 ├── ATTRIBUTION.md        # detailed license info per source
 ├── tools/                # download/build scripts (python)
-│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices)
+│   ├── sources/          # one module per source (ami, chime6, dipco, icsi, psai, loc, nasa, hpr, voices, verona)
+│   ├── verona/           # synthetic week: story/ scripts, render.py, demo.py, serve.py
 │   └── build.py          # orchestrates download → slice → organize into journal structure
 └── tests/                # validation tests
 ```
@@ -27,7 +28,8 @@ field_journal/
 - **Journal structure**: follows solstone's `day/stream/segment/` pattern
 - **manifest.json**: source of truth for what segments exist, their sources, licenses, and what pipeline features they exercise
 - **tools/**: reproducible build — download upstream sources, slice into segments, organize into journal structure
-- **Nine sources**: AMI Meeting Corpus (CC-BY 4.0), CHiME-6 Dinner Parties (CC-BY-SA 4.0), ICSI Meeting Corpus (CC-BY 4.0), PSAI Computer Use Dataset (MIT), LOC Dialect Recordings (unrestricted), NASA Press Conferences (public domain), Hacker Public Radio (CC-BY-SA 4.0), VOiCES (CC-BY 4.0), DiPCo Dinner Party Corpus (CDLA-Permissive-1.0)
+- **verona** (sol pbc, CC-BY 4.0) is the one authored source: an invented working week whose scripts are in `tools/verona/story/`, rendered once by `tools/verona/render.py` into committed media. Nobody in it is real. `make demo` builds a journal from verona **only**, and `tests/test_verona.py` enforces that no real-recording segment can enter it. Keep it that way, and keep its people, companies and products invented: check any new name against the web before using it.
+- **Nine recorded sources**: AMI Meeting Corpus (CC-BY 4.0), CHiME-6 Dinner Parties (CC-BY-SA 4.0), ICSI Meeting Corpus (CC-BY 4.0), PSAI Computer Use Dataset (MIT), LOC Dialect Recordings (unrestricted), NASA Press Conferences (public domain), Hacker Public Radio (CC-BY-SA 4.0), VOiCES (CC-BY 4.0), DiPCo Dinner Party Corpus (CDLA-Permissive-1.0)
 
 ## Development
 

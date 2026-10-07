@@ -62,3 +62,7 @@ journal/streams/fedora.json
 # streams field.audio/ and field.screen/ stay tracked; host-specific ones
 # (fedora/, etc.) are runtime only.
 journal/*/fedora/
+
+# verona render cache (TTS lines, browser recordings)
+tools/verona/.cache/
+.demo/

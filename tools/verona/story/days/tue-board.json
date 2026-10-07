@@ -1,0 +1,65 @@
+{
+  "id": "tue-board",
+  "kind": "screen",
+  "app": "board",
+  "title": "Triage on the Balcony beta board",
+  "board_title": "Balcony 3.0 beta",
+  "columns": [
+    "Backlog",
+    "In progress",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Offline sync conflict",
+      "column": "Backlog",
+      "assignee": "Balthasar"
+    },
+    {
+      "title": "Android 11 crash",
+      "column": "Backlog",
+      "assignee": "Tybalt"
+    },
+    {
+      "title": "Release notes",
+      "column": "In progress",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Release checklist",
+      "column": "In progress",
+      "assignee": "Angela"
+    },
+    {
+      "title": "Signed report layout",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Background photo upload",
+      "column": "Done",
+      "assignee": "Tybalt"
+    }
+  ],
+  "moves": [
+    {
+      "card": "Offline sync conflict",
+      "to": "In progress"
+    },
+    {
+      "card": "Android 11 crash",
+      "to": "In progress"
+    },
+    {
+      "card": "Release notes",
+      "to": "Done"
+    },
+    {
+      "add": {
+        "title": "Sync status screen",
+        "column": "In progress",
+        "assignee": "Mercutio"
+      }
+    }
+  ]
+}

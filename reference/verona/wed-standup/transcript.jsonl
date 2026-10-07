@@ -1,0 +1,28 @@
+{"start": 0.6, "end": 6.451, "speaker": "Juliet Capulet", "text": "Morning, both of you. Okay, I've got the Ducal call at ten thirty, so let's keep this tight. Tybalt, you want to start?"}
+{"start": 7.006, "end": 11.577, "speaker": "Tybalt Capulet", "text": "Sure. So, good news. The Android 11 crash is fixed."}
+{"start": 12.181, "end": 14.672, "speaker": "Juliet Capulet", "text": "Wait, really? Already?"}
+{"start": 15.401, "end": 28.052, "speaker": "Tybalt Capulet", "text": "Yeah. It was the photo cache. On older Android we were writing thumbnails to a cache path that, um, the system can clear out from under us. So the app goes to read a photo it just took, the file's gone, and it falls over."}
+{"start": 28.848, "end": 31.499, "speaker": "Angela Nurse", "text": "Huh. So it wasn't the camera at all."}
+{"start": 32.035, "end": 45.006, "speaker": "Tybalt Capulet", "text": "Nope. Camera's fine. I moved the cache into app storage and added a check so a missing thumbnail just gets regenerated instead of crashing. Both of the crash reports reproduce on my test phone before the fix, and neither one does after."}
+{"start": 45.565, "end": 49.175, "speaker": "Juliet Capulet", "text": "That's great. Thank you. Is it in the beta build yet?"}
+{"start": 49.653, "end": 54.584, "speaker": "Tybalt Capulet", "text": "It'll be in tonight's build. I'll ping the two testers who reported it and ask them to update."}
+{"start": 55.163, "end": 58.774, "speaker": "Juliet Capulet", "text": "Perfect. Angela, where are we on the checklist?"}
+{"start": 59.585, "end": 69.476, "speaker": "Angela Nurse", "text": "So the release checklist is about eighty percent done. Store listing, screenshots, the release notes you wrote yesterday, the rollback plan, all of that's checked off."}
+{"start": 69.985, "end": 71.556, "speaker": "Juliet Capulet", "text": "And the other twenty?"}
+{"start": 72.205, "end": 81.336, "speaker": "Angela Nurse", "text": "Mostly QA. I need a sign-off from Balthasar, and he won't give it until he's rerun the offline-sync tests with his fix in. Which, honestly, is the right call."}
+{"start": 81.824, "end": 84.795, "speaker": "Juliet Capulet", "text": "Agreed. Do you think we'll have that before Friday?"}
+{"start": 85.518, "end": 93.769, "speaker": "Angela Nurse", "text": "I think so. I'm going to grab him tomorrow afternoon and go through it together. If anything's shaky, I'll tell you before the go or no-go, not during it."}
+{"start": 94.22, "end": 98.031, "speaker": "Juliet Capulet", "text": "Thank you. Friday nine thirty still works for everyone?"}
+{"start": 98.731, "end": 99.622, "speaker": "Tybalt Capulet", "text": "Works for me."}
+{"start": 100.212, "end": 101.783, "speaker": "Angela Nurse", "text": "It's on the calendar."}
+{"start": 102.539, "end": 111.03, "speaker": "Juliet Capulet", "text": "Okay. One more thing from me. Tybalt, your worry from Monday, about Schema Bridge depending on Mesh Routing being up?"}
+{"start": 111.711, "end": 113.362, "speaker": "Tybalt Capulet", "text": "Still worried, yeah."}
+{"start": 113.992, "end": 127.763, "speaker": "Juliet Capulet", "text": "So I brought it up with Romeo in the kickoff, and he's building a local queue on our side. If Mesh Routing goes down, Balcony just keeps working. Inspections pile up in the queue on the device and send when the service is back. Nobody in the field even notices."}
+{"start": 128.322, "end": 131.653, "speaker": "Tybalt Capulet", "text": "Okay. That's, um, that's actually the right answer."}
+{"start": 132.201, "end": 134.252, "speaker": "Juliet Capulet", "text": "Don't sound so surprised."}
+{"start": 134.988, "end": 141.879, "speaker": "Tybalt Capulet", "text": "I'm not. Okay, a little. Look, if it survives a week of airplane mode, I'm satisfied."}
+{"start": 142.399, "end": 146.25, "speaker": "Angela Nurse", "text": "Can I write that down? Tybalt, satisfied."}
+{"start": 146.981, "end": 150.591, "speaker": "Tybalt Capulet", "text": "Conditionally satisfied. Write the condition down too."}
+{"start": 151.208, "end": 156.899, "speaker": "Juliet Capulet", "text": "Fair. I'm meeting with Romeo at three, he's supposed to show me the prototype. I'll tell you how it holds up."}
+{"start": 157.466, "end": 158.277, "speaker": "Tybalt Capulet", "text": "Sounds good."}
+{"start": 159.025, "end": 163.116, "speaker": "Juliet Capulet", "text": "Okay, that's it. Thanks, both of you. Go do good things."}

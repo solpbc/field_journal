@@ -1,0 +1,35 @@
+{
+  "id": "mon-memo",
+  "kind": "audio",
+  "title": "Voice memo: plan for the week",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Monday. Quick plan for the week before I get sucked into anything."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Big one first. Balcony App 3.0, the beta go or no-go is Friday. So everything this week kind of bends around that. I want to walk into Friday knowing the answer already, not finding out in the room."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Second, Schema Bridge kickoff with Montague is today. This afternoon, three o'clock. I should get a first draft of the spec down this morning so we're not just, um, waving our hands at each other."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Wednesday is the Ducal Freight call. That's our first real customer for Schema Bridge, so I want to hear what they actually need before we promise anything."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And Friday, the weekly note to Friar. Short. Actually write it this time."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Oh, and book the flight to Paris. The trade show, the twenty-sixth. I keep saying I'll do it and then I don't. Book the flight, Juliet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And, um, one more. Tybalt was grumbling on Friday about depending on Montague for anything. Hear him out at standup, take it into the kickoff. Okay. Coffee, then standup."
+    }
+  ]
+}

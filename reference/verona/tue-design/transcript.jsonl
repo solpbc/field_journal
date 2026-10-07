@@ -1,0 +1,35 @@
+{"start": 0.6, "end": 8.211, "speaker": "Mercutio Escalus", "text": "Okay, can everybody see my screen? I'm getting a thumbs up from Juliet and, uh, a blank stare from Romeo."}
+{"start": 8.825, "end": 11.476, "speaker": "Romeo Montague", "text": "I can see it. That's just my face."}
+{"start": 12.038, "end": 14.609, "speaker": "Juliet Capulet", "text": "Yeah, we've got it. Go ahead, Mercutio."}
+{"start": 15.062, "end": 29.513, "speaker": "Mercutio Escalus", "text": "So this is the sync status screen for Schema Bridge, living inside Balcony. An inspector finishes a dock inspection, taps save, and this is where they find out what happened to it. Three states. Queued, sent, and needs attention."}
+{"start": 30.163, "end": 32.334, "speaker": "Juliet Capulet", "text": "Okay, I like that it's only three."}
+{"start": 32.838, "end": 39.209, "speaker": "Mercutio Escalus", "text": "Right? I had seven at one point. There was a state called 'pending, but emotionally'. I cut it."}
+{"start": 39.875, "end": 41.126, "speaker": "Romeo Montague", "text": "Good call."}
+{"start": 41.651, "end": 46.782, "speaker": "Mercutio Escalus", "text": "Also, before anyone asks, my working name for this screen is the balcony scene."}
+{"start": 47.32, "end": 48.091, "speaker": "Juliet Capulet", "text": "No."}
+{"start": 48.769, "end": 51.78, "speaker": "Mercutio Escalus", "text": "Hear me out. It's literally the Balcony App."}
+{"start": 52.431, "end": 61.602, "speaker": "Juliet Capulet", "text": "No. Absolutely not. It's going in front of a freight company on Friday. It's the sync screen. Okay, walk me through queued."}
+{"start": 62.446, "end": 73.937, "speaker": "Mercutio Escalus", "text": "So, queued means it's saved on the device and it hasn't gone to Mesh Routing yet. Usually because they're out in a yard with no signal. Which, from what Benvolio says, is like half the day for these folks."}
+{"start": 74.506, "end": 79.797, "speaker": "Juliet Capulet", "text": "Romeo, is that honest? Like, if it says queued, is it actually safe?"}
+{"start": 80.329, "end": 93.9, "speaker": "Romeo Montague", "text": "Yeah. That's the whole point of the local queue. The inspection gets written to the queue on the device before we try to send anything. So queued really means it's on disk and it'll go out when there's a connection. It's not a hope, it's a fact."}
+{"start": 94.622, "end": 101.073, "speaker": "Juliet Capulet", "text": "Okay, good. That's the thing I care about. I don't want queued to secretly mean 'probably lost'."}
+{"start": 101.872, "end": 110.123, "speaker": "Mercutio Escalus", "text": "Cool. So then sent is, um, it's boring on purpose. Green check, timestamp. Done. Nobody needs to think about it."}
+{"start": 110.644, "end": 112.335, "speaker": "Juliet Capulet", "text": "Boring is great."}
+{"start": 113.129, "end": 123.18, "speaker": "Mercutio Escalus", "text": "And needs attention is the one where a human has to do something. Like a sync conflict, or a photo that failed to upload. It tells you which inspection and what to tap."}
+{"start": 123.831, "end": 128.002, "speaker": "Juliet Capulet", "text": "That's where Balthasar's bug would show up, right? The offline-sync conflict?"}
+{"start": 128.745, "end": 133.596, "speaker": "Romeo Montague", "text": "Yeah, that's exactly the case. Two edits to the same inspection while offline."}
+{"start": 134.256, "end": 142.307, "speaker": "Mercutio Escalus", "text": "So, okay, here's my actual question for you two. When things are queued, I've got a little spinner up top. Like, it's working on it."}
+{"start": 143.018, "end": 145.829, "speaker": "Juliet Capulet", "text": "Hmm. I'm not sure about the spinner."}
+{"start": 146.342, "end": 148.153, "speaker": "Romeo Montague", "text": "Yeah, I'd kill the spinner."}
+{"start": 148.884, "end": 151.975, "speaker": "Mercutio Escalus", "text": "Wow. Both of you. Okay, why?"}
+{"start": 152.528, "end": 159.019, "speaker": "Romeo Montague", "text": "Because if they're offline, nothing is working on it. It's just waiting. A spinner sort of lies about that."}
+{"start": 159.794, "end": 173.205, "speaker": "Juliet Capulet", "text": "And if I'm an inspector and I see a spinner for forty minutes, I'm going to think it's broken and, like, force quit the app. What I'd want to see is a number. Twelve inspections queued. And then it goes down when you get signal."}
+{"start": 174.038, "end": 179.769, "speaker": "Mercutio Escalus", "text": "Oh, that's nice. The number going down is actually satisfying. It's like a little countdown."}
+{"start": 180.279, "end": 184.93, "speaker": "Romeo Montague", "text": "And it's true. The count comes straight from the queue, so it's always accurate."}
+{"start": 185.402, "end": 192.893, "speaker": "Juliet Capulet", "text": "Okay, so let's decide it. We show the count of queued inspections, and we never use a spinner on this screen. Agreed?"}
+{"start": 193.458, "end": 194.508, "speaker": "Romeo Montague", "text": "Agreed."}
+{"start": 194.973, "end": 203.064, "speaker": "Mercutio Escalus", "text": "Agreed. Rest in peace, spinner. Okay, I'll redo it with the count up top and the list underneath, grouped by state."}
+{"start": 203.862, "end": 208.393, "speaker": "Juliet Capulet", "text": "Can you put it on the beta board so I can track it? I'm doing triage this afternoon."}
+{"start": 209.108, "end": 210.638, "speaker": "Mercutio Escalus", "text": "Yep, put it under me."}
+{"start": 211.328, "end": 214.219, "speaker": "Juliet Capulet", "text": "Perfect. Thanks, both of you. That was fast."}
+{"start": 214.77, "end": 217.541, "speaker": "Romeo Montague", "text": "Thanks. I'll ping you when the queue's ready to break."}

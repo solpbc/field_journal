@@ -1,0 +1,151 @@
+{
+  "id": "mon-kickoff",
+  "kind": "audio",
+  "title": "Schema Bridge kickoff with Montague",
+  "lines": [
+    {
+      "speaker": "benvolio_montague",
+      "text": "Okay, I think we're all here. Hi, Juliet. Thanks for making the time."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Hi, Benvolio. Hi, Romeo. Thanks for coming over."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "So, quick intros for the notes. I'm product on the Montague side, Romeo's the staff engineer who'll actually build most of our half."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And I'm head of product at Capulet, I own the spec on our side. Tybalt, our engineering lead, sent me with a question, so, fair warning."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Noted. Do you want to walk us through scope?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah. So, short version. Balcony App does field inspections in warehouses. Inspectors walk a site, take photos, log findings, sign the report. Right now that data stops at Balcony. Schema Bridge is a shared format for an inspection record plus a bridge that moves those records into Mesh Routing, so your side can route work off them."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "And the record is the five fields in your draft? I skimmed it this morning."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Right. Site, inspector, photos, findings, signed at. I wrote it this morning, so it's rough."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "No, it's a good start. The part I'd push on is the sync. You've got a nightly batch."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I do. It felt simple."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "It is simple. But if an inspector signs something at nine in the morning, nobody downstream sees it until the next day. I'd rather we send events. Each signed inspection goes over as its own event, when it's signed. And if one fails it doesn't take the whole night with it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Huh. Okay. I like that. I'm not attached to the batch, I just didn't want to overbuild."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Can I jump in on timing? Ducal Freight is the pilot, and I'd love to show them something real soon. What if we aim for a demo this Friday?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "This Friday. Okay. That's, um, ambitious."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "We've got our own release go or no-go Friday morning, but a demo in the afternoon could work. Let's do it."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Great. I'll set it up with Ducal."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay, so, Tybalt's question. His worry is, if Balcony depends on Mesh Routing, and Mesh Routing goes down, do our inspectors stop working? They can't wait on someone else's service."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Totally fair question. And honestly, he should worry about that, I would."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So what's the answer?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "A local queue. Balcony doesn't talk to Mesh Routing directly when an inspector signs something. It drops the event into a queue on the device. When Mesh Routing is reachable, the queue drains. When it's not, events just wait. The inspector never knows the difference."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "So Balcony keeps working no matter what's happening on your side."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "That's the idea. Our outage becomes a delay, not a failure."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I think Tybalt can live with that. He'll want to see it, though."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "I'll prototype it. Give me a couple of days."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "What about the other open question in the doc? Field versioning?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Right. If we add a field to the inspection record, or change one, who decides? Is it us, is it you, is it both?"
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Hmm. I don't think we should answer that in the first meeting."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Agreed, let's leave it open. But let's not leave it open forever."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Fair. I'll keep it in the spec as an open question."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Okay, action items, so we don't lose them. Juliet?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I'll do a spec v2 by Wednesday. Switch the sync to events, add the local queue, and keep versioning as an open question."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "And I'll prototype the queue."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "And I'll set up Friday with Ducal. Anything else?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "No, I think that's good. Thanks, both of you. This was easier than I expected."
+    },
+    {
+      "speaker": "romeo_montague",
+      "text": "Don't tell Tybalt that, he'll get suspicious."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ha. I'll tell him you answered his question. Talk soon."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fri-memo",
+  "kind": "audio",
+  "title": "Voice memo: the week",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. End of the week. Quick one before I lose it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Balcony 3.0 is a go. Ten percent Monday, a hundred Thursday. Angela sent the announcement this morning, Tybalt's watching the dashboards. Which, um, Tybalt saying he's less worried, I'm keeping that one."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ducal Freight said yes. Four-week pilot, two sites, starts March second. Paris is picking the sites, and he liked that the signed time is the yard time, not the sync time. And he's in Denver next week, so maybe coffee."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Versioning is settled. We own the record, Montague owns the envelope, forty-eight hour review. It's in the spec, and Friar has the note."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Next week. Export by site, that's the big one, it has to be ready before the pilot, so I need to sit down with Romeo and Benvolio on Monday and actually scope it. And watch the rollout, especially the slow-network photo thing Balthasar flagged. If that gets worse at ten percent, we hold Thursday."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And, okay, I'm doing it right now. The flight to Paris for the trade show on the twenty-sixth. The city, not the person. Window seat, and... booked. Finally. Confirmation's in my inbox."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Good week. Going home."
+    }
+  ]
+}

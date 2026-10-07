@@ -1,0 +1,37 @@
+{"start": 0.6, "end": 4.691, "speaker": "Romeo Montague", "text": "Hey, Juliet. Sorry, give me one second, I'm just getting my screen up."}
+{"start": 5.406, "end": 7.017, "speaker": "Juliet Capulet", "text": "No rush. How's your day?"}
+{"start": 7.493, "end": 12.944, "speaker": "Romeo Montague", "text": "Good, actually. I've been playing with the queue all morning. But you first. How was Ducal?"}
+{"start": 13.661, "end": 18.952, "speaker": "Juliet Capulet", "text": "Really good. Paris was great, very clear about what he needs. He asked for three things."}
+{"start": 19.709, "end": 21.039, "speaker": "Romeo Montague", "text": "Okay, go."}
+{"start": 21.535, "end": 41.786, "speaker": "Juliet Capulet", "text": "One, inspections that sync on their own when the tablet comes back online. Their yards have basically no signal past the first few rows of trailers. Two, a signed PDF for every inspection, because their auditors need a signed report within twenty-four hours. And three, export into their freight system, by site. They've got thirty sites."}
+{"start": 42.301, "end": 45.392, "speaker": "Romeo Montague", "text": "Okay. So the first one is literally the queue."}
+{"start": 45.992, "end": 47.843, "speaker": "Juliet Capulet", "text": "That's what I was hoping you'd say."}
+{"start": 48.395, "end": 55.486, "speaker": "Romeo Montague", "text": "The PDF is all you, that's Balcony. And export by site, um, that's new. That's not this week."}
+{"start": 56.134, "end": 65.625, "speaker": "Juliet Capulet", "text": "No, agreed. I told him I'd be straight with him on timing. Oh, and he asked whether Ducal would see your routing data. I said no, only what Ducal sends."}
+{"start": 66.111, "end": 70.402, "speaker": "Romeo Montague", "text": "Good. Yes. That's right. Okay, can I show you the thing?"}
+{"start": 71.014, "end": 72.025, "speaker": "Juliet Capulet", "text": "Please."}
+{"start": 72.746, "end": 85.357, "speaker": "Romeo Montague", "text": "So this is the prototype on a test tablet. At about two I turned off the wifi and just started making inspections. Fake ones. Dock four, dock seven, a very damaged imaginary trailer."}
+{"start": 86.146, "end": 87.637, "speaker": "Juliet Capulet", "text": "Poor trailer."}
+{"start": 88.343, "end": 100.234, "speaker": "Romeo Montague", "text": "It's had a hard day. So you can see here, twelve inspections queued. That's an hour offline. Nothing crashed, nothing got lost. Now watch. I'm turning the wifi back on."}
+{"start": 100.902, "end": 102.073, "speaker": "Juliet Capulet", "text": "Okay..."}
+{"start": 102.566, "end": 114.737, "speaker": "Romeo Montague", "text": "And there it goes. Eleven, eight, four... zero. All twelve sent, in order, and they're showing up on the Mesh Routing side. Same timestamps they were signed with, not the time they arrived."}
+{"start": 115.385, "end": 118.956, "speaker": "Juliet Capulet", "text": "Oh, that's important. The auditors care about when it was signed."}
+{"start": 119.576, "end": 123.867, "speaker": "Romeo Montague", "text": "Exactly. That was the whole point of keeping the signed time on the record."}
+{"start": 124.37, "end": 130.821, "speaker": "Juliet Capulet", "text": "That's really nice, Romeo. Tybalt said this morning he's satisfied if it survives a week of airplane mode."}
+{"start": 131.307, "end": 135.918, "speaker": "Romeo Montague", "text": "Ha. Okay. One hour down, a hundred and sixty-seven to go."}
+{"start": 136.517, "end": 146.528, "speaker": "Juliet Capulet", "text": "So, the thing I really want to settle today. Field versioning. It's the one open question left from Monday, and I've got an empty owner line in the spec staring at me."}
+{"start": 147.174, "end": 150.505, "speaker": "Romeo Montague", "text": "Yeah. I've been thinking about it. Can I propose something?"}
+{"start": 151.33, "end": 152.581, "speaker": "Juliet Capulet", "text": "Go for it."}
+{"start": 153.108, "end": 170.639, "speaker": "Romeo Montague", "text": "So there are really two layers. There's the inspection record itself. Site, inspector, photos, findings, signed time. That's yours, that's what Balcony knows about. And then there's the envelope around it, the routing stuff, where it's going, delivery, retries. That's ours."}
+{"start": 171.322, "end": 176.973, "speaker": "Juliet Capulet", "text": "So Capulet owns the inspection record schema, Montague owns the routing envelope."}
+{"start": 177.736, "end": 190.467, "speaker": "Romeo Montague", "text": "Right. But, and here's the part I care about, any change to either one needs both of us to approve it. Because if you rename a field, my side breaks, and if I change the envelope, your side breaks."}
+{"start": 191.16, "end": 196.011, "speaker": "Juliet Capulet", "text": "I like that. Each side owns its part, nobody changes anything alone."}
+{"start": 196.67, "end": 197.481, "speaker": "Romeo Montague", "text": "Yeah."}
+{"start": 198.029, "end": 204.0, "speaker": "Juliet Capulet", "text": "Okay. Decided. I'll write it into the spec tonight. How do we know which version an event is on, though?"}
+{"start": 204.504, "end": 213.995, "speaker": "Romeo Montague", "text": "I'll add a schema version number to every event. So if we ever change something, an old tablet sending old events doesn't confuse anybody. The receiver just reads the number."}
+{"start": 214.785, "end": 220.156, "speaker": "Juliet Capulet", "text": "Perfect. Okay, last thing. Friday's demo. What do we show Paris?"}
+{"start": 220.793, "end": 227.124, "speaker": "Romeo Montague", "text": "I think exactly what I just showed you. An inspection done offline, then the tablet reconnects and it syncs."}
+{"start": 227.698, "end": 234.388, "speaker": "Juliet Capulet", "text": "And then I show the signed PDF for that same inspection. So he sees his first two asks, start to finish."}
+{"start": 235.197, "end": 239.368, "speaker": "Romeo Montague", "text": "Love that. And we just say export by site is coming, honestly."}
+{"start": 240.139, "end": 244.47, "speaker": "Juliet Capulet", "text": "Honestly. Okay. I think we're in good shape. Thanks, Romeo."}
+{"start": 245.251, "end": 249.502, "speaker": "Romeo Montague", "text": "Thank you. Say hi to Tybalt. Tell him the clock's running."}

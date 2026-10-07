@@ -1,0 +1,111 @@
+{
+  "id": "tue-friar",
+  "kind": "audio",
+  "title": "1:1 with Friar (Verona Ventures)",
+  "lines": [
+    {
+      "speaker": "friar_lawrence",
+      "text": "Morning, Juliet. You sound awake. That's more than I can say for me."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ha, I've had two coffees. Morning, Friar. Thanks for keeping the slot."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Of course. So, um, I want to hear about Montague. Benvolio mentioned something at a dinner last week, very vague, and I realized I only know the shape of it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah, so, we kicked it off yesterday. It's called Schema Bridge. The idea is that inspections from the Balcony App flow straight into Mesh Routing, their routing service, so a warehouse doesn't have to retype anything."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "And who's the customer?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ducal Freight is the pilot. I've got a call with Paris Duke tomorrow, and Benvolio set up a demo for them on Friday."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Friday. That's quick."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "It is quick. But honestly the kickoff went well. Romeo, he's their staff engineer, he pushed us to send events instead of a nightly batch, and he's prototyping a local queue so Balcony keeps working if Mesh Routing goes down. Tybalt was worried about exactly that."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Good. Tybalt worrying is usually useful. Okay, so here's my one real piece of advice, and then I'll stop being an investor for a minute."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Go ahead."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "The shared format. The record that goes back and forth. Who owns it?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Um. That's the open question, actually. It's literally in my spec under open questions. Who owns field versioning."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Right. So get that written down before Ducal sees a demo. Doesn't have to be a contract, doesn't have to involve lawyers. A page. Who can change the format, who has to agree, what happens when you disagree."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Before Friday, you mean."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Before Friday. Because the moment a customer sees it working, it becomes real. Paris will start asking for changes, and if nobody knows whose format it is, you'll each assume it's yours. That's how nice partnerships get, uh, less nice."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's fair. I think Romeo would actually welcome it. He's pretty, like, low-ego about this stuff. Okay. I'll take it to him this week. I'm doing spec v2 by Wednesday anyway, so it can go in there."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Perfect. Now, the boring part. How's runway feeling? I don't need numbers today, I just want the vibe."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "The vibe is fine. We're on plan. Nothing's on fire. If Ducal turns into a paying pilot it gets better, obviously, but we're not counting on it."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Good. Don't count on it, and don't hire ahead of it. Good. Okay, last thing. I've noticed I mostly hear from you when something's either great or terrible."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Oh no. Is that true?"
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "A little. Which is normal, everybody does it. But what I'd love is a short note, weekly. Five bullets. What shipped, what's stuck, one thing I could help with. It takes you ten minutes and it saves us both a meeting now and then."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah, I can do that. Honestly it'd help me too, just to write the week down."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "That's the secret. It's mostly for you."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay, I'll send the first one Friday. That'll be a good week for it, actually. Balcony 3.0 go or no-go is Friday morning, and the Ducal demo is Friday too."
+    },
+    {
+      "speaker": "friar_lawrence",
+      "text": "Alright. Go write your page about who owns the format. I'll look for your note Friday."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thanks, Friar. Talk soon."
+    }
+  ]
+}

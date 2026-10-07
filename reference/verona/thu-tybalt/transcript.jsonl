@@ -1,0 +1,29 @@
+{"start": 0.6, "end": 2.771, "speaker": "Juliet Capulet", "text": "Hey. Come on in, grab a chair."}
+{"start": 3.59, "end": 8.281, "speaker": "Tybalt Capulet", "text": "I'm good, thanks. So I read the note you posted last night. About versioning."}
+{"start": 9.046, "end": 11.697, "speaker": "Juliet Capulet", "text": "Yeah, I figured that's what we'd talk about."}
+{"start": 12.337, "end": 19.788, "speaker": "Tybalt Capulet", "text": "Okay. So. I'm just gonna say it. Any change needs both sides to approve? That worries me. A lot."}
+{"start": 20.605, "end": 22.576, "speaker": "Juliet Capulet", "text": "Okay. Tell me what you're picturing."}
+{"start": 23.087, "end": 33.898, "speaker": "Tybalt Capulet", "text": "I'm picturing us wanting to ship something on a Tuesday, and it sits in Montague's inbox for three weeks because Romeo's on vacation. We move fast here. And now we've handed someone else a brake pedal."}
+{"start": 34.659, "end": 42.87, "speaker": "Juliet Capulet", "text": "That's fair. That's a real thing that happens. But I think the rule's a lot narrower than it sounded in the note. That's on me, I wrote it fast."}
+{"start": 43.566, "end": 45.337, "speaker": "Tybalt Capulet", "text": "Narrower how?"}
+{"start": 45.849, "end": 56.379, "speaker": "Juliet Capulet", "text": "It only covers the inspection record. The shared format. So, site ID, inspector, photos, findings, signed at. The stuff that actually crosses the bridge."}
+{"start": 56.965, "end": 60.016, "speaker": "Tybalt Capulet", "text": "Right, but that's the, I mean, that's the core of the app."}
+{"start": 60.502, "end": 74.233, "speaker": "Juliet Capulet", "text": "It's the core of what we send them. It's not the core of Balcony. How we store things on the device, the photo cache, the screens, the offline stuff, all of that is ours. Nobody at Montague gets a vote on any of it. They don't even see it."}
+{"start": 74.915, "end": 78.446, "speaker": "Tybalt Capulet", "text": "So if I want to restructure the local database..."}
+{"start": 78.975, "end": 91.586, "speaker": "Juliet Capulet", "text": "Go for it. Doesn't touch the rule. Only if you change what goes out in the record. And honestly, it cuts both ways. Montague owns the routing envelope. If they change that, they need us to sign off. So they can't break us either."}
+{"start": 92.422, "end": 96.193, "speaker": "Tybalt Capulet", "text": "Huh. Okay. I hadn't really thought about it from that side."}
+{"start": 96.957, "end": 101.808, "speaker": "Juliet Capulet", "text": "That's the part I like. It protects us too, especially with Ducal in the middle."}
+{"start": 102.288, "end": 107.659, "speaker": "Tybalt Capulet", "text": "Yeah. Okay. But I still want a clock on it. Because, the vacation thing, that's not hypothetical."}
+{"start": 108.431, "end": 111.602, "speaker": "Juliet Capulet", "text": "Totally agree. What feels right? A week?"}
+{"start": 112.372, "end": 124.023, "speaker": "Tybalt Capulet", "text": "A week's too long. Two days. Forty-eight hours. If the other side hasn't said anything in forty-eight hours, it's, uh, it's not a veto. You can't block by just going quiet."}
+{"start": 124.616, "end": 129.747, "speaker": "Juliet Capulet", "text": "Forty-eight hour review window. I like that. And it goes both ways, same rule for them."}
+{"start": 130.477, "end": 136.648, "speaker": "Tybalt Capulet", "text": "Same rule for them, sure. That's only fair. Right. Neither side blocks the other. That's what I care about."}
+{"start": 137.199, "end": 141.37, "speaker": "Juliet Capulet", "text": "Good. I'll run it by Romeo today and write it into the spec."}
+{"start": 142.15, "end": 144.521, "speaker": "Tybalt Capulet", "text": "Cool. And, um, one more thing."}
+{"start": 145.272, "end": 146.083, "speaker": "Juliet Capulet", "text": "Sure."}
+{"start": 146.914, "end": 158.805, "speaker": "Tybalt Capulet", "text": "The airplane-mode thing. I said yesterday I'd believe the queue if it survives a week of airplane mode. I should probably be the one to actually test that, instead of just, you know, saying it in standup."}
+{"start": 159.318, "end": 161.169, "speaker": "Juliet Capulet", "text": "Ha. Are you volunteering?"}
+{"start": 161.641, "end": 171.612, "speaker": "Tybalt Capulet", "text": "I'm volunteering. I'll write the airplane-mode test. Device offline, pile of inspections, bring it back, make sure everything lands in order. I'll fake the week with the clock."}
+{"start": 172.249, "end": 175.54, "speaker": "Juliet Capulet", "text": "Please fake the week. I need you back before Friday."}
+{"start": 176.029, "end": 183.16, "speaker": "Tybalt Capulet", "text": "Yeah, yeah. I'll have it before go or no-go. And I'm not gonna go easy on it. Okay. Thanks. Sorry for coming in hot."}
+{"start": 183.997, "end": 188.368, "speaker": "Juliet Capulet", "text": "You didn't. Well, a little. It's fine. Go write your test."}

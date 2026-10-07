@@ -25,6 +25,7 @@ from tools.sources import (
     loc,
     nasa,
     psai,
+    verona,
     voices,
 )
 
@@ -36,7 +37,10 @@ STREAMS_DIR = JOURNAL_DIR / "streams"
 REFERENCE_DIR = REPO_ROOT / "reference"
 DAYS = ["20260201", "20260202", "20260203", "20260204", "20260205"]
 CREATED_AT = 1769904000
-SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices, dipco]
+SOURCES = [ami, psai, loc, nasa, hpr, chime6, icsi, voices, dipco, verona]
+# Sources whose media is authored and committed in place rather than sliced
+# from a download (see tools/sources/verona.py).
+AUTHORED_SOURCES = {"verona"}
 
 
 def download_all() -> None:
@@ -132,6 +136,78 @@ def _source_path(seg: dict) -> Path:
     if source == "dipco":
         return CACHE_DIR / "dipco" / "clips" / f"{source_id}.wav"
     raise ValueError(f"Unknown source: {source}")
+
+
+def _slice_args(seg: dict) -> tuple[Path, int, int]:
+    slice_info = seg["slice"]
+    return (
+        _source_path(seg),
+        slice_info["start_seconds"],
+        slice_info["duration_seconds"],
+    )
+
+
+def _check_authored(seg_dir: Path) -> None:
+    """Authored media must already be rendered and committed."""
+    if not any((seg_dir / name).exists() for name in ("audio.wav", "screen.mp4")):
+        raise FileNotFoundError(
+            f"{seg_dir}: authored media missing; run tools/verona/render.py"
+        )
+
+
+def _manifest_entry(seg: dict) -> dict:
+    return {
+        "day": seg["day"],
+        "stream": seg["stream"],
+        "segment": f"{seg['time']}_{seg['duration_seconds']}",
+        "source": seg["source"],
+        "source_id": seg["source_id"],
+        "license": seg["license"],
+        "duration_seconds": seg["duration_seconds"],
+        "description": seg["description"],
+        "exercises": seg["exercises"],
+        "has_reference": seg["has_reference"],
+    }
+
+
+def build_verona() -> None:
+    """Refresh only the verona entries in manifest.json and their stream state.
+
+    The verona week is authored, so updating it never needs the other
+    sources' downloads.
+    """
+    data = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    kept = [s for s in data["segments"] if s["source"] not in AUTHORED_SOURCES]
+    added = sorted(verona.segments(), key=lambda s: (s["day"], s["stream"], s["time"]))
+    state: dict[str, dict[str, str | int | None]] = {}
+    for seg in added:
+        seg_dir = (
+            JOURNAL_DIR
+            / seg["day"]
+            / seg["stream"]
+            / f"{seg['time']}_{seg['duration_seconds']}"
+        )
+        _check_authored(seg_dir)
+        st = state.setdefault(
+            seg["stream"], {"prev_day": None, "prev_segment": None, "seq": 0}
+        )
+        st["seq"] = int(st["seq"]) + 1
+        _write_stream_json(
+            seg_dir, seg["stream"], st["prev_day"], st["prev_segment"], int(st["seq"])
+        )  # type: ignore[arg-type]
+        st["prev_day"], st["prev_segment"] = (
+            seg["day"],
+            f"{seg['time']}_{seg['duration_seconds']}",
+        )
+    for name, st in state.items():
+        _write_stream_state(
+            name, str(st["prev_day"]), str(st["prev_segment"]), int(st["seq"])
+        )  # type: ignore[arg-type]
+    segments = kept + [_manifest_entry(s) for s in added]
+    segments.sort(key=lambda s: (s["day"], s["stream"], s["segment"]))
+    data["segments"] = segments
+    MANIFEST_PATH.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    print(f"Manifest written: {len(segments)} segments ({len(added)} verona)")
 
 
 def _write_stream_json(
@@ -568,6 +644,8 @@ def _setup_facets() -> None:
 def _clean_generated() -> None:
     """Remove only generated journal content for the 5 simulated days."""
     for segment in _collect_segments():
+        if segment["source"] in AUTHORED_SOURCES:
+            continue
         segment_key = f"{segment['time']}_{segment['duration_seconds']}"
         seg_dir = JOURNAL_DIR / segment["day"] / segment["stream"] / segment_key
         for filename in ["audio.wav", "screen.mp4", "stream.json"]:
@@ -626,14 +704,13 @@ def build() -> None:
         seg_dir = JOURNAL_DIR / day / stream / segment_key
         seg_dir.mkdir(parents=True, exist_ok=True)
 
-        src_path = _source_path(seg)
-        slice_info = seg["slice"]
-        start_s = slice_info["start_seconds"]
-        duration_s = slice_info["duration_seconds"]
-
-        if stream == "field.audio":
+        if seg["source"] in AUTHORED_SOURCES:
+            _check_authored(seg_dir)
+        elif stream == "field.audio":
+            src_path, start_s, duration_s = _slice_args(seg)
             _slice_audio(src_path, seg_dir / "audio.wav", start_s, duration_s)
         elif stream == "field.screen":
+            src_path, start_s, duration_s = _slice_args(seg)
             _slice_screen(src_path, seg_dir / "screen.mp4", start_s, duration_s)
         else:
             raise ValueError(f"Unknown stream: {stream}")
@@ -655,20 +732,7 @@ def build() -> None:
         state["prev_day"] = day
         state["prev_segment"] = segment_key
 
-        manifest_segments.append(
-            {
-                "day": day,
-                "stream": stream,
-                "segment": segment_key,
-                "source": seg["source"],
-                "source_id": seg["source_id"],
-                "license": seg["license"],
-                "duration_seconds": duration,
-                "description": seg["description"],
-                "exercises": seg["exercises"],
-                "has_reference": seg["has_reference"],
-            }
-        )
+        manifest_segments.append(_manifest_entry(seg))
 
     for stream_name, state in stream_state.items():
         _write_stream_state(
@@ -702,11 +766,13 @@ if __name__ == "__main__":
         download_all()
     elif command == "build":
         build()
+    elif command == "verona":
+        build_verona()
     elif command == "clean":
         _clean_generated()
     else:
         print(
-            f"Unknown command: {command}. Valid: download, build, clean",
+            f"Unknown command: {command}. Valid: download, build, verona, clean",
             file=sys.stderr,
         )
         sys.exit(1)

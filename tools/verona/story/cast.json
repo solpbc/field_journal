@@ -1,0 +1,28 @@
+{
+  "owner": "juliet_capulet",
+  "notes": "Invented people and companies, written by sol pbc for the verona week. Nobody here is a real person. The world continues the fictional Verona cast in the solstone journal's test fixture.",
+  "people": {
+    "juliet_capulet": {"name": "Juliet Capulet", "role": "Head of product at Capulet Industries; owner of this journal", "voice": "Kore"},
+    "romeo_montague": {"name": "Romeo Montague", "role": "Staff engineer at Montague Tech; Juliet's counterpart on Schema Bridge", "voice": "Puck"},
+    "tybalt_capulet": {"name": "Tybalt Capulet", "role": "Engineering lead at Capulet Industries; sceptical of depending on Montague's Mesh Routing", "voice": "Fenrir"},
+    "nurse_angela": {"name": "Angela Nurse", "role": "Operations and release manager at Capulet Industries; goes by Angela", "voice": "Aoede"},
+    "benvolio_montague": {"name": "Benvolio Montague", "role": "Product manager at Montague Tech; keeps the peace", "voice": "Charon"},
+    "mercutio_escalus": {"name": "Mercutio Escalus", "role": "Designer at Montague Tech; quick and funny", "voice": "Zephyr"},
+    "friar_lawrence": {"name": "Lawrence Friar", "role": "Partner at Verona Ventures; Juliet's advisor and Capulet's lead investor; everyone calls him Friar", "voice": "Orus"},
+    "paris_duke": {"name": "Paris Duke", "role": "VP operations at Ducal Freight; the first customer for Schema Bridge", "voice": "Iapetus"},
+    "balthasar_davi": {"name": "Balthasar Davi", "role": "Contract QA engineer on the Balcony App beta", "voice": "Algenib"}
+  },
+  "companies": {
+    "capulet_industries": "Capulet Industries, maker of the Balcony App (field-inspection app for warehouses)",
+    "montague_tech": "Montague Tech, maker of Mesh Routing (a routing service for device fleets)",
+    "verona_ventures": "Verona Ventures, a small venture firm; investor in Capulet",
+    "ducal_freight": "Ducal Freight, a regional freight company; prospective customer"
+  },
+  "projects": {
+    "schema_bridge": "Schema Bridge: a shared data format and sync bridge so Balcony App inspections can flow into Montague's Mesh Routing. A joint Capulet-Montague project; Ducal Freight is the pilot customer.",
+    "balcony_app": "Balcony App 3.0: Capulet's mobile release; beta in progress this week, go/no-go on Friday.",
+    "mesh_routing": "Mesh Routing: Montague's routing service. Tybalt worries about depending on it."
+  },
+  "deliberate_ambiguity": "'Paris' is both the person Paris Duke and the city: Juliet has a trade-show trip to Paris on the 26th. Two different things share a name on purpose.",
+  "style": "Ordinary, plausible product work. Calm, friendly, a little funny. No feud melodrama, no Shakespeare quotes or verse, at most one light nod per day. Speech sounds spoken: short turns, contractions, the odd 'um' or restart, people interrupting politely. American English. No real companies, products, people or places other than ordinary city names."
+}

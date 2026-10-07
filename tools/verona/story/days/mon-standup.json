@@ -1,0 +1,111 @@
+{
+  "id": "mon-standup",
+  "kind": "audio",
+  "title": "Capulet standup",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Morning. Let's keep it quick, I know everyone's got a lot this week. Angela, you want to start with the beta?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Sure. So, Balcony App 3.0 beta. We're at forty-one testers as of this morning. Two more signed up over the weekend."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Nice. And how's it holding up?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Mostly good. We've got two crash reports, both on older Android. Same kind of device, both on Android 11, both crash when they open the camera from an inspection."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "I saw those. I think it's the photo side, but I haven't dug in yet. I'll grab it."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Is it every Android 11 device, or just those two?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Just those two so far. We've got maybe six testers on Android 11, and the other four haven't hit it. Could be they just haven't opened the camera enough."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thanks, Tybalt. What else?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "The other one's the offline-sync bug Balthasar found. If you edit the same inspection on two devices while you're offline, and then both come back online, one of the edits just, um, quietly loses."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Quietly loses. That's the worst kind."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Yeah. He's got clean repro steps, so at least it's not a ghost. He's still on it, and he thinks it's in how we merge the two versions when they come back."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. That one I care about. Offline is the whole point of the release."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Agreed. So, I've got the release checklist. I'll own it. And I'd like to put the go or no-go on the calendar for Friday at nine thirty, if that works for both of you."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Friday nine thirty works for me."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Works."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Great. I'll send the invite after this."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Tybalt, anything from you?"
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "One thing, and I know it's not really beta stuff. Schema Bridge. The kickoff's today, right?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Three o'clock, yeah."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "So my worry is, if the bridge depends on Montague's Mesh Routing being up, then our inspectors depend on it being up. And we don't control their uptime. If their service goes down at, like, two in the morning, does Balcony just stop working?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's fair. I don't think it should, but I don't actually know what they're planning."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Right. I'm not saying don't do it. I just don't want to find out the hard way that our app has a new single point of failure that lives in somebody else's building."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Can I add one thing? Whatever the answer is, I'd want it written down before anything goes near a customer."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yep. Okay, let's raise it with Romeo in the kickoff. I'll put it on the agenda, first thing after scope, and I'll tell you both what he says."
+    },
+    {
+      "speaker": "tybalt_capulet",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Anything else? No? Okay. Thanks, everyone. Good week, let's go."
+    }
+  ]
+}

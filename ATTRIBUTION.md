@@ -87,3 +87,11 @@ Detailed license and attribution information for each media source included in t
 - **Share-alike:** No
 - **Usage:** Close-talk dinner-party speaker mixes used as overlap-rich audio segments and slice-scoped reference transcripts
 - **Citation:** Van Segbroeck et al., "DiPCo -- Dinner Party Corpus", Interspeech 2020
+
+## verona (synthetic)
+
+- **Author:** sol pbc
+- **License:** CC-BY 4.0
+- **What it is:** an invented working week written for this corpus. The scripts are in `tools/verona/story/`. Speech was synthesized with Gemini text-to-speech stock voices (`gemini-2.5-flash-preview-tts`), and the screens were recorded from scripted pages in headless Chromium.
+- **People:** none real. Every person and company in it is fictional, and so is every product they make. Email addresses use reserved `.example` domains.
+- **Segments:** 20 (`journal/20260209`–`journal/20260213`, streams `verona.audio` and `verona.screen`)

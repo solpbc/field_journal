@@ -1,0 +1,36 @@
+{"start": 0.6, "end": 4.731, "speaker": "Benvolio Montague", "text": "Okay, I think we're all here. Hi, Juliet. Thanks for making the time."}
+{"start": 5.485, "end": 8.936, "speaker": "Juliet Capulet", "text": "Hi, Benvolio. Hi, Romeo. Thanks for coming over."}
+{"start": 9.627, "end": 17.518, "speaker": "Benvolio Montague", "text": "So, quick intros for the notes. I'm product on the Montague side, Romeo's the staff engineer who'll actually build most of our half."}
+{"start": 18.137, "end": 25.988, "speaker": "Juliet Capulet", "text": "And I'm head of product at Capulet, I own the spec on our side. Tybalt, our engineering lead, sent me with a question, so, fair warning."}
+{"start": 26.656, "end": 29.147, "speaker": "Benvolio Montague", "text": "Noted. Do you want to walk us through scope?"}
+{"start": 29.742, "end": 50.513, "speaker": "Juliet Capulet", "text": "Yeah. So, short version. Balcony App does field inspections in warehouses. Inspectors walk a site, take photos, log findings, sign the report. Right now that data stops at Balcony. Schema Bridge is a shared format for an inspection record plus a bridge that moves those records into Mesh Routing, so your side can route work off them."}
+{"start": 50.971, "end": 55.582, "speaker": "Romeo Montague", "text": "And the record is the five fields in your draft? I skimmed it this morning."}
+{"start": 56.323, "end": 64.214, "speaker": "Juliet Capulet", "text": "Right. Site, inspector, photos, findings, signed at. I wrote it this morning, so it's rough."}
+{"start": 64.814, "end": 70.345, "speaker": "Romeo Montague", "text": "No, it's a good start. The part I'd push on is the sync. You've got a nightly batch."}
+{"start": 70.872, "end": 72.923, "speaker": "Juliet Capulet", "text": "I do. It felt simple."}
+{"start": 73.707, "end": 89.958, "speaker": "Romeo Montague", "text": "It is simple. But if an inspector signs something at nine in the morning, nobody downstream sees it until the next day. I'd rather we send events. Each signed inspection goes over as its own event, when it's signed. And if one fails it doesn't take the whole night with it."}
+{"start": 90.607, "end": 96.058, "speaker": "Juliet Capulet", "text": "Huh. Okay. I like that. I'm not attached to the batch, I just didn't want to overbuild."}
+{"start": 96.729, "end": 104.659, "speaker": "Benvolio Montague", "text": "Can I jump in on timing? Ducal Freight is the pilot, and I'd love to show them something real soon. What if we aim for a demo this Friday?"}
+{"start": 105.367, "end": 109.538, "speaker": "Juliet Capulet", "text": "This Friday. Okay. That's, um, ambitious."}
+{"start": 110.127, "end": 115.938, "speaker": "Juliet Capulet", "text": "We've got our own release go or no-go Friday morning, but a demo in the afternoon could work. Let's do it."}
+{"start": 116.596, "end": 118.647, "speaker": "Benvolio Montague", "text": "Great. I'll set it up with Ducal."}
+{"start": 119.387, "end": 131.118, "speaker": "Juliet Capulet", "text": "Okay, so, Tybalt's question. His worry is, if Balcony depends on Mesh Routing, and Mesh Routing goes down, do our inspectors stop working? They can't wait on someone else's service."}
+{"start": 131.647, "end": 136.018, "speaker": "Romeo Montague", "text": "Totally fair question. And honestly, he should worry about that, I would."}
+{"start": 136.583, "end": 138.393, "speaker": "Juliet Capulet", "text": "So what's the answer?"}
+{"start": 139.052, "end": 154.383, "speaker": "Romeo Montague", "text": "A local queue. Balcony doesn't talk to Mesh Routing directly when an inspector signs something. It drops the event into a queue on the device. When Mesh Routing is reachable, the queue drains. When it's not, events just wait. The inspector never knows the difference."}
+{"start": 155.172, "end": 159.103, "speaker": "Juliet Capulet", "text": "So Balcony keeps working no matter what's happening on your side."}
+{"start": 159.634, "end": 163.965, "speaker": "Romeo Montague", "text": "That's the idea. Our outage becomes a delay, not a failure."}
+{"start": 164.593, "end": 168.404, "speaker": "Juliet Capulet", "text": "I think Tybalt can live with that. He'll want to see it, though."}
+{"start": 169.217, "end": 171.828, "speaker": "Romeo Montague", "text": "I'll prototype it. Give me a couple of days."}
+{"start": 172.494, "end": 176.265, "speaker": "Benvolio Montague", "text": "What about the other open question in the doc? Field versioning?"}
+{"start": 176.88, "end": 184.651, "speaker": "Juliet Capulet", "text": "Right. If we add a field to the inspection record, or change one, who decides? Is it us, is it you, is it both?"}
+{"start": 185.332, "end": 188.623, "speaker": "Romeo Montague", "text": "Hmm. I don't think we should answer that in the first meeting."}
+{"start": 189.437, "end": 193.608, "speaker": "Benvolio Montague", "text": "Agreed, let's leave it open. But let's not leave it open forever."}
+{"start": 194.156, "end": 197.727, "speaker": "Juliet Capulet", "text": "Fair. I'll keep it in the spec as an open question."}
+{"start": 198.319, "end": 201.69, "speaker": "Benvolio Montague", "text": "Okay, action items, so we don't lose them. Juliet?"}
+{"start": 202.531, "end": 210.182, "speaker": "Juliet Capulet", "text": "I'll do a spec v2 by Wednesday. Switch the sync to events, add the local queue, and keep versioning as an open question."}
+{"start": 210.969, "end": 213.02, "speaker": "Romeo Montague", "text": "And I'll prototype the queue."}
+{"start": 213.831, "end": 216.842, "speaker": "Benvolio Montague", "text": "And I'll set up Friday with Ducal. Anything else?"}
+{"start": 217.63, "end": 222.721, "speaker": "Juliet Capulet", "text": "No, I think that's good. Thanks, both of you. This was easier than I expected."}
+{"start": 223.512, "end": 226.563, "speaker": "Romeo Montague", "text": "Don't tell Tybalt that, he'll get suspicious."}
+{"start": 227.108, "end": 230.439, "speaker": "Juliet Capulet", "text": "Ha. I'll tell him you answered his question. Talk soon."}
