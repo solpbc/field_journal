@@ -200,6 +200,8 @@ def configure(journal: Path, api_key: str) -> None:
         }
     )
     config.setdefault("retention", {})["raw_media"] = "keep"
+    # The owner finished first-run setup; the web app opens on the journal, not /init.
+    config.setdefault("setup", {})["completed_at"] = int(time.time() * 1000)
     # Process now rather than in the overnight window an owner's journal waits for.
     config["processing"]["gate"]["time_window"]["enabled"] = False
     path.write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
