@@ -37,7 +37,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 JOURNAL_DIR = REPO_ROOT / "journal"
 MANIFEST_PATH = REPO_ROOT / "manifest.json"
 DEMO_SOURCES = frozenset({"verona"})
-MODEL = "gemini-3.5-flash"
+MODEL = "gemini-3.8-flash"
 TIMEZONE = "America/Denver"
 FACETS = {
     "capulet": {

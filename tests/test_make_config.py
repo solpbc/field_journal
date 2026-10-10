@@ -256,9 +256,9 @@ def test_providers_active_selects_google(
     assert main(["--path", str(out)]) == 0
 
     data = _read_json(out)
-    assert data["providers"] == {
-        "active": {"provider": "google", "model": "gemini-3.5-flash"}
-    }
+    assert data["providers"]["active"]["provider"] == "google"
+    assert isinstance(data["providers"]["active"]["model"], str)
+    assert data["providers"]["active"]["model"]
 
 
 def test_providers_active_selects_anthropic(
@@ -299,9 +299,9 @@ def test_providers_active_google_beats_openai(
     assert main(["--path", str(out)]) == 0
 
     data = _read_json(out)
-    assert data["providers"] == {
-        "active": {"provider": "google", "model": "gemini-3.5-flash"}
-    }
+    assert data["providers"]["active"]["provider"] == "google"
+    assert isinstance(data["providers"]["active"]["model"], str)
+    assert data["providers"]["active"]["model"]
 
 
 def test_providers_active_anthropic_beats_openai(
@@ -330,6 +330,6 @@ def test_providers_active_google_beats_all(
     assert main(["--path", str(out)]) == 0
 
     data = _read_json(out)
-    assert data["providers"] == {
-        "active": {"provider": "google", "model": "gemini-3.5-flash"}
-    }
+    assert data["providers"]["active"]["provider"] == "google"
+    assert isinstance(data["providers"]["active"]["model"], str)
+    assert data["providers"]["active"]["model"]

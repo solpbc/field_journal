@@ -87,7 +87,7 @@ def _atomic_write(path: Path, data: bytes) -> None:
 
 def _choose_active_profile(env_block: dict[str, str]) -> dict[str, str]:
     if env_block.get("GOOGLE_API_KEY"):
-        return {"provider": "google", "model": "gemini-3.5-flash"}
+        return {"provider": "google", "model": "gemini-3.8-flash"}
     if env_block.get("ANTHROPIC_API_KEY"):
         return {"provider": "anthropic", "model": "claude-sonnet-4-6"}
     if env_block.get("OPENAI_API_KEY"):
