@@ -1,0 +1,54 @@
+{
+  "id": "wed-1050",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Sharing Paris's asks",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "on with Ducal in 5. anything you want me to ask?",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "ask if they ever need to edit an inspection after it's signed",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "good one",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "call done, went well. Paris's three asks, in his order: 1. inspections sync on their own when the tablet's back online 2. a signed PDF per inspection, within 24h 3. export to their freight system by site. he's in for friday at 2"
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "sending the invite for Friday 2pm now"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "offline sync and the PDF we can show. export by site is real work"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "agreed, next sprint"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "(didn't get to your edit question live, it's in my recap email)"
+    }
+  ]
+}

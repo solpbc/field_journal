@@ -1,0 +1,61 @@
+{
+  "id": "wed-1425",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: open questions",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Timeline",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Next sprint: export by site.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Nothing gets a date in front of Ducal until it's built.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Field versioning",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Who can change fields in the inspection record, and how both sides find out.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Owner:",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Open questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Field versioning: who owns it, and how do both sides agree to a change? Settle with Romeo at 3."
+    },
+    {
+      "type": "li",
+      "text": "Export by site: timing. Depends on what Ducal's freight system can take in."
+    },
+    {
+      "type": "li",
+      "text": "Does Ducal's auditor want anything else on the PDF? Ask Paris on Friday."
+    },
+    {
+      "type": "p",
+      "text": "Answered so far: queue cap, 10,000 events per device."
+    }
+  ]
+}

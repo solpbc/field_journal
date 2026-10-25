@@ -1,0 +1,54 @@
+{
+  "id": "wed-1420",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: timeline",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Envelope (Montague)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "schema_version: the version of the body's format, so the receiver knows how to read it.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "sent_at: when the event left the device. Not the same as signed_at.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "The inspection record is the body. That part is Capulet's.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Timeline"
+    },
+    {
+      "type": "li",
+      "text": "Friday at 2: demo for Ducal Freight. An inspection made offline syncing on reconnect, then its signed PDF."
+    },
+    {
+      "type": "li",
+      "text": "After Friday: a pilot, if Ducal wants one. Sites and length to agree with Paris."
+    },
+    {
+      "type": "li",
+      "text": "Before Friday: Mercutio's PDF layout and the demo run order."
+    },
+    {
+      "type": "li",
+      "text": "Next sprint: export by site."
+    },
+    {
+      "type": "p",
+      "text": "Nothing gets a date in front of Ducal until it's built."
+    }
+  ]
+}

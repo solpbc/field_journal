@@ -1,0 +1,30 @@
+{
+  "id": "wed-1530",
+  "kind": "screen",
+  "title": "Email to Tybalt about the rule",
+  "app": "email",
+  "to": "Tybalt Capulet",
+  "subject": "Versioning with Montague",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Tybalt,"
+    },
+    {
+      "type": "p",
+      "text": "Romeo and I settled field versioning for Schema Bridge this afternoon. The rule: Capulet owns the inspection record schema, Montague owns the routing envelope around it, and any change to either needs both sides to approve. Every event will carry a schema_version, so an old tablet sending old events doesn't confuse anyone."
+    },
+    {
+      "type": "p",
+      "text": "It covers only the inspection record we send over the bridge. It doesn't touch Balcony's internals or how we build anything on our side."
+    },
+    {
+      "type": "p",
+      "text": "I know you've had worries about leaning on Montague. I'd rather hear them now than after Friday's demo, so send me whatever's on your mind."
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

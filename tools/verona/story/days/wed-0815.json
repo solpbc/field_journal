@@ -1,0 +1,65 @@
+{
+  "id": "wed-0815",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Reading Paris Duke's email",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Balthasar Davi",
+      "subject": "Overnight QA run: 6 devices",
+      "preview": "Sync conflict fix holds on 5 of 6. The old Android 11 tablet is the odd one out..."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Wednesday call",
+      "preview": "Confirming 10:30 today. A few things I'd like to cover..."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Quick status before standup. Most of it is checked off, QA sign-off is the big one..."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Daily digest: Tuesday",
+      "preview": "2 new crashes, 1 device, 41 active testers"
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to your note. One small request..."
+    }
+  ],
+  "open_index": 1,
+  "open": {
+    "from": "Paris Duke",
+    "subject": "Re: Wednesday call",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Hi Juliet,"
+      },
+      {
+        "type": "p",
+        "text": "Confirming 10:30 today. Looking forward to it."
+      },
+      {
+        "type": "p",
+        "text": "A few things I'd like to cover, so you know where my head is: how our inspectors could work offline out in the yards, since signal there is bad; what our auditors need from an inspection; and how inspections would get from your app into our freight system."
+      },
+      {
+        "type": "p",
+        "text": "Is 45 minutes ok? I have a hard stop after that."
+      },
+      {
+        "type": "p",
+        "text": "Thanks,"
+      },
+      {
+        "type": "p",
+        "text": "Paris"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "wed-0930",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Standup notes",
+  "doc_title": "Standup, Wed",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Tybalt",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Android 11 crash fixed: photo-cache path. In review."
+    },
+    {
+      "type": "li",
+      "text": "Cache moved into app storage. In tonight's build."
+    },
+    {
+      "type": "h2",
+      "text": "Angela",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Checklist 80%; needs QA sign-off from Balthasar."
+    },
+    {
+      "type": "li",
+      "text": "She'll go through it with him Thu afternoon. Go/no-go stays Fri 9:30."
+    },
+    {
+      "type": "h2",
+      "text": "Balthasar",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Not at standup. Overnight run: sync fix holds on 5 of 6, old tablet crashed. Rerun on Tybalt's branch this morning: clean.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Me",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Ducal call 10:30: first customer call for Schema Bridge",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Romeo's local queue answers the uptime worry: Balcony keeps working if Mesh Routing is down",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Told them: Romeo's queue covers the uptime worry."
+    },
+    {
+      "type": "li",
+      "text": "Tybalt: 'fine if it survives a week of airplane mode'."
+    }
+  ]
+}

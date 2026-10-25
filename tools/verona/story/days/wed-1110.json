@@ -1,0 +1,76 @@
+{
+  "id": "wed-1110",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Note from Friar",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Balthasar can do Thursday 3:30. I'm booking a check-in with the three of us."
+    },
+    {
+      "from": "Test device invoice",
+      "subject": "Invoice: test devices",
+      "preview": "Invoice for 2 test devices, due in 30 days."
+    },
+    {
+      "from": "Calendar",
+      "subject": "Ducal Freight discovery call, today 10:30",
+      "preview": "Reminder: Ducal Freight discovery call, 10:30 to 11:15."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Crash digest: 2 new crashes",
+      "preview": "2 crashes in the last 24 hours, both Android 11, both on the camera screen."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Here's where the checklist stands. The big one left is QA sign-off."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Wednesday call",
+      "preview": "10:30 works. A few things I'd like to cover, if that's ok."
+    },
+    {
+      "from": "Balthasar Davi",
+      "subject": "Overnight QA run: 6 devices",
+      "preview": "Sync conflict fix holds on 5 of 6. The old Android 11 tablet crashes opening the camera."
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to your note on Friday. One small request."
+    }
+  ],
+  "open_index": 7,
+  "open": {
+    "from": "Lawrence Friar",
+    "subject": "Friday",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Juliet,"
+      },
+      {
+        "type": "p",
+        "text": "Looking forward to your note on Friday. Short is good. I read the short ones twice."
+      },
+      {
+        "type": "p",
+        "text": "One small request: end it with a line on what you need from me. Even if the answer is nothing this week. It's the line people tend to skip, and it's the only one I can actually do something with."
+      },
+      {
+        "type": "p",
+        "text": "Separately, we're putting together a portfolio dinner next month. No date yet. I'll send one as soon as we have it, and I'd like you there."
+      },
+      {
+        "type": "p",
+        "text": "Friar"
+      }
+    ]
+  }
+}

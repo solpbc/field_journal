@@ -1,0 +1,50 @@
+{
+  "id": "wed-1525",
+  "kind": "screen",
+  "title": "Posting the versioning decision",
+  "app": "chat",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Romeo Montague",
+      "text": "queue's been offline since about two. 12 inspections queued, nothing lost. ready when you are",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "I'll leave it off until we're on so you can watch it come back",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "two minutes",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "field versioning, decided: Capulet owns the inspection record schema, Montague owns the routing envelope."
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "any change to either needs both sides to approve, and every event carries a schema_version. it's in the spec draft, v2 goes up later today"
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "that's the cleanest version of this I've heard"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "adding schema_version tonight"
+    }
+  ]
+}

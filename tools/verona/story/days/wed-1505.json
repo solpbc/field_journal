@@ -1,0 +1,56 @@
+{
+  "id": "wed-1505",
+  "kind": "screen",
+  "title": "Romeo sync: versioning decided",
+  "app": "doc",
+  "doc_title": "Sync with Romeo, 3pm",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "3. Decide field versioning: who owns what, how changes are agreed",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Proposal: Capulet owns the inspection record, Montague owns the envelope, both approve any change.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Notes",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Told him what I told Paris: Ducal sees only what Ducal sends.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Prototype survived an hour offline. Nothing lost.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Events arrive with the time they were signed, not the time they synced. Auditors care.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Decided: Capulet owns the inspection record schema. Montague owns the routing envelope. Any change needs both to approve. Romeo adds schema_version to every event."
+    },
+    {
+      "type": "li",
+      "text": "Romeo proposed the same split before I got to mine. Good sign."
+    },
+    {
+      "type": "li",
+      "text": "Fill in the Owner line in spec v2."
+    },
+    {
+      "type": "li",
+      "text": "Tell Tybalt: it covers only the inspection record, not Balcony's internals."
+    }
+  ]
+}

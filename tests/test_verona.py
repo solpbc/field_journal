@@ -86,3 +86,12 @@ def test_week_lands_on_the_friday_before_the_end_date() -> None:
     assert (
         demo.day_map(date(2026, 10, 9))["20260213"] == "20261002"
     )  # a Friday itself is not yet over
+
+
+def test_hero_day_lands_on_today_and_later_days_are_left_out() -> None:
+    days = demo.hero_day_map(date(2026, 10, 26))
+    assert days == {
+        "20260209": "20261024",
+        "20260210": "20261025",
+        "20260211": "20261026",
+    }

@@ -1,0 +1,33 @@
+{
+  "id": "wed-1630",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Balcony 3.0 announcement draft",
+  "doc_title": "Balcony App 3.0 is here (draft)",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Balcony App 3.0 is here"
+    },
+    {
+      "type": "p",
+      "text": "Balcony App 3.0 is built for the places inspections actually happen: the far end of the yard, the back of a trailer, the dock with no signal."
+    },
+    {
+      "type": "li",
+      "text": "Inspections work offline. Start, fill in and save a full inspection with no connection, and it syncs on its own when you're back online."
+    },
+    {
+      "type": "li",
+      "text": "Photos upload faster, in the background, and pick up where they left off if the connection drops."
+    },
+    {
+      "type": "li",
+      "text": "Every inspection can be a signed report, showing who signed it and when."
+    },
+    {
+      "type": "p",
+      "text": "We're rolling 3.0 out over the next week, so you may see the update a few days after your teammates."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "wed-1130",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Updating the beta release notes",
+  "doc_title": "Balcony App 3.0 beta: release notes",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What's new",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Offline inspections: start, fill in and save a full inspection with no connection. It syncs when you're back online.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Faster photo upload: photos upload in the background and resume if the connection drops.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Signed reports: inspectors can sign an inspection on the device, and the report shows who signed and when.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Known issues",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Offline sync conflict: if the same inspection is edited on two devices while offline, one set of edits can be overwritten. A fix is in progress. For now, please edit each inspection on one device only.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Sync status: every inspection shows queued, sent or needs attention, and the app shows how many are waiting to send. No spinners."
+    },
+    {
+      "type": "li",
+      "text": "Sending feedback: Settings > Help > Send feedback. Crash reports go to the same place and include the device model, nothing else."
+    }
+  ]
+}

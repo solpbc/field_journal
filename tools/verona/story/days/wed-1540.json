@@ -1,0 +1,69 @@
+{
+  "id": "wed-1540",
+  "kind": "screen",
+  "title": "Schema Bridge board, afternoon",
+  "app": "board",
+  "board_title": "Schema Bridge",
+  "columns": [
+    "To do",
+    "Doing",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Spec draft 1",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Local event queue",
+      "column": "Doing",
+      "assignee": "Romeo"
+    },
+    {
+      "title": "Spec v2",
+      "column": "Doing",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Signed PDF per inspection",
+      "column": "Doing",
+      "assignee": "Mercutio"
+    },
+    {
+      "title": "Export by site",
+      "column": "To do",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Friday demo for Ducal",
+      "column": "Doing",
+      "assignee": "Benvolio"
+    },
+    {
+      "title": "Queue cap 10k",
+      "column": "Doing",
+      "assignee": "Romeo"
+    }
+  ],
+  "moves": [
+    {
+      "card": "Local event queue",
+      "to": "Done"
+    },
+    {
+      "add": {
+        "title": "schema_version on every event",
+        "column": "Doing",
+        "assignee": "Romeo"
+      }
+    },
+    {
+      "add": {
+        "title": "Versioning rule: talk to Tybalt",
+        "column": "To do",
+        "assignee": "Juliet"
+      }
+    }
+  ]
+}

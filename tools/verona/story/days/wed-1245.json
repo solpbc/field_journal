@@ -1,0 +1,55 @@
+{
+  "id": "wed-1245",
+  "kind": "screen",
+  "app": "chat",
+  "title": "After lunch",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "six for six!",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "lunch run in 10 if anyone wants a sandwich",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "yes please. turkey, thank you",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "old tablet is back on the charger. it earned a break",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "looked at the slow-wifi photo stall. it resumes on its own, just slowly. not a blocker, I'd document it"
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "tablet's in my desk drawer with a sticky note that says do not touch"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "love it. writing spec v2 now, ping me if you need me"
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "will do"
+    }
+  ]
+}

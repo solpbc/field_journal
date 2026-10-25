@@ -1,0 +1,64 @@
+{
+  "id": "wed-1035",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call notes, the three asks",
+  "doc_title": "Ducal Freight call notes",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Wed 10:30. Paris Duke, VP operations.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "30 sites, yards and cross-docks. Every trailer in or out gets inspected: seals, doors, tires, load, damage.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Inspectors work offline in the yards, signal is bad. Past the third row of trailers, no bars.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Today it's paper and photos on phones, typed up later. Or the tablet form fails to send and nobody goes back to resend.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Auditors need signed reports within 24 hours. Customer requirement on a lot of their contracts.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Signed = inspector signs, with the time. Auditors want a PDF, no logins.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "He wants"
+    },
+    {
+      "type": "li",
+      "text": "1. Inspections that sync when back online. No resending."
+    },
+    {
+      "type": "li",
+      "text": "2. A signed PDF per inspection."
+    },
+    {
+      "type": "li",
+      "text": "3. Export to their freight system by site."
+    },
+    {
+      "type": "p",
+      "text": "His order: 1 and 2 get him through an audit, 3 makes his team's life easier."
+    },
+    {
+      "type": "p",
+      "text": "Never edit after signing: correct with a new inspection. (Romeo's question, didn't come up. Put it in the recap.)"
+    }
+  ]
+}

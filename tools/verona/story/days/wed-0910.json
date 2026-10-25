@@ -1,0 +1,33 @@
+{
+  "id": "wed-0910",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Wednesday priorities",
+  "doc_title": "Wed",
+  "blocks": [
+    {
+      "type": "li",
+      "text": "Ducal call 10:30. Paris Duke. Listen first."
+    },
+    {
+      "type": "li",
+      "text": "Spec v2 today, not tomorrow. Ducal asks, events, versioning."
+    },
+    {
+      "type": "li",
+      "text": "Settle versioning with Romeo at 3. Leave with an owner."
+    },
+    {
+      "type": "li",
+      "text": "Angela: QA sign-off timing. Want nothing open going into Friday."
+    },
+    {
+      "type": "li",
+      "text": "Mercutio: signed PDF look. Plain, something an auditor trusts."
+    },
+    {
+      "type": "li",
+      "text": "Book the Paris flight (the trade show is the 26th). Actually book it."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "wed-1010",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Thanking Tybalt",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "standup: android 11 crash fixed (photo cache path), in review. QA pass on the old tablet today. checklist at 80%. go/no-go stays fri 9:30.",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "thanks!",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "PR is up if anyone wants to look",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "approved Tybalt's fix. thank you for the late night."
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "happy to. looking at the slow-wifi photo stall next"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "running the old tablet again at 11"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "perfect, post results here"
+    }
+  ]
+}

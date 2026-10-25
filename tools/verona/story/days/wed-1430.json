@@ -1,0 +1,65 @@
+{
+  "id": "wed-1430",
+  "kind": "screen",
+  "title": "Notes during the PDF chat",
+  "app": "doc",
+  "doc_title": "Signed PDF: layout",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Mercutio's first pass, with what we changed on the call."
+    },
+    {
+      "type": "h2",
+      "text": "Top"
+    },
+    {
+      "type": "li",
+      "text": "Site, inspector, date"
+    },
+    {
+      "type": "h2",
+      "text": "Middle"
+    },
+    {
+      "type": "li",
+      "text": "Findings first"
+    },
+    {
+      "type": "li",
+      "text": "Photos, each with the time it was taken"
+    },
+    {
+      "type": "h2",
+      "text": "Bottom"
+    },
+    {
+      "type": "li",
+      "text": "Signature"
+    },
+    {
+      "type": "li",
+      "text": "Time signed"
+    },
+    {
+      "type": "li",
+      "text": "Check code (short, readable over the phone)"
+    },
+    {
+      "type": "h2",
+      "text": "Rules"
+    },
+    {
+      "type": "li",
+      "text": "One page per inspection"
+    },
+    {
+      "type": "li",
+      "text": "Plain. An auditor should trust it at a glance."
+    },
+    {
+      "type": "li",
+      "text": "No logos. A small Ducal one only if they ask."
+    }
+  ]
+}

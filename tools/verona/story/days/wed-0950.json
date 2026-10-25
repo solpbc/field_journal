@@ -1,0 +1,58 @@
+{
+  "id": "wed-0950",
+  "kind": "screen",
+  "app": "web",
+  "title": "Ducal Freight's yards",
+  "url": "ducal-freight.example/locations",
+  "page_title": "Our yards",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "30 yards and cross-docks across five states. Every one inspects every trailer, in and out."
+    },
+    {
+      "type": "h2",
+      "text": "Colorado"
+    },
+    {
+      "type": "li",
+      "text": "Denver (5 yards and cross-docks) · Pueblo (3) · Grand Junction (3)"
+    },
+    {
+      "type": "h2",
+      "text": "Wyoming"
+    },
+    {
+      "type": "li",
+      "text": "Cheyenne (3) · Casper (2)"
+    },
+    {
+      "type": "h2",
+      "text": "Utah"
+    },
+    {
+      "type": "li",
+      "text": "Salt Lake City (4) · Ogden (3)"
+    },
+    {
+      "type": "h2",
+      "text": "New Mexico"
+    },
+    {
+      "type": "li",
+      "text": "Albuquerque (4)"
+    },
+    {
+      "type": "h2",
+      "text": "Montana"
+    },
+    {
+      "type": "li",
+      "text": "Billings (3)"
+    },
+    {
+      "type": "p",
+      "text": "Most yards are open around the clock. For hours at a specific yard, contact our operations team."
+    }
+  ]
+}

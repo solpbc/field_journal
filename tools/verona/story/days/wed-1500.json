@@ -1,0 +1,69 @@
+{
+  "id": "wed-1500",
+  "kind": "screen",
+  "title": "Notes during the Romeo sync",
+  "app": "doc",
+  "doc_title": "Sync with Romeo, 3pm",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Agenda",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "1. Paris's three asks: offline sync, a signed PDF per inspection, export by site",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "2. See the queue prototype",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "3. Decide field versioning: who owns what, how changes are agreed",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Proposal: Capulet owns the inspection record, Montague owns the envelope, both approve any change.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Ask: how do we tell which version an event is on?",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "4. Friday demo plan",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Notes"
+    },
+    {
+      "type": "li",
+      "text": "Walked Romeo through the three asks."
+    },
+    {
+      "type": "li",
+      "text": "Offline sync is the queue. The PDF is Balcony. Export by site: not this week."
+    },
+    {
+      "type": "li",
+      "text": "Told him what I told Paris: Ducal sees only what Ducal sends."
+    },
+    {
+      "type": "li",
+      "text": "Prototype survived an hour offline. Nothing lost."
+    },
+    {
+      "type": "li",
+      "text": "Events arrive with the time they were signed, not the time they synced. Auditors care."
+    }
+  ]
+}

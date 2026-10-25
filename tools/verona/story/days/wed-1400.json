@@ -1,0 +1,55 @@
+{
+  "id": "wed-1400",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: privacy line",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Testing",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Airplane-mode test: a device offline for a long stretch, a pile of inspections, then check every one lands in order. Tybalt's bar is a week. Owner TBD.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Balthasar's six-device run, including the old Android 11 tablet.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Friday demo: make an inspection offline, reconnect, watch it sync. That's the end-to-end test Ducal actually sees.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Duplicate sends: send the same event twice on purpose and check the receiver keeps one.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Who sees what"
+    },
+    {
+      "type": "li",
+      "text": "Capulet sees inspections: the full record, findings and photos included."
+    },
+    {
+      "type": "li",
+      "text": "Montague sees the routing envelope: who sent an event, where it's going, when it was sent. Not the findings."
+    },
+    {
+      "type": "li",
+      "text": "Ducal sees only its own sites. Nothing from Montague's routing data."
+    },
+    {
+      "type": "p",
+      "text": "Same line I gave Paris this morning: Ducal sees only what Ducal sends."
+    }
+  ]
+}

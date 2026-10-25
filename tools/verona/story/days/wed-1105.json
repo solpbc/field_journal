@@ -1,0 +1,54 @@
+{
+  "id": "wed-1105",
+  "kind": "screen",
+  "app": "board",
+  "title": "Setting up the Schema Bridge board",
+  "board_title": "Schema Bridge",
+  "columns": [
+    "To do",
+    "Doing",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Spec draft 1",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Local event queue",
+      "column": "Doing",
+      "assignee": "Romeo"
+    }
+  ],
+  "moves": [
+    {
+      "add": {
+        "title": "Spec v2",
+        "column": "Doing",
+        "assignee": "Juliet"
+      }
+    },
+    {
+      "add": {
+        "title": "Signed PDF per inspection",
+        "column": "To do",
+        "assignee": "Mercutio"
+      }
+    },
+    {
+      "add": {
+        "title": "Export by site",
+        "column": "To do",
+        "assignee": "Juliet"
+      }
+    },
+    {
+      "add": {
+        "title": "Friday demo for Ducal",
+        "column": "Doing",
+        "assignee": "Benvolio"
+      }
+    }
+  ]
+}

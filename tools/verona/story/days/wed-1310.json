@@ -1,0 +1,68 @@
+{
+  "id": "wed-1310",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: inspection record",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Ducal Freight requirements",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Offline sync. Inspectors work in the yards with little or no signal. An inspection made offline goes out on its own when the tablet reconnects. No manual resend, no \"did it send?\" button.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Signed PDF. One signed PDF per inspection, with the inspector's signature and the time signed. Their auditors need it within 24 hours.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Export by site. Inspections land in Ducal's freight system grouped by site, across their 30 yards and cross-docks.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Data. Ducal sees only its own data, the inspections from its own sites. No access to Montague's routing data.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Inspection record",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "One record per inspection. Fields:"
+    },
+    {
+      "type": "li",
+      "text": "site_id: the yard or cross-dock where the inspection happened. Export by site groups on this."
+    },
+    {
+      "type": "li",
+      "text": "inspector: who did the inspection and signed it."
+    },
+    {
+      "type": "li",
+      "text": "photos: the photos in the order taken, each with the time it was taken."
+    },
+    {
+      "type": "li",
+      "text": "findings: one entry per finding, each with a severity and a short note."
+    },
+    {
+      "type": "li",
+      "text": "signed_at: when the inspector signed, set on the device. Not when the record arrives anywhere."
+    },
+    {
+      "type": "li",
+      "text": "schema_version (new): which version of this record format the inspection was made with, so records from an older tablet still read correctly after a change."
+    }
+  ]
+}

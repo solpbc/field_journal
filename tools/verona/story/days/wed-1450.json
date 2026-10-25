@@ -1,0 +1,51 @@
+{
+  "id": "wed-1450",
+  "kind": "screen",
+  "title": "Romeo ready",
+  "app": "chat",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "how big is one event with 10 photos?",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "photos go separately, the event is a few KB",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "so a cap of 10k events is fine?",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "more than fine. I'll put it in the PR",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "queue's been offline since about two. 12 inspections queued, nothing lost. ready when you are"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "I'll leave it off until we're on so you can watch it come back"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "two minutes"
+    }
+  ]
+}

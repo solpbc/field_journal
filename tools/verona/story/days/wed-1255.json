@@ -1,0 +1,97 @@
+{
+  "id": "wed-1255",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Re-reading spec draft 1",
+  "doc_title": "Schema Bridge: draft 1",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Schema Bridge: draft 1",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "v2 today: Ducal asks, events, versioning."
+    },
+    {
+      "type": "h2",
+      "text": "Goal",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Let Balcony App inspections flow into Montague's Mesh Routing without anyone re-keying data. One shared format for an inspection record, one bridge that moves records from Balcony to Mesh Routing. Pilot customer: Ducal Freight.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Inspection record",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Fields for v1:",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "site_id: which site the inspection happened at",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "inspector: who did it",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "photos: list of photo references, in order taken",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "findings: list of findings, each with a severity and a note",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "signed_at: when the inspector signed the report",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Sync",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Balcony to Mesh Routing, one direction for now. Nightly batch: every signed inspection from the day goes over in one run.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "-> events, not nightly. Romeo's idea at kickoff, with a local queue on the device."
+    },
+    {
+      "type": "h2",
+      "text": "Open questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Who owns field versioning? If we add a field, who approves it?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "What if Mesh Routing is down? (Tybalt's question, raise at kickoff)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Mesh Routing down: answered by the local queue. Field versioning is still open. Romeo at 3."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "wed-1620",
+  "kind": "screen",
+  "app": "web",
+  "title": "Flight options, continued",
+  "url": "flights.example/search?stops=0",
+  "page_title": "Flight search",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Denver to Paris"
+    },
+    {
+      "type": "p",
+      "text": "Round trip · Denver to Paris · Depart Wed, Feb 25 · Return Sun, Mar 1 · 1 adult · Economy"
+    },
+    {
+      "type": "p",
+      "text": "Filters: Nonstop only · 2 of 6 flights shown · Clear filters"
+    },
+    {
+      "type": "h2",
+      "text": "Evening departures"
+    },
+    {
+      "type": "li",
+      "text": "5:15 pm – 10:30 am (next day) · Nonstop · 9 h 15 m · $1,214"
+    },
+    {
+      "type": "p",
+      "text": "Lands mid-morning. Seat selection included. 1 carry-on, 1 personal item."
+    },
+    {
+      "type": "li",
+      "text": "6:50 pm – 12:10 pm (next day) · Nonstop · 9 h 20 m · $1,286"
+    },
+    {
+      "type": "p",
+      "text": "Lands around noon. Seat selection included. 1 carry-on, 1 personal item."
+    },
+    {
+      "type": "p",
+      "text": "Prices can change until you book. Select a flight to continue."
+    }
+  ]
+}

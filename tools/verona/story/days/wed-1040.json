@@ -1,0 +1,78 @@
+{
+  "id": "wed-1040",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call notes, wrap-up",
+  "doc_title": "Ducal Freight call notes",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "li",
+      "text": "Auditors need signed reports within 24 hours. Customer requirement on a lot of their contracts.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Signed = inspector signs, with the time. Auditors want a PDF, no logins.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "He wants",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "1. Inspections that sync when back online. No resending.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "2. A signed PDF per inspection.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "3. Export to their freight system by site.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "His order: 1 and 2 get him through an audit, 3 makes his team's life easier.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Never edit after signing: correct with a new inspection. (Romeo's question, didn't come up. Put it in the recap.)",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Also"
+    },
+    {
+      "type": "li",
+      "text": "Asked whether Ducal sees Montague's routing data. I said only what Ducal sends. He said that's the answer he was hoping for; legal would have questions otherwise."
+    },
+    {
+      "type": "li",
+      "text": "Export by site: told him I'd be straight about timing once I've talked to the team. No dates promised."
+    },
+    {
+      "type": "li",
+      "text": "Agreed to Friday's demo at 2."
+    },
+    {
+      "type": "h2",
+      "text": "Next"
+    },
+    {
+      "type": "li",
+      "text": "Follow up with a recap email today."
+    },
+    {
+      "type": "li",
+      "text": "Send the three asks to Romeo and Benvolio."
+    }
+  ]
+}

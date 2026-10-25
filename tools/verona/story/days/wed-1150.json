@@ -1,0 +1,54 @@
+{
+  "id": "wed-1150",
+  "kind": "screen",
+  "app": "web",
+  "title": "Beta feedback page",
+  "url": "beta.capulet.example/feedback",
+  "page_title": "Balcony 3.0 beta feedback",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Comments from Balcony 3.0 beta testers, newest first. 41 testers enrolled."
+    },
+    {
+      "type": "h2",
+      "text": "This week"
+    },
+    {
+      "type": "li",
+      "text": "Offline mode saved me in the basement. Did six inspections down there with no signal and they all showed up when I came back up. (Inspector, Ohio)"
+    },
+    {
+      "type": "li",
+      "text": "Photo upload slow on hotel wifi. It got there eventually but I watched it for a while. (Site lead, Texas)"
+    },
+    {
+      "type": "li",
+      "text": "Love the signed report. Our safety lead asked where it came from. (Warehouse manager, Georgia)"
+    },
+    {
+      "type": "li",
+      "text": "Wish I could search past inspections. I know I did dock 3 last month and I can't find it. (Inspector, Arizona)"
+    },
+    {
+      "type": "li",
+      "text": "Camera crashed twice on my old tablet on Tuesday. Sent reports from Settings. (Inspector, Oregon)"
+    },
+    {
+      "type": "li",
+      "text": "Signing on the device is quick. Two taps and done. (Inspector, Kansas)"
+    },
+    {
+      "type": "h2",
+      "text": "Last week"
+    },
+    {
+      "type": "li",
+      "text": "The new inspection form is faster to fill in than 2.x. Fewer screens. (Site lead, Nevada)"
+    },
+    {
+      "type": "li",
+      "text": "Background upload means I don't wait around at the end of a shift anymore. (Inspector, Iowa)"
+    }
+  ]
+}

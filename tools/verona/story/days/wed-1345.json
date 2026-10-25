@@ -1,0 +1,61 @@
+{
+  "id": "wed-1345",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: queue cap",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Queue limits",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Open question: how big can the queue get?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Worst case I can picture: a tablet offline for a week in a busy yard. That might hold a few thousand events.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "For scale, a busy inspector does maybe 40 inspections a day. A week offline is a few hundred events, not millions.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "We need a cap that covers a week offline with room to spare. Ask Romeo for a number.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Answered (Romeo, in chat):"
+    },
+    {
+      "type": "li",
+      "text": "Cap: 10,000 events per device. Photos upload separately and resume on their own."
+    },
+    {
+      "type": "li",
+      "text": "One event is a few KB, so the cap counts events, not photos. 10k is well past a week offline in a busy yard."
+    },
+    {
+      "type": "li",
+      "text": "Romeo is putting the cap in his queue PR."
+    },
+    {
+      "type": "h2",
+      "text": "Export by site (next sprint)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Inspections grouped by site_id, one group per yard or cross-dock.",
+      "done": true
+    }
+  ]
+}

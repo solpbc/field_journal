@@ -1,0 +1,54 @@
+{
+  "id": "wed-0940",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Posting the standup summary",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Angela Nurse",
+      "text": "joining in 5",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "here, coffee in hand",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "see you there",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "standup summary:"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "Android 11 crash is fixed (photo cache path) and in review, in tonight's build"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "Balthasar: QA pass on the old tablet today. checklist at 80%, QA sign-off is what's left"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "go/no-go stays Friday 9:30"
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "thanks!"
+    }
+  ]
+}

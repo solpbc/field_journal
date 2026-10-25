@@ -1,0 +1,46 @@
+{
+  "id": "wed-1045",
+  "kind": "screen",
+  "app": "email",
+  "title": "Recap email to Paris Duke",
+  "to": "Paris Duke (Ducal Freight)",
+  "subject": "Thanks, and Friday",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Paris,"
+    },
+    {
+      "type": "p",
+      "text": "Thanks for the time this morning. Here's what I heard, in your order:"
+    },
+    {
+      "type": "li",
+      "text": "Inspections that sync on their own when a tablet is back online, with no resending."
+    },
+    {
+      "type": "li",
+      "text": "A signed PDF for every inspection, inspector signature and time, within 24 hours."
+    },
+    {
+      "type": "li",
+      "text": "Export to your freight system, by site."
+    },
+    {
+      "type": "p",
+      "text": "On Friday at 2 we'll show the first two: an inspection made offline syncing when the tablet reconnects, and the signed PDF for it. Export by site comes after, and I'll come back to you with real timing."
+    },
+    {
+      "type": "p",
+      "text": "One question we didn't get to: do your inspectors ever need to change an inspection after it's signed? Our plan is that a signed inspection is never edited; a correction is a new inspection."
+    },
+    {
+      "type": "p",
+      "text": "Benvolio Montague will send the invite."
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

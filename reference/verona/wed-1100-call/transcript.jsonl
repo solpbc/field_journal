@@ -1,0 +1,28 @@
+{"start": 0.6, "end": 2.731, "speaker": "Juliet Capulet", "text": "Hi Angela. Is now still okay?"}
+{"start": 3.381, "end": 7.192, "speaker": "Angela Nurse", "text": "Now's great. I've got the checklist open. How'd the Ducal call go?"}
+{"start": 7.695, "end": 13.866, "speaker": "Juliet Capulet", "text": "Really well, actually. He knows exactly what he wants, which is a gift. Anyway. Where are we?"}
+{"start": 14.706, "end": 25.717, "speaker": "Angela Nurse", "text": "So I just moved us to eighty-five percent. Release notes, store listing, rollout plan, all checked off. The two big ones left are forty-eight hours crash-free and QA sign-off."}
+{"start": 26.167, "end": 29.458, "speaker": "Juliet Capulet", "text": "And Balthasar's still good for Thursday at three thirty?"}
+{"start": 29.931, "end": 36.982, "speaker": "Angela Nurse", "text": "Three thirty, yep. He'll sign off then, assuming the old tablet behaves. I'm booking it for the three of us this afternoon."}
+{"start": 37.715, "end": 41.126, "speaker": "Juliet Capulet", "text": "Is he running it now? He said eleven."}
+{"start": 41.87, "end": 48.521, "speaker": "Angela Nurse", "text": "Right now, yeah. All six devices, with Tybalt's branch on the old one. He'll post in the channel when he's done."}
+{"start": 48.975, "end": 52.466, "speaker": "Juliet Capulet", "text": "Great. And go or no-go doesn't move?"}
+{"start": 53.308, "end": 57.879, "speaker": "Angela Nurse", "text": "Friday, nine thirty. Unless something catches fire, it doesn't move."}
+{"start": 58.423, "end": 60.554, "speaker": "Juliet Capulet", "text": "Let's not set anything on fire."}
+{"start": 61.054, "end": 69.425, "speaker": "Angela Nurse", "text": "Ha. Noted. And the rollout plan's the boring one we talked about. Ten percent first, then everybody, if the crash numbers stay quiet."}
+{"start": 70.017, "end": 73.228, "speaker": "Juliet Capulet", "text": "Boring is good. I like boring this week."}
+{"start": 73.69, "end": 81.221, "speaker": "Angela Nurse", "text": "Um, the other thing. The announcement. I'd like to draft it so it's ready, but I won't send anything until we've actually said go."}
+{"start": 81.801, "end": 85.572, "speaker": "Juliet Capulet", "text": "Yes, perfect. Draft it, send it after the go."}
+{"start": 86.411, "end": 87.542, "speaker": "Angela Nurse", "text": "That's the plan."}
+{"start": 88.191, "end": 100.642, "speaker": "Juliet Capulet", "text": "One ask from me. The old Android 11 tablet, the one that kept crashing. Can we add it to the standing device list? So it gets tested every release, not just when someone remembers it's in the drawer."}
+{"start": 101.484, "end": 105.735, "speaker": "Angela Nurse", "text": "Oh, good call. That's the one that caught the camera crash. I'll add it today."}
+{"start": 106.311, "end": 108.362, "speaker": "Juliet Capulet", "text": "Where does it live, anyway?"}
+{"start": 109.061, "end": 113.352, "speaker": "Angela Nurse", "text": "In my desk drawer. With a sticky note on it that says do not recycle."}
+{"start": 114.112, "end": 116.403, "speaker": "Juliet Capulet", "text": "Good. Let's keep it that way for a while."}
+{"start": 116.771, "end": 120.982, "speaker": "Juliet Capulet", "text": "Thank you. I left the same note on Tybalt's pull request, for CI."}
+{"start": 121.613, "end": 125.424, "speaker": "Angela Nurse", "text": "Then I'll match whatever he does. Same tablet on both lists."}
+{"start": 125.971, "end": 128.942, "speaker": "Juliet Capulet", "text": "Perfect. Anything you need from me before Friday?"}
+{"start": 129.75, "end": 138.161, "speaker": "Angela Nurse", "text": "Honestly? Just show up at nine thirty. Oh, and if you see anything odd in the crash digest, forward it to me. Don't just, you know, file it in your head."}
+{"start": 138.841, "end": 141.012, "speaker": "Juliet Capulet", "text": "Ha. Fair. Will do."}
+{"start": 141.491, "end": 143.902, "speaker": "Angela Nurse", "text": "Okay, that's me. Go write your spec."}
+{"start": 144.727, "end": 146.538, "speaker": "Juliet Capulet", "text": "Going. Thanks, Angela."}

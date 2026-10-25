@@ -1,0 +1,56 @@
+{
+  "id": "wed-0925",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Quick check before standup",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Tybalt Capulet",
+      "text": "found it, I think: the photo cache path on Android 11. branch is up. going to bed",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "nice, I'll rerun at 8",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "rerun: no crash on the Android 11 tablet with Tybalt's branch. opened the camera 20 times, took photos, saved an inspection. clean",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "morning! checklist at 80%, QA sign-off is the big one left",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "great work both. standup at 9:30, let's keep it to 10 min",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "joining in 5"
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "here, coffee in hand"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "see you there"
+    }
+  ]
+}

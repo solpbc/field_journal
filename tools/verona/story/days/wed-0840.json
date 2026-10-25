@@ -1,0 +1,45 @@
+{
+  "id": "wed-0840",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call prep",
+  "doc_title": "Ducal Freight call: prep",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Who"
+    },
+    {
+      "type": "p",
+      "text": "Paris Duke, VP operations at Ducal Freight. Regional freight, Mountain West, 30 yards and cross-docks. Every trailer inspected at the dock. First real customer call for Schema Bridge."
+    },
+    {
+      "type": "h2",
+      "text": "What I want to learn"
+    },
+    {
+      "type": "li",
+      "text": "How inspections actually happen in the yard. Who does them, on what, how long each takes."
+    },
+    {
+      "type": "li",
+      "text": "What happens when there's no signal. Do they wait, write it down, retype it later?"
+    },
+    {
+      "type": "li",
+      "text": "What auditors ask for, and how fast they need it."
+    },
+    {
+      "type": "h2",
+      "text": "What I won't promise"
+    },
+    {
+      "type": "li",
+      "text": "Dates for anything we haven't built."
+    },
+    {
+      "type": "li",
+      "text": "That Schema Bridge is done. Today it's a draft spec and Romeo's queue prototype. Say that plainly."
+    }
+  ]
+}

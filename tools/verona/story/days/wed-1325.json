@@ -1,0 +1,67 @@
+{
+  "id": "wed-1325",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: what the inspector sees",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Sync",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Was: nightly batch, Balcony to Mesh Routing.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Now: events, through a local queue on the device.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "When the connection comes back, the queue drains on its own, oldest first.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Balcony keeps working when Mesh Routing is down or the tablet is offline. Nobody waits on the network to finish an inspection.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "What the inspector sees"
+    },
+    {
+      "type": "p",
+      "text": "From Tuesday's design review with Mercutio and Romeo."
+    },
+    {
+      "type": "li",
+      "text": "Three states per inspection: queued, sent, needs attention."
+    },
+    {
+      "type": "li",
+      "text": "Queued: saved on the device, waiting for a connection. Safe, not a guess."
+    },
+    {
+      "type": "li",
+      "text": "Sent: delivered. A check and the time."
+    },
+    {
+      "type": "li",
+      "text": "Needs attention: a person has to do something, like a sync conflict or a photo that failed. Says which inspection and what to tap."
+    },
+    {
+      "type": "li",
+      "text": "Show how many inspections are queued, and let the number go down as they send."
+    },
+    {
+      "type": "li",
+      "text": "Never a spinner on this screen."
+    }
+  ]
+}

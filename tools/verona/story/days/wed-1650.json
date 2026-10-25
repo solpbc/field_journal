@@ -1,0 +1,61 @@
+{
+  "id": "wed-1650",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: final pass",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Field versioning",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Owner:",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Capulet owns the inspection record schema; Montague owns the routing envelope; any change needs both to approve. Every event carries schema_version.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Open questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Field versioning: who owns it, and how do both sides agree to a change? Settle with Romeo at 3.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Export by site: timing. Depends on what Ducal's freight system can take in.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Does Ducal's auditor want anything else on the PDF? Ask Paris on Friday.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Answered: field versioning (see above)."
+    },
+    {
+      "type": "li",
+      "text": "Export by site: next sprint, after the pilot is agreed."
+    },
+    {
+      "type": "li",
+      "text": "Ducal's auditor joins Friday for 15 minutes. Ask then: PDF or link, and anything else they need on it."
+    },
+    {
+      "type": "p",
+      "text": "Final pass done. Sharing with Romeo and Benvolio."
+    }
+  ]
+}

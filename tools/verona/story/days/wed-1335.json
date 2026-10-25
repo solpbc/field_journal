@@ -1,0 +1,59 @@
+{
+  "id": "wed-1335",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: export by site",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Queue limits",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Open question: how big can the queue get?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Worst case I can picture: a tablet offline for a week in a busy yard. That might hold a few thousand events.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "For scale, Romeo's prototype had 180 events queued after 52 minutes offline this morning.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "We need a cap that covers a week offline with room to spare. Ask Romeo for a number.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Export by site (next sprint)"
+    },
+    {
+      "type": "li",
+      "text": "Inspections grouped by site_id, one group per yard or cross-dock."
+    },
+    {
+      "type": "li",
+      "text": "Delivered as a daily file or a feed, whichever Ducal prefers. Ducal's choice."
+    },
+    {
+      "type": "li",
+      "text": "Out of scope for Friday's demo. We say that plainly."
+    },
+    {
+      "type": "li",
+      "text": "Every record already carries a site_id, so nothing new is needed on the device."
+    },
+    {
+      "type": "li",
+      "text": "Need from Ducal: what their freight system can take in, and who on their side looks after it."
+    }
+  ]
+}

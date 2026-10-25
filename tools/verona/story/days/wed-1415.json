@@ -1,0 +1,54 @@
+{
+  "id": "wed-1415",
+  "kind": "screen",
+  "app": "chat",
+  "title": "#balcony-beta check-in",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Tybalt Capulet",
+      "text": "looked at the slow-wifi photo stall. it resumes on its own, just slowly. not a blocker, I'd document it",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "tablet's in my desk drawer with a sticky note that says do not touch",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "love it. writing spec v2 now, ping me if you need me",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "Thursday 3:30 check-in booked with Balthasar. Juliet, it's on your calendar too"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "thank you"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "I'll bring the old tablet"
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "not the one in my drawer, I hope"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "different tablet. yours is safe"
+    }
+  ]
+}

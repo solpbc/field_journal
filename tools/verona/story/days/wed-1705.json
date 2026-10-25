@@ -1,0 +1,51 @@
+{
+  "id": "wed-1705",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Spec v2 is up",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "versioning, decided: Capulet owns the inspection record schema, Montague owns the routing envelope.",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "any change needs both sides to approve. every event carries schema_version.",
+      "done": true
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "that's the cleanest version of this I've heard",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "adding schema_version tonight",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "spec v2 is up. versioning section filled in, queue cap 10k, corrections as new inspections"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "reading tonight"
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "thank you!"
+    }
+  ]
+}

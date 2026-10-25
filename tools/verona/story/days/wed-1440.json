@@ -1,0 +1,57 @@
+{
+  "id": "wed-1440",
+  "kind": "screen",
+  "title": "Board after the PDF chat",
+  "app": "board",
+  "board_title": "Schema Bridge",
+  "columns": [
+    "To do",
+    "Doing",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Spec draft 1",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Local event queue",
+      "column": "Doing",
+      "assignee": "Romeo"
+    },
+    {
+      "title": "Spec v2",
+      "column": "Doing",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Signed PDF per inspection",
+      "column": "To do",
+      "assignee": "Mercutio"
+    },
+    {
+      "title": "Export by site",
+      "column": "To do",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Friday demo for Ducal",
+      "column": "Doing",
+      "assignee": "Benvolio"
+    }
+  ],
+  "moves": [
+    {
+      "card": "Signed PDF per inspection",
+      "to": "Doing"
+    },
+    {
+      "add": {
+        "title": "Queue cap 10k",
+        "column": "Doing",
+        "assignee": "Romeo"
+      }
+    }
+  ]
+}

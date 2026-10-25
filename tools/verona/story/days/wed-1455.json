@@ -1,0 +1,51 @@
+{
+  "id": "wed-1455",
+  "kind": "screen",
+  "title": "Agenda, last look",
+  "app": "doc",
+  "doc_title": "Sync with Romeo, 3pm",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Agenda",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "1. Paris's three asks: offline sync, a signed PDF per inspection, export by site",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "2. See the queue prototype",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "3. Decide field versioning: who owns what, how changes are agreed",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Proposal: Capulet owns the inspection record, Montague owns the envelope, both approve any change."
+    },
+    {
+      "type": "p",
+      "text": "Ask: how do we tell which version an event is on?"
+    },
+    {
+      "type": "p",
+      "text": "Later, for Tybalt: this is only the record we send, not Balcony's internals."
+    },
+    {
+      "type": "p",
+      "text": "If Romeo wants to split it differently, hear him out. Agreeing on a split matters more than whose it is."
+    },
+    {
+      "type": "p",
+      "text": "4. Friday demo plan",
+      "done": true
+    }
+  ]
+}

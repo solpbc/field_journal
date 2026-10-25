@@ -1,0 +1,55 @@
+{
+  "id": "wed-1320",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: sync by events",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Signing",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Each PDF carries a short check code, so an auditor can confirm the file hasn't changed since it was signed.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "A signed inspection is never edited. A correction is a new inspection that points to the old one.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Sync",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Was: nightly batch, Balcony to Mesh Routing.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Now: events, through a local queue on the device."
+    },
+    {
+      "type": "li",
+      "text": "Each inspection is sent as one event when it is signed."
+    },
+    {
+      "type": "li",
+      "text": "Events wait in a local queue on the device first. Nothing goes straight from the form to the network."
+    },
+    {
+      "type": "li",
+      "text": "When the connection comes back, the queue drains on its own, oldest first."
+    },
+    {
+      "type": "li",
+      "text": "Balcony keeps working when Mesh Routing is down or the tablet is offline. Nobody waits on the network to finish an inspection."
+    }
+  ]
+}

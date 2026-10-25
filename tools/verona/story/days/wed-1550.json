@@ -1,0 +1,69 @@
+{
+  "id": "wed-1550",
+  "kind": "screen",
+  "title": "Friday demo plan, risks",
+  "app": "doc",
+  "doc_title": "Friday demo for Ducal: run order",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Run order",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Benvolio opens (2 min)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Romeo: offline inspection syncs on reconnect (10 min)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Juliet: the signed PDF for that same inspection (10 min)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Ask about a pilot",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Export by site: say next sprint, plainly. Don't show anything that isn't built.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "If it goes wrong"
+    },
+    {
+      "type": "li",
+      "text": "A recorded video of the sync as backup"
+    },
+    {
+      "type": "li",
+      "text": "A spare tablet, charged, already in airplane mode"
+    },
+    {
+      "type": "li",
+      "text": "Test the room's wifi Friday morning"
+    },
+    {
+      "type": "li",
+      "text": "PDF open in a second tab before we start"
+    },
+    {
+      "type": "p",
+      "text": "If the live sync fails: play the video, go straight to the PDF, keep talking about their yards."
+    }
+  ]
+}

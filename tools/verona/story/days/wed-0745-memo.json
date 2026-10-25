@@ -1,0 +1,35 @@
+{
+  "id": "wed-0745-memo",
+  "kind": "audio",
+  "title": "Voice memo: on the way in",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Wednesday. I'm driving in, so this is me talking to the car."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Big one today is Ducal Freight at ten thirty. Paris Duke, their VP of operations. That's our first real customer call for Schema Bridge, so, um, mostly listen. Find out how their inspections actually work before I pitch anything."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Then Romeo at three. I want to walk out of that with field versioning settled. Who owns what. It's been the open question since Monday, and it's still an empty line in the spec."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Which, right, spec v2 gets written today. Today, not tomorrow. I said Wednesday, so it's Wednesday."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Standup at nine thirty. Keep it short. Ten minutes, tops. Everybody's got real work today, me included."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Oh, and the Paris flight. For the trade show. I said I'd book it Monday and I, uh, didn't. Book it today. Seriously, Juliet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Okay. Coffee first."
+    }
+  ]
+}

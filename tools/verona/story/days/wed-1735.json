@@ -1,0 +1,46 @@
+{
+  "id": "wed-1735",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Signing off",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Balthasar Davi",
+      "text": "old tablet: 3 more runs, no crash",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "old tablet: still no crash",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "you two are the best",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "heading out. great day, everyone"
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "night!"
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "test still running"
+    }
+  ]
+}

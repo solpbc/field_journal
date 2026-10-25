@@ -1,0 +1,59 @@
+{
+  "id": "wed-1340",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Asking Romeo about event size",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Benvolio Montague",
+      "text": "sending the invite for Friday 2pm now",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "offline sync and the PDF we can show. export by site is real work",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "agreed, next sprint",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "(didn't get to your edit question live, it's in my recap email)",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "romeo, spec question. how big is one event with 10 photos?"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "photos go separately, the event is a few KB"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "so a cap of 10k events is fine?"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "more than fine. I'll put it in the PR"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "perfect, writing it in"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "wed-1605",
+  "kind": "screen",
+  "title": "Demo plan, final",
+  "app": "doc",
+  "doc_title": "Friday demo for Ducal: run order",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "From the call with Benvolio",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Benvolio: ask about a pilot, two sites",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Record backup video Thu (me and Romeo, real build)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Auditor may join, for the PDF part",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Keep the PDF part plain: what it says, who signed, when",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "If the wifi drops mid-demo, that's very on-message (Benvolio)",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Owner for each part"
+    },
+    {
+      "type": "li",
+      "text": "Benvolio: intro and pilot ask"
+    },
+    {
+      "type": "li",
+      "text": "Romeo: sync"
+    },
+    {
+      "type": "li",
+      "text": "Juliet: PDF"
+    },
+    {
+      "type": "li",
+      "text": "Mercutio: PDF mock ready Thursday"
+    },
+    {
+      "type": "li",
+      "text": "Backup video: Juliet and Romeo, Thursday"
+    },
+    {
+      "type": "p",
+      "text": "Share this doc with Benvolio and Romeo before I log off."
+    }
+  ]
+}

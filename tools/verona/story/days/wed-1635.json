@@ -1,0 +1,56 @@
+{
+  "id": "wed-1635",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Announcement draft, continued",
+  "doc_title": "Balcony App 3.0 is here (draft)",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Balcony App 3.0 is here",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Balcony App 3.0 is built for the places inspections actually happen: the far end of the yard, the back of a trailer, the dock with no signal.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Inspections work offline. Start, fill in and save a full inspection with no connection, and it syncs on its own when you're back online.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Photos upload faster, in the background, and pick up where they left off if the connection drops.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Every inspection can be a signed report, showing who signed it and when.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "We're rolling 3.0 out over the next week, so you may see the update a few days after your teammates.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Thank you"
+    },
+    {
+      "type": "p",
+      "text": "Thank you to the 41 people who tested the beta. Your crash reports, notes from the yard and honest feedback shaped this release, and a few of you found bugs we'd never have hit on our own."
+    },
+    {
+      "type": "p",
+      "text": "Questions or problems? Send us a note from Settings > Help in the app."
+    },
+    {
+      "type": "p",
+      "text": "Angela: first pass, mostly to get it on the page. Cut anything you like, and fix the tone if it sounds too much like me."
+    }
+  ]
+}

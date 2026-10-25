@@ -1,0 +1,60 @@
+{
+  "id": "wed-1100",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Checklist open during Angela's call",
+  "doc_title": "Balcony 3.0 release checklist",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Owner: Angela. Status: 80%. Go/no-go Fri 9:30.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Now 85% (Angela, on the call)."
+    },
+    {
+      "type": "li",
+      "text": "Crash-free beta for 48 h: in progress",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "QA sign-off: Balthasar, pending",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "QA sign-off: Thu 3:30 with Balthasar. Angela booked the check-in."
+    },
+    {
+      "type": "p",
+      "text": "Juliet: Android 11 fix needs one more pass on the old tablet. Balthasar's overnight run crashed on it; his 8am rerun on Tybalt's branch was clean. One more run on the real build before he signs off.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Staged rollout plan: 10% then 100%",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Announcement: after go",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Announcement: Angela drafts, sends after go."
+    },
+    {
+      "type": "li",
+      "text": "Device list: add the old Android 11 tablet to the standing list (Angela), so it's in every run, not just this week."
+    },
+    {
+      "type": "p",
+      "text": "Go/no-go stays Fri 9:30."
+    }
+  ]
+}

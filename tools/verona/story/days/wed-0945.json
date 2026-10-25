@@ -1,0 +1,55 @@
+{
+  "id": "wed-0945",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call prep, final",
+  "doc_title": "Ducal Freight call: prep",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Who signs an inspection? The inspector, a supervisor, both?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "How long until an auditor needs the report?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Which system do the inspections end up in, and who looks at them there?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Would they want Montague's routing data? (expect: no)",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "If I only learn three things"
+    },
+    {
+      "type": "li",
+      "text": "1. What happens with no signal."
+    },
+    {
+      "type": "li",
+      "text": "2. What an auditor needs, and by when."
+    },
+    {
+      "type": "li",
+      "text": "3. Where inspections have to end up."
+    },
+    {
+      "type": "p",
+      "text": "Everything else is a bonus. Listen more than I talk. Before we hang up, play his asks back to him in his words, and confirm Friday at 2 with him."
+    }
+  ]
+}

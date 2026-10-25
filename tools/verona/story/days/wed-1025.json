@@ -1,0 +1,51 @@
+{
+  "id": "wed-1025",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Quick word with Romeo",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "that's the demo right there",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "want to see it at 3?",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "yes. and I want to leave that meeting with an owner for field versioning",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "deal",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "on with Ducal in 5. anything you want me to ask?"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "ask if they ever need to edit an inspection after it's signed"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "good one"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "wed-1405",
+  "kind": "screen",
+  "app": "web",
+  "title": "Reading Mesh Routing docs",
+  "url": "docs.montague.example/mesh-routing/events",
+  "page_title": "Mesh Routing: sending events",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Mesh Routing moves events between devices and services. This page covers what an event looks like and what happens after you send one."
+    },
+    {
+      "type": "h2",
+      "text": "The envelope"
+    },
+    {
+      "type": "p",
+      "text": "Every event has two parts: an envelope, which Mesh Routing reads, and a body, which it carries without reading."
+    },
+    {
+      "type": "li",
+      "text": "id: a unique id set by the sender. Use it to spot repeats."
+    },
+    {
+      "type": "li",
+      "text": "sender: the device or service sending the event."
+    },
+    {
+      "type": "li",
+      "text": "destination: where the event should be delivered."
+    },
+    {
+      "type": "li",
+      "text": "schema_version: the version of the body's format, set by the sender."
+    },
+    {
+      "type": "li",
+      "text": "sent_at: when the sender sent the event."
+    },
+    {
+      "type": "h2",
+      "text": "The body"
+    },
+    {
+      "type": "p",
+      "text": "The body is yours. Mesh Routing doesn't inspect or change it, and doesn't need to know its format."
+    },
+    {
+      "type": "h2",
+      "text": "Acknowledgements"
+    },
+    {
+      "type": "p",
+      "text": "The receiver acknowledges each event by its id. Until an event is acknowledged, Mesh Routing keeps it."
+    },
+    {
+      "type": "h2",
+      "text": "Retries"
+    },
+    {
+      "type": "p",
+      "text": "If an event isn't acknowledged, Mesh Routing retries with backoff: a short wait at first, then longer ones, up to a limit you set. Receivers should treat a repeated id as already handled."
+    }
+  ]
+}

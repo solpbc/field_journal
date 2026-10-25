@@ -1,0 +1,46 @@
+{
+  "id": "wed-1610",
+  "kind": "screen",
+  "app": "chat",
+  "title": "#balcony-beta afternoon",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Angela Nurse",
+      "text": "Thursday 3:30 check-in booked with Balthasar",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "thank you",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "I'll bring the old tablet",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "old tablet: 3 more runs, no crash"
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "old tablet: still no crash"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "you two are the best"
+    }
+  ]
+}

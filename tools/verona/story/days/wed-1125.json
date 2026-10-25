@@ -1,0 +1,45 @@
+{
+  "id": "wed-1125",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Mercutio on the PDF",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "Mercutio Escalus",
+  "messages": [
+    {
+      "from": "Mercutio Escalus",
+      "text": "sync screen v2 is in the file. queued count up top, no spinner anywhere, as decreed",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "perfect, thank you",
+      "done": true
+    },
+    {
+      "from": "Mercutio Escalus",
+      "text": "heard you want a signed pdf. do you want it pretty or do you want it boring?"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "boring and trustworthy"
+    },
+    {
+      "from": "Mercutio Escalus",
+      "text": "my favourite kind of pretty. 2:30?"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "2:30"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "wed-1545",
+  "kind": "screen",
+  "title": "Friday demo plan",
+  "app": "doc",
+  "doc_title": "Friday demo for Ducal: run order",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fri 2:00 to 2:45. Paris Duke; Benvolio, Romeo and me."
+    },
+    {
+      "type": "h2",
+      "text": "Run order"
+    },
+    {
+      "type": "li",
+      "text": "Benvolio opens (2 min)"
+    },
+    {
+      "type": "li",
+      "text": "Romeo: offline inspection syncs on reconnect (10 min)"
+    },
+    {
+      "type": "li",
+      "text": "Juliet: the signed PDF for that same inspection (10 min)"
+    },
+    {
+      "type": "li",
+      "text": "Questions"
+    },
+    {
+      "type": "li",
+      "text": "Ask about a pilot"
+    },
+    {
+      "type": "p",
+      "text": "Export by site: say next sprint, plainly. Don't show anything that isn't built."
+    }
+  ]
+}

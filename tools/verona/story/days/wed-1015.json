@@ -1,0 +1,49 @@
+{
+  "id": "wed-1015",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Notes: what a signed report needs",
+  "doc_title": "Signed reports: scratch",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "What does a signed report need so an auditor trusts it later?"
+    },
+    {
+      "type": "li",
+      "text": "Inspector name and signature"
+    },
+    {
+      "type": "li",
+      "text": "Time signed"
+    },
+    {
+      "type": "li",
+      "text": "Site"
+    },
+    {
+      "type": "li",
+      "text": "Photos, each with the time it was taken"
+    },
+    {
+      "type": "li",
+      "text": "Findings"
+    },
+    {
+      "type": "li",
+      "text": "One page per inspection"
+    },
+    {
+      "type": "li",
+      "text": "Can't be edited after signing"
+    },
+    {
+      "type": "li",
+      "text": "Auditor can check it wasn't changed since"
+    },
+    {
+      "type": "p",
+      "text": "Most of this is already in the 3.0 signed report. The last two lines are the new part."
+    }
+  ]
+}

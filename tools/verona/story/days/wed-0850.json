@@ -1,0 +1,46 @@
+{
+  "id": "wed-0850",
+  "kind": "screen",
+  "app": "chat",
+  "title": "DM with Benvolio about Friday",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "Benvolio Montague",
+  "messages": [
+    {
+      "from": "Benvolio Montague",
+      "text": "good kickoff today. I'm holding Friday 2pm for the Ducal demo",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "thank you!",
+      "done": true
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "Friday demo for Ducal still at 2?",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "yes, and I'm talking to Paris at 10:30 today, I'll confirm with him"
+    },
+    {
+      "from": "Benvolio Montague",
+      "text": "perfect. Romeo's been poking at the queue since he got in"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "ha, tell him to keep going"
+    }
+  ]
+}

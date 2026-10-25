@@ -64,12 +64,244 @@
     "title": "Triage on the Balcony beta board"
   },
   {
+    "id": "wed-0745-memo",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "074500",
+    "duration_seconds": 57,
+    "title": "Voice memo: on the way in"
+  },
+  {
+    "id": "wed-0810",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "081000",
+    "duration_seconds": 300,
+    "title": "Morning inbox"
+  },
+  {
+    "id": "wed-0815",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "081500",
+    "duration_seconds": 300,
+    "title": "Reading Paris Duke's email"
+  },
+  {
+    "id": "wed-0820",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "082000",
+    "duration_seconds": 300,
+    "title": "Catching up on #balcony-beta"
+  },
+  {
+    "id": "wed-0825",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "082500",
+    "duration_seconds": 300,
+    "title": "Balcony beta board, morning"
+  },
+  {
+    "id": "wed-0830",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "083000",
+    "duration_seconds": 300,
+    "title": "Reply to Paris Duke"
+  },
+  {
+    "id": "wed-0835",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "083500",
+    "duration_seconds": 300,
+    "title": "Reading about Ducal Freight"
+  },
+  {
+    "id": "wed-0840",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "084000",
+    "duration_seconds": 300,
+    "title": "Ducal call prep"
+  },
+  {
+    "id": "wed-0845",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "084500",
+    "duration_seconds": 300,
+    "title": "Ducal call prep, questions"
+  },
+  {
+    "id": "wed-0850",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "085000",
+    "duration_seconds": 300,
+    "title": "DM with Benvolio about Friday"
+  },
+  {
+    "id": "wed-0855",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "085500",
+    "duration_seconds": 300,
+    "title": "Reviewing Angela's release checklist"
+  },
+  {
+    "id": "wed-0900",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "090000",
+    "duration_seconds": 300,
+    "title": "Inbox, archiving"
+  },
+  {
+    "id": "wed-0905",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "090500",
+    "duration_seconds": 300,
+    "title": "Reading about offline-first sync"
+  },
+  {
+    "id": "wed-0910",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "091000",
+    "duration_seconds": 300,
+    "title": "Wednesday priorities"
+  },
+  {
+    "id": "wed-0915",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "091500",
+    "duration_seconds": 300,
+    "title": "#schema-bridge with Romeo"
+  },
+  {
+    "id": "wed-0920",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "092000",
+    "duration_seconds": 300,
+    "title": "Standup notes, before"
+  },
+  {
+    "id": "wed-0925",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "092500",
+    "duration_seconds": 300,
+    "title": "Quick check before standup"
+  },
+  {
     "id": "wed-standup",
     "day": "20260211",
     "stream": "verona.audio",
     "time": "093000",
     "duration_seconds": 164,
     "title": "Capulet standup"
+  },
+  {
+    "id": "wed-0930",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "093000",
+    "duration_seconds": 300,
+    "title": "Standup notes"
+  },
+  {
+    "id": "wed-0935",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "093500",
+    "duration_seconds": 300,
+    "title": "Standup notes, after"
+  },
+  {
+    "id": "wed-0940",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "094000",
+    "duration_seconds": 300,
+    "title": "Posting the standup summary"
+  },
+  {
+    "id": "wed-0945",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "094500",
+    "duration_seconds": 300,
+    "title": "Ducal call prep, final"
+  },
+  {
+    "id": "wed-0950",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "095000",
+    "duration_seconds": 300,
+    "title": "Ducal Freight's yards"
+  },
+  {
+    "id": "wed-0955",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "095500",
+    "duration_seconds": 300,
+    "title": "Email to Angela about QA sign-off"
+  },
+  {
+    "id": "wed-1000",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "100000",
+    "duration_seconds": 300,
+    "title": "Angela's reply"
+  },
+  {
+    "id": "wed-1005",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "100500",
+    "duration_seconds": 300,
+    "title": "Reviewing Tybalt's crash fix"
+  },
+  {
+    "id": "wed-1010",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "101000",
+    "duration_seconds": 300,
+    "title": "Thanking Tybalt"
+  },
+  {
+    "id": "wed-1015",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "101500",
+    "duration_seconds": 300,
+    "title": "Notes: what a signed report needs"
+  },
+  {
+    "id": "wed-1020",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "102000",
+    "duration_seconds": 300,
+    "title": "Signed reports, continued"
+  },
+  {
+    "id": "wed-1025",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "102500",
+    "duration_seconds": 300,
+    "title": "Quick word with Romeo"
   },
   {
     "id": "wed-duke",
@@ -80,12 +312,372 @@
     "title": "Ducal Freight discovery call"
   },
   {
+    "id": "wed-1030",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "103000",
+    "duration_seconds": 300,
+    "title": "Ducal call notes"
+  },
+  {
+    "id": "wed-1035",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "103500",
+    "duration_seconds": 300,
+    "title": "Ducal call notes, the three asks"
+  },
+  {
+    "id": "wed-1040",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "104000",
+    "duration_seconds": 300,
+    "title": "Ducal call notes, wrap-up"
+  },
+  {
+    "id": "wed-1045",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "104500",
+    "duration_seconds": 300,
+    "title": "Recap email to Paris Duke"
+  },
+  {
+    "id": "wed-1050",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "105000",
+    "duration_seconds": 300,
+    "title": "Sharing Paris's asks"
+  },
+  {
+    "id": "wed-1100-call",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "110000",
+    "duration_seconds": 148,
+    "title": "Quick call with Angela"
+  },
+  {
+    "id": "wed-1100",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "110000",
+    "duration_seconds": 300,
+    "title": "Checklist open during Angela's call"
+  },
+  {
+    "id": "wed-1105",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "110500",
+    "duration_seconds": 300,
+    "title": "Setting up the Schema Bridge board"
+  },
+  {
+    "id": "wed-1110",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "111000",
+    "duration_seconds": 300,
+    "title": "Note from Friar"
+  },
+  {
+    "id": "wed-1115",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "111500",
+    "duration_seconds": 300,
+    "title": "Reading about signed documents"
+  },
+  {
+    "id": "wed-1120",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "112000",
+    "duration_seconds": 300,
+    "title": "Signed reports, after reading"
+  },
+  {
+    "id": "wed-1125",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "112500",
+    "duration_seconds": 300,
+    "title": "Mercutio on the PDF"
+  },
+  {
+    "id": "wed-1130",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "113000",
+    "duration_seconds": 300,
+    "title": "Updating the beta release notes"
+  },
+  {
+    "id": "wed-1135",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "113500",
+    "duration_seconds": 300,
+    "title": "Release notes, known issues"
+  },
+  {
+    "id": "wed-1140",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "114000",
+    "duration_seconds": 300,
+    "title": "Balthasar's device run"
+  },
+  {
+    "id": "wed-1145",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "114500",
+    "duration_seconds": 300,
+    "title": "Inbox before lunch"
+  },
+  {
+    "id": "wed-1150",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "115000",
+    "duration_seconds": 300,
+    "title": "Beta feedback page"
+  },
+  {
+    "id": "wed-1155",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "115500",
+    "duration_seconds": 300,
+    "title": "Beta feedback, more"
+  },
+  {
+    "id": "wed-1245",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "124500",
+    "duration_seconds": 300,
+    "title": "After lunch"
+  },
+  {
+    "id": "wed-1250",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "125000",
+    "duration_seconds": 300,
+    "title": "Quick inbox check"
+  },
+  {
+    "id": "wed-1255",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "125500",
+    "duration_seconds": 300,
+    "title": "Re-reading spec draft 1"
+  },
+  {
     "id": "wed-spec",
     "day": "20260211",
     "stream": "verona.screen",
     "time": "130000",
     "duration_seconds": 120,
     "title": "Schema Bridge spec v2"
+  },
+  {
+    "id": "wed-1305",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "130500",
+    "duration_seconds": 300,
+    "title": "Spec v2: Ducal requirements"
+  },
+  {
+    "id": "wed-1310",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "131000",
+    "duration_seconds": 300,
+    "title": "Spec v2: inspection record"
+  },
+  {
+    "id": "wed-1315",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "131500",
+    "duration_seconds": 300,
+    "title": "Spec v2: signing"
+  },
+  {
+    "id": "wed-1320",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "132000",
+    "duration_seconds": 300,
+    "title": "Spec v2: sync by events"
+  },
+  {
+    "id": "wed-1325",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "132500",
+    "duration_seconds": 300,
+    "title": "Spec v2: what the inspector sees"
+  },
+  {
+    "id": "wed-1330",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "133000",
+    "duration_seconds": 300,
+    "title": "Spec v2: queue limits"
+  },
+  {
+    "id": "wed-1335",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "133500",
+    "duration_seconds": 300,
+    "title": "Spec v2: export by site"
+  },
+  {
+    "id": "wed-1340",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "134000",
+    "duration_seconds": 300,
+    "title": "Asking Romeo about event size"
+  },
+  {
+    "id": "wed-1345",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "134500",
+    "duration_seconds": 300,
+    "title": "Spec v2: queue cap"
+  },
+  {
+    "id": "wed-1350",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "135000",
+    "duration_seconds": 300,
+    "title": "Spec v2: failure cases"
+  },
+  {
+    "id": "wed-1355",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "135500",
+    "duration_seconds": 300,
+    "title": "Spec v2: testing"
+  },
+  {
+    "id": "wed-1400",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "140000",
+    "duration_seconds": 300,
+    "title": "Spec v2: privacy line"
+  },
+  {
+    "id": "wed-1405",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "140500",
+    "duration_seconds": 300,
+    "title": "Reading Mesh Routing docs"
+  },
+  {
+    "id": "wed-1410",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "141000",
+    "duration_seconds": 300,
+    "title": "Spec v2: the envelope"
+  },
+  {
+    "id": "wed-1415",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "141500",
+    "duration_seconds": 300,
+    "title": "#balcony-beta check-in"
+  },
+  {
+    "id": "wed-1420",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "142000",
+    "duration_seconds": 300,
+    "title": "Spec v2: timeline"
+  },
+  {
+    "id": "wed-1425",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "142500",
+    "duration_seconds": 300,
+    "title": "Spec v2: open questions"
+  },
+  {
+    "id": "wed-1430-call",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "143000",
+    "duration_seconds": 148,
+    "title": "Signed PDF chat with Mercutio"
+  },
+  {
+    "id": "wed-1430",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "143000",
+    "duration_seconds": 300,
+    "title": "Notes during the PDF chat"
+  },
+  {
+    "id": "wed-1435",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "143500",
+    "duration_seconds": 300,
+    "title": "Signed PDF layout, after"
+  },
+  {
+    "id": "wed-1440",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "144000",
+    "duration_seconds": 300,
+    "title": "Board after the PDF chat"
+  },
+  {
+    "id": "wed-1445",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "144500",
+    "duration_seconds": 300,
+    "title": "Agenda for the Romeo sync"
+  },
+  {
+    "id": "wed-1450",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "145000",
+    "duration_seconds": 300,
+    "title": "Romeo ready"
+  },
+  {
+    "id": "wed-1455",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "145500",
+    "duration_seconds": 300,
+    "title": "Agenda, last look"
   },
   {
     "id": "wed-sync",
@@ -96,12 +688,260 @@
     "title": "Schema Bridge sync with Romeo"
   },
   {
+    "id": "wed-1500",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "150000",
+    "duration_seconds": 300,
+    "title": "Notes during the Romeo sync"
+  },
+  {
+    "id": "wed-1505",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "150500",
+    "duration_seconds": 300,
+    "title": "Romeo sync: versioning decided"
+  },
+  {
+    "id": "wed-1510",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "151000",
+    "duration_seconds": 300,
+    "title": "Romeo's queue prototype"
+  },
+  {
+    "id": "wed-1515",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "151500",
+    "duration_seconds": 300,
+    "title": "Romeo sync: Friday plan"
+  },
+  {
+    "id": "wed-1520",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "152000",
+    "duration_seconds": 300,
+    "title": "Spec v2: owner line filled in"
+  },
+  {
+    "id": "wed-1525",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "152500",
+    "duration_seconds": 300,
+    "title": "Posting the versioning decision"
+  },
+  {
+    "id": "wed-1530",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "153000",
+    "duration_seconds": 300,
+    "title": "Email to Tybalt about the rule"
+  },
+  {
+    "id": "wed-1535",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "153500",
+    "duration_seconds": 300,
+    "title": "Tybalt's reply"
+  },
+  {
+    "id": "wed-1540",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "154000",
+    "duration_seconds": 300,
+    "title": "Schema Bridge board, afternoon"
+  },
+  {
+    "id": "wed-1545",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "154500",
+    "duration_seconds": 300,
+    "title": "Friday demo plan"
+  },
+  {
+    "id": "wed-1550",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "155000",
+    "duration_seconds": 300,
+    "title": "Friday demo plan, risks"
+  },
+  {
+    "id": "wed-1600-call",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "160000",
+    "duration_seconds": 142,
+    "title": "Friday demo logistics with Benvolio"
+  },
+  {
+    "id": "wed-1600",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "160000",
+    "duration_seconds": 300,
+    "title": "Demo plan during Benvolio's call"
+  },
+  {
+    "id": "wed-1605",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "160500",
+    "duration_seconds": 300,
+    "title": "Demo plan, final"
+  },
+  {
+    "id": "wed-1610",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "161000",
+    "duration_seconds": 300,
+    "title": "#balcony-beta afternoon"
+  },
+  {
+    "id": "wed-1615",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "161500",
+    "duration_seconds": 300,
+    "title": "Looking at flights to Paris"
+  },
+  {
+    "id": "wed-1620",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "162000",
+    "duration_seconds": 300,
+    "title": "Flight options, continued"
+  },
+  {
+    "id": "wed-1625",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "162500",
+    "duration_seconds": 300,
+    "title": "Angela asks about the announcement"
+  },
+  {
+    "id": "wed-1630",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "163000",
+    "duration_seconds": 300,
+    "title": "Balcony 3.0 announcement draft"
+  },
+  {
+    "id": "wed-1635",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "163500",
+    "duration_seconds": 300,
+    "title": "Announcement draft, continued"
+  },
+  {
+    "id": "wed-1640",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "164000",
+    "duration_seconds": 300,
+    "title": "Paris replies"
+  },
+  {
+    "id": "wed-1645",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "164500",
+    "duration_seconds": 300,
+    "title": "Answering Paris about corrections"
+  },
+  {
+    "id": "wed-1650",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "165000",
+    "duration_seconds": 300,
+    "title": "Spec v2: final pass"
+  },
+  {
+    "id": "wed-1655",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "165500",
+    "duration_seconds": 300,
+    "title": "Spec v2: corrections note"
+  },
+  {
+    "id": "wed-1700",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "170000",
+    "duration_seconds": 300,
+    "title": "Balcony board, end of day"
+  },
+  {
+    "id": "wed-1705",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "170500",
+    "duration_seconds": 300,
+    "title": "Spec v2 is up"
+  },
+  {
+    "id": "wed-1710",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "171000",
+    "duration_seconds": 300,
+    "title": "Thursday list"
+  },
+  {
+    "id": "wed-1715",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "171500",
+    "duration_seconds": 300,
+    "title": "Clearing the inbox"
+  },
+  {
+    "id": "wed-1720",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "172000",
+    "duration_seconds": 300,
+    "title": "Flights again"
+  },
+  {
+    "id": "wed-1725",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "172500",
+    "duration_seconds": 300,
+    "title": "Thursday list, done"
+  },
+  {
     "id": "wed-memo",
     "day": "20260211",
     "stream": "verona.audio",
     "time": "173000",
-    "duration_seconds": 56,
+    "duration_seconds": 54,
     "title": "Voice memo: end of day"
+  },
+  {
+    "id": "wed-1735",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "173500",
+    "duration_seconds": 300,
+    "title": "Signing off"
   },
   {
     "id": "thu-tybalt",

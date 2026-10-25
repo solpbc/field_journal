@@ -1,0 +1,37 @@
+{
+  "id": "wed-0920",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Standup notes, before",
+  "doc_title": "Standup, Wed",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Tybalt"
+    },
+    {
+      "type": "h2",
+      "text": "Angela"
+    },
+    {
+      "type": "h2",
+      "text": "Balthasar"
+    },
+    {
+      "type": "li",
+      "text": "Not at standup. Overnight run: sync fix holds on 5 of 6, old tablet crashed. Rerun on Tybalt's branch this morning: clean."
+    },
+    {
+      "type": "h2",
+      "text": "Me"
+    },
+    {
+      "type": "li",
+      "text": "Ducal call 10:30: first customer call for Schema Bridge"
+    },
+    {
+      "type": "li",
+      "text": "Romeo's local queue answers the uptime worry: Balcony keeps working if Mesh Routing is down"
+    }
+  ]
+}

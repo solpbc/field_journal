@@ -1,0 +1,91 @@
+{
+  "id": "wed-1430-call",
+  "kind": "audio",
+  "title": "Signed PDF chat with Mercutio",
+  "lines": [
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Hi! Okay, I'm sharing. Tell me when you can see a very boring piece of paper."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I see it. Oh, wow. That is boring."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Thank you. I worked really hard on it. So, this is one inspection. Up top, the site and the inspector, and the date. Big enough to read from across a desk."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Good."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Then the photos, each with the time it was taken right under it. Then the findings. And down at the bottom, the signature, the time it was signed, and this little check code."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Can we flip the middle? Findings first, then the photos. The auditor reads the findings, and the photos are the proof."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Ooh. Yes. That's better. Findings, then photos."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And how short is the check code?"
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Short enough to read out over the phone. It's just there so somebody can check the file hasn't changed since it was signed."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's the whole point, really. My one rule is, it has to be plain enough that an auditor trusts it. If it looks like marketing, they're going to squint at it."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Understood. No gradients. No little swooshes. I will make boring beautiful."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Boring and beautiful. I'll take that."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Okay, logos. In my first pass I had ours and yours in the corner, and, um, it looked like a bake sale flyer."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ha. No logos. Well, unless Ducal asks for theirs. Then a small Ducal one."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Small Ducal one, only if asked. Got it. And it's always one page per inspection? Even if somebody takes a lot of photos?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "One page per inspection. One inspection, one page. That's what they'll file."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Then the photos get a little smaller and you never hear me complain. Okay, let me read it back. Site, inspector and date up top. Findings, then photos with their times. Signature, time signed and check code at the bottom. One page. No logos unless Ducal asks."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That's it. Can you turn it into a proper mock?"
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "By Thursday. I'll fill it in from a realistic inspection, so it doesn't look like a template."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Perfect. And I'll ask Paris on Friday whether their auditor wants anything else on it."
+    },
+    {
+      "speaker": "mercutio_escalus",
+      "text": "Great. Okay, I'm off to make boring things. Honestly, best afternoon of my week."
+    }
+  ]
+}

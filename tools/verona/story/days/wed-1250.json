@@ -1,0 +1,76 @@
+{
+  "id": "wed-1250",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Quick inbox check",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Thanks, and Friday",
+      "preview": "Got it, Friday at 2 works on our end..."
+    },
+    {
+      "from": "Benvolio Montague",
+      "subject": "Invite: Schema Bridge demo for Ducal Freight",
+      "preview": "Friday 2:00 to 2:45 pm. Paris Duke, Romeo, Juliet."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Balthasar can do Thursday 3:30. I'm booking a check-in with the three of us."
+    },
+    {
+      "from": "Test device invoice",
+      "subject": "Invoice: test devices",
+      "preview": "Invoice for 2 test devices, due in 30 days."
+    },
+    {
+      "from": "Calendar",
+      "subject": "Ducal Freight discovery call, today 10:30",
+      "preview": "Reminder: Ducal Freight discovery call, 10:30 to 11:15."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Crash digest: 2 new crashes",
+      "preview": "2 crashes in the last 24 hours, both Android 11, both on the camera screen."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Here's where the checklist stands. The big one left is QA sign-off."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Wednesday call",
+      "preview": "10:30 works. A few things I'd like to cover, if that's ok."
+    }
+  ],
+  "open_index": 0,
+  "open": {
+    "from": "Paris Duke",
+    "subject": "Re: Thanks, and Friday",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Hi Juliet,"
+      },
+      {
+        "type": "p",
+        "text": "Got it, thanks for the quick recap. Friday at 2 works on our end, and I've accepted Benvolio's invite."
+      },
+      {
+        "type": "p",
+        "text": "One addition: our auditor may join for the PDF part. They're the one who actually reads these reports, so I'd like them to see a real one."
+      },
+      {
+        "type": "p",
+        "text": "Useful call this morning. Talk Friday."
+      },
+      {
+        "type": "p",
+        "text": "Paris"
+      }
+    ]
+  }
+}

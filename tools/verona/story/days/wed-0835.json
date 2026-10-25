@@ -1,0 +1,62 @@
+{
+  "id": "wed-0835",
+  "kind": "screen",
+  "app": "web",
+  "title": "Reading about Ducal Freight",
+  "url": "ducal-freight.example/about",
+  "page_title": "About Ducal Freight",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ducal Freight is a regional freight company serving the Mountain West. We move freight for manufacturers, distributors and retailers across five states."
+    },
+    {
+      "type": "h2",
+      "text": "Where we are"
+    },
+    {
+      "type": "p",
+      "text": "We run 30 yards and cross-docks, from busy city terminals to small yards at the edge of town. Most of our freight is on the road for less than a day."
+    },
+    {
+      "type": "h2",
+      "text": "What we do"
+    },
+    {
+      "type": "li",
+      "text": "Truckload and less-than-truckload freight"
+    },
+    {
+      "type": "li",
+      "text": "Cross-docking"
+    },
+    {
+      "type": "li",
+      "text": "Yard and dock services"
+    },
+    {
+      "type": "h2",
+      "text": "Every trailer, every time"
+    },
+    {
+      "type": "p",
+      "text": "Every trailer that comes through one of our docks is inspected, coming in and going out: seals, doors, tires, the load and any damage. If something's wrong, we want to find it at our dock, not yours."
+    },
+    {
+      "type": "h2",
+      "text": "Safety"
+    },
+    {
+      "type": "p",
+      "text": "Safety audits are part of how we run, not something we prepare for once a year. Our customers and their auditors can ask for the inspection record for any trailer we've handled."
+    },
+    {
+      "type": "h2",
+      "text": "Talk to us"
+    },
+    {
+      "type": "p",
+      "text": "Looking for a freight partner in the Mountain West? Our operations team would like to hear from you."
+    }
+  ]
+}

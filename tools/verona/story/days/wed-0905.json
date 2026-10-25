@@ -1,0 +1,54 @@
+{
+  "id": "wed-0905",
+  "kind": "screen",
+  "app": "web",
+  "title": "Reading about offline-first sync",
+  "url": "blog.example/offline-first-notes",
+  "page_title": "Notes on offline-first sync",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Most apps are written as if the network is always there. Field apps can't be. These are notes from building apps people use in basements, warehouses and on back roads."
+    },
+    {
+      "type": "h2",
+      "text": "Keep a local queue"
+    },
+    {
+      "type": "p",
+      "text": "Save the person's work on the device first, then send it. The queue is the source of truth until the server says it has the item. If the app is closed, the queue is still there when it opens."
+    },
+    {
+      "type": "h2",
+      "text": "Make the id on the device"
+    },
+    {
+      "type": "p",
+      "text": "Give every record an id at the moment it's created, on the device. When a send is retried, the server can recognize the repeat and ignore it instead of making a duplicate."
+    },
+    {
+      "type": "h2",
+      "text": "No spinner for safe work"
+    },
+    {
+      "type": "p",
+      "text": "If the work is safely queued, don't show a spinner. A spinner tells someone to wait, and they don't need to. Tell them it's saved and will send."
+    },
+    {
+      "type": "h2",
+      "text": "Show what's waiting"
+    },
+    {
+      "type": "p",
+      "text": "Show how many items are waiting to send. \"3 waiting\" is honest. A number that goes down when the signal comes back builds more trust than any animation."
+    },
+    {
+      "type": "h2",
+      "text": "Test it offline for real"
+    },
+    {
+      "type": "p",
+      "text": "Turn the network off for hours, not a minute. Then a day. Most bugs show up when the queue gets long, or when the app is restarted while it's still full."
+    }
+  ]
+}

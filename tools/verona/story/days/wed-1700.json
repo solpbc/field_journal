@@ -1,0 +1,72 @@
+{
+  "id": "wed-1700",
+  "kind": "screen",
+  "app": "board",
+  "title": "Balcony board, end of day",
+  "board_title": "Balcony 3.0 beta",
+  "columns": [
+    "Backlog",
+    "In progress",
+    "Review",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Offline sync conflict",
+      "column": "Review",
+      "assignee": "Balthasar"
+    },
+    {
+      "title": "Android 11 crash",
+      "column": "Review",
+      "assignee": "Tybalt"
+    },
+    {
+      "title": "Release checklist",
+      "column": "In progress",
+      "assignee": "Angela"
+    },
+    {
+      "title": "Sync status screen",
+      "column": "In progress",
+      "assignee": "Mercutio"
+    },
+    {
+      "title": "QA sign-off",
+      "column": "Backlog",
+      "assignee": "Balthasar"
+    },
+    {
+      "title": "Release notes",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Signed report layout",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Background photo upload",
+      "column": "Done",
+      "assignee": "Tybalt"
+    }
+  ],
+  "moves": [
+    {
+      "card": "Android 11 crash",
+      "to": "Done"
+    },
+    {
+      "card": "Offline sync conflict",
+      "to": "Done"
+    },
+    {
+      "add": {
+        "title": "Announcement",
+        "column": "In progress",
+        "assignee": "Angela"
+      }
+    }
+  ]
+}

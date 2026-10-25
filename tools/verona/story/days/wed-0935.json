@@ -1,0 +1,56 @@
+{
+  "id": "wed-0935",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Standup notes, after",
+  "doc_title": "Standup, Wed",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Angela",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Checklist 80%; needs QA sign-off from Balthasar.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "She'll go through it with him Thu afternoon. Go/no-go stays Fri 9:30.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Me",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Told them: Romeo's queue covers the uptime worry.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Tybalt: 'fine if it survives a week of airplane mode'.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Actions"
+    },
+    {
+      "type": "li",
+      "text": "Balthasar: QA pass on the old tablet today, on the real build, before he signs off."
+    },
+    {
+      "type": "li",
+      "text": "Airplane-mode test: who writes it? Tybalt's bar is a week offline with nothing lost. Raise at our 1:1."
+    },
+    {
+      "type": "li",
+      "text": "Me: ask Romeo how long the queue has run offline now. Email Angela about QA sign-off timing."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "wed-1625",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Angela asks about the announcement",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "Angela Nurse",
+  "messages": [
+    {
+      "from": "Angela Nurse",
+      "text": "calling you in 2, ok?",
+      "done": true
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "ready",
+      "done": true
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "want to see the announcement draft before Friday?"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "yes please. I'll write a first pass now"
+    },
+    {
+      "from": "Angela Nurse",
+      "text": "even better"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "wed-1020",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Signed reports, continued",
+  "doc_title": "Signed reports: scratch",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "li",
+      "text": "Time signed",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Site",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Photos, each with the time it was taken",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Findings",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "One page per inspection",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Can't be edited after signing",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Auditor can check it wasn't changed since",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Questions for Paris"
+    },
+    {
+      "type": "li",
+      "text": "Does their auditor need a PDF, or will a link do?"
+    },
+    {
+      "type": "li",
+      "text": "How long do they keep reports? Months, years?"
+    },
+    {
+      "type": "li",
+      "text": "Is one signature enough, or does someone else sign too?"
+    },
+    {
+      "type": "li",
+      "text": "Who is the auditor: their own team, their customers' auditors, or both?"
+    },
+    {
+      "type": "p",
+      "text": "Only if there's time. Mostly listen. Ask Romeo if he has one before the call."
+    }
+  ]
+}

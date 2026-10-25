@@ -1,0 +1,74 @@
+{
+  "id": "wed-1435",
+  "kind": "screen",
+  "title": "Signed PDF layout, after",
+  "app": "doc",
+  "doc_title": "Signed PDF: layout",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Bottom",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Signature",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Time signed",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Check code (short, readable over the phone)",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Rules",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "One page per inspection",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Plain. An auditor should trust it at a glance.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "No logos. A small Ducal one only if they ask.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Next"
+    },
+    {
+      "type": "li",
+      "text": "Mercutio: a mock by Thursday"
+    },
+    {
+      "type": "li",
+      "text": "Mock filled in from a realistic inspection, not placeholder text"
+    },
+    {
+      "type": "li",
+      "text": "Ask Paris on Friday: does their auditor want anything else on it?"
+    },
+    {
+      "type": "li",
+      "text": "Board: move Signed PDF per inspection to Doing"
+    },
+    {
+      "type": "p",
+      "text": "Matches the Signing section in spec v2: signature, time and check code on the PDF."
+    }
+  ]
+}

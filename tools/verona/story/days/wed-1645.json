@@ -1,0 +1,30 @@
+{
+  "id": "wed-1645",
+  "kind": "screen",
+  "app": "email",
+  "title": "Answering Paris about corrections",
+  "to": "Paris Duke (Ducal Freight)",
+  "subject": "Re: Thanks, and Friday",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Paris,"
+    },
+    {
+      "type": "p",
+      "text": "Good question, and good to hear it early. Short answer: yes."
+    },
+    {
+      "type": "p",
+      "text": "A signed inspection is never edited. If something needs fixing, the inspector makes a new inspection that points back to the first one, and the PDF says so: the correction names the inspection it corrects, and the original stays exactly as it was signed."
+    },
+    {
+      "type": "p",
+      "text": "We'll put the PDF part in the middle so your auditor doesn't sit through setup, and I'm happy to show a correction live on Friday."
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

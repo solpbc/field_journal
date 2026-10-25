@@ -1,0 +1,65 @@
+{
+  "id": "wed-0900",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Inbox, archiving",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Calendar",
+      "subject": "Reminder: Ducal Freight discovery call",
+      "preview": "Today 10:30 to 11:15 · Paris Duke, Juliet Capulet"
+    },
+    {
+      "from": "Billing",
+      "subject": "Invoice: test devices, February",
+      "preview": "Monthly rental for 6 test devices. Payment due in 30 days."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Quick status before standup. Most of it is checked off, QA sign-off is the big one..."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Daily digest: Tuesday",
+      "preview": "2 new crashes, 1 device, 41 active testers"
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to your note. One small request..."
+    }
+  ],
+  "open_index": 3,
+  "open": {
+    "from": "Balcony beta crash digest",
+    "subject": "Daily digest: Tuesday",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Balcony App 3.0 beta. Daily crash digest for Tuesday. 41 active testers, 2 new crashes, 1 device."
+      },
+      {
+        "type": "p",
+        "text": "Crash 1: Android 11 tablet. Screen: camera, while opening. 2:14 pm. Build 3.0 beta 6."
+      },
+      {
+        "type": "p",
+        "text": "Crash 2: Android 11 tablet. Screen: camera, while opening. 4:51 pm. Build 3.0 beta 6."
+      },
+      {
+        "type": "p",
+        "text": "Both reports come from the same device and stop at the same line, reading a photo from the cache folder."
+      },
+      {
+        "type": "p",
+        "text": "Linked fix: android: fix photo cache path on Android 11 (open pull request, not yet in a beta build)."
+      },
+      {
+        "type": "p",
+        "text": "No crashes on any other device in the last 24 hours."
+      }
+    ]
+  }
+}

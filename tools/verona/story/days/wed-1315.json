@@ -1,0 +1,50 @@
+{
+  "id": "wed-1315",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: signing",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Inspection record",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "findings: one entry per finding, each with a severity and a short note.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "signed_at: when the inspector signed, set on the device. Not when the record arrives anywhere.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "schema_version (new): which version of this record format the inspection was made with, so records from an older tablet still read correctly after a change.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Signing"
+    },
+    {
+      "type": "li",
+      "text": "The inspector signs on the device at the moment of signing, online or not. signed_at is stamped right then."
+    },
+    {
+      "type": "li",
+      "text": "The PDF prints the signature and the time signed."
+    },
+    {
+      "type": "li",
+      "text": "Each PDF carries a short check code, so an auditor can confirm the file hasn't changed since it was signed."
+    },
+    {
+      "type": "li",
+      "text": "A signed inspection is never edited. A correction is a new inspection that points to the old one."
+    }
+  ]
+}

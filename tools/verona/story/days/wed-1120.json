@@ -1,0 +1,70 @@
+{
+  "id": "wed-1120",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Signed reports, after reading",
+  "doc_title": "Signed reports: scratch",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "li",
+      "text": "One page per inspection",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Can't be edited after signing",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Auditor can check it wasn't changed since",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Questions for Paris",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Does their auditor need a PDF, or will a link do?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "How long do they keep reports? Months, years?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Is one signature enough, or does someone else sign too?",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Who is the auditor: their own team, their customers' auditors, or both?",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Answered on the call: auditors want a PDF. They don't want to log into anything. Inspector signs, with the time."
+    },
+    {
+      "type": "h2",
+      "text": "After reading"
+    },
+    {
+      "type": "li",
+      "text": "Signature and time stamped on the device at the moment of signing, not when it syncs."
+    },
+    {
+      "type": "li",
+      "text": "A short check code printed on the PDF, so an auditor can confirm the file hasn't changed."
+    },
+    {
+      "type": "li",
+      "text": "Corrections are new inspections that point to the old one. The original stays exactly as signed."
+    }
+  ]
+}

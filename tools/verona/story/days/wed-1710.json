@@ -1,0 +1,33 @@
+{
+  "id": "wed-1710",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Thursday list",
+  "doc_title": "Thu",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Thu"
+    },
+    {
+      "type": "li",
+      "text": "10:00 Tybalt about the versioning rule. It covers the inspection record only, not Balcony's internals. Listen first."
+    },
+    {
+      "type": "li",
+      "text": "Review Romeo's queue PR (schema_version + retries; check the 10k cap is in)"
+    },
+    {
+      "type": "li",
+      "text": "3:30 check-in with Angela and Balthasar. Old tablet, QA sign-off, checklist"
+    },
+    {
+      "type": "li",
+      "text": "Record the backup demo video (offline inspection syncing on reconnect)"
+    },
+    {
+      "type": "li",
+      "text": "Mercutio's PDF mock: check a correction shows up on it, Paris asked"
+    }
+  ]
+}

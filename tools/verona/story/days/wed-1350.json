@@ -1,0 +1,56 @@
+{
+  "id": "wed-1350",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: failure cases",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Export by site (next sprint)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Inspections grouped by site_id, one group per yard or cross-dock.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Delivered as a daily file or a feed, whichever Ducal prefers. Ducal's choice.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Out of scope for Friday's demo. We say that plainly.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Every record already carries a site_id, so nothing new is needed on the device.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Need from Ducal: what their freight system can take in, and who on their side looks after it.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "When things go wrong"
+    },
+    {
+      "type": "li",
+      "text": "Mesh Routing is down: the queue holds. Inspectors keep making and signing inspections, and they go out when it's back."
+    },
+    {
+      "type": "li",
+      "text": "Tablet lost or broken before it syncs: those inspections are lost. Same as losing a clipboard of paper today. We say so up front, not in small print."
+    },
+    {
+      "type": "li",
+      "text": "Duplicate send: every event carries an id made on the device, and the receiver ignores repeats. Sending twice does no harm."
+    }
+  ]
+}

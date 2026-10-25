@@ -1,0 +1,58 @@
+{
+  "id": "wed-1510",
+  "kind": "screen",
+  "title": "Romeo's queue prototype",
+  "app": "web",
+  "url": "queue-proto.montague.example/status",
+  "page_title": "Queue prototype",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Test tablet: offline run"
+    },
+    {
+      "type": "p",
+      "text": "Status: offline"
+    },
+    {
+      "type": "p",
+      "text": "Offline for: 1 hour 2 minutes"
+    },
+    {
+      "type": "p",
+      "text": "Events queued: 12 (inspections from the test tablet)"
+    },
+    {
+      "type": "p",
+      "text": "Lost: 0"
+    },
+    {
+      "type": "h2",
+      "text": "Live"
+    },
+    {
+      "type": "li",
+      "text": "Connection found. Reconnecting..."
+    },
+    {
+      "type": "li",
+      "text": "Draining: 12 queued"
+    },
+    {
+      "type": "li",
+      "text": "Draining: 8 queued"
+    },
+    {
+      "type": "li",
+      "text": "Draining: 3 queued"
+    },
+    {
+      "type": "li",
+      "text": "Done: 12 sent, 0 queued, 0 lost"
+    },
+    {
+      "type": "p",
+      "text": "Events sent in the order they were queued, each with its original signed time."
+    }
+  ]
+}

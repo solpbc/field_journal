@@ -1,0 +1,49 @@
+{
+  "id": "wed-0915",
+  "kind": "screen",
+  "app": "chat",
+  "title": "#schema-bridge with Romeo",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#schema-bridge",
+  "messages": [
+    {
+      "from": "Mercutio Escalus",
+      "text": "sync screen is in the folder: queued / sent / needs attention, with the count of queued inspections. no spinner, as ordered",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "starting a long offline run on the queue prototype this morning. will report back",
+      "done": true
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "queue prototype's holding up. I'll do a proper offline run this afternoon"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "that's the demo right there"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "want to see it at 3?"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "yes. and I want to leave that meeting with an owner for field versioning"
+    },
+    {
+      "from": "Romeo Montague",
+      "text": "deal"
+    }
+  ]
+}

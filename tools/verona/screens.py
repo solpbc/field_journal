@@ -3,8 +3,13 @@
 """Record the verona week's screen entries in headless Chromium.
 
 Each screen script becomes a plain, unbranded page (a document, a task board,
-a code review or an email draft) whose content is typed out over the entry's
-target duration, then recorded to ``screen.mp4``.
+a code review, an email draft, a team chat, an inbox or a web page) whose
+content is typed out or read through over the entry's target duration, then
+recorded to ``screen.mp4``. Blocks marked ``"done": true`` are already on the
+page when the segment starts, so one document can grow across segments.
+
+A segment longer than ``MAX_RECORD_S`` is recorded at that length and slowed
+to its full duration, which keeps a full five-minute segment cheap to render.
 """
 
 from __future__ import annotations
@@ -15,6 +20,7 @@ import logging
 import shutil
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 
 from tools.verona import story
@@ -23,6 +29,7 @@ log = logging.getLogger("verona.screens")
 
 WIDTH, HEIGHT = 1440, 900
 HOLD_S = 6
+MAX_RECORD_S = 120
 
 _CSS = """
 * { box-sizing: border-box; }
@@ -57,6 +64,20 @@ p { margin: 0 0 12px; } li { margin: 0 0 6px; }
   color: #fff; font-weight: 600; }
 .mailhdr div { padding: 8px 0; border-bottom: 1px solid #e3e6ea; color: #444; }
 .hidden { display: none; }
+.chat { display: flex; height: 856px; }
+.side { width: 240px; background: #2b2f36; color: #c9ced6; padding: 20px 16px; font-size: 15px; }
+.side div { padding: 5px 8px; border-radius: 6px; } .side .on { background: #3d4450; color: #fff; }
+.msgs { flex: 1; background: #fff; padding: 20px 32px; overflow: hidden; }
+.msgs h3 { margin: 0 0 16px; font-size: 18px; }
+.msg { margin: 0 0 14px; } .msg b { display: block; font-size: 15px; }
+.inbox { display: flex; height: 856px; }
+.list { width: 460px; background: #fff; border-right: 1px solid #d0d7de; overflow: hidden; }
+.row { padding: 12px 16px; border-bottom: 1px solid #eceff2; font-size: 15px; }
+.row b { display: block; } .row span { color: #667; }
+.row.open { background: #e8f0fe; }
+.reader { flex: 1; background: #fff; padding: 32px 48px; overflow: hidden; }
+.url { margin-left: 18px; padding: 5px 14px; background: #fff; border-radius: 14px;
+  font-size: 14px; color: #555; min-width: 520px; }
 """
 
 _TYPE_JS = """
@@ -89,8 +110,30 @@ def _typed(tag: str, text: str, cls: str = "") -> str:
     return f'<{tag}{attr} data-type="{html.escape(text, quote=True)}"></{tag}>'
 
 
+def _block(tag: str, block: dict) -> str:
+    """A block already on the page, or one typed during the segment."""
+    if block.get("done"):
+        return f"<{tag}>{html.escape(block['text'])}</{tag}>"
+    return _typed(tag, block["text"])
+
+
+def _typed_chars(blocks: list[dict]) -> int:
+    return sum(len(b["text"]) for b in blocks if not b.get("done"))
+
+
+def _reveal_steps(ids: list[str]) -> str:
+    """Steps that bring each hidden element into view in turn, as a reader scrolls."""
+    steps = [
+        f"() => {{ const e = document.getElementById('{i}'); e.classList.remove('hidden');"
+        " e.scrollIntoView({block: 'nearest'}); }"
+        for i in ids
+    ]
+    return "[" + ",".join(steps) + "]"
+
+
 def _doc_page(script: dict) -> tuple[str, int, str]:
-    body = [_typed("h1", script["doc_title"])]
+    title = {"text": script["doc_title"], "done": script.get("title_done", False)}
+    body = [_block("h1", title)]
     in_list = False
     for block in script["blocks"]:
         if block["type"] == "li" and not in_list:
@@ -99,10 +142,10 @@ def _doc_page(script: dict) -> tuple[str, int, str]:
         if block["type"] != "li" and in_list:
             body.append("</ul>")
             in_list = False
-        body.append(_typed(block["type"], block["text"]))
+        body.append(_block(block["type"], block))
     if in_list:
         body.append("</ul>")
-    chars = len(script["doc_title"]) + sum(len(b["text"]) for b in script["blocks"])
+    chars = _typed_chars([title, *script["blocks"]])
     return (
         _chrome(script["doc_title"]) + '<div class="page">' + "".join(body) + "</div>",
         chars,
@@ -220,11 +263,81 @@ def _code_page(script: dict) -> tuple[str, int, str]:
     return page, chars, steps
 
 
+def _chat_page(script: dict) -> tuple[str, int, str]:
+    channels = "".join(
+        f'<div class="{"on" if c == script["channel"] else ""}">{html.escape(c)}</div>'
+        for c in script["channels"]
+    )
+    msgs = []
+    for message in script["messages"]:
+        who = f"<b>{html.escape(message['from'])}</b>"
+        if message.get("done"):
+            msgs.append(
+                f'<div class="msg">{who}<span>{html.escape(message["text"])}</span></div>'
+            )
+        else:
+            msgs.append(
+                f'<div class="msg">{who}{_typed("span", message["text"])}</div>'
+            )
+    page = (
+        _chrome("Team chat")
+        + f'<div class="chat"><div class="side">{channels}</div>'
+        + f'<div class="msgs"><h3>{html.escape(script["channel"])}</h3>'
+        + "".join(msgs)
+        + "</div></div>"
+    )
+    return page, _typed_chars(script["messages"]), "[]"
+
+
+def _inbox_page(script: dict) -> tuple[str, int, str]:
+    opened = script["open"]
+    rows = []
+    for index, message in enumerate(script["messages"]):
+        cls = "row open" if index == script.get("open_index", 0) else "row"
+        rows.append(
+            f'<div class="{cls}"><b>{html.escape(message["from"])}</b>'
+            f"{html.escape(message['subject'])}<br>"
+            f"<span>{html.escape(message.get('preview', ''))}</span></div>"
+        )
+    ids = [f"r{i}" for i in range(len(opened["blocks"]))]
+    body = "".join(
+        f'<p id="{i}" class="hidden">{html.escape(b["text"])}</p>'
+        for i, b in zip(ids, opened["blocks"])
+    )
+    page = (
+        _chrome(script.get("folder", "Inbox"))
+        + f'<div class="inbox"><div class="list">{"".join(rows)}</div>'
+        + f'<div class="reader"><h2>{html.escape(opened["subject"])}</h2>'
+        + f"<p><b>{html.escape(opened['from'])}</b></p>{body}</div></div>"
+    )
+    return page, 0, _reveal_steps(ids)
+
+
+def _web_page(script: dict) -> tuple[str, int, str]:
+    ids = [f"w{i}" for i in range(len(script["blocks"]))]
+    body = "".join(
+        f'<{b["type"]} id="{i}" class="hidden">{html.escape(b["text"])}</{b["type"]}>'
+        for i, b in zip(ids, script["blocks"])
+    )
+    chrome = (
+        '<div class="chrome"><span class="dot"></span><span class="dot"></span>'
+        f'<span class="dot"></span><span class="url">{html.escape(script["url"])}</span></div>'
+    )
+    page = (
+        chrome
+        + f'<div class="page"><h1>{html.escape(script["page_title"])}</h1>{body}</div>'
+    )
+    return page, 0, _reveal_steps(ids)
+
+
 _PAGES = {
     "doc": _doc_page,
     "email": _email_page,
     "board": _board_page,
     "code": _code_page,
+    "chat": _chat_page,
+    "inbox": _inbox_page,
+    "web": _web_page,
 }
 
 
@@ -235,8 +348,9 @@ def render_screen(
     from playwright.sync_api import sync_playwright
 
     duration = int(entry["target_seconds"])
+    record_s = min(duration, MAX_RECORD_S)
     body, chars, steps = _PAGES[script["app"]](script)
-    active_ms = max(duration - HOLD_S, 10) * 1000
+    active_ms = max(record_s - HOLD_S, 10) * 1000
     step_count = steps.count("() =>")
     ms_per_step = (
         0
@@ -267,14 +381,17 @@ def render_screen(
             )
             page = context.new_page()
             page.goto((work / "page.html").as_uri())
+            started = time.monotonic()
             page.evaluate(
                 f"run({{msPerChar: {ms_per_char}, msPerBlock: {ms_per_block},"
                 f" msPerStep: {ms_per_step}, steps: {steps}}})"
             )
             page.wait_for_function(
-                "window.__done === true", timeout=(duration + 60) * 1000
+                "window.__done === true", timeout=(record_s + 60) * 1000
             )
-            page.wait_for_timeout(HOLD_S * 1000)
+            # Hold the finished page until the recording covers the whole segment.
+            left = record_s - (time.monotonic() - started)
+            page.wait_for_timeout(max(HOLD_S, left + 1) * 1000)
             video = page.video
             context.close()
             browser.close()
@@ -284,7 +401,9 @@ def render_screen(
         seg_dir = story.segment_dir(journal_dir, entry, "screen", duration)
         story.clear_entry(journal_dir, entry, "screen")
         seg_dir.mkdir(parents=True, exist_ok=True)
-        # Keep the last `duration` seconds: the page load at the start is blank.
+        # Keep the last `record_s` seconds (the page load at the start is blank),
+        # slowed to the segment's full duration when it was recorded shorter.
+        stretch = duration / record_s
         subprocess.run(
             [
                 "ffmpeg",
@@ -292,9 +411,10 @@ def render_screen(
                 "error",
                 "-y",
                 "-sseof",
-                f"-{duration}",
+                f"-{record_s}",
                 "-i",
                 str(webm),
+                *(["-vf", f"setpts={stretch:.4f}*PTS"] if stretch > 1 else []),
                 "-t",
                 str(duration),
                 "-an",

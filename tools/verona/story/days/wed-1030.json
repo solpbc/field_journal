@@ -1,0 +1,33 @@
+{
+  "id": "wed-1030",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call notes",
+  "doc_title": "Ducal Freight call notes",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Wed 10:30. Paris Duke, VP operations."
+    },
+    {
+      "type": "li",
+      "text": "30 sites, yards and cross-docks. Every trailer in or out gets inspected: seals, doors, tires, load, damage."
+    },
+    {
+      "type": "li",
+      "text": "Inspectors work offline in the yards, signal is bad. Past the third row of trailers, no bars."
+    },
+    {
+      "type": "li",
+      "text": "Today it's paper and photos on phones, typed up later. Or the tablet form fails to send and nobody goes back to resend."
+    },
+    {
+      "type": "li",
+      "text": "Auditors need signed reports within 24 hours. Customer requirement on a lot of their contracts."
+    },
+    {
+      "type": "li",
+      "text": "Signed = inspector signs, with the time. Auditors want a PDF, no logins."
+    }
+  ]
+}

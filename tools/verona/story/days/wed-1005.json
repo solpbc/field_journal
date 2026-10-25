@@ -1,0 +1,70 @@
+{
+  "id": "wed-1005",
+  "kind": "screen",
+  "app": "code",
+  "title": "Reviewing Tybalt's crash fix",
+  "repo": "capulet/balcony-app",
+  "pr_title": "android: fix photo cache path on Android 11",
+  "author": "Tybalt Capulet",
+  "diff": [
+    {
+      "file": "android/camera/PhotoCache.kt",
+      "lines": [
+        "  object PhotoCache {",
+        "-     // shared cache dir; older Android can clear this while the app is open",
+        "-     fun dir(context: Context): File =",
+        "-         File(context.externalCacheDir, \"thumbs\")",
+        "+     // app's own storage: the system doesn't clear it out from under us",
+        "+     fun dir(context: Context): File {",
+        "+         val dir = File(context.filesDir, \"thumbs\")",
+        "+         if (!dir.exists()) dir.mkdirs()",
+        "+         return dir",
+        "+     }",
+        "  }"
+      ]
+    },
+    {
+      "file": "android/camera/Thumbnails.kt",
+      "lines": [
+        "  fun thumbnailFor(photo: Photo, context: Context): Bitmap {",
+        "      val file = File(PhotoCache.dir(context), photo.id + \".jpg\")",
+        "-     return BitmapFactory.decodeFile(file.path)",
+        "+     if (!file.exists()) {",
+        "+         // folder or file missing: rebuild the thumbnail instead of crashing",
+        "+         writeThumbnail(photo, file)",
+        "+     }",
+        "+     return BitmapFactory.decodeFile(file.path)",
+        "  }"
+      ]
+    },
+    {
+      "file": "android/camera/ThumbnailsTest.kt",
+      "lines": [
+        "+ @Test",
+        "+ fun missingCacheFolderRebuildsThumbnail() {",
+        "+     PhotoCache.dir(context).deleteRecursively()",
+        "+     val thumb = thumbnailFor(samplePhoto, context)",
+        "+     assertNotNull(thumb)",
+        "+ }"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "file": "android/camera/PhotoCache.kt",
+      "line_index": 4,
+      "text": "thanks for the clear write-up. the before and after on the old tablet made this easy to review."
+    },
+    {
+      "file": "android/camera/Thumbnails.kt",
+      "line_index": 4,
+      "text": "rebuilding instead of crashing is exactly right. a missing thumbnail should never take the camera down."
+    },
+    {
+      "file": "android/camera/ThumbnailsTest.kt",
+      "line_index": 1,
+      "text": "can we add the old tablet to the device list for CI?"
+    }
+  ],
+  "verdict": "approved"
+}

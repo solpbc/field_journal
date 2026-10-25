@@ -1,0 +1,63 @@
+{
+  "id": "wed-0845",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Ducal call prep, questions",
+  "doc_title": "Ducal Freight call: prep",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What I want to learn",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "What auditors ask for, and how fast they need it.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "What I won't promise",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Dates for anything we haven't built.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "That Schema Bridge is done. Today it's a draft spec and Romeo's queue prototype. Say that plainly.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Questions"
+    },
+    {
+      "type": "li",
+      "text": "How many inspectors per yard? Per shift? Do they share tablets?"
+    },
+    {
+      "type": "li",
+      "text": "Paper today, or an app? If an app, what breaks out in the yard?"
+    },
+    {
+      "type": "li",
+      "text": "Who signs an inspection? The inspector, a supervisor, both?"
+    },
+    {
+      "type": "li",
+      "text": "How long until an auditor needs the report?"
+    },
+    {
+      "type": "li",
+      "text": "Which system do the inspections end up in, and who looks at them there?"
+    },
+    {
+      "type": "li",
+      "text": "Would they want Montague's routing data? (expect: no)"
+    }
+  ]
+}

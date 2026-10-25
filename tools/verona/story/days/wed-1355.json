@@ -1,0 +1,50 @@
+{
+  "id": "wed-1355",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: testing",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "When things go wrong",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Mesh Routing is down: the queue holds. Inspectors keep making and signing inspections, and they go out when it's back.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Tablet lost or broken before it syncs: those inspections are lost. Same as losing a clipboard of paper today. We say so up front, not in small print.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Duplicate send: every event carries an id made on the device, and the receiver ignores repeats. Sending twice does no harm.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Testing"
+    },
+    {
+      "type": "li",
+      "text": "Airplane-mode test: a device offline for a long stretch, a pile of inspections, then check every one lands in order. Tybalt's bar is a week. Owner TBD."
+    },
+    {
+      "type": "li",
+      "text": "Balthasar's six-device run, including the old Android 11 tablet."
+    },
+    {
+      "type": "li",
+      "text": "Friday demo: make an inspection offline, reconnect, watch it sync. That's the end-to-end test Ducal actually sees."
+    },
+    {
+      "type": "li",
+      "text": "Duplicate sends: send the same event twice on purpose and check the receiver keeps one."
+    }
+  ]
+}

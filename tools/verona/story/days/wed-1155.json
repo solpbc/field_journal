@@ -1,0 +1,58 @@
+{
+  "id": "wed-1155",
+  "kind": "screen",
+  "app": "web",
+  "title": "Beta feedback, more",
+  "url": "beta.capulet.example/feedback",
+  "page_title": "Balcony 3.0 beta feedback",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Last week (continued)"
+    },
+    {
+      "type": "li",
+      "text": "I never know if it sent. There's no clear sign an inspection actually made it. (Inspector, Michigan)"
+    },
+    {
+      "type": "li",
+      "text": "Same as above. I end up opening it twice to check. (Site lead, Ohio)"
+    },
+    {
+      "type": "li",
+      "text": "Please add a dark mode. The screen is very bright in the yard at 5 am. (Inspector, Minnesota)"
+    },
+    {
+      "type": "li",
+      "text": "Can the signed report show the site name and not just the site code? Our auditors don't know the codes. (Warehouse manager, Utah)"
+    },
+    {
+      "type": "li",
+      "text": "Would like to add a note to a photo. (Inspector, Tennessee)"
+    },
+    {
+      "type": "li",
+      "text": "The offline badge at the top is helpful. (Inspector, Kentucky)"
+    },
+    {
+      "type": "li",
+      "text": "No issues so far. Used it all week. (Site lead, Missouri)"
+    },
+    {
+      "type": "h2",
+      "text": "First week"
+    },
+    {
+      "type": "li",
+      "text": "Install was easy. Login took two tries. (Inspector, Colorado)"
+    },
+    {
+      "type": "li",
+      "text": "Excited to try offline mode, our back lot has no signal. (Inspector, Idaho)"
+    },
+    {
+      "type": "p",
+      "text": "That's all the feedback so far. Thanks for testing."
+    }
+  ]
+}

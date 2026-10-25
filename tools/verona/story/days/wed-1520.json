@@ -1,0 +1,48 @@
+{
+  "id": "wed-1520",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: owner line filled in",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Field versioning",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Who can change fields in the inspection record, and how both sides find out.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Owner:",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Capulet owns the inspection record schema; Montague owns the routing envelope; any change needs both to approve. Every event carries schema_version."
+    },
+    {
+      "type": "p",
+      "text": "Decided with Romeo at the 3pm sync. This covers the inspection record and the envelope only, not Balcony's internals or Mesh Routing's."
+    },
+    {
+      "type": "h2",
+      "text": "Open questions",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Field versioning: who owns it, and how do both sides agree to a change? Settle with Romeo at 3.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Export by site: timing. Depends on what Ducal's freight system can take in.",
+      "done": true
+    }
+  ]
+}

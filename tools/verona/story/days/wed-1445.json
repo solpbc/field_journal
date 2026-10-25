@@ -1,0 +1,33 @@
+{
+  "id": "wed-1445",
+  "kind": "screen",
+  "title": "Agenda for the Romeo sync",
+  "app": "doc",
+  "doc_title": "Sync with Romeo, 3pm",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Agenda"
+    },
+    {
+      "type": "p",
+      "text": "1. Paris's three asks: offline sync, a signed PDF per inspection, export by site"
+    },
+    {
+      "type": "p",
+      "text": "2. See the queue prototype"
+    },
+    {
+      "type": "p",
+      "text": "3. Decide field versioning: who owns what, how changes are agreed"
+    },
+    {
+      "type": "p",
+      "text": "4. Friday demo plan"
+    },
+    {
+      "type": "p",
+      "text": "Leave with an owner for field versioning. That's the one that matters."
+    }
+  ]
+}

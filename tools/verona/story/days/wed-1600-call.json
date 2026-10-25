@@ -1,0 +1,119 @@
+{
+  "id": "wed-1600-call",
+  "kind": "audio",
+  "title": "Friday demo logistics with Benvolio",
+  "lines": [
+    {
+      "speaker": "benvolio_montague",
+      "text": "Hey, Juliet. Got ten minutes for Friday?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yes. I've got the run order open right in front of me, actually."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Great. So, I open. Two minutes. Intros, what we're about to show, keep it light."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Then Romeo does the offline sync. Inspection in airplane mode, he reconnects, we watch it go."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "And then you do the PDF. Same inspection?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Same inspection. That's the whole story. He sees it made with no signal, and then he sees the signed report for it."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Love it. Oh, did Paris say anything about who's coming on his side?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "He did. Their auditor may join, for the PDF part."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Oh, good. Honestly, that's the person we most need to convince."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yeah. So I want the PDF part really plain. Here's what it says, here's who signed, here's when."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Okay. One thing I'd add. At the end, before the questions run out, I think we ask about a pilot. Small. Two sites."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Two sites. Yeah. I had 'ask about a pilot' on the list, but not how big."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Two's enough to learn something, and small enough that nobody needs a committee. I'm happy to ask it, if that's okay. It's a nice way to close."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Please. You ask."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "And, um, if the sync doesn't cooperate on the day..."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I wrote that down too. I think we record a video of the sync, just in case."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Let's record it Thursday, so it's the real build."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thursday. I'll grab Romeo and we'll do it. And there's a spare tablet. And I'm testing the room's wifi Friday morning."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Which room?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "The big one. It's fine. Mostly. Unless someone's on a video call next door."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "So it's fine until we're on a video call."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "...Yes."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Well, if it drops halfway through, that's very on-message for an offline demo."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Don't say that to Romeo, he'll want to do it on purpose."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Ha. Okay. So, me on the intro and the pilot ask, Romeo on the sync, you on the PDF. Will Mercutio's mock be ready?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "He said Thursday."
+    },
+    {
+      "speaker": "benvolio_montague",
+      "text": "Then I think we're in good shape. Thanks, Juliet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thanks, Benvolio. Talk Friday."
+    }
+  ]
+}

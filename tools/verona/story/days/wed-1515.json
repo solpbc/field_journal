@@ -1,0 +1,63 @@
+{
+  "id": "wed-1515",
+  "kind": "screen",
+  "title": "Romeo sync: Friday plan",
+  "app": "doc",
+  "doc_title": "Sync with Romeo, 3pm",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "li",
+      "text": "Events arrive with the time they were signed, not the time they synced. Auditors care.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Decided: Capulet owns the inspection record schema. Montague owns the routing envelope. Any change needs both to approve. Romeo adds schema_version to every event.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Romeo proposed the same split before I got to mine. Good sign.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Fill in the Owner line in spec v2.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Tell Tybalt: it covers only the inspection record, not Balcony's internals.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Friday demo"
+    },
+    {
+      "type": "li",
+      "text": "Benvolio opens."
+    },
+    {
+      "type": "li",
+      "text": "Make an inspection offline, reconnect, watch it sync."
+    },
+    {
+      "type": "li",
+      "text": "Then show the signed PDF for that same inspection."
+    },
+    {
+      "type": "li",
+      "text": "Say plainly that export by site is coming. Nothing faked."
+    },
+    {
+      "type": "li",
+      "text": "Romeo drives the tablet, I drive the PDF, Benvolio keeps time."
+    },
+    {
+      "type": "li",
+      "text": "Write up the run order after this call."
+    }
+  ]
+}

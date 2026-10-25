@@ -1,0 +1,64 @@
+{
+  "id": "wed-1600",
+  "kind": "screen",
+  "title": "Demo plan during Benvolio's call",
+  "app": "doc",
+  "doc_title": "Friday demo for Ducal: run order",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "If it goes wrong",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "A recorded video of the sync as backup",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "A spare tablet, charged, already in airplane mode",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Test the room's wifi Friday morning",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "PDF open in a second tab before we start",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "If the live sync fails: play the video, go straight to the PDF, keep talking about their yards.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "From the call with Benvolio"
+    },
+    {
+      "type": "li",
+      "text": "Benvolio: ask about a pilot, two sites"
+    },
+    {
+      "type": "li",
+      "text": "Record backup video Thu (me and Romeo, real build)"
+    },
+    {
+      "type": "li",
+      "text": "Auditor may join, for the PDF part"
+    },
+    {
+      "type": "li",
+      "text": "Keep the PDF part plain: what it says, who signed, when"
+    },
+    {
+      "type": "li",
+      "text": "If the wifi drops mid-demo, that's very on-message (Benvolio)"
+    }
+  ]
+}

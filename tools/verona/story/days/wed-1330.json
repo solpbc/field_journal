@@ -1,0 +1,50 @@
+{
+  "id": "wed-1330",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: queue limits",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What the inspector sees",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Needs attention: a person has to do something, like a sync conflict or a photo that failed. Says which inspection and what to tap.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Show how many inspections are queued, and let the number go down as they send.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Never a spinner on this screen.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Queue limits"
+    },
+    {
+      "type": "p",
+      "text": "Open question: how big can the queue get?"
+    },
+    {
+      "type": "li",
+      "text": "Worst case I can picture: a tablet offline for a week in a busy yard. That might hold a few thousand events."
+    },
+    {
+      "type": "li",
+      "text": "For scale, a busy inspector does maybe 40 inspections a day. A week offline is a few hundred events, not millions."
+    },
+    {
+      "type": "li",
+      "text": "We need a cap that covers a week offline with room to spare. Ask Romeo for a number."
+    }
+  ]
+}

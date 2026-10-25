@@ -5,7 +5,9 @@
 The demo journal holds the verona week and nothing else: only segments whose
 manifest source is in ``DEMO_SOURCES`` are copied, so none of the corpus's
 real recordings can enter it. The week is re-dated so its Friday is the most
-recent Friday before ``--end`` (default: today), then processed by the
+recent Friday before ``--end`` (default: today), or, with ``--today``, so its
+hero day falls on that date and the days after it are left out; the journal's
+first page then shows the hero day as today. It is then processed by the
 journal binary on ``PATH``:
 
     importer (the week's calendar) -> sense -> think -> indexer
@@ -86,6 +88,19 @@ def day_map(end: date) -> dict[str, str]:
     }
 
 
+def hero_day_map(today: date) -> dict[str, str]:
+    """Map the hero day onto ``today`` and the days before it onto the days before.
+
+    Authored days after the hero are left out: they would be in the future.
+    """
+    week = story.load_week()["days"]
+    hero = next(i for i, d in enumerate(week) if d.get("hero"))
+    return {
+        d["day"]: (today - timedelta(days=hero - i)).strftime("%Y%m%d")
+        for i, d in enumerate(week[: hero + 1])
+    }
+
+
 def _run(cmd: list[str], env: dict[str, str], log_path: Path) -> None:
     log.info("$ %s", " ".join(cmd))
     with log_path.open("a", encoding="utf-8") as out:
@@ -111,6 +126,8 @@ def write_calendar(path: Path, days: dict[str, str]) -> None:
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//sol pbc//verona demo//EN"]
     for entry in story.load_entries():
         if entry["kind"] != "audio" or len(entry["people"]) < 2:
+            continue
+        if entry["day"] not in days:
             continue
         start = days[entry["day"]] + "T" + entry["time"]
         minutes = 15 if entry["id"].endswith("standup") else 30
@@ -138,6 +155,8 @@ def seed_journal(journal: Path, days: dict[str, str]) -> list[dict]:
     for seg in sorted(
         demo_segments(), key=lambda s: (s["day"], s["stream"], s["segment"])
     ):
+        if seg["day"] not in days:
+            continue
         new_day = days[seg["day"]]
         src = JOURNAL_DIR / seg["day"] / seg["stream"] / seg["segment"]
         dest = journal / "chronicle" / new_day / seg["stream"] / seg["segment"]
@@ -334,6 +353,11 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--end", type=date.fromisoformat, default=date.today())
     parser.add_argument(
+        "--today",
+        type=date.fromisoformat,
+        help="put the hero day on this date (usually today) instead of using --end",
+    )
+    parser.add_argument(
         "--timeout", type=int, default=4 * 3600, help="seconds to wait for processing"
     )
     args = parser.parse_args(argv)
@@ -384,7 +408,7 @@ def main(argv: list[str] | None = None) -> int:
         log_path,
     )
 
-    days = day_map(args.end)
+    days = hero_day_map(args.today) if args.today else day_map(args.end)
     placed = seed_journal(journal, days)
     calendar = out / "verona-week.ics"
     write_calendar(calendar, days)

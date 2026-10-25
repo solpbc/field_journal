@@ -1,0 +1,50 @@
+{
+  "id": "wed-1720",
+  "kind": "screen",
+  "app": "web",
+  "title": "Flights again",
+  "url": "flights.example/search",
+  "page_title": "Flight search",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Denver to Paris"
+    },
+    {
+      "type": "p",
+      "text": "Round trip · Denver to Paris · Depart Wed, Feb 25 · Return Sun, Mar 1 · 1 adult · Economy"
+    },
+    {
+      "type": "p",
+      "text": "Prices have gone up since you last searched. Prices are per person, round trip, and include taxes and fees."
+    },
+    {
+      "type": "li",
+      "text": "7:10 am – 8:45 am (next day) · 1 stop (Chicago) · 17 h 35 m · $1,004"
+    },
+    {
+      "type": "li",
+      "text": "1:25 pm – 2:10 pm (next day) · 1 stop (Boston) · 16 h 45 m · $1,042"
+    },
+    {
+      "type": "li",
+      "text": "5:15 pm – 10:30 am (next day) · Nonstop · 9 h 15 m · $1,259"
+    },
+    {
+      "type": "li",
+      "text": "5:40 pm – 3:50 pm (next day) · 1 stop (New York) · 14 h 10 m · $1,148"
+    },
+    {
+      "type": "li",
+      "text": "6:50 pm – 12:10 pm (next day) · Nonstop · 9 h 20 m · $1,331"
+    },
+    {
+      "type": "li",
+      "text": "9:30 pm – 6:35 pm (next day) · 1 stop (Montreal) · 13 h 05 m · $1,021"
+    },
+    {
+      "type": "p",
+      "text": "Pick a departing flight to see return options for Sun, Mar 1."
+    }
+  ]
+}

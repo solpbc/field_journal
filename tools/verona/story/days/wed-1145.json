@@ -1,0 +1,76 @@
+{
+  "id": "wed-1145",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Inbox before lunch",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Benvolio Montague",
+      "subject": "Invite: Schema Bridge demo for Ducal Freight",
+      "preview": "Friday 2:00 to 2:45 pm. Paris Duke, Romeo, Juliet."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Balthasar can do Thursday 3:30. I'm booking a check-in with the three of us."
+    },
+    {
+      "from": "Test device invoice",
+      "subject": "Invoice: test devices",
+      "preview": "Invoice for 2 test devices, due in 30 days."
+    },
+    {
+      "from": "Calendar",
+      "subject": "Ducal Freight discovery call, today 10:30",
+      "preview": "Reminder: Ducal Freight discovery call, 10:30 to 11:15."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Crash digest: 2 new crashes",
+      "preview": "2 crashes in the last 24 hours, both Android 11, both on the camera screen."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Here's where the checklist stands. The big one left is QA sign-off."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Wednesday call",
+      "preview": "10:30 works. A few things I'd like to cover, if that's ok."
+    },
+    {
+      "from": "Balthasar Davi",
+      "subject": "Overnight QA run: 6 devices",
+      "preview": "Sync conflict fix holds on 5 of 6. The old Android 11 tablet crashes opening the camera."
+    }
+  ],
+  "open_index": 0,
+  "open": {
+    "from": "Benvolio Montague",
+    "subject": "Invite: Schema Bridge demo for Ducal Freight",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Schema Bridge demo for Ducal Freight. Friday, 2:00 to 2:45 pm Mountain."
+      },
+      {
+        "type": "p",
+        "text": "Guests: Paris Duke (Ducal Freight), Romeo Montague, Juliet Capulet, Benvolio Montague."
+      },
+      {
+        "type": "p",
+        "text": "Plan: a quick intro from me, then Romeo shows an inspection made offline syncing when the tablet reconnects, then Juliet shows the signed PDF for that inspection. Time for questions at the end."
+      },
+      {
+        "type": "p",
+        "text": "Join link: meet.montague.example/schema-bridge-demo"
+      },
+      {
+        "type": "p",
+        "text": "Paris, if anyone else on your side should be there, feel free to forward this."
+      }
+    ]
+  }
+}

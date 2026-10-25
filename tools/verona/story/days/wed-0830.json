@@ -1,0 +1,42 @@
+{
+  "id": "wed-0830",
+  "kind": "screen",
+  "app": "email",
+  "title": "Reply to Paris Duke",
+  "to": "Paris Duke (Ducal Freight)",
+  "subject": "Re: Wednesday call",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Paris,"
+    },
+    {
+      "type": "p",
+      "text": "45 minutes is perfect, thank you. Here's what I'll bring:"
+    },
+    {
+      "type": "li",
+      "text": "How the Balcony App works offline today: an inspector can start, fill in and save a full inspection with no signal."
+    },
+    {
+      "type": "li",
+      "text": "What a signed report could look like."
+    },
+    {
+      "type": "li",
+      "text": "Schema Bridge in a sentence: a shared format so inspections can move from Balcony to where they need to go, without anyone typing them in twice."
+    },
+    {
+      "type": "p",
+      "text": "Mostly, though, I'd love to hear how a yard inspection actually goes for your team, start to finish. That's the part I can't learn from a website."
+    },
+    {
+      "type": "p",
+      "text": "Talk at 10:30,"
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

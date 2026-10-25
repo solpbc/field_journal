@@ -1,0 +1,65 @@
+{
+  "id": "wed-0810",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Morning inbox",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Balthasar Davi",
+      "subject": "Overnight QA run: 6 devices",
+      "preview": "Sync conflict fix holds on 5 of 6. The old Android 11 tablet is the odd one out..."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Wednesday call",
+      "preview": "Confirming 10:30 today. A few things I'd like to cover..."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Quick status before standup. Most of it is checked off, QA sign-off is the big one..."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Daily digest: Tuesday",
+      "preview": "2 new crashes, 1 device, 41 active testers"
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to your note. One small request..."
+    }
+  ],
+  "open_index": 0,
+  "open": {
+    "from": "Balthasar Davi",
+    "subject": "Overnight QA run: 6 devices",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Morning all. Overnight run finished around 6. Same six devices as last week, the offline-sync conflict test plus the usual inspection flows."
+      },
+      {
+        "type": "p",
+        "text": "Offline-sync conflict: the fix holds on 5 of 6. Same inspection edited on two devices while offline, then both back online. Both sets of edits land, findings intact, nothing overwritten."
+      },
+      {
+        "type": "p",
+        "text": "The sixth is the old Android 11 tablet. It never got to the sync test: it crashes opening the camera, every time, so I couldn't start an inspection with photos on it. Looks like the same crash from the beta reports."
+      },
+      {
+        "type": "p",
+        "text": "One other thing: one photo upload was flaky on the slow wifi profile. It stalled for a couple of minutes, then finished on its own. Didn't lose the photo. Noting it, not calling it a blocker yet."
+      },
+      {
+        "type": "p",
+        "text": "I'll rerun the tablet at 8 in case anything's changed overnight."
+      },
+      {
+        "type": "p",
+        "text": "Balthasar"
+      }
+    ]
+  }
+}

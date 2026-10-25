@@ -1395,6 +1395,23 @@
     {
       "day": "20260211",
       "stream": "verona.audio",
+      "segment": "074500_57",
+      "source": "verona",
+      "source_id": "wed-0745-memo",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 57,
+      "description": "verona (synthetic, sol pbc): Voice memo: on the way in",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
       "segment": "093000_164",
       "source": "verona",
       "source_id": "wed-standup",
@@ -1429,6 +1446,40 @@
     {
       "day": "20260211",
       "stream": "verona.audio",
+      "segment": "110000_148",
+      "source": "verona",
+      "source_id": "wed-1100-call",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 148,
+      "description": "verona (synthetic, sol pbc): Quick call with Angela",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "143000_148",
+      "source": "verona",
+      "source_id": "wed-1430-call",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 148,
+      "description": "verona (synthetic, sol pbc): Signed PDF chat with Mercutio",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
       "segment": "150000_251",
       "source": "verona",
       "source_id": "wed-sync",
@@ -1446,11 +1497,28 @@
     {
       "day": "20260211",
       "stream": "verona.audio",
-      "segment": "173000_56",
+      "segment": "160000_142",
+      "source": "verona",
+      "source_id": "wed-1600-call",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 142,
+      "description": "verona (synthetic, sol pbc): Friday demo logistics with Benvolio",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "173000_54",
       "source": "verona",
       "source_id": "wed-memo",
       "license": "CC-BY-4.0",
-      "duration_seconds": 56,
+      "duration_seconds": 54,
       "description": "verona (synthetic, sol pbc): Voice memo: end of day",
       "exercises": [
         "transcription",
@@ -1463,12 +1531,1527 @@
     {
       "day": "20260211",
       "stream": "verona.screen",
+      "segment": "081000_300",
+      "source": "verona",
+      "source_id": "wed-0810",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Morning inbox",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "081500_300",
+      "source": "verona",
+      "source_id": "wed-0815",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reading Paris Duke's email",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "082000_300",
+      "source": "verona",
+      "source_id": "wed-0820",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Catching up on #balcony-beta",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "082500_300",
+      "source": "verona",
+      "source_id": "wed-0825",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Balcony beta board, morning",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "083000_300",
+      "source": "verona",
+      "source_id": "wed-0830",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reply to Paris Duke",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "083500_300",
+      "source": "verona",
+      "source_id": "wed-0835",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reading about Ducal Freight",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "084000_300",
+      "source": "verona",
+      "source_id": "wed-0840",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call prep",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "084500_300",
+      "source": "verona",
+      "source_id": "wed-0845",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call prep, questions",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "085000_300",
+      "source": "verona",
+      "source_id": "wed-0850",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): DM with Benvolio about Friday",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "085500_300",
+      "source": "verona",
+      "source_id": "wed-0855",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reviewing Angela's release checklist",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "090000_300",
+      "source": "verona",
+      "source_id": "wed-0900",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Inbox, archiving",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "090500_300",
+      "source": "verona",
+      "source_id": "wed-0905",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reading about offline-first sync",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "091000_300",
+      "source": "verona",
+      "source_id": "wed-0910",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Wednesday priorities",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "091500_300",
+      "source": "verona",
+      "source_id": "wed-0915",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): #schema-bridge with Romeo",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "092000_300",
+      "source": "verona",
+      "source_id": "wed-0920",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Standup notes, before",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "092500_300",
+      "source": "verona",
+      "source_id": "wed-0925",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Quick check before standup",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "093000_300",
+      "source": "verona",
+      "source_id": "wed-0930",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Standup notes",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "093500_300",
+      "source": "verona",
+      "source_id": "wed-0935",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Standup notes, after",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "094000_300",
+      "source": "verona",
+      "source_id": "wed-0940",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Posting the standup summary",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "094500_300",
+      "source": "verona",
+      "source_id": "wed-0945",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call prep, final",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "095000_300",
+      "source": "verona",
+      "source_id": "wed-0950",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal Freight's yards",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "095500_300",
+      "source": "verona",
+      "source_id": "wed-0955",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Email to Angela about QA sign-off",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "100000_300",
+      "source": "verona",
+      "source_id": "wed-1000",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Angela's reply",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "100500_300",
+      "source": "verona",
+      "source_id": "wed-1005",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reviewing Tybalt's crash fix",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "101000_300",
+      "source": "verona",
+      "source_id": "wed-1010",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Thanking Tybalt",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "101500_300",
+      "source": "verona",
+      "source_id": "wed-1015",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Notes: what a signed report needs",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "102000_300",
+      "source": "verona",
+      "source_id": "wed-1020",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Signed reports, continued",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "102500_300",
+      "source": "verona",
+      "source_id": "wed-1025",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Quick word with Romeo",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "103000_300",
+      "source": "verona",
+      "source_id": "wed-1030",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call notes",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "103500_300",
+      "source": "verona",
+      "source_id": "wed-1035",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call notes, the three asks",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "104000_300",
+      "source": "verona",
+      "source_id": "wed-1040",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Ducal call notes, wrap-up",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "104500_300",
+      "source": "verona",
+      "source_id": "wed-1045",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Recap email to Paris Duke",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "105000_300",
+      "source": "verona",
+      "source_id": "wed-1050",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Sharing Paris's asks",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "110000_300",
+      "source": "verona",
+      "source_id": "wed-1100",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Checklist open during Angela's call",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "110500_300",
+      "source": "verona",
+      "source_id": "wed-1105",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Setting up the Schema Bridge board",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "111000_300",
+      "source": "verona",
+      "source_id": "wed-1110",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Note from Friar",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "111500_300",
+      "source": "verona",
+      "source_id": "wed-1115",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reading about signed documents",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "112000_300",
+      "source": "verona",
+      "source_id": "wed-1120",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Signed reports, after reading",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "112500_300",
+      "source": "verona",
+      "source_id": "wed-1125",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Mercutio on the PDF",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "113000_300",
+      "source": "verona",
+      "source_id": "wed-1130",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Updating the beta release notes",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "113500_300",
+      "source": "verona",
+      "source_id": "wed-1135",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Release notes, known issues",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "114000_300",
+      "source": "verona",
+      "source_id": "wed-1140",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Balthasar's device run",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "114500_300",
+      "source": "verona",
+      "source_id": "wed-1145",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Inbox before lunch",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "115000_300",
+      "source": "verona",
+      "source_id": "wed-1150",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Beta feedback page",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "115500_300",
+      "source": "verona",
+      "source_id": "wed-1155",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Beta feedback, more",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "124500_300",
+      "source": "verona",
+      "source_id": "wed-1245",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): After lunch",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "125000_300",
+      "source": "verona",
+      "source_id": "wed-1250",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Quick inbox check",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "125500_300",
+      "source": "verona",
+      "source_id": "wed-1255",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Re-reading spec draft 1",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
       "segment": "130000_120",
       "source": "verona",
       "source_id": "wed-spec",
       "license": "CC-BY-4.0",
       "duration_seconds": 120,
       "description": "verona (synthetic, sol pbc): Schema Bridge spec v2",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "130500_300",
+      "source": "verona",
+      "source_id": "wed-1305",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: Ducal requirements",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "131000_300",
+      "source": "verona",
+      "source_id": "wed-1310",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: inspection record",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "131500_300",
+      "source": "verona",
+      "source_id": "wed-1315",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: signing",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "132000_300",
+      "source": "verona",
+      "source_id": "wed-1320",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: sync by events",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "132500_300",
+      "source": "verona",
+      "source_id": "wed-1325",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: what the inspector sees",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "133000_300",
+      "source": "verona",
+      "source_id": "wed-1330",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: queue limits",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "133500_300",
+      "source": "verona",
+      "source_id": "wed-1335",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: export by site",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "134000_300",
+      "source": "verona",
+      "source_id": "wed-1340",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Asking Romeo about event size",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "134500_300",
+      "source": "verona",
+      "source_id": "wed-1345",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: queue cap",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "135000_300",
+      "source": "verona",
+      "source_id": "wed-1350",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: failure cases",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "135500_300",
+      "source": "verona",
+      "source_id": "wed-1355",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: testing",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "140000_300",
+      "source": "verona",
+      "source_id": "wed-1400",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: privacy line",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "140500_300",
+      "source": "verona",
+      "source_id": "wed-1405",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Reading Mesh Routing docs",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "141000_300",
+      "source": "verona",
+      "source_id": "wed-1410",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: the envelope",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "141500_300",
+      "source": "verona",
+      "source_id": "wed-1415",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): #balcony-beta check-in",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "142000_300",
+      "source": "verona",
+      "source_id": "wed-1420",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: timeline",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "142500_300",
+      "source": "verona",
+      "source_id": "wed-1425",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: open questions",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "143000_300",
+      "source": "verona",
+      "source_id": "wed-1430",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Notes during the PDF chat",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "143500_300",
+      "source": "verona",
+      "source_id": "wed-1435",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Signed PDF layout, after",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "144000_300",
+      "source": "verona",
+      "source_id": "wed-1440",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Board after the PDF chat",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "144500_300",
+      "source": "verona",
+      "source_id": "wed-1445",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Agenda for the Romeo sync",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "145000_300",
+      "source": "verona",
+      "source_id": "wed-1450",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Romeo ready",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "145500_300",
+      "source": "verona",
+      "source_id": "wed-1455",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Agenda, last look",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "150000_300",
+      "source": "verona",
+      "source_id": "wed-1500",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Notes during the Romeo sync",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "150500_300",
+      "source": "verona",
+      "source_id": "wed-1505",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Romeo sync: versioning decided",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "151000_300",
+      "source": "verona",
+      "source_id": "wed-1510",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Romeo's queue prototype",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "151500_300",
+      "source": "verona",
+      "source_id": "wed-1515",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Romeo sync: Friday plan",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "152000_300",
+      "source": "verona",
+      "source_id": "wed-1520",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: owner line filled in",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "152500_300",
+      "source": "verona",
+      "source_id": "wed-1525",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Posting the versioning decision",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "153000_300",
+      "source": "verona",
+      "source_id": "wed-1530",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Email to Tybalt about the rule",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "153500_300",
+      "source": "verona",
+      "source_id": "wed-1535",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Tybalt's reply",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "154000_300",
+      "source": "verona",
+      "source_id": "wed-1540",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Schema Bridge board, afternoon",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "154500_300",
+      "source": "verona",
+      "source_id": "wed-1545",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Friday demo plan",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "155000_300",
+      "source": "verona",
+      "source_id": "wed-1550",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Friday demo plan, risks",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "160000_300",
+      "source": "verona",
+      "source_id": "wed-1600",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Demo plan during Benvolio's call",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "160500_300",
+      "source": "verona",
+      "source_id": "wed-1605",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Demo plan, final",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "161000_300",
+      "source": "verona",
+      "source_id": "wed-1610",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): #balcony-beta afternoon",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "161500_300",
+      "source": "verona",
+      "source_id": "wed-1615",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Looking at flights to Paris",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "162000_300",
+      "source": "verona",
+      "source_id": "wed-1620",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Flight options, continued",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "162500_300",
+      "source": "verona",
+      "source_id": "wed-1625",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Angela asks about the announcement",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "163000_300",
+      "source": "verona",
+      "source_id": "wed-1630",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Balcony 3.0 announcement draft",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "163500_300",
+      "source": "verona",
+      "source_id": "wed-1635",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Announcement draft, continued",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "164000_300",
+      "source": "verona",
+      "source_id": "wed-1640",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Paris replies",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "164500_300",
+      "source": "verona",
+      "source_id": "wed-1645",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Answering Paris about corrections",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "165000_300",
+      "source": "verona",
+      "source_id": "wed-1650",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: final pass",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "165500_300",
+      "source": "verona",
+      "source_id": "wed-1655",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2: corrections note",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "170000_300",
+      "source": "verona",
+      "source_id": "wed-1700",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Balcony board, end of day",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "170500_300",
+      "source": "verona",
+      "source_id": "wed-1705",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Spec v2 is up",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "171000_300",
+      "source": "verona",
+      "source_id": "wed-1710",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Thursday list",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "171500_300",
+      "source": "verona",
+      "source_id": "wed-1715",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Clearing the inbox",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "172000_300",
+      "source": "verona",
+      "source_id": "wed-1720",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Flights again",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "172500_300",
+      "source": "verona",
+      "source_id": "wed-1725",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Thursday list, done",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "173500_300",
+      "source": "verona",
+      "source_id": "wed-1735",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Signing off",
       "exercises": [
         "screen_description",
         "entity_extraction"

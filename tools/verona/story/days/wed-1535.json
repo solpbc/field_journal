@@ -1,0 +1,52 @@
+{
+  "id": "wed-1535",
+  "kind": "screen",
+  "title": "Tybalt's reply",
+  "app": "inbox",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Tybalt Capulet",
+      "subject": "Re: Versioning with Montague",
+      "preview": "thanks for writing it down. my worry is they slow us down."
+    },
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Thanks, and Friday",
+      "preview": "Got it, Friday at 2 works. Our auditor may join for the PDF part."
+    },
+    {
+      "from": "Benvolio Montague",
+      "subject": "Invite: Schema Bridge demo for Ducal Freight",
+      "preview": "Friday 2:00 to 2:45, with Paris Duke, Romeo and Juliet."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Balthasar can do Thursday 3:30. I'm booking a check-in for the three of us."
+    }
+  ],
+  "open_index": 0,
+  "open": {
+    "from": "Tybalt Capulet",
+    "subject": "Re: Versioning with Montague",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "thanks for writing it down."
+      },
+      {
+        "type": "p",
+        "text": "my worry is they slow us down. can we talk tomorrow at 10?"
+      },
+      {
+        "type": "p",
+        "text": "T"
+      },
+      {
+        "type": "p",
+        "text": "On Wed, Juliet Capulet wrote: Romeo and I settled field versioning for Schema Bridge this afternoon..."
+      }
+    ]
+  }
+}

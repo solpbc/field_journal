@@ -1,0 +1,58 @@
+{
+  "id": "wed-1140",
+  "kind": "screen",
+  "app": "chat",
+  "title": "Balthasar's device run",
+  "channels": [
+    "#balcony-beta",
+    "#schema-bridge",
+    "#general",
+    "Angela Nurse",
+    "Benvolio Montague",
+    "Mercutio Escalus",
+    "Romeo Montague",
+    "Tybalt Capulet"
+  ],
+  "channel": "#balcony-beta",
+  "messages": [
+    {
+      "from": "Juliet Capulet",
+      "text": "approved Tybalt's fix. thank you for the late night.",
+      "done": true
+    },
+    {
+      "from": "Tybalt Capulet",
+      "text": "happy to. looking at the slow-wifi photo stall next",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "running the old tablet again at 11",
+      "done": true
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "device run, tybalt's branch:"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "android phone: pass"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "android tablet: pass. cheap warehouse tablet: pass"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "old android 11 tablet: pass with tybalt's branch. camera opened 20 times, no crash"
+    },
+    {
+      "from": "Balthasar Davi",
+      "text": "newer phones, both: pass"
+    },
+    {
+      "from": "Juliet Capulet",
+      "text": "six for six!"
+    }
+  ]
+}

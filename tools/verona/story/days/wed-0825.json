@@ -1,0 +1,67 @@
+{
+  "id": "wed-0825",
+  "kind": "screen",
+  "app": "board",
+  "title": "Balcony beta board, morning",
+  "board_title": "Balcony 3.0 beta",
+  "columns": [
+    "Backlog",
+    "In progress",
+    "Review",
+    "Done"
+  ],
+  "cards": [
+    {
+      "title": "Offline sync conflict",
+      "column": "In progress",
+      "assignee": "Balthasar"
+    },
+    {
+      "title": "Android 11 crash",
+      "column": "In progress",
+      "assignee": "Tybalt"
+    },
+    {
+      "title": "Release checklist",
+      "column": "In progress",
+      "assignee": "Angela"
+    },
+    {
+      "title": "Sync status screen",
+      "column": "In progress",
+      "assignee": "Mercutio"
+    },
+    {
+      "title": "Release notes",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Signed report layout",
+      "column": "Done",
+      "assignee": "Juliet"
+    },
+    {
+      "title": "Background photo upload",
+      "column": "Done",
+      "assignee": "Tybalt"
+    }
+  ],
+  "moves": [
+    {
+      "card": "Android 11 crash",
+      "to": "Review"
+    },
+    {
+      "card": "Offline sync conflict",
+      "to": "Review"
+    },
+    {
+      "add": {
+        "title": "QA sign-off",
+        "column": "Backlog",
+        "assignee": "Balthasar"
+      }
+    }
+  ]
+}

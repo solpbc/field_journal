@@ -1,0 +1,58 @@
+{
+  "id": "wed-1115",
+  "kind": "screen",
+  "app": "web",
+  "title": "Reading about signed documents",
+  "url": "docs.example/signed-records",
+  "page_title": "Signing records you can trust later",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A signed record is only useful if someone can trust it months later, when the person who signed it isn't in the room. A few habits make that much easier."
+    },
+    {
+      "type": "h2",
+      "text": "Sign at the moment of capture"
+    },
+    {
+      "type": "p",
+      "text": "Sign the record where it was made, at the time it was made. A signature added later, after the record has traveled through a few systems, says less about what was actually seen."
+    },
+    {
+      "type": "h2",
+      "text": "Include the time"
+    },
+    {
+      "type": "p",
+      "text": "Store the time of signing with the record itself, not the time it was received or uploaded. If a device was offline for a day, those two times can be far apart, and only one of them matters."
+    },
+    {
+      "type": "h2",
+      "text": "Keep the original"
+    },
+    {
+      "type": "p",
+      "text": "Never edit a signed record in place. If something was wrong, make a new record that corrects it and points back to the original. Both stay readable."
+    },
+    {
+      "type": "li",
+      "text": "The original shows what was known at the time."
+    },
+    {
+      "type": "li",
+      "text": "The correction shows what changed and who changed it."
+    },
+    {
+      "type": "h2",
+      "text": "Show that nothing changed"
+    },
+    {
+      "type": "p",
+      "text": "Print a short check value on the record, derived from its contents. Anyone reviewing it later can recompute the value and confirm the file hasn't changed since it was signed."
+    },
+    {
+      "type": "p",
+      "text": "None of this needs to be complicated. Most of it is deciding early that a signed record is finished."
+    }
+  ]
+}

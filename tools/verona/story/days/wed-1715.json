@@ -1,0 +1,76 @@
+{
+  "id": "wed-1715",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Clearing the inbox",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Paris Duke",
+      "subject": "Re: Thanks, and Friday",
+      "preview": "One more thing for Friday: our auditor will join for 15 minutes..."
+    },
+    {
+      "from": "Tybalt Capulet",
+      "subject": "Re: Versioning with Montague",
+      "preview": "my worry is they slow us down. can we talk tomorrow at 10?"
+    },
+    {
+      "from": "Benvolio Montague",
+      "subject": "Invite: Schema Bridge demo for Ducal Freight",
+      "preview": "Friday 2:00 to 2:45 · Paris Duke, Romeo, Juliet"
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Balthasar can do Thursday 3:30. I'm booking a check-in..."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Daily crash digest",
+      "preview": "2 crashes, both Android 11"
+    },
+    {
+      "from": "Test device billing",
+      "subject": "Invoice: test devices",
+      "preview": "Your invoice is ready. Amount due: $1,180.00"
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to the weekly note..."
+    },
+    {
+      "from": "Balthasar Davi",
+      "subject": "Overnight QA run: 6 devices",
+      "preview": "Offline sync fix holds on 5 of 6..."
+    }
+  ],
+  "open_index": 5,
+  "open": {
+    "from": "Test device billing",
+    "subject": "Invoice: test devices",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Hello,"
+      },
+      {
+        "type": "p",
+        "text": "Your invoice for test devices is ready. Bill to: Capulet Industries, attention Angela Nurse."
+      },
+      {
+        "type": "p",
+        "text": "Items: three test phones and two test tablets, with chargers and cases."
+      },
+      {
+        "type": "p",
+        "text": "Amount due: $1,180.00. Payment terms: net 30."
+      },
+      {
+        "type": "p",
+        "text": "Questions about this invoice? Reply to this message and we'll get back to you within one business day."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wed-0955",
+  "kind": "screen",
+  "app": "email",
+  "title": "Email to Angela about QA sign-off",
+  "to": "Angela Nurse",
+  "subject": "QA sign-off timing",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Hi Angela,"
+    },
+    {
+      "type": "p",
+      "text": "Following up on standup. Could Balthasar give his QA sign-off Thursday afternoon? I'd love for Friday's go/no-go to have nothing open on it, so we're deciding, not still testing."
+    },
+    {
+      "type": "p",
+      "text": "The one thing I know is left is another pass on the old Android 11 tablet with Tybalt's fix. If it helps, I'm happy to check the tablet myself. I just need it for half an hour."
+    },
+    {
+      "type": "p",
+      "text": "Thanks for keeping all of this moving,"
+    },
+    {
+      "type": "p",
+      "text": "Juliet"
+    }
+  ]
+}

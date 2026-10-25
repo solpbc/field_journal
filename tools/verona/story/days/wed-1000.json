@@ -1,0 +1,70 @@
+{
+  "id": "wed-1000",
+  "kind": "screen",
+  "app": "inbox",
+  "title": "Angela's reply",
+  "folder": "Inbox",
+  "messages": [
+    {
+      "from": "Angela Nurse",
+      "subject": "Re: QA sign-off timing",
+      "preview": "Thursday 3:30 works for Balthasar. I'm booking a check-in..."
+    },
+    {
+      "from": "Calendar",
+      "subject": "Reminder: Ducal Freight discovery call",
+      "preview": "Today 10:30 to 11:15 · Paris Duke, Juliet Capulet"
+    },
+    {
+      "from": "Billing",
+      "subject": "Invoice: test devices, February",
+      "preview": "Monthly rental for 6 test devices. Payment due in 30 days."
+    },
+    {
+      "from": "Angela Nurse",
+      "subject": "Release checklist (80%)",
+      "preview": "Quick status before standup. Most of it is checked off, QA sign-off is the big one..."
+    },
+    {
+      "from": "Balcony beta crash digest",
+      "subject": "Daily digest: Tuesday",
+      "preview": "2 new crashes, 1 device, 41 active testers"
+    },
+    {
+      "from": "Lawrence Friar",
+      "subject": "Friday",
+      "preview": "Looking forward to your note. One small request..."
+    }
+  ],
+  "open_index": 0,
+  "open": {
+    "from": "Angela Nurse",
+    "subject": "Re: QA sign-off timing",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Hi Juliet,"
+      },
+      {
+        "type": "p",
+        "text": "Good call. I asked Balthasar and he can do Thursday at 3:30."
+      },
+      {
+        "type": "p",
+        "text": "I'm booking a check-in for the three of us then, so we can hear his results together and he can sign off in the room."
+      },
+      {
+        "type": "p",
+        "text": "The checklist will be at 95% by then. After his sign-off, the only thing left before Friday is the go/no-go itself."
+      },
+      {
+        "type": "p",
+        "text": "Thanks for the offer on the tablet. I'll shout if we need you."
+      },
+      {
+        "type": "p",
+        "text": "Angela"
+      }
+    ]
+  }
+}

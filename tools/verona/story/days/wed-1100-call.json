@@ -1,0 +1,119 @@
+{
+  "id": "wed-1100-call",
+  "kind": "audio",
+  "title": "Quick call with Angela",
+  "lines": [
+    {
+      "speaker": "juliet_capulet",
+      "text": "Hi Angela. Is now still okay?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Now's great. I've got the checklist open. How'd the Ducal call go?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Really well, actually. He knows exactly what he wants, which is a gift. Anyway. Where are we?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "So I just moved us to eighty-five percent. Release notes, store listing, rollout plan, all checked off. The two big ones left are forty-eight hours crash-free and QA sign-off."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "And Balthasar's still good for Thursday at three thirty?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Three thirty, yep. He'll sign off then, assuming the old tablet behaves. I'm booking it for the three of us this afternoon."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Is he running it now? He said eleven."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Right now, yeah. All six devices, with Tybalt's branch on the old one. He'll post in the channel when he's done."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Great. And go or no-go doesn't move?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Friday, nine thirty. Unless something catches fire, it doesn't move."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Let's not set anything on fire."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Ha. Noted. And the rollout plan's the boring one we talked about. Ten percent first, then everybody, if the crash numbers stay quiet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Boring is good. I like boring this week."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Um, the other thing. The announcement. I'd like to draft it so it's ready, but I won't send anything until we've actually said go."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yes, perfect. Draft it, send it after the go."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "That's the plan."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "One ask from me. The old Android 11 tablet, the one that kept crashing. Can we add it to the standing device list? So it gets tested every release, not just when someone remembers it's in the drawer."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Oh, good call. That's the one that caught the camera crash. I'll add it today."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Where does it live, anyway?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "In my desk drawer. With a sticky note on it that says do not recycle."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Good. Let's keep it that way for a while."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Thank you. I left the same note on Tybalt's pull request, for CI."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Then I'll match whatever he does. Same tablet on both lists."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Perfect. Anything you need from me before Friday?"
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Honestly? Just show up at nine thirty. Oh, and if you see anything odd in the crash digest, forward it to me. Don't just, you know, file it in your head."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Ha. Fair. Will do."
+    },
+    {
+      "speaker": "nurse_angela",
+      "text": "Okay, that's me. Go write your spec."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Going. Thanks, Angela."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "wed-1410",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: the envelope",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Who sees what",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Capulet sees inspections: the full record, findings and photos included.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Montague sees the routing envelope: who sent an event, where it's going, when it was sent. Not the findings.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Ducal sees only its own sites. Nothing from Montague's routing data.",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Same line I gave Paris this morning: Ducal sees only what Ducal sends.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Envelope (Montague)"
+    },
+    {
+      "type": "p",
+      "text": "Every Mesh Routing event is an envelope plus a body (from Montague's docs)."
+    },
+    {
+      "type": "li",
+      "text": "id: made on the device. Also what the receiver uses to ignore repeats."
+    },
+    {
+      "type": "li",
+      "text": "sender, destination: where the event comes from and where it goes."
+    },
+    {
+      "type": "li",
+      "text": "schema_version: the version of the body's format, so the receiver knows how to read it."
+    },
+    {
+      "type": "li",
+      "text": "sent_at: when the event left the device. Not the same as signed_at."
+    },
+    {
+      "type": "p",
+      "text": "The inspection record is the body. That part is Capulet's."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "wed-1655",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Spec v2: corrections note",
+  "doc_title": "Schema Bridge: v2",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Signing",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "The inspector signs on the device at the moment of signing, online or not. signed_at is stamped right then.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "The PDF prints the signature and the time signed.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Each PDF carries a short check code, so an auditor can confirm the file hasn't changed since it was signed.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "A signed inspection is never edited. A correction is a new inspection that points to the old one.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "A correction shows on the PDF with a pointer to the inspection it corrects."
+    },
+    {
+      "type": "li",
+      "text": "The original PDF stays exactly as it was signed. Paris passed on the auditor's question about this today; show one on Friday."
+    },
+    {
+      "type": "li",
+      "text": "Mercutio: leave a spot for the pointer on the layout."
+    },
+    {
+      "type": "h2",
+      "text": "Sync",
+      "done": true
+    },
+    {
+      "type": "p",
+      "text": "Was: nightly batch, Balcony to Mesh Routing.",
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "wed-1725",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Thursday list, done",
+  "doc_title": "Thu",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Thu",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "10:00 Tybalt about the versioning rule. It covers the inspection record only, not Balcony's internals. Listen first.",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Review Romeo's queue PR (schema_version + retries; check the 10k cap is in)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "3:30 check-in with Angela and Balthasar. Old tablet, QA sign-off, checklist",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Record the backup demo video (offline inspection syncing on reconnect)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Mercutio's PDF mock: check a correction shows up on it, Paris asked",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Write the weekly note to Friar Friday: Balcony, versioning, Ducal. Keep it short, and add one line on what I need from him (he asked)."
+    },
+    {
+      "type": "li",
+      "text": "Book the Paris flight. Actually book it."
+    },
+    {
+      "type": "h2",
+      "text": "Fri"
+    },
+    {
+      "type": "li",
+      "text": "9:30 go/no-go"
+    },
+    {
+      "type": "li",
+      "text": "2:00 Ducal demo. Auditor joins for 15 min in the middle; show a correction on the PDF"
+    }
+  ]
+}
