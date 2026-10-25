@@ -37,7 +37,7 @@ The first nine sources are real recordings of real people. **verona is the excep
 
 1. installs the latest released solstone journal into an isolated home under `.demo/runtime/`, so your own install and service are untouched;
 2. moves the week so that its Friday is the most recent Friday before today;
-3. imports the week's calendar, lets that journal's own supervisor process it now rather than overnight (transcription, speakers, thinking, daily outputs), then builds the index;
+3. imports the week's calendar, lets that journal's own supervisor process it now rather than overnight (transcription, speakers, thinking, daily outputs), waits for its activities to settle, then builds the index;
 4. writes `.demo/latest/demo-build.json`, recording the journal version, this repo's commit and the provider and model used.
 
 To make Wednesday today instead, run `tools/verona/demo.sh --today YYYY-MM-DD` after 6 pm Denver time, once the day's last entry has passed. The days before it move with it, and Thursday and Friday are left out, since they haven't happened yet.

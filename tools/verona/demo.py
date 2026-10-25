@@ -328,6 +328,41 @@ def wait_for_processing(
     raise SystemExit("processing did not finish in time; the supervisor log says why")
 
 
+def settle_activities(
+    journal: Path, days: dict[str, str], log_path: Path, timeout_s: int
+) -> None:
+    """Write each day's activities, then wait until they have all settled.
+
+    Segments seeded into a stream are thought as backfill, which never advances
+    the stream's activity state, so no activities exist yet. Re-thinking each day
+    in capture order hands its activities to the journal's settle step, which the
+    running supervisor publishes once they have been still for its settle window.
+    """
+    env = _journal_env(journal)
+    for day in sorted(days.values()):
+        # A talent that fails here (it is re-run on segments already thought)
+        # is logged, not fatal: what matters is the activities it hands on.
+        result = subprocess.run(
+            ["solstone", "journal", "think", "--day", day, "--segments"],
+            env=env,
+            stdout=log_path.open("a", encoding="utf-8"),
+            stderr=subprocess.STDOUT,
+        )
+        log.info("think --segments %s: exit %d", day, result.returncode)
+    pending_dir = journal / "awareness" / "activity_settle"
+    deadline = time.monotonic() + timeout_s
+    while time.monotonic() < deadline:
+        pending = 0
+        for state in pending_dir.glob("*.json"):
+            data = json.loads(state.read_text(encoding="utf-8"))
+            pending += sum(len(c) for c in data.get("days", {}).values())
+        log.info("activities waiting to settle: %d", pending)
+        if pending == 0:
+            return
+        time.sleep(30)
+    raise SystemExit("activities did not settle in time; the supervisor log says why")
+
+
 def _version(env: dict[str, str]) -> str:
     out = subprocess.run(
         ["solstone", "journal", "--version"],
@@ -436,6 +471,7 @@ def main(argv: list[str] | None = None) -> int:
             log_path,
         )
         wait_for_processing(journal, placed, days, args.timeout)
+        settle_activities(journal, days, log_path, args.timeout)
         _run(["solstone", "journal", "indexer", "--rescan-full"], env, log_path)
     finally:
         stop_supervisor(supervisor)
