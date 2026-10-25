@@ -9,7 +9,7 @@ the build so an MCP client can ask the journal a question, for example:
 
     claude -p --mcp-config .demo/latest/mcp.json "<question>"
 
-Every call the agent makes is then listed by ``journal mcp activity``.
+Every call the agent makes is then listed by ``solstone journal mcp activity``.
 Stop with Ctrl-C.
 """
 
@@ -48,7 +48,7 @@ def grant_agent(journal: Path, out: Path) -> Path:
         secrets = re.findall(r"^\s*(\S{30,})\s*$", created, flags=re.MULTILINE)
         if len(secrets) != 1:
             raise SystemExit(
-                "could not read the new token from `journal mcp token create`"
+                "could not read the new token from `solstone journal mcp token create`"
             )
         config = {
             "mcpServers": {
