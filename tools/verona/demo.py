@@ -239,6 +239,7 @@ def start_supervisor(journal: Path, log_path: Path) -> subprocess.Popen:
     out = log_path.open("a", encoding="utf-8")
     proc = subprocess.Popen(
         [
+            "solstone",
             "journal",
             "supervisor",
             str(CONVEY_PORT),
@@ -303,7 +304,15 @@ def wait_for_processing(
         pending = _segments_done(journal, placed)
         owed = (
             subprocess.run(
-                ["journal", "reprocess", first, "--through", last, "--owed"],
+                [
+                    "solstone",
+                    "journal",
+                    "reprocess",
+                    first,
+                    "--through",
+                    last,
+                    "--owed",
+                ],
                 env=env,
                 capture_output=True,
                 text=True,
@@ -321,7 +330,11 @@ def wait_for_processing(
 
 def _version(env: dict[str, str]) -> str:
     out = subprocess.run(
-        ["journal", "--version"], env=env, capture_output=True, text=True, check=True
+        ["solstone", "journal", "--version"],
+        env=env,
+        capture_output=True,
+        text=True,
+        check=True,
     )
     return out.stdout.strip()
 
@@ -378,6 +391,7 @@ def main(argv: list[str] | None = None) -> int:
 
     _run(
         [
+            "solstone",
             "journal",
             "setup",
             "--journal",
@@ -395,6 +409,7 @@ def main(argv: list[str] | None = None) -> int:
     configure(journal, api_key)
     _run(
         [
+            "solstone",
             "journal",
             "thinking",
             "set-lane",
@@ -415,9 +430,13 @@ def main(argv: list[str] | None = None) -> int:
 
     supervisor = start_supervisor(journal, out / "supervisor.log")
     try:
-        _run(["journal", "importer", str(calendar), "--source", "ics"], env, log_path)
+        _run(
+            ["solstone", "journal", "importer", str(calendar), "--source", "ics"],
+            env,
+            log_path,
+        )
         wait_for_processing(journal, placed, days, args.timeout)
-        _run(["journal", "indexer", "--rescan-full"], env, log_path)
+        _run(["solstone", "journal", "indexer", "--rescan-full"], env, log_path)
     finally:
         stop_supervisor(supervisor)
 

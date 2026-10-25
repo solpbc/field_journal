@@ -39,7 +39,7 @@ def grant_agent(journal: Path, out: Path) -> Path:
     config_path = out / "mcp.json"
     if not config_path.exists():
         created = subprocess.run(
-            ["journal", "mcp", "token", "create", "--label", LABEL],
+            ["solstone", "journal", "mcp", "token", "create", "--label", LABEL],
             env=env,
             capture_output=True,
             text=True,
@@ -63,6 +63,7 @@ def grant_agent(journal: Path, out: Path) -> Path:
         config_path.chmod(0o600)
     subprocess.run(
         [
+            "solstone",
             "journal",
             "mcp",
             "permission",
