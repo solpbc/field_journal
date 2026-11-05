@@ -6,6 +6,14 @@ A curated collection of public domain and permissively-licensed media organized 
 
 The `journal/` directory follows solstone's `day/stream/segment/` structure — a multi-day fixture journal built from real-world audio and screen recordings. Media files are committed directly to git so anyone can clone and use the journal without downloading external resources.
 
+The repo holds three different things. Each has its own use, so when you mention one, name which:
+
+| Name it | What it is | Use it for |
+|---|---|---|
+| **the corpus** | every segment in `journal/` whose `source` in `manifest.json` is one of the recorded sources below: real people, under the licenses listed. Some have reference transcripts and speaker labels in `reference/` (`has_reference` in the manifest) | testing and measuring the pipeline (transcription, speaker separation, entities, facets) |
+| **the verona week** | the `verona.audio` and `verona.screen` streams in `journal/20260209` to `journal/20260213`, written in `tools/verona/story/`: one invented working week with exact reference transcripts | anything other people will see, since nobody in it is real |
+| **the verona demo journal** | a journal built from the verona week by a released solstone journal (`make demo`), under `.demo/`, and never committed | screenshots, walkthroughs and agent answers; say which journal version built it (its `demo-build.json` records it) |
+
 ## sources
 
 | Source | License | What it provides |
@@ -21,7 +29,7 @@ The `journal/` directory follows solstone's `day/stream/segment/` structure — 
 | [DiPCo Dinner Party Corpus](https://zenodo.org/records/8122551) | CDLA-Permissive-1.0 | Close-talk dinner-party speaker mixes with overlap-rich transcripts |
 | verona (written by sol pbc) | CC-BY 4.0 | A synthetic working week: invented people, meetings, writing and projects, with exact reference transcripts |
 
-The first nine sources are real recordings of real people. **verona is the exception: it is fiction**, written for this corpus, and nobody in it is a real person (see below).
+The first nine sources are real recordings of real people. **verona is the exception: it is fiction**, written for this repo, and nobody in it is a real person (see below).
 
 ## verona: the synthetic week
 
@@ -49,6 +57,8 @@ Speaker names stay "unknown voice". Teaching the journal Juliet's voice would al
 To make Wednesday today instead, run `tools/verona/demo.sh --today YYYY-MM-DD` after 6 pm Denver time, once the day's last entry has passed. The days before it move with it, and Thursday and Friday are left out, since they haven't happened yet.
 
 `make demo-serve` opens the latest build's web app at `http://127.0.0.1:5115`. It also opens its local agent door at `http://127.0.0.1:7659/mcp`, with a read-only demo token written to `.demo/latest/mcp.json`, so any MCP client can ask the week a question. Port 7659 is fixed, so stop your own journal first if one runs on this computer.
+
+`solstone call` finds a journal by port, not by folder. Before you query the demo from the command line, set `SOLSTONE_CONVEY_PORT` to its web app port (5115 for `make demo-serve`; for a build that is still running, the `--port` you gave it). Without it, the command can reach another journal on the same computer.
 
 ## directory structure
 
