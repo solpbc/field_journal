@@ -35,10 +35,16 @@ The first nine sources are real recordings of real people. **verona is the excep
 
 `make demo` builds a journal containing **only** the verona week, so it never includes the real recordings. A test enforces this. The build needs `GOOGLE_API_KEY` and `minisign`. It:
 
-1. installs the latest released solstone journal into an isolated home under `.demo/runtime/`, so your own install and service are untouched;
-2. moves the week so that its Friday is the most recent Friday before today;
-3. imports the week's calendar, lets that journal's own supervisor process it now rather than overnight (transcription, speakers, thinking, daily outputs), waits for its activities to settle, then builds the index;
-4. writes `.demo/latest/demo-build.json`, recording the journal version, this repo's commit and the provider and model used.
+1. installs the latest released solstone journal into an isolated home under `.demo/runtime/`, so your own install and service are untouched.
+2. moves the week so that its Friday is the most recent Friday before today.
+3. sets that journal up, locks its mark and pairs one invented device, `juliets-laptop`, the way an owner pairs a computer. The device reports that name, never this computer's own. The journal labels it "your computer", from the platform the device reports.
+4. imports the week's calendar, then has the device deliver each segment through the journal's ingest, in the order it was recorded. No segment is written into the journal directly. The journal's own supervisor processes everything now rather than overnight (transcription, telling speakers apart, thinking, daily outputs), and the build waits for its activities to settle.
+5. adds the people, companies and two projects Juliet works with through the journal's own `entities attach`, as an owner would. It adds each one only in a facet where the journal detected it.
+6. builds the index, then writes `.demo/latest/demo-build.json`, which records the journal version, this repo's commit, the provider and model, the device, and those owner actions.
+
+Speaker names stay "unknown voice". Teaching the journal Juliet's voice would also mark lines spoken by others with similar stock voices as hers, so the build leaves it out.
+
+`tools/verona/demo.sh --port N --direct-port N` moves the build off 5115 and 7757, so you can build while another build is being served.
 
 To make Wednesday today instead, run `tools/verona/demo.sh --today YYYY-MM-DD` after 6 pm Denver time, once the day's last entry has passed. The days before it move with it, and Thursday and Friday are left out, since they haven't happened yet.
 
