@@ -39,6 +39,7 @@ import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
@@ -136,6 +137,15 @@ def write_calendar(path: Path, days: dict[str, str]) -> None:
     """The week's meetings as an owner's calendar export (ICS)."""
     cast = story.load_cast()["people"]
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    # Every invite went out the morning the week began. The journal lists an
+    # imported event by the day it happens only when the file says when the
+    # event was created or last changed, as a real calendar export does.
+    created = (
+        datetime.strptime(min(days.values()) + "T080000", "%Y%m%dT%H%M%S")
+        .replace(tzinfo=ZoneInfo(TIMEZONE))
+        .astimezone(timezone.utc)
+        .strftime("%Y%m%dT%H%M%SZ")
+    )
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//sol pbc//verona demo//EN"]
     for entry in story.load_entries():
         if entry["kind"] != "audio" or len(entry["people"]) < 2:
@@ -149,6 +159,8 @@ def write_calendar(path: Path, days: dict[str, str]) -> None:
             "BEGIN:VEVENT",
             f"UID:{entry['id']}@verona.example",
             f"DTSTAMP:{stamp}",
+            f"CREATED:{created}",
+            f"LAST-MODIFIED:{created}",
             f"DTSTART;TZID={TIMEZONE}:{start}",
             f"DTEND;TZID={TIMEZONE}:{end_dt.strftime('%Y%m%dT%H%M%S')}",
             f"SUMMARY:{entry['title']}",
