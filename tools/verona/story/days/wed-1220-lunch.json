@@ -1,0 +1,115 @@
+{
+  "id": "wed-1220-lunch",
+  "kind": "audio",
+  "title": "Lunch with Rosaline",
+  "lines": [
+    {
+      "speaker": "rosaline_capulet",
+      "text": "There she is. I already ordered for you. Two of the green ones."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "You're the best person I know. How long's the line?"
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Ten minutes, the guy says, which means twenty. Want to walk the long way round the park?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Yes, please. I've been at my desk since eight."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "How's the big week going?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Honestly? Good. My first real customer call was this morning and it went really well. Anyway. Tell me something that isn't work."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Okay. Big news. I made a bowl."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "A bowl! At the class?"
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "At the class. It's a little lopsided. Okay, it's very lopsided. But it holds keys."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Is it for Dad? Because Mom just called. Sunday's at six thirty, and she says bring nothing."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "So I'm bringing the bowl."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "You're bringing the bowl."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Uncle Marco's sixty. That's wild. What are you getting him?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "The old radio from the garage. If I can get it fixed by Sunday."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "The one he sings along to? Badly?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "That one. It hasn't worked since I was twelve."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "He's going to cry."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "He is absolutely going to cry."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Oh, they called our number. Hey, Saturday morning, are we still running?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Seven, at the river path? Yes. Slowly."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Slowly's the only speed I have. And are you going to Paris or not? Your mom texted me."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "She texted you?"
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "She texts me about everything. Paris the city, right? Not the freight guy."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Paris the city. The trade show on the twenty-sixth. I'm booking it tonight."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "Book it now. I'll watch."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "After tacos."
+    },
+    {
+      "speaker": "rosaline_capulet",
+      "text": "After tacos. Deal."
+    }
+  ]
+}

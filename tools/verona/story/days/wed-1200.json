@@ -1,0 +1,61 @@
+{
+  "id": "wed-1200",
+  "kind": "screen",
+  "app": "doc",
+  "title": "Planning Dad's sixtieth",
+  "doc_title": "Dad's 60th",
+  "title_done": true,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Sunday at Mom and Dad's, 6:30.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Coming",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Mom, Dad, me",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Rosaline (ask her at lunch)",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "the Rossis from next door",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Cake",
+      "done": true
+    },
+    {
+      "type": "li",
+      "text": "Mom's baking. Lemon, like every year. He can't know.",
+      "done": true
+    },
+    {
+      "type": "h2",
+      "text": "Gift"
+    },
+    {
+      "type": "li",
+      "text": "The old radio from the garage, if it can be fixed by Sunday."
+    },
+    {
+      "type": "li",
+      "text": "Call the repair place on Thursday morning."
+    },
+    {
+      "type": "li",
+      "text": "Backup: the lake photo from that summer, framed."
+    }
+  ]
+}

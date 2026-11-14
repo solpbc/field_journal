@@ -58,7 +58,7 @@ def test_manifest_segment_count() -> None:
     segments = data["segments"]
     if not segments:
         pytest.skip("No segments in manifest (journal not built)")
-    assert len(segments) == 209
+    assert len(segments) == 212
 
 
 def test_manifest_stream_counts() -> None:

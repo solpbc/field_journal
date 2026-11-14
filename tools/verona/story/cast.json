@@ -10,7 +10,9 @@
     "mercutio_escalus": {"name": "Mercutio Escalus", "role": "Designer at Montague Tech; quick and funny", "voice": "Zephyr"},
     "friar_lawrence": {"name": "Lawrence Friar", "role": "Partner at Verona Ventures; Juliet's advisor and Capulet's lead investor; everyone calls him Friar", "voice": "Orus"},
     "paris_duke": {"name": "Paris Duke", "role": "VP operations at Ducal Freight; the first customer for Schema Bridge", "voice": "Iapetus"},
-    "balthasar_davi": {"name": "Balthasar Davi", "role": "Contract QA engineer on the Balcony App beta", "voice": "Algenib"}
+    "balthasar_davi": {"name": "Balthasar Davi", "role": "Contract QA engineer on the Balcony App beta", "voice": "Algenib"},
+    "livia_capulet": {"name": "Livia Capulet", "role": "Juliet's mom", "voice": "Gacrux"},
+    "rosaline_capulet": {"name": "Rosaline Capulet", "role": "Juliet's cousin and closest friend; teaches art at a high school", "voice": "Leda"}
   },
   "companies": {
     "capulet_industries": "Capulet Industries, maker of the Balcony App (field-inspection app for warehouses)",

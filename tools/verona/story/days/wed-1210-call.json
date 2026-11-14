@@ -1,0 +1,79 @@
+{
+  "id": "wed-1210-call",
+  "kind": "audio",
+  "title": "Call with Mom",
+  "lines": [
+    {
+      "speaker": "livia_capulet",
+      "text": "Hi, honey. Is this a bad time?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "No, perfect timing. I'm just heading out for lunch. Hi, Mom."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "I won't keep you. I wanted to check on Sunday. Six thirty still works?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Six thirty's great. I just made a list, actually. Who's coming, the cake, the gift."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "Of course you made a list."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Of course I did. Is it still lemon?"
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "It's always lemon. Your father would riot. But he can't know about the cake. He thinks it's just dinner."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Mom, he knows. He knows every year."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "He pretends he doesn't, and that's the whole point. Is Rosaline coming?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I'm seeing her in ten minutes. I'll ask her."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "Tell her to bring nothing. She'll bring something anyway."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "She'll bring a bowl. She's taking a pottery class."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "Oh, that's lovely. And Juliet, did you book Paris yet?"
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Um. Not yet."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "Juliet."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "I know, I know. Tonight. I promise."
+    },
+    {
+      "speaker": "livia_capulet",
+      "text": "Okay. Go eat something. Love you."
+    },
+    {
+      "speaker": "juliet_capulet",
+      "text": "Love you too. Bye, Mom."
+    }
+  ]
+}

@@ -456,6 +456,30 @@
     "title": "Beta feedback, more"
   },
   {
+    "id": "wed-1200",
+    "day": "20260211",
+    "stream": "verona.screen",
+    "time": "120000",
+    "duration_seconds": 300,
+    "title": "Planning Dad's sixtieth"
+  },
+  {
+    "id": "wed-1210-call",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "121000",
+    "duration_seconds": 73,
+    "title": "Call with Mom"
+  },
+  {
+    "id": "wed-1220-lunch",
+    "day": "20260211",
+    "stream": "verona.audio",
+    "time": "122000",
+    "duration_seconds": 119,
+    "title": "Lunch with Rosaline"
+  },
+  {
     "id": "wed-1245",
     "day": "20260211",
     "stream": "verona.screen",

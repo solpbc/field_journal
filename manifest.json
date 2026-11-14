@@ -1463,6 +1463,40 @@
     {
       "day": "20260211",
       "stream": "verona.audio",
+      "segment": "121000_73",
+      "source": "verona",
+      "source_id": "wed-1210-call",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 73,
+      "description": "verona (synthetic, sol pbc): Call with Mom",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
+      "segment": "122000_119",
+      "source": "verona",
+      "source_id": "wed-1220-lunch",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 119,
+      "description": "verona (synthetic, sol pbc): Lunch with Rosaline",
+      "exercises": [
+        "transcription",
+        "diarization",
+        "entity_extraction",
+        "facet_classification"
+      ],
+      "has_reference": true
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.audio",
       "segment": "143000_148",
       "source": "verona",
       "source_id": "wed-1430-call",
@@ -2197,6 +2231,21 @@
       "license": "CC-BY-4.0",
       "duration_seconds": 300,
       "description": "verona (synthetic, sol pbc): Beta feedback, more",
+      "exercises": [
+        "screen_description",
+        "entity_extraction"
+      ],
+      "has_reference": false
+    },
+    {
+      "day": "20260211",
+      "stream": "verona.screen",
+      "segment": "120000_300",
+      "source": "verona",
+      "source_id": "wed-1200",
+      "license": "CC-BY-4.0",
+      "duration_seconds": 300,
+      "description": "verona (synthetic, sol pbc): Planning Dad's sixtieth",
       "exercises": [
         "screen_description",
         "entity_extraction"

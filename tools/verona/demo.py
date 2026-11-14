@@ -66,6 +66,12 @@ FACETS = {
         "color": "#3b6fb5",
         "emoji": "🌉",
     },
+    "personal": {
+        "title": "Personal",
+        "description": "Life outside work: family, friends and plans",
+        "color": "#5e8a4f",
+        "emoji": "🌿",
+    },
 }
 EMAIL_DOMAINS = {
     "juliet_capulet": "capulet.example",
@@ -77,6 +83,8 @@ EMAIL_DOMAINS = {
     "mercutio_escalus": "montague.example",
     "friar_lawrence": "verona-ventures.example",
     "paris_duke": "ducal-freight.example",
+    "livia_capulet": "mail.example",
+    "rosaline_capulet": "mail.example",
 }
 
 
@@ -149,6 +157,8 @@ def write_calendar(path: Path, days: dict[str, str]) -> None:
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//sol pbc//verona demo//EN"]
     for entry in story.load_entries():
         if entry["kind"] != "audio" or len(entry["people"]) < 2:
+            continue
+        if entry.get("calendar") is False:  # a call that was never on the calendar
             continue
         if entry["day"] not in days:
             continue

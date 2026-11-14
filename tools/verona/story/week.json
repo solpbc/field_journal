@@ -1,5 +1,5 @@
 {
-  "notes": "One working week, Monday 2026-02-09 to Friday 2026-02-13, from Juliet Capulet's journal. Times are local (America/Denver). Each entry is one segment. 'audio' entries are spoken (meetings, calls, voice memos); 'screen' entries are Juliet's screen while she writes or works. Durations are targets in seconds; audio length is whatever the script produces. Wednesday, the hero day, is a full ordinary working day: Juliet's screen in five-minute segments from about 8 to 6, with her meetings and calls alongside, the way a real owner's day fills a journal.",
+  "notes": "One working week, Monday 2026-02-09 to Friday 2026-02-13, from Juliet Capulet's journal. Times are local (America/Denver). Each entry is one segment. 'audio' entries are spoken (meetings, calls, voice memos); 'screen' entries are Juliet's screen while she writes or works. Durations are targets in seconds; audio length is whatever the script produces. Wednesday, the hero day, is a full ordinary working day with a lunch hour of her own: Juliet's screen in five-minute segments from about 8 to 6, with her meetings and calls alongside, the way a real owner's day fills a journal.",
   "days": [
     {"day": "20260209", "weekday": "Monday", "entries": [
       {"id": "mon-memo", "time": "084500", "kind": "audio", "title": "Voice memo: plan for the week", "people": ["juliet_capulet"], "target_seconds": 75,
@@ -120,6 +120,12 @@
        "beats": "Web page beta.capulet.example/feedback, 'Balcony 3.0 beta feedback': tester comments, e.g. 'offline mode saved me in the basement', 'photo upload slow on hotel wifi', 'love the signed report', 'wish I could search past inspections'. Juliet scrolls."},
       {"id": "wed-1155", "time": "115500", "kind": "screen", "title": "Beta feedback, more", "app": "web", "target_seconds": 300,
        "beats": "Same page, further down: more tester comments about sync status ('I never know if it sent'), dark mode, a request for site names in the report. Juliet reads to the end."},
+      {"id": "wed-1200", "time": "120000", "kind": "screen", "title": "Planning Dad's sixtieth", "app": "doc", "target_seconds": 300,
+       "beats": "Doc 'Dad's 60th': Sunday at Mom and Dad's, 6:30; who's coming (ask Rosaline at lunch), Mom's lemon cake, a secret. Juliet types the gift ideas: fix the old radio from the garage by Sunday, call the repair place Thursday, the framed lake photo as a backup."},
+      {"id": "wed-1210-call", "time": "121000", "kind": "audio", "title": "Call with Mom", "people": ["juliet_capulet", "livia_capulet"], "target_seconds": 75, "calendar": false,
+       "beats": "Juliet's mom Livia calls as Juliet heads out for lunch: Sunday at 6:30 for her dad's sixtieth, lemon cake as always, he can't know (he always knows). Is Rosaline coming? Juliet will ask her at lunch. Livia asks if she's booked the Paris flight; not yet, tonight, she promises. Warm and quick."},
+      {"id": "wed-1220-lunch", "time": "122000", "kind": "audio", "title": "Lunch with Rosaline", "people": ["juliet_capulet", "rosaline_capulet"], "target_seconds": 150,
+       "beats": "Juliet meets her cousin Rosaline at a taco truck by the park and they walk the long way round while they wait. Rosaline made a lopsided bowl at her pottery class and will bring it Sunday. Juliet plans to fix her dad's old radio as his gift. They keep Saturday's 7am run on the river path. Rosaline, tipped off by Juliet's mom, teases her about booking Paris (the city, not the freight guy)."},
       {"id": "wed-1245", "time": "124500", "kind": "screen", "title": "After lunch", "app": "chat", "target_seconds": 300,
        "beats": "#balcony-beta. Done: messages from lunch time. New: Tybalt 'looked at the slow-wifi photo stall: it resumes on its own, not a blocker', Juliet 'love it. writing spec v2 now, ping me if you need me'."},
       {"id": "wed-1250", "time": "125000", "kind": "screen", "title": "Quick inbox check", "app": "inbox", "target_seconds": 300,
