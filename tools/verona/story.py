@@ -16,11 +16,13 @@ LICENSE = "CC-BY-4.0"
 
 
 def load_cast() -> dict:
-    return json.loads((STORY_DIR / "cast.json").read_text(encoding="utf-8"))
+    cast: dict = json.loads((STORY_DIR / "cast.json").read_text(encoding="utf-8"))
+    return cast
 
 
 def load_week() -> dict:
-    return json.loads((STORY_DIR / "week.json").read_text(encoding="utf-8"))
+    week: dict = json.loads((STORY_DIR / "week.json").read_text(encoding="utf-8"))
+    return week
 
 
 def load_entries() -> list[dict]:
@@ -34,14 +36,17 @@ def load_entries() -> list[dict]:
 
 def load_script(entry: dict) -> dict:
     path = STORY_DIR / "days" / f"{entry['id']}.json"
-    script = json.loads(path.read_text(encoding="utf-8"))
+    script: dict = json.loads(path.read_text(encoding="utf-8"))
     if script.get("id") != entry["id"] or script.get("kind") != entry["kind"]:
         raise ValueError(f"{path}: id/kind do not match week.json entry {entry['id']}")
     return script
 
 
 def segment_dir(journal_dir: Path, entry: dict, kind: str, duration: int) -> Path:
-    return journal_dir / entry["day"] / STREAMS[kind] / f"{entry['time']}_{duration}"
+    path: Path = (
+        journal_dir / entry["day"] / STREAMS[kind] / f"{entry['time']}_{duration}"
+    )
+    return path
 
 
 def clear_entry(journal_dir: Path, entry: dict, kind: str) -> None:
@@ -82,4 +87,5 @@ def write_index(journal_dir: Path) -> list[dict]:
 def load_index() -> list[dict]:
     if not INDEX_PATH.exists():
         return []
-    return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    index: list[dict] = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    return index
